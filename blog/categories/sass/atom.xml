@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Sass | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Sass | #fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/blog/categories/sass/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-02-15T16:21:40+01:00</updated>
+  <updated>2012-02-15T16:26:17+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
