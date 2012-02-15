@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sass | My Octopress Blog]]></title>
+  <link href="http://mouton-rebelle.github.com/blog/blog/categories/sass/atom.xml" rel="self"/>
+  <link href="http://mouton-rebelle.github.com/blog/"/>
+  <updated>2012-02-15T14:59:12+01:00</updated>
+  <id>http://mouton-rebelle.github.com/blog/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[premier post]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/12/23/premier-post/"/>
+    <updated>2011-12-23T11:36:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/12/23/premier-post</id>
+    <content type="html"><![CDATA[<p>Salut les nouilles ! J'ai décidé de m'attaquer à un gros dossier, OSX (attention Lord, on dit OS Ten, c'est un peu comme U2 ou UB40, y a un piège). Pour les plus à la rue d'entre vous, c'est le système d'exploitation des Macs, la dernière version en date, Lion, est sortie à la fin de l'été. Le captain et ses ouailles n'étant pas toujours tendres avec la marque à la pomme, je m'en vais faire rétablir un semblant d'équilibre. Aujourd'hui, je m'attaque à trois contre-vérité sur OSX ; la semaine prochaine, j'essaierai de dresser un bilan exhaustif des avantages et des inconvénients de ce système ; et pour finir j'aimerai bien faire un article sur mon usage d'OSX en tant que développeur web. Mais je reste bien sûr ouvert à vos suggestions et questions…</p>
+
+<!-- more -->
+
+
+<h1>Mac c'est hors de prix</h1>
+
+<p>Le matériel est effectivement très cher. On peut apprécier la qualité de finition et la durabilité des machines produites par Apple, il n'en reste pas moins que le coût du hardware est deux à trois fois supérieur à la concurrence, et que 200 euros pour passer de 4 à 8 go de RAM sur un iMac c'est carrément du foutage de gueule.</p>
+
+<p>Pour un desktop, j'ai la solution : le hackintosh. En geeks avisés vous n'êtes pas sans savoir que depuis la première version d'OSX en 2006, Apple a abandonné les processeurs Power PC pour Intel et leur architecture X86. Ce qui rend les Macs virtuellement identiques aux PC. Des gens doués se sont empressés de voir si il n'était pas possible de feinter un peu tout ça, et depuis quelques années les solutions pour installer OSX sur un ordinateur acheté à Auchan fleurissent sur le net, de plus en plus accessibles et fiables. On pourrait débattre de leur légalité ; la plupart prônent l'installation à partir d'un disque officiel, dont vous payerez donc la licence ; c'est probablement illégal mais ça reste toléré et on immagine mal Apple poursuivre des particuliers en justice pour ça (en revanche une société, Psystar, a tenté de vendre des PCs avec OSX pré-installé et s'est vite retrouvée avec une armée de LTP en costard aux fesses). Le site a consulter si ça vous intéresse est http://www.tonymacx86.com ; il y a de nombreux tutoriels sur le sujet, notamment sur lifehacker, et les règles à respecter sont un peu les mêmes que pour Linux : assurez vous de la compatibilité du matériel avant de l'acheter, car tout n'est pas supporté, et qu'on peut rapidement se retrouver face à de gros problèmes si on s'éloigne trop des composants qui équipent habituellement des Macs. Au final vous pouvez vous monter un Mac mini pour moins de 300 euros. Et là où c'est rigolo, c'est que le prix du système d'exploitation est de 29 euros pour la version téléchargeable, ou de 59 euros pour la verison sur clé USB. C'est la même version. Il y en a une seule, d'ailleurs. Là où Windows vous propose 3 versions retails allant de 119 à 299 euros. J'ai même versé des larmes de sang en voyant une amie avec notebook sous Windows 7 Starter Edition, où tu n'as pas le droit de changer de fond d'écran…</p>
+
+<p>Une fois votre beau desktop configuré avec OSX, le seul prérequis est d'avoir un clavier Apple. C'est une des grosses galères lorsqu'on switche, les claviers n'ont pas la même disposition et la transition fait mal. Les claviers Apple filaires sont très agréables et bon marché (49 euros) ce qui vous consolera un peu quand vous chercherez comment faire un pipe | avec.</p>
+
+<p>Ensuite il faudra passer par la case logiciel, et là, suprise : Apple est plutôt moins cher. Microsoft office commence à 139 €, les 3 logiciels de la suite d'Apple, Pages, Numbers et Keynotes sont tous à 16 € ; Adobe Premiere est à 820 euros là ou Final Cut Pro X est à 199 € ; Lightroom est à 290 € là où Aperture est à 63 € ; etc… L'open-source et le piratage sont bien évidemment tout aussi possibles que sous Windows.</p>
+
+<p>Bref, Apple n'est pas toujours plus cher. Pour les portables, il est compliqué de monter un hackintosh (difficile d'en trouver un avec tous les composants compatibles, le clavier est un souci, et l'intérêt des portables Mac en terme d'autonomie et de finition justifierait presque leur prix), mais pour un ordinateur de bureau c'est une alternative tout à fait viable.</p>
+
+<h1>Oué mais on peut pas jouer sous Mac</h1>
+
+<p>Il y a 3 problèmes différents ; tout d'abord, le processeur et surtout la carte graphique qui équipe votre Mac. Apple n'a jamais fait beaucoup d'efforts à ce niveau, et il faut se souvenir du rapport de prix cité plus haut ; si vous achetez un Mac Mini à 999 €, il faut pas perdre de vue que vous aurez l'équivalent d'un PC à 300 € ; joli, discret, mais absoluement pas fait pour jouer. En revanche vous pouvez très bien vous monter un gros PC gamer (en prenant des composants supportés) comme vous le feriez sous Windows. Si vous optez pour un "vrai" mac, il faut choisir avec soin le modèle suivant le type de jeux qui vous intéressent. J'ai eu la chance d'avoir un Macbook pro grâce à mon formidable patron, et c'était un portable tout à fait correct pour jouer (même si un Asus deux fois moins cher fait aussi bien, on est d'accord).</p>
+
+<p>Ensuite, il y a les jeux disponibles sur OSX. Certains développeurs comme Blizzard ont toujours supportés Mac, et si tu ressors ton vieux CD de Diablo 2, tu pourras l'installer sans aucun souci. D'autres ont rejoint la plateforme plus récemment, comme Valve ou Ubi. Half Life 2, Team Fortress 2, Portal 2 marchent très bien. Steam a sa version Mac, et offre la fonction SteamPlay : quand tu achètes un jeu sur Steam, si il est disponible sur Mac, tu peux y jouer indifférement sur Mac et sur Windows. Tout n'est pas parfait, les portages d'Ubisoft par exemple sont un peu légers (aucun support de la manette), mais ça s'améliore ces dernières années et les jeux indés sortent souvent sur Mac (Minecraft, Limbo, Braid, The Binding of Isaac me viennent à l'esprit).</p>
+
+<p>Si les jeux qui t'intéressent ne sont pas disponible sur Mac, tu as la dernière solution, le multiboot. Apple fournit Bootcamp depuis bientôt 4 ans, qui te permet en 1h maximum d'avoir un dual-boot Windows / OSX fonctionnel. Si tu as un hackintosh, Chameleon te permet de faire ça très simplement également. Avec les machines actuelles redémarrer se fait en quelques minutes, c'est bien sûr moins confortable que de pouvoir lancer un jeu directement, mais personnellement ça m'évite aussi de trop glander. Quand je lance Windows, c'est que j'ai une heure devant moi pour jouer, pas parce que je viens de finir tel truc alors je peux bien faire une pause de "juste cinq minutes" sur Skyrim.</p>
+
+<h1>Mac c'est pour les cons y a pas de clic droit</h1>
+
+<p>Le clic droit a longtemps été absent sous Mac, c'est vrai, et c'était tellement naze que c'est normal qu'on s'en moque encore. Mais bon, c'est fini depuis 2005. Il y a un clic droit sur Mac, il est même indispensable, et les souris 5 boutons sont très bien supportées…</p>
+
+<p>Voilà, on approche des 6 minutes estimées de lecture pour cet article, je pense que c'est assez pour ta capacité limitée d'attention. Je te sens toujours dubitatif ; tu pourrais effectivement passer sous OSX sans vendre un rein et en continuant de baver sur la sortie prochaine de Diablo 3, mais bon, quel intérêt ? Peut être aucun pour toi, ça dépend de ta curiosité et de tes usages… On se retrouve la semaine prochaine pour en parler ? Bisous bisous !</p>
+]]></content>
+  </entry>
+  
+</feed>
