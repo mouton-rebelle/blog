@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: webdev | #fixme]]></title>
+  <link href="http://mouton-rebelle.github.com/blog/blog/categories/webdev/atom.xml" rel="self"/>
+  <link href="http://mouton-rebelle.github.com/blog/"/>
+  <updated>2012-02-15T17:55:25+01:00</updated>
+  <id>http://mouton-rebelle.github.com/blog/</id>
+  <author>
+    <name><![CDATA[Cédric Fontaine]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[About Flash]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/09/15/about-flash/"/>
+    <updated>2011-09-15T17:35:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/09/15/about-flash</id>
+    <content type="html"><![CDATA[<p>Souvent, sur Twitter, j’ai envie de répondre à des trolls sur l’éternel débat <strong>“Flash / pas Flash, Apple est-il un grand méchant”</strong>. On pourrait même dire que j’ai envie de troller, seulement en 140 caractères c’est compliqué, en général celui qui commence a gagné et basta. J’ai envie ici de résumer en trois points ma haine pour cette technologie, une fois pour toute, comme ça j’aurais plus qu’à envoyer un petit lien aux boulets pour défendre point de vue.
+Avant tout, quelques précisions :</p>
+
+<!-- more -->
+
+
+<ul>
+<li>j’ai fait du Flash pendant des années, que ce soit des petites animations ou même des sites complets</li>
+<li>j’étais un grand fan de la créativité offerte par le support à la grande époque, quand chaque graphiste / designer essayait d’aller plus loin dans l’originalité / le concept, et que tu passais 5 minutes à comprendre comment interragir avec le site.</li>
+<li>j’ai suivi une formation Flex et j’accepte les arguments sur l’AS et les avantages d’un langage fortement typé et compilé.</li>
+<li>je reconnais volontiers que Flash a apporté beaucoup au web, quand l’innovation était morte niveau navigateur, et que sans cette technologie on aurait jamais pu voir toutes ces adorables vidéos de petits chatons en streaming.</li>
+<li>je pense que Flash a encore quelques années devant lui avant de mourir, pour :
+
+<ul>
+<li>la gestion des périphériques (micro / webcam)</li>
+<li>les sites événementiels / marketing / design qui claquent. Il est aujourd’hui possible de faire des choses similaires en HTML5, mais sans IDE / outils de productions adaptés c’est nettement plus long / coûteux</li>
+<li>les jeux, pour les mêmes raisons que ci-dessus.</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Ceci étant dit, j'attaque le gros du morceau.</p>
+
+<h2>1/ Flash est un plugin et perturbe l’expérience utilisateur</h2>
+
+<p>C’est un bidule qu’on rajoute dans le navigateur. Et ça pose un gros problème : soit le navigateur reçoit les instructions de l’utilisateur, soit c’est le plugin. Si tu appuies sur espace pour mettre en pause ta vidéo et qu’elle n’a pas le focus, peau de zob. Si tu espères fermer un onglet avec CTRL+W alors que ta vidéo a le focus, t’es dedans. C’est probablement un détail pour 95% des utilisateurs, mais ça m’horripile au plus haut point. Oui, je suis psychorigide.</p>
+
+<p>Dans le même registre, copier coller une image, du texte, sauvegarder une vidéo, etc… est souvent compliqué / impossible quand on est face à du Flash. Les composants de formulaires ne sont pas des composants systèmes et ont un look et un comportement différents, ce qui n’est pas le cas des composants (par défaut) en HTML (petit exemple sur le <a href="https://store2.adobe.com/cfusion/store/index.cfm?store=OLS-FR&amp;storeRegion=FR&amp;nr=0#loc=fr_fr&amp;view=ols_prod&amp;category=/Applications/FlashP&amp;store=OLS-FR">magasin d’Adobe</a> – essaie par exemple de sélectionner tout le texte).</p>
+
+<h2>2/ Flash est payant et opaque</h2>
+
+<p>Oui, je sais, ils ont ouvert le format, on peut compiler du flash avec d’autres outils, alleluia. N’empêche que si tu veux faire le seul truc intéressant à faire avec Flash, à savoir un site très riche graphiquement, je doute que tu t’amuses à le faire avec Eclipse et un compilateur AS. J’ai peut être tord, hein. Mais je doute. A mon humble avis, tu passes à la caisse (et je viens de vérifer c’est 700€ HT). Alors que je peux créer du web avec de bons outils tous gratuit.</p>
+
+<p>Ensuite, quand j’ai affaire à du web, je peux à tout moment regarder la source, comprendre comment c’est fait, voir ce qui est bien fait ou non, m’inspirer, , apprendre. Flash, non. C’est totalement contraire à l’esprit même d’Internet. Pire, on se retrouve parfois avec des sites impossibles à maintenir à cause de ça ; un site normal, juste avec les fichiers hébergés tu peux le dépanner. Un site en flash, il te faut les sources…</p>
+
+<h2>3/ Flash ne marche bien que sur Windows</h2>
+
+<p>Et j’ai commencé à souffrir quand j’ai testé autre chose. J’ai voulu me faire un dualboot Ubuntu / XP, et bien dès que j’étais sous Linux, impossible de lire une vidéo youtube de manière fluide. Et je parle même pas du plein écran.</p>
+
+<p>Depuis, j’ai eu 2 Macbook Pro. Sur les deux, la lecture d’une vidéo Flash demande tant de travail au processeur que les ventilateurs se mettent à plein régime. J’insiste, le dernier a deux ans, on ne l’entend généralement pas, sauf en jeu ou pour encoder une vidéo ; et bien laisse tourner un navigateur avec quelques onglets et des pubs en Flash, et tu auras un chauffage d’appoint pour l’hiver.</p>
+
+<p>C’est aussi pour ça qu’Adobe n’est pas foutu de livrer un lecteur Flash fonctionnel sur téléphone ou sur tablette ; promises depuis 5 ans, les premières versions n’ont vu le jour que fin 2010, et sont toujours catastrophiques au moment où j’écris ces lignes (ralentissement du navigateur, crash nécessitant reboot du matériel, impact sur les batteries, lecture aléatoire des vidéo, manque de précision du touch, etc… )</p>
+
+<h2>Au final</h2>
+
+<p>Flash ne me sert plus vraiment aujourd’hui ; le dernier site qui m’a amusé / impressionné était pour <a href="http://www.nothingcomparestohavana.com/">Havana Club</a>, très réussi, il y a un an. Les petits jeux sont sur iOS maintenant, et je pense que c’est plus rentable pour les développeurs.</p>
+
+<p>Sur mon iPad je n’ai pas <strong>la vraie expérience web</strong>, parce que je n’ai pas Flash (c’est la campagne Motorola, bien joué les gars) mais je ne m’en suis rendu compte que hier en voulant regarder <em>Bref</em>. Canal + n’a pas encore fait le switch et impose toujours Flash. Pour le reste, pas de souci monsieur Flash, merci pour vos longues années de service, mais va falloir partir maintenant. Allez donc rejoindre votre pote Active X là bas au fond.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,19 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://mouton-rebelle.github.com/blog/blog/2011/12/23/premier-post/</loc>
-        <lastmod>2011-12-23T11:41:46+01:00</lastmod>
+        <loc>http://mouton-rebelle.github.com/blog/blog/2010/04/01/je-suis-un-social-traite/</loc>
+        <lastmod>2012-02-15T17:47:12+01:00</lastmod>
     </url>
     <url>
-        <loc>http://mouton-rebelle.github.com/blog/blog/2012/02/15/je-suis-un-social-traite/</loc>
-        <lastmod>2012-02-15T16:56:21+01:00</lastmod>
+        <loc>
+            http://mouton-rebelle.github.com/blog/blog/2010/06/15/entre-les-deux-mon-coeur-balance/
+        </loc>
+        <lastmod>2012-02-15T17:53:30+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mouton-rebelle.github.com/blog/blog/2011/07/11/2-semaines-avec-un-ipad/</loc>
+        <lastmod>2012-02-15T17:48:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mouton-rebelle.github.com/blog/blog/2011/08/03/3-mois-avec-un-bebe/</loc>
+        <lastmod>2012-02-15T17:46:45+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mouton-rebelle.github.com/blog/blog/2011/08/24/flattr/</loc>
+        <lastmod>2012-02-15T17:46:58+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mouton-rebelle.github.com/blog/blog/2011/09/15/about-flash/</loc>
+        <lastmod>2012-02-15T17:55:10+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mouton-rebelle.github.com/blog/blog/2011/11/14/le-coeur-des-pommes/</loc>
+        <lastmod>2012-02-15T17:47:17+01:00</lastmod>
     </url>
     <url>
         <loc>http://mouton-rebelle.github.com/blog/blog/archives/</loc>
-        <lastmod>2012-02-15T16:56:21+01:00</lastmod>
+        <lastmod>2012-02-15T17:55:10+01:00</lastmod>
     </url>
     <url>
         <loc>http://mouton-rebelle.github.com/blog/</loc>
-        <lastmod>2012-02-15T16:56:21+01:00</lastmod>
+        <lastmod>2012-02-15T17:55:10+01:00</lastmod>
     </url>
 </urlset>
