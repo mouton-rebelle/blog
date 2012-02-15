@@ -4,7 +4,7 @@
   <title><![CDATA[#fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-02-15T16:26:17+01:00</updated>
+  <updated>2012-02-15T16:57:24+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Je suis un social traite]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2012/02/15/je-suis-un-social-traite/"/>
+    <updated>2012-02-15T16:49:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2012/02/15/je-suis-un-social-traite</id>
+    <content type="html"><![CDATA[<h2>Was : Open source sucks.</h2>
+
+<p><em>Note : il s&#8217;agit d&#8217;un vieux post que j&#8217;avais oublié de poster, vu que personne va le lire ce n&#8217;est pas bien grave, mais je signale tout de même.</em></p>
+
+<p>Je sais, je suis à Madagascar, je pourrais poster sur des sujets plus malgaches et moins geek&#8230; Mais là j&#8217;ai un peu mal à mon éthique, et pas moyen de trouver un public sensible à ce triste constat : l&#8217;humanité est foutue. Et j&#8217;ai vu que Jp lisait ce blog depuis septembre, alors je me lance. Petit récapitulatif ? Soit. Parce que tu insistes, cher lecteur.</p>
+
+<!-- more -->
+
+
+<p>En 2007, j&#8217;ai eu mon premier Mac. Joie de la nouveauté, bonheur que de quitter Windows, etc&#8230; Petite déception tout de même : Thunderbird bien que présent était relativement mal intégré au système, et pour me lancer pleinement dans l&#8217;aventure Apple, j&#8217;ai décidé d&#8217;utiliser leur client mail, qui s&#8217;appelle Mail. Sont pas cons chez Apple, quand même&#8230;</p>
+
+<p>Lorsqu&#8217;on passe de Thunderbird à Mail, le premier truc qui choque, c&#8217;est l&#8217;anti-spam. Thunderbird est juste parfait à ce niveau, et quand on a 3 adresses mails qui ont toutes plus de cinq ans, c&#8217;est essentiel. Mail.app a bien une fonction anti-spam, mais elle est clairement moins puissante&#8230; Mis à part ce gros point noir (qu&#8217;on compensera avec SpamSlieve ou Popfile), on s&#8217;habitue vite à Mail, son interface étant comme souvent avec Apple bien pensée. On ne s&#8217;en rend pas forcément compte de suite, donc je ne reviendrais sur ces petits détails que plus tard, quand ils m&#8217;ont manqués&#8230;</p>
+
+<p>L&#8217;an dernier, pliant devant une charge de travail considérable, j&#8217;ai décidé d&#8217;organiser mes emails. En effet il arrivait un peu trop souvent que j&#8217;oublie de répondre à un client, et le temps passer à rechercher / trier mes mails devenait trop long. Rien de très compliqué, juste deux mots clés, @répondre et @faire, des règles et des boites aux lettres &#8220;intelligentes&#8221; pour qu&#8217;à la réception d&#8217;un email, si il concerne un dossier que je suis, il soit automatiquement marqué comme &#8220;à répondre&#8221; ; j&#8217;ai également ajouté des règles pour que les différents projets sur lesquels je travail soit identifiés par un code couleur, et tout était parfait : lors de la réception d&#8217;un mail qui concerne un projet sur lequel je suis impliqué, et il passe directement dans le dossier virtuel &#8220;@ répondre&#8221;, avec une couleur pour l&#8217;identifier.
+Quand je réponds au mail, il sort de ce dossier. J&#8217;ai aussi un raccourci clavier pour le sortir si c&#8217;est un mail qui ne nécessite pas de réponse (genre &#8220;merci, t&#8217;es trop fort, j&#8217;adore ton travail&#8221;). Et enfin, pour faire bonne mesure, j&#8217;ai ajouté un badge sur l&#8217;icone de mon logiciel de messagerie et dans ma barre système pour savoir combien de mails étaient en attente de réponse. En période de bourre, c&#8217;est gratifiant de suivre ce petit compteur, et de pouvoir terminer la journée moins de 10 mails en attente d&#8217;une réponse.</p>
+
+<p>Là où le bas blesse, c&#8217;est que pour arriver à ce fonctionnement dans Mail, il faut 3 plugins, payants : MailTags, MailActOn, et DockStar&#8230; Un peu de lobbying auprès de mes collègues, et hop, on fait plier mon gentil patron qui passe à la caisse. Et tout va pour le mieux pendant un an.</p>
+
+<p>Septembre 2009 : je mets à jour mon Mac, et je passe à Snow Leopard. Très bien, tout content, sauf que mes petits plugins ne marchent plus&#8230; Plein de bonne volonté karmique, je me décide à passer à Thunderbird. La version 3 vient de sortir, toute neuve toute belle, mieux intégrer à OSX, avec une gestion intégrée des mots clés. Après quelques jours de réglages et de tatonnements, je réussis à recréer à peu près le fonctionnement décris ci dessus (j&#8217;ai tout de même 32 règles de messagerie). Et j&#8217;ai tenu bon presque 3 semaines. Mais 3 semaines ne suffisent pas à oublier 2 ans d&#8217;habitudes, de confort, et tous les petits détails qui rendent Mail tellement plus agréable à utiliser. En vrac ?</p>
+
+<ul>
+<li>l&#8217;ajout de fichiers joints par glisser déposer : tellement pratique, et tellement mieux gérée. Pareil, si vous avez une image dans le presse papier et que vous la coller, Mail créera un fichier temporaire pour l&#8217;inclure dans le message. Et elle sera incluse en &#8220;inline&#8221;, c&#8217;est à dire à l&#8217;endroit du mail où vous êtes actuellement. La seule façon de faire ça avec Thunderbird et d&#8217;insérer les images une par une via le menu Image, Parcourir&#8230; Autre option assez géniale : un menu dans la barre d&#8217;état pour redimensionner automatiquement les images contenu dans l&#8217;email que vous êtes en train de taper.</li>
+<li>l&#8217;inverse est vrai aussi : quand vous recevez des mails avec des pièces jointes, Mail vous les affiche directement dans le corps du mail (pour les images et les PDF au moins), ce qui permet d&#8217;avoir rapidement une idée du contenu.</li>
+<li>le champ adresse des messages : je ne sais pas trop comment c&#8217;est géré, mais Mail auto-complète intelligemment ce champ, en fonction des adresses utilisées fréquemment. Au contraire, Thunderbird te présente toujours la même liste, et si quand tu commences à taper &#8220;La&#8221; tu veux le 3° résultat, il faudra toujours choisir le 3° résultat, il ne va jamais se dire que les autres tu t&#8217;en sers moins&#8230;. Et l&#8217;auto-completion se fait sur le nom et sur l&#8217;email.</li>
+<li>l&#8217;intégration avec le reste d&#8217;OSX reste bien meilleure : une date dans un mail ? Mail vous propose de créer un évènement. Vous avez ajouté des photos à vos contact dans le carnet d&#8217;adresse ? Une vignette avec la frimousse de la personne s&#8217;affiche sur l&#8217;entête du mail.</li>
+<li>Je ne sais pas si je suis poisseux, mais j&#8217;ai toujours de temps à autre des soucis de charset avec Thunderbird (les accents qui partent en vrile avec certains destinataires), alors que sur Mail, jamais.</li>
+<li>c&#8217;est plus beau, plus stable, plus léger&#8230;</li>
+</ul>
+
+
+<p>Bref, voilà, c&#8217;est la fin du monde. Si même un mec cool et geek comme moi n&#8217;est pas foutu de faire le sacrifice d&#8217;utiliser des logiciels Open Source, où va-t-on ?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[premier post]]></title>
