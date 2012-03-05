@@ -4,7 +4,7 @@
   <title><![CDATA[Category: apple | #fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-03-06T00:49:52+01:00</updated>
+  <updated>2012-03-06T00:56:51+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -171,13 +171,16 @@ Le défaut, c'est que Cmd Tab ne liste que les programmes, pas les fenêtres. Qu
     <link href="http://mouton-rebelle.github.com/blog/blog/2011/10/04/vous-allez-en-bouffer/"/>
     <updated>2011-10-04T00:45:00+02:00</updated>
     <id>http://mouton-rebelle.github.com/blog/blog/2011/10/04/vous-allez-en-bouffer</id>
-    <content type="html"><![CDATA[<pre><code>C’est triste mais Apple a gagné.
+    <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/10/04/vous-allez-en-bouffer-des-pommes/">le blog du captain web</a></p></blockquote>
+
+<pre><code>C’est triste mais Apple a gagné.
 Now deal with it bitches !
 </code></pre>
 
-<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/10/04/vous-allez-en-bouffer-des-pommes/">le blog du captain web</a></p></blockquote>
-
 <p>C’est le Captain qui m’a dit de vous insulter, histoire de ne pas trop vous dépayser. Parce que oui, c’est un intrus qui vous parle, la bande de l’apéro ayant décidé d’exploiter des geeks désoeuvrés en quête de notoriété pour bosser à leur place et alimenter ce blog moribond.</p>
+
+<!-- more -->
+
 
 <p>Grâce à ce fourbe plan de feignasses cette brillante idée vous allez aujourd’hui avoir l’insigne honneur de lire un énorme pavé sur ma vision de l’informatique de demain, le tout enrobé d’un peu de fanboyisme, d’un peu de pessimisme et d’ Olivia Wilde nue pour le référencement. Oui, désolé, ce sera plus du LTP que du Kwakos. Respirez un grand coup, on est parti.</p>
 
