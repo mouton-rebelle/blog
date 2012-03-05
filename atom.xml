@@ -4,7 +4,7 @@
   <title><![CDATA[#fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-03-06T00:38:24+01:00</updated>
+  <updated>2012-03-06T00:49:52+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -18,7 +18,9 @@
     <link href="http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2/"/>
     <updated>2011-11-23T00:26:00+01:00</updated>
     <id>http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2</id>
-    <content type="html"><![CDATA[<p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d&#8217;exploitation des Macs. Aujourd&#8217;hui, je vais m&#8217;attaquer à une présentation de l&#8217;OS ; elle n&#8217;a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l&#8217;OS, et de vous indiquer les grosses différences avec Windows.</p>
+    <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/11/23/le-coeur-des-pommes-2/">le blog du captain web</a></p></blockquote>
+
+<p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d&#8217;exploitation des Macs. Aujourd&#8217;hui, je vais m&#8217;attaquer à une présentation de l&#8217;OS ; elle n&#8217;a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l&#8217;OS, et de vous indiquer les grosses différences avec Windows.</p>
 
 <!-- more -->
 
@@ -165,171 +167,74 @@ Le défaut, c&#8217;est que Cmd Tab ne liste que les programmes, pas les fenêtr
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[6 mois avec Symfony]]></title>
-    <link href="http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony/"/>
-    <updated>2011-09-26T18:28:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony</id>
-    <content type="html"><![CDATA[<p>Les frameworks PHP ne manquent pas ; Symfony est l&#8217;un d&#8217;entre eux, et
-probablement pas le moins populaire. Anciennement habitué de Zend Framework,
-j&#8217;ai récemment utilisé Symfony sur deux projets. Debriefing.</p>
+    <title type="html"><![CDATA[Vous allez en bouffer, des pommes !]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/10/04/vous-allez-en-bouffer/"/>
+    <updated>2011-10-04T00:45:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/10/04/vous-allez-en-bouffer</id>
+    <content type="html"><![CDATA[<pre><code>C’est triste mais Apple a gagné.
+Now deal with it bitches !
+</code></pre>
 
-<!-- more -->
+<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/10/04/vous-allez-en-bouffer-des-pommes/">le blog du captain web</a></p></blockquote>
 
+<p>C’est le Captain qui m’a dit de vous insulter, histoire de ne pas trop vous dépayser. Parce que oui, c’est un intrus qui vous parle, la bande de l’apéro ayant décidé d’exploiter des geeks désoeuvrés en quête de notoriété pour bosser à leur place et alimenter ce blog moribond.</p>
 
-<h3>De quoi qu&#8217;on parle</h3>
+<p>Grâce à ce fourbe plan de feignasses cette brillante idée vous allez aujourd’hui avoir l’insigne honneur de lire un énorme pavé sur ma vision de l’informatique de demain, le tout enrobé d’un peu de fanboyisme, d’un peu de pessimisme et d’ Olivia Wilde nue pour le référencement. Oui, désolé, ce sera plus du LTP que du Kwakos. Respirez un grand coup, on est parti.</p>
 
-<p>Bonne question, merci, c&#8217;est toujours mieux de préciser le cadre. Si on prend
-la définition de Wikipedia, qui pour le coup me plait bien, «En programmation
-informatique, un framework est un kit de composants logiciels structurels, qui
-définissent les fondations ainsi que les grandes lignes de l&#8217;organisation de
-tout ou partie d&#8217;un logiciel». C&#8217;est tout à fait ça, des briques, du ciments,
-et quelques pistes sur comment utiliser le tout.</p>
+<h2>Un (très) bref historique</h2>
 
-<p>Pendant quelques années, j&#8217;ai préféré utiliser un framework &#8220;maison&#8221;, en
-arguant de la parfaite adaptation à mes besoins, et d&#8217;une plus grande facilité
-à identifier les bugs. Je suis convaincu désormais que c&#8217;était une erreur, au
-moins pour deux raisons :</p>
+<p>J’ai vaguement pensé vous copier-coller du Wikipédia ici, en hommage, mais on va faire bref : au départ, l’ordinateur était un truc cher et imbitable pour des gros nerds de scientifiques. Le gentil Steve a sorti l’Apple 2, avec une interface graphique et un prix plus raisonnable. Ensuite le méchant Billou a tout pompé en sortant Windows, qui s’est rapidement imposé, et qui a évolué au fil des versions, en essayant avec plus ou moins de succès de simplifier la life de l’utilisateur.</p>
+
+<p>Aujourd’hui, l’informatique c’est :</p>
 
 <ul>
-<li>Une communauté active sera toujours plus efficace et talentueuse pour résoudre des problèmes qu&#8217;un gars ou qu&#8217;une petite équipe dans leur coin. De plus la plupart des frameworks sont open source, et rien n&#8217;empêche de mettre les mains dans le cambouis pour faire avancer un projet dans une direction qui nous intéresse, pour combler une lacune qui nous semble cruciale, etc&#8230;</li>
-<li>Un projet développé sur un framework communautaire sera plus simple à maintenir ; si vous l&#8217;abandonnez pendant un temps, vous avez de bonnes chances pour que les briques du framework aient suivi les évolutions techno ; si un nouveau développeur doit intervenir dessus, il sera peut être déjà au courant des bases, de la logique, de l&#8217;architecture. Et dans tous les cas il pourra se former beaucoup plus facilement qu&#8217;avec un framework maison à la documentation aléatoire.</li>
+<li>1% de pauvres / activistes / nerds / Yeti sous Linux</li>
+<li>7% de bobos sous OSX (présence !)</li>
+<li>92% de moutons sous Windows (avec une grosse majorité d’XP, encore quelques fous sous Vista, et le très bon Seven qui vient de passer les 30%)</li>
 </ul>
 
 
-<p>Donc, un framework c&#8217;est un ensemble de briques et de principes et c&#8217;est
-essentiel pour tout développement d&#8217;une certaine envergure.</p>
+<p>Toi, lecteur éclairé et inconditionnel de l’apéro, je suis sûr que tu es satisfait de ton système d’exploitation ; tu le connais bien, tu y as tes habitudes, tu sais le bidouiller / le réparer quand il te fait des blagues, télécharger du contenu pour le remplir, y cacher tes honteuses vidéos de poneys, etc… Mais est-ce que tu penses à madame Michou ?</p>
 
-<h3>La philosophie Symfony</h3>
+<p>Peut être que tu n’y penses pas, mais tu devrais. A la louche, je dirais que c’est 2 utilisateurs sur 3, mais peut être qu’un tenancier de cybercafé serait mieux placé pour nous éclairer. Des exemples ? Je suis peut être verni, hein, mais mon père pensait que les CD se retournaient comme les vinyles ou les cassettes, ma mère télécharge la mise à jour de Flash, mais ne l’installe pas, ma soeur ne sait pas ouvrir un fichier s’il n’est pas dans Mes documents, et ma tante ne retrouve plus ses photos une fois qu’elle les a importées. Réfléchissez deux secondes et pensez au nombre de fois où vous avez du dépanner une copine, ré-installer le pc d’un parent, ou expliquer à Robert comment se rendre à la baie des pirates ?</p>
 
-<p>Là où certains framework (ZF par exemple) se contentent de vous offrir des
-briques, vous laissant libre de les utiliser ou non et la façon dont vous
-voulez les structurez, Symfony impose sa vision des choses et son arborescence
-de projet. Ouvertement inspiré de Rails, il repose largement sur des fichiers
-de configurations (au format YAML) et sur des générateurs de code.</p>
+<p>Bref, aujourd’hui, l’informatique est encore trop compliqué pour beaucoup de monde.</p>
 
-<p>Concrètement, une fois le framework installé, vous disposez d&#8217;un outil CLI
-pour effectuer toutes les tâches répétitives classiques. Pour un nouveau
-projet, vous allez donc procéder ainsi :</p>
+<h2>L’iPad ou l’an 0 de l’informatique pour les moules</h2>
 
-<ol>
-<li>Paramétrage de la connexion base de données dans le fichier database.yml</li>
-<li>Création de la structure des données dans le fichier schema.yml (Symfony utilise l&#8217;ORM Doctrine, je reviendrais dessus plus tard)</li>
-<li>Génération de la base de données et des classes PHP en CLI. Vous avez désormais des classes vous permettant de manipuler vos données, du basique : $monObjet->save(), $monObjet->getNom(), etc&#8230; au nettement plus évolué avec les classes de Formulaire, permettant à Symfony de vous posez un formulaire avec validation des données en 2 lignes de code. Toutes ces classes générées sont bien sûr conçues pour être étendues.</li>
-<li>Vous allez ensuite probablement générer un contrôleur / une vue (pattern MVC), et commencer à bidouiller le fichier de configuration des routes&#8230;</li>
-</ol>
+<p>Même les plus anti-pomme d’entre-vous reconnaitront que l’iPhone a totalement révolutionné le mobile (si t’es pas d’accord, va demander à Nokia). Je dubitais (bite) beaucoup sur l’iPad avant d’en avoir un il y a quelques mois ; je pense désormais qu’on va assister à la même chose avec l’informatique grand public. Ma copine n’allume pratiquement plus son ordinateur, l’iPad lui permettant de faire 90% de ce qu’elle fait derrière un écran (mails, surf et jeux à la con). Beaucoup d’analystes ont expliqué au lancement que ce ne serait qu’un appareil de consultation ; iMovie et GarageBand mettent le montage vidéo et la création audio à la portée de madame Michou.</p>
 
+<p>Ce n’est pas parfait; mais ça fait le taf pour une grande majorité d’utilisateurs, c’est plus simple, ça ne plante pas, et ça ne fait pas peur. Et ça va s’améliorer ; nous ne sommes qu’à la 2° version de l’iPad, et la concurrence va finir par sortir des alternatives intéressantes (wink wink Amazon et la Fire).</p>
 
-<p>Pas besoin d&#8217;être un pro de Symfony pour voir l&#8217;intérêt d&#8217;un tel système ;
-déjà, vous écrivez beaucoup moins de code. Ensuite, si vous devez changer la
-structure des données (ce qui arrive toujours), vous avez juste à modifier le
-fichier de configuration qui décrit vos données, et Symfony ré-génère pour
-vous la base de données, les modèles et les formulaires.</p>
+<p>A titre personnel, et pour toi aussi probablement, l’iPad tient du gadget, permettant de glander dans son lit ou dans son canapé plutôt qu’assis à son bureau ; en revanche quand ma mère devra changer d’ordinateur, le choix de la tablette s’imposera.</p>
 
-<h3>Doctrine, l&#8217;abstraction des données</h3>
+<h2>Le dématérialisé ou le syndrome couch patatoe</h2>
 
-<p>Je sais pas vous, mais moi on m&#8217;a toujours dit qu&#8217;il fallait bien séparer les
-données. D&#8217;abord, être indépendant d&#8217;un système de BDD, pour pouvoir passer de
-Mysql à Oracle en calquant des doigts (le truc qui n&#8217;arrive de toutes façons
-jamais&#8230;). Et ensuite pour séparer la partie &#8220;stockage&#8221; de la partie
-&#8220;logique&#8221; (data / buisness si je dis pas de conneries). L&#8217;étape suivante,
-c&#8217;est l&#8217;ORM, qui gère tout ça, avec les notions de relations entre les objets
-(un livre a un ou plusieurs auteur, un auteur a écrit un ou plusieurs livre).
-Au départ, Symfony utilisait Propel, mais depuis quelques années c&#8217;est
-Doctrine qui prend le pas&#8230;. Doctrine est une solution open source qu&#8217;on peut
-très bien utiliser indépendamment de Symfony. En revanche, l&#8217;inverse n&#8217;est pas
-vrai ; Syfmony a tellement de fonctionnalités qui reposent sur Doctrine que
-faire l&#8217;impasse dessus enleverait pratiquement tout son intérêt au framework.</p>
+<p>Ne faisons pas nos LTP effarouchés, et disons le sans honte : nous avons tous piratés. Des jeux, de la musique, des films et séries… Mais au final, quand on nous propose une alternative légale SIMPLE et RAISONNABLE, on prend vite l’habitude de passer à la caisse. Je n’ai jamais autant acheté de jeux vidéos que depuis l’arrivée de Steam et ses promotions de folie ; avec Spotify, même un crevard comme le Captain verse son obole ; Netflix et Hulu font un carton aux USA ; l’AppStore a créé un nouveau marché en proposant des petits jeux pour le prix d’un demi-expresso.</p>
 
-<p>Doctrine donc, est l&#8217;ORM que Symfony utilise pour générer votre BDD et toutes
-vos classes à partir d&#8217;un bête fichier qui décrit votre schéma de données. Et
-pour cette partie, il fait un super travail. (Si je reprends mon exemple des
-livres et des auteurs, il vous rapatriera les livres sur l&#8217;objet auteur, et
-inversement ; le formulaire de saisie d&#8217;un livre vous proposera de choisir les
-auteurs, etc&#8230;).</p>
+<p>Apple a lancé l’an dernier l’AppStore sur OSX ; là encore, je doutais du bien fondé de la chose, mais au final il y a beaucoup d’avantages :</p>
 
-<p>Où j&#8217;ai beaucoup plus de mal à apprécier Doctrine, c&#8217;est pour la partie
-interrogation des données. En effet, Doctrine impose sa vision des requêtes
-sql, avec des méthodes maison qu&#8217;on peut chainer à volonté :</p>
+<pre><code>  un endroit centralisé pour trouver tes logiciels
+  installation et mise à jour transparentes et simples, même pour madame Michou
+  dans certains cas, des baisses de prix très agressives (l’équivalent Apple d’Office que tu peux acheter à la carte, 16 euros le logiciel, ou le dernier Final Cut qui ne coûte plus qu’un rein).
+</code></pre>
 
-<p><code>$q = Doctrine_Core::getTable('Element')-&gt;createQuery(); $q-&gt;addWhere('active
-= ? ',true) -&gt;orderBy('ordre DESC');</code></p>
+<p>Idéologiquement, ça pue, on est d’accord : système fermé, censure, péage de 30% prélevé par le gestionnaire du store, visibilité parfois aléatoire pour les développeurs, etc… A l’usage, c’est plus simple. Si l’idéologie et le prix gagnaient face à la flemme, Linux ne serait pas à 1% de part de marché. Et vous téléchargeriez l’apéro avec Miro, et pas Itunes que vous détestez mais qui est tellement plus pratique pour les podcasts.</p>
 
-<p>Si ça convient très bien pour des requêtes simples comme l&#8217;exemple ci-dessus,
-c&#8217;est catastrophique dès qu&#8217;on a des jointures un peu complexe, ou que l&#8217;on
-veut faire des GROUP BY, obtenir un COUNT, etc&#8230; La syntaxe est lourde, ne
-permet pas de tout faire, et produit des requêtes aux performances souvent
-catastrophiques. Ma solution pour l&#8217;instant : me passer de Doctrine dans ces
-cas limites, et faire du PDO classique. Car heureusement Doctrine nous laisse
-récupérer la connexion :</p>
+<h2>Windows 8, la confirmation du changement</h2>
 
-<p><code>$conn = Doctrine_Manager::connection();</code></p>
+<p>Windows 8 et son interface Metro montrent que même chez Microsoft on a compris que le monde de l’informatique était en train de changer. Le clavier et la souris, les boites de dialogues et leurs questions à la con, les installations de logiciels imbitables, la notion de système de fichiers et de répertoires, les pilotes, les menus à rallonge : tout doit disparaitre. L’interface est originale, ce n’est pas une bête repompe d’iOS ou d’Android, et les bonnes idées sont légions. Seul bémol : elle est pensée essentiellement pour un usage en format paysage, alors que les tablettes sont plus souvent tenues verticalement.</p>
 
-<h3>Admin Generator</h3>
+<h2>Windows 8 Metro</h2>
 
-<p>Cette fonctionnalité est la plus montrée / vantée, car la plus simple à mettre
-en avant ; Symfony permet en quelques minutes de générer une interface
-d&#8217;administration complète, offrant toutes les fonctions CRUD. En quelques
-secondes, vous avez une interface complète avec la liste des enregistrements
-de la base, et des liens pour les supprimer, les modifier, et en créer de
-nouveau. Et même un outil pour filtrer / faire une recherche. Le tout, comme
-toujours dans Symfony, est modifiable via les fichiers de configurations Yaml,
-et sur-chargeable via un système de classe bien conçu.</p>
+<p>Evil Steve et son équipe n’ont pas osé faire les choses à 100%, et proposeront donc les deux interfaces, Metro et Classic, sur les desktops (pour les tablettes, seul Metro devrait être accessible). C’est probablement un bon choix, surtout si Metro est activé par défaut pour les nouveaux utilisateurs (madame Michou restera sur du simplifié, et le Captain pourra retrouver son Classic).</p>
 
-<p>J&#8217;étais sceptique, mais cet outil répond bien à 75% des cas en l&#8217;état, et
-permet de gérer pratiquement tous les 25% restant via un peu de code bien
-placé.</p>
+<p>A mon sens l’information importante dans ce lancement, c’est, là encore, la présence d’un Store pour acheter tous nos logiciels. Ce n’est pas une surprise, mais ça confirme la tendance ; l’informatique de demain sera plus simple, plus accessible, et aussi plus fermée qu’aujourd’hui.
+Triste mais inévitable</p>
 
-<h3>Routing et autres fonctions clés de Symfony</h3>
+<p>Derrière mon titre un peu provoc, je voulais juste dire qu’une fois de plus, Steve Jobs a été visionnaire et a réussi à imposer sa vision de l’informatique, simplifiée et verrouillée. J’aurais vraiment préféré qu’on réussisse à éduquer les masses, que la nouvelle génération apprenne à bidouiller, que l’open source attire plus de contributeurs et nous offre d’autres succès grand public que Firefox et Open Office. Nous nous serions tous tenus la main, et nous aurions couru nus dans les champs avec Olivia Wilde…</p>
 
-<p>Je termine sur les bons côtés de Symfony par un petit paragraphe en vrac ; le
-routing (mapper une url à une méthode d&#8217;un contrôleur) est très bien vu dans
-ce framework. Plus verbeux que dans ZF, il repose essentiellement sur le
-fichier de configuration routes.yml de l&#8217;application. Où c&#8217;est assez fun c&#8217;est
-qu&#8217;on peut réellement faire ce qu&#8217;on veut, pour chaque route, il n&#8217;y a pas
-besoin d&#8217;adopter un système unique pour l&#8217;application. Faire la même chose
-avec un autre outil serait certainement possible, mais beaucoup plus lourd.</p>
-
-<p>Les autres joyeusetés ? En vrac, un système de tests complet, avec génération
-automatique d&#8217;une base de test ; la facilité à insérer des fixtures dans une
-base de dev ou de test ; les commandes pour déployer / synchroniser un projet
-; des univers distincts et fonctionnels dès le départ (dev, test et prod); un
-système de vues, de partials et de componnents simple à assimiler et vraiment
-puissant ; des plugins qui s&#8217;installent en ligne de commandes&#8230; et j&#8217;oublie
-sûrement beaucoup de choses&#8230;</p>
-
-<h3>Défauts, comparaison à ZF et bilan</h3>
-
-<p>Le plus gros défaut de Symfony, c&#8217;est sa documentation&#8230; Le meilleur document
-de référence reste le tutorial Jobeet, qui couvre l&#8217;intégralité des fonctions
-du framework sur un cas concret. Très intéressant pour démarrer, cette
-solution devient catastrophique quand on cherche rapidement la description
-d&#8217;une fonctionnalité, les paramètres d&#8217;une méthodes, etc&#8230; Les recherches sur
-google sont frustrantes au possible, car on tombe le plus souvent sur des
-pages &#8220;périmées&#8221; qui traitent de Symfony 1.0 ou 1.2&#8230;</p>
-
-<p>Le Zend Framework Manual est un petit bijoux d&#8217;exhaustivité et de clarté en
-comparaison, et c&#8217;est probablement normal les deux communautés n&#8217;étant pas
-vraiment de taille comparable&#8230;</p>
-
-<p>L&#8217;autre point noir a été reconnu et est en passe d&#8217;être résolu, avec la
-version 2.0 qui devrait sortir mi-2011 ; « Too much magic », trop
-d&#8217;automatismes, et du code au final assez crade et lourd. Il est impossible de
-faire un var_dump sur un objet Symfony, l&#8217;objet est trop volumineux&#8230; Les
-variables passées aux vues sont des globales, et nom des params d&#8217;un objets
-vue. Dans le même registre, Symfony permet de générer de l&#8217;Ajax ; je vous
-encourage vivement à coder ce genre de choses à la main, c&#8217;est guère plus
-complexe, beaucoup plus propre / optimisé, et si vous vouliez faire du web
-sans avoir l&#8217;impression de faire du web vus auriez de toutes façons choisis
-des technos microsoft.</p>
-
-<p>Symfony et Zend Framework s&#8217;opposent diamétralement au niveau de la
-philosophie ; ZF vous donne une boite à outils, sans réel mode d&#8217;emploi,
-tandis que Symfony vous impose une manière de travailler, de structurer votre
-code. La courbe d&#8217;apprentissage est plus grande, et on a parfois l&#8217;impression
-de ne pas tout maitriser&#8230; Mais au final ces quelques mois m&#8217;ont laissé une
-bonne impression, et je reviendrais je pense régulièrement vers Symfony. Si
-seulement la version 2 pouvait également résoudre le souci de la
-documentation&#8230;</p>
+<p>Seulement en vrai on est des gros flemmards, et le monde se terminera comme dans Idiocracy. Aujourd’hui vous vous moquez des quelques vieux barbus qui ne jurent que par le terminal, parce que « la ligne de commande c’est quand même le plus efficace » ; dans 15 ans, les gens se moqueront des quelques uns d’entre nous qui feront toujours du alt tab sur des interfaces classiques…</p>
 ]]></content>
   </entry>
   
@@ -758,6 +663,175 @@ tellement plus simple que de le faire à la main&#8230;</p>
 assez transparent, et le gain en productivité (et en plaisir) est plus que
 conséquent. Si vous n&#8217;êtes pas encore convaincus, regardez la vidéo sur le
 site de <a href="http://compass-style.org">Compass</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[6 mois avec Symfony]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/09/26/6-mois-avec-symfony/"/>
+    <updated>2010-09-26T18:28:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/09/26/6-mois-avec-symfony</id>
+    <content type="html"><![CDATA[<p>Les frameworks PHP ne manquent pas ; Symfony est l&#8217;un d&#8217;entre eux, et
+probablement pas le moins populaire. Anciennement habitué de Zend Framework,
+j&#8217;ai récemment utilisé Symfony sur deux projets. Debriefing.</p>
+
+<!-- more -->
+
+
+<h3>De quoi qu&#8217;on parle</h3>
+
+<p>Bonne question, merci, c&#8217;est toujours mieux de préciser le cadre. Si on prend
+la définition de Wikipedia, qui pour le coup me plait bien, «En programmation
+informatique, un framework est un kit de composants logiciels structurels, qui
+définissent les fondations ainsi que les grandes lignes de l&#8217;organisation de
+tout ou partie d&#8217;un logiciel». C&#8217;est tout à fait ça, des briques, du ciments,
+et quelques pistes sur comment utiliser le tout.</p>
+
+<p>Pendant quelques années, j&#8217;ai préféré utiliser un framework &#8220;maison&#8221;, en
+arguant de la parfaite adaptation à mes besoins, et d&#8217;une plus grande facilité
+à identifier les bugs. Je suis convaincu désormais que c&#8217;était une erreur, au
+moins pour deux raisons :</p>
+
+<ul>
+<li>Une communauté active sera toujours plus efficace et talentueuse pour résoudre des problèmes qu&#8217;un gars ou qu&#8217;une petite équipe dans leur coin. De plus la plupart des frameworks sont open source, et rien n&#8217;empêche de mettre les mains dans le cambouis pour faire avancer un projet dans une direction qui nous intéresse, pour combler une lacune qui nous semble cruciale, etc&#8230;</li>
+<li>Un projet développé sur un framework communautaire sera plus simple à maintenir ; si vous l&#8217;abandonnez pendant un temps, vous avez de bonnes chances pour que les briques du framework aient suivi les évolutions techno ; si un nouveau développeur doit intervenir dessus, il sera peut être déjà au courant des bases, de la logique, de l&#8217;architecture. Et dans tous les cas il pourra se former beaucoup plus facilement qu&#8217;avec un framework maison à la documentation aléatoire.</li>
+</ul>
+
+
+<p>Donc, un framework c&#8217;est un ensemble de briques et de principes et c&#8217;est
+essentiel pour tout développement d&#8217;une certaine envergure.</p>
+
+<h3>La philosophie Symfony</h3>
+
+<p>Là où certains framework (ZF par exemple) se contentent de vous offrir des
+briques, vous laissant libre de les utiliser ou non et la façon dont vous
+voulez les structurez, Symfony impose sa vision des choses et son arborescence
+de projet. Ouvertement inspiré de Rails, il repose largement sur des fichiers
+de configurations (au format YAML) et sur des générateurs de code.</p>
+
+<p>Concrètement, une fois le framework installé, vous disposez d&#8217;un outil CLI
+pour effectuer toutes les tâches répétitives classiques. Pour un nouveau
+projet, vous allez donc procéder ainsi :</p>
+
+<ol>
+<li>Paramétrage de la connexion base de données dans le fichier database.yml</li>
+<li>Création de la structure des données dans le fichier schema.yml (Symfony utilise l&#8217;ORM Doctrine, je reviendrais dessus plus tard)</li>
+<li>Génération de la base de données et des classes PHP en CLI. Vous avez désormais des classes vous permettant de manipuler vos données, du basique : $monObjet->save(), $monObjet->getNom(), etc&#8230; au nettement plus évolué avec les classes de Formulaire, permettant à Symfony de vous posez un formulaire avec validation des données en 2 lignes de code. Toutes ces classes générées sont bien sûr conçues pour être étendues.</li>
+<li>Vous allez ensuite probablement générer un contrôleur / une vue (pattern MVC), et commencer à bidouiller le fichier de configuration des routes&#8230;</li>
+</ol>
+
+
+<p>Pas besoin d&#8217;être un pro de Symfony pour voir l&#8217;intérêt d&#8217;un tel système ;
+déjà, vous écrivez beaucoup moins de code. Ensuite, si vous devez changer la
+structure des données (ce qui arrive toujours), vous avez juste à modifier le
+fichier de configuration qui décrit vos données, et Symfony ré-génère pour
+vous la base de données, les modèles et les formulaires.</p>
+
+<h3>Doctrine, l&#8217;abstraction des données</h3>
+
+<p>Je sais pas vous, mais moi on m&#8217;a toujours dit qu&#8217;il fallait bien séparer les
+données. D&#8217;abord, être indépendant d&#8217;un système de BDD, pour pouvoir passer de
+Mysql à Oracle en calquant des doigts (le truc qui n&#8217;arrive de toutes façons
+jamais&#8230;). Et ensuite pour séparer la partie &#8220;stockage&#8221; de la partie
+&#8220;logique&#8221; (data / buisness si je dis pas de conneries). L&#8217;étape suivante,
+c&#8217;est l&#8217;ORM, qui gère tout ça, avec les notions de relations entre les objets
+(un livre a un ou plusieurs auteur, un auteur a écrit un ou plusieurs livre).
+Au départ, Symfony utilisait Propel, mais depuis quelques années c&#8217;est
+Doctrine qui prend le pas&#8230;. Doctrine est une solution open source qu&#8217;on peut
+très bien utiliser indépendamment de Symfony. En revanche, l&#8217;inverse n&#8217;est pas
+vrai ; Syfmony a tellement de fonctionnalités qui reposent sur Doctrine que
+faire l&#8217;impasse dessus enleverait pratiquement tout son intérêt au framework.</p>
+
+<p>Doctrine donc, est l&#8217;ORM que Symfony utilise pour générer votre BDD et toutes
+vos classes à partir d&#8217;un bête fichier qui décrit votre schéma de données. Et
+pour cette partie, il fait un super travail. (Si je reprends mon exemple des
+livres et des auteurs, il vous rapatriera les livres sur l&#8217;objet auteur, et
+inversement ; le formulaire de saisie d&#8217;un livre vous proposera de choisir les
+auteurs, etc&#8230;).</p>
+
+<p>Où j&#8217;ai beaucoup plus de mal à apprécier Doctrine, c&#8217;est pour la partie
+interrogation des données. En effet, Doctrine impose sa vision des requêtes
+sql, avec des méthodes maison qu&#8217;on peut chainer à volonté :</p>
+
+<p><code>$q = Doctrine_Core::getTable('Element')-&gt;createQuery(); $q-&gt;addWhere('active
+= ? ',true) -&gt;orderBy('ordre DESC');</code></p>
+
+<p>Si ça convient très bien pour des requêtes simples comme l&#8217;exemple ci-dessus,
+c&#8217;est catastrophique dès qu&#8217;on a des jointures un peu complexe, ou que l&#8217;on
+veut faire des GROUP BY, obtenir un COUNT, etc&#8230; La syntaxe est lourde, ne
+permet pas de tout faire, et produit des requêtes aux performances souvent
+catastrophiques. Ma solution pour l&#8217;instant : me passer de Doctrine dans ces
+cas limites, et faire du PDO classique. Car heureusement Doctrine nous laisse
+récupérer la connexion :</p>
+
+<p><code>$conn = Doctrine_Manager::connection();</code></p>
+
+<h3>Admin Generator</h3>
+
+<p>Cette fonctionnalité est la plus montrée / vantée, car la plus simple à mettre
+en avant ; Symfony permet en quelques minutes de générer une interface
+d&#8217;administration complète, offrant toutes les fonctions CRUD. En quelques
+secondes, vous avez une interface complète avec la liste des enregistrements
+de la base, et des liens pour les supprimer, les modifier, et en créer de
+nouveau. Et même un outil pour filtrer / faire une recherche. Le tout, comme
+toujours dans Symfony, est modifiable via les fichiers de configurations Yaml,
+et sur-chargeable via un système de classe bien conçu.</p>
+
+<p>J&#8217;étais sceptique, mais cet outil répond bien à 75% des cas en l&#8217;état, et
+permet de gérer pratiquement tous les 25% restant via un peu de code bien
+placé.</p>
+
+<h3>Routing et autres fonctions clés de Symfony</h3>
+
+<p>Je termine sur les bons côtés de Symfony par un petit paragraphe en vrac ; le
+routing (mapper une url à une méthode d&#8217;un contrôleur) est très bien vu dans
+ce framework. Plus verbeux que dans ZF, il repose essentiellement sur le
+fichier de configuration routes.yml de l&#8217;application. Où c&#8217;est assez fun c&#8217;est
+qu&#8217;on peut réellement faire ce qu&#8217;on veut, pour chaque route, il n&#8217;y a pas
+besoin d&#8217;adopter un système unique pour l&#8217;application. Faire la même chose
+avec un autre outil serait certainement possible, mais beaucoup plus lourd.</p>
+
+<p>Les autres joyeusetés ? En vrac, un système de tests complet, avec génération
+automatique d&#8217;une base de test ; la facilité à insérer des fixtures dans une
+base de dev ou de test ; les commandes pour déployer / synchroniser un projet
+; des univers distincts et fonctionnels dès le départ (dev, test et prod); un
+système de vues, de partials et de componnents simple à assimiler et vraiment
+puissant ; des plugins qui s&#8217;installent en ligne de commandes&#8230; et j&#8217;oublie
+sûrement beaucoup de choses&#8230;</p>
+
+<h3>Défauts, comparaison à ZF et bilan</h3>
+
+<p>Le plus gros défaut de Symfony, c&#8217;est sa documentation&#8230; Le meilleur document
+de référence reste le tutorial Jobeet, qui couvre l&#8217;intégralité des fonctions
+du framework sur un cas concret. Très intéressant pour démarrer, cette
+solution devient catastrophique quand on cherche rapidement la description
+d&#8217;une fonctionnalité, les paramètres d&#8217;une méthodes, etc&#8230; Les recherches sur
+google sont frustrantes au possible, car on tombe le plus souvent sur des
+pages &#8220;périmées&#8221; qui traitent de Symfony 1.0 ou 1.2&#8230;</p>
+
+<p>Le Zend Framework Manual est un petit bijoux d&#8217;exhaustivité et de clarté en
+comparaison, et c&#8217;est probablement normal les deux communautés n&#8217;étant pas
+vraiment de taille comparable&#8230;</p>
+
+<p>L&#8217;autre point noir a été reconnu et est en passe d&#8217;être résolu, avec la
+version 2.0 qui devrait sortir mi-2011 ; « Too much magic », trop
+d&#8217;automatismes, et du code au final assez crade et lourd. Il est impossible de
+faire un var_dump sur un objet Symfony, l&#8217;objet est trop volumineux&#8230; Les
+variables passées aux vues sont des globales, et nom des params d&#8217;un objets
+vue. Dans le même registre, Symfony permet de générer de l&#8217;Ajax ; je vous
+encourage vivement à coder ce genre de choses à la main, c&#8217;est guère plus
+complexe, beaucoup plus propre / optimisé, et si vous vouliez faire du web
+sans avoir l&#8217;impression de faire du web vus auriez de toutes façons choisis
+des technos microsoft.</p>
+
+<p>Symfony et Zend Framework s&#8217;opposent diamétralement au niveau de la
+philosophie ; ZF vous donne une boite à outils, sans réel mode d&#8217;emploi,
+tandis que Symfony vous impose une manière de travailler, de structurer votre
+code. La courbe d&#8217;apprentissage est plus grande, et on a parfois l&#8217;impression
+de ne pas tout maitriser&#8230; Mais au final ces quelques mois m&#8217;ont laissé une
+bonne impression, et je reviendrais je pense régulièrement vers Symfony. Si
+seulement la version 2 pouvait également résoudre le souci de la
+documentation&#8230;</p>
 ]]></content>
   </entry>
   

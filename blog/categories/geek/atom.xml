@@ -4,7 +4,7 @@
   <title><![CDATA[Category: geek | #fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/blog/categories/geek/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-03-06T00:38:24+01:00</updated>
+  <updated>2012-03-06T00:49:52+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -18,7 +18,9 @@
     <link href="http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2/"/>
     <updated>2011-11-23T00:26:00+01:00</updated>
     <id>http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2</id>
-    <content type="html"><![CDATA[<p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d'exploitation des Macs. Aujourd'hui, je vais m'attaquer à une présentation de l'OS ; elle n'a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l'OS, et de vous indiquer les grosses différences avec Windows.</p>
+    <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/11/23/le-coeur-des-pommes-2/">le blog du captain web</a></p></blockquote>
+
+<p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d'exploitation des Macs. Aujourd'hui, je vais m'attaquer à une présentation de l'OS ; elle n'a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l'OS, et de vous indiquer les grosses différences avec Windows.</p>
 
 <!-- more -->
 
@@ -161,6 +163,78 @@ Le défaut, c'est que Cmd Tab ne liste que les programmes, pas les fenêtres. Qu
 <p>Le clic droit a longtemps été absent sous Mac, c'est vrai, et c'était tellement naze que c'est normal qu'on s'en moque encore. Mais bon, c'est fini depuis 2005. Il y a un clic droit sur Mac, il est même indispensable, et les souris 5 boutons sont très bien supportées…</p>
 
 <p>Voilà, on approche des 6 minutes estimées de lecture pour cet article, je pense que c'est assez pour ta capacité limitée d'attention. Je te sens toujours dubitatif ; tu pourrais effectivement passer sous OSX sans vendre un rein et en continuant de baver sur la sortie prochaine de Diablo 3, mais bon, quel intérêt ? Peut être aucun pour toi, ça dépend de ta curiosité et de tes usages… On se retrouve la semaine prochaine pour en parler ? Bisous bisous !</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vous allez en bouffer, des pommes !]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/10/04/vous-allez-en-bouffer/"/>
+    <updated>2011-10-04T00:45:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/10/04/vous-allez-en-bouffer</id>
+    <content type="html"><![CDATA[<pre><code>C’est triste mais Apple a gagné.
+Now deal with it bitches !
+</code></pre>
+
+<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/10/04/vous-allez-en-bouffer-des-pommes/">le blog du captain web</a></p></blockquote>
+
+<p>C’est le Captain qui m’a dit de vous insulter, histoire de ne pas trop vous dépayser. Parce que oui, c’est un intrus qui vous parle, la bande de l’apéro ayant décidé d’exploiter des geeks désoeuvrés en quête de notoriété pour bosser à leur place et alimenter ce blog moribond.</p>
+
+<p>Grâce à ce fourbe plan de feignasses cette brillante idée vous allez aujourd’hui avoir l’insigne honneur de lire un énorme pavé sur ma vision de l’informatique de demain, le tout enrobé d’un peu de fanboyisme, d’un peu de pessimisme et d’ Olivia Wilde nue pour le référencement. Oui, désolé, ce sera plus du LTP que du Kwakos. Respirez un grand coup, on est parti.</p>
+
+<h2>Un (très) bref historique</h2>
+
+<p>J’ai vaguement pensé vous copier-coller du Wikipédia ici, en hommage, mais on va faire bref : au départ, l’ordinateur était un truc cher et imbitable pour des gros nerds de scientifiques. Le gentil Steve a sorti l’Apple 2, avec une interface graphique et un prix plus raisonnable. Ensuite le méchant Billou a tout pompé en sortant Windows, qui s’est rapidement imposé, et qui a évolué au fil des versions, en essayant avec plus ou moins de succès de simplifier la life de l’utilisateur.</p>
+
+<p>Aujourd’hui, l’informatique c’est :</p>
+
+<ul>
+<li>1% de pauvres / activistes / nerds / Yeti sous Linux</li>
+<li>7% de bobos sous OSX (présence !)</li>
+<li>92% de moutons sous Windows (avec une grosse majorité d’XP, encore quelques fous sous Vista, et le très bon Seven qui vient de passer les 30%)</li>
+</ul>
+
+
+<p>Toi, lecteur éclairé et inconditionnel de l’apéro, je suis sûr que tu es satisfait de ton système d’exploitation ; tu le connais bien, tu y as tes habitudes, tu sais le bidouiller / le réparer quand il te fait des blagues, télécharger du contenu pour le remplir, y cacher tes honteuses vidéos de poneys, etc… Mais est-ce que tu penses à madame Michou ?</p>
+
+<p>Peut être que tu n’y penses pas, mais tu devrais. A la louche, je dirais que c’est 2 utilisateurs sur 3, mais peut être qu’un tenancier de cybercafé serait mieux placé pour nous éclairer. Des exemples ? Je suis peut être verni, hein, mais mon père pensait que les CD se retournaient comme les vinyles ou les cassettes, ma mère télécharge la mise à jour de Flash, mais ne l’installe pas, ma soeur ne sait pas ouvrir un fichier s’il n’est pas dans Mes documents, et ma tante ne retrouve plus ses photos une fois qu’elle les a importées. Réfléchissez deux secondes et pensez au nombre de fois où vous avez du dépanner une copine, ré-installer le pc d’un parent, ou expliquer à Robert comment se rendre à la baie des pirates ?</p>
+
+<p>Bref, aujourd’hui, l’informatique est encore trop compliqué pour beaucoup de monde.</p>
+
+<h2>L’iPad ou l’an 0 de l’informatique pour les moules</h2>
+
+<p>Même les plus anti-pomme d’entre-vous reconnaitront que l’iPhone a totalement révolutionné le mobile (si t’es pas d’accord, va demander à Nokia). Je dubitais (bite) beaucoup sur l’iPad avant d’en avoir un il y a quelques mois ; je pense désormais qu’on va assister à la même chose avec l’informatique grand public. Ma copine n’allume pratiquement plus son ordinateur, l’iPad lui permettant de faire 90% de ce qu’elle fait derrière un écran (mails, surf et jeux à la con). Beaucoup d’analystes ont expliqué au lancement que ce ne serait qu’un appareil de consultation ; iMovie et GarageBand mettent le montage vidéo et la création audio à la portée de madame Michou.</p>
+
+<p>Ce n’est pas parfait; mais ça fait le taf pour une grande majorité d’utilisateurs, c’est plus simple, ça ne plante pas, et ça ne fait pas peur. Et ça va s’améliorer ; nous ne sommes qu’à la 2° version de l’iPad, et la concurrence va finir par sortir des alternatives intéressantes (wink wink Amazon et la Fire).</p>
+
+<p>A titre personnel, et pour toi aussi probablement, l’iPad tient du gadget, permettant de glander dans son lit ou dans son canapé plutôt qu’assis à son bureau ; en revanche quand ma mère devra changer d’ordinateur, le choix de la tablette s’imposera.</p>
+
+<h2>Le dématérialisé ou le syndrome couch patatoe</h2>
+
+<p>Ne faisons pas nos LTP effarouchés, et disons le sans honte : nous avons tous piratés. Des jeux, de la musique, des films et séries… Mais au final, quand on nous propose une alternative légale SIMPLE et RAISONNABLE, on prend vite l’habitude de passer à la caisse. Je n’ai jamais autant acheté de jeux vidéos que depuis l’arrivée de Steam et ses promotions de folie ; avec Spotify, même un crevard comme le Captain verse son obole ; Netflix et Hulu font un carton aux USA ; l’AppStore a créé un nouveau marché en proposant des petits jeux pour le prix d’un demi-expresso.</p>
+
+<p>Apple a lancé l’an dernier l’AppStore sur OSX ; là encore, je doutais du bien fondé de la chose, mais au final il y a beaucoup d’avantages :</p>
+
+<pre><code>  un endroit centralisé pour trouver tes logiciels
+  installation et mise à jour transparentes et simples, même pour madame Michou
+  dans certains cas, des baisses de prix très agressives (l’équivalent Apple d’Office que tu peux acheter à la carte, 16 euros le logiciel, ou le dernier Final Cut qui ne coûte plus qu’un rein).
+</code></pre>
+
+<p>Idéologiquement, ça pue, on est d’accord : système fermé, censure, péage de 30% prélevé par le gestionnaire du store, visibilité parfois aléatoire pour les développeurs, etc… A l’usage, c’est plus simple. Si l’idéologie et le prix gagnaient face à la flemme, Linux ne serait pas à 1% de part de marché. Et vous téléchargeriez l’apéro avec Miro, et pas Itunes que vous détestez mais qui est tellement plus pratique pour les podcasts.</p>
+
+<h2>Windows 8, la confirmation du changement</h2>
+
+<p>Windows 8 et son interface Metro montrent que même chez Microsoft on a compris que le monde de l’informatique était en train de changer. Le clavier et la souris, les boites de dialogues et leurs questions à la con, les installations de logiciels imbitables, la notion de système de fichiers et de répertoires, les pilotes, les menus à rallonge : tout doit disparaitre. L’interface est originale, ce n’est pas une bête repompe d’iOS ou d’Android, et les bonnes idées sont légions. Seul bémol : elle est pensée essentiellement pour un usage en format paysage, alors que les tablettes sont plus souvent tenues verticalement.</p>
+
+<h2>Windows 8 Metro</h2>
+
+<p>Evil Steve et son équipe n’ont pas osé faire les choses à 100%, et proposeront donc les deux interfaces, Metro et Classic, sur les desktops (pour les tablettes, seul Metro devrait être accessible). C’est probablement un bon choix, surtout si Metro est activé par défaut pour les nouveaux utilisateurs (madame Michou restera sur du simplifié, et le Captain pourra retrouver son Classic).</p>
+
+<p>A mon sens l’information importante dans ce lancement, c’est, là encore, la présence d’un Store pour acheter tous nos logiciels. Ce n’est pas une surprise, mais ça confirme la tendance ; l’informatique de demain sera plus simple, plus accessible, et aussi plus fermée qu’aujourd’hui.
+Triste mais inévitable</p>
+
+<p>Derrière mon titre un peu provoc, je voulais juste dire qu’une fois de plus, Steve Jobs a été visionnaire et a réussi à imposer sa vision de l’informatique, simplifiée et verrouillée. J’aurais vraiment préféré qu’on réussisse à éduquer les masses, que la nouvelle génération apprenne à bidouiller, que l’open source attire plus de contributeurs et nous offre d’autres succès grand public que Firefox et Open Office. Nous nous serions tous tenus la main, et nous aurions couru nus dans les champs avec Olivia Wilde…</p>
+
+<p>Seulement en vrai on est des gros flemmards, et le monde se terminera comme dans Idiocracy. Aujourd’hui vous vous moquez des quelques vieux barbus qui ne jurent que par le terminal, parce que « la ligne de commande c’est quand même le plus efficace » ; dans 15 ans, les gens se moqueront des quelques uns d’entre nous qui feront toujours du alt tab sur des interfaces classiques…</p>
 ]]></content>
   </entry>
   
@@ -325,199 +399,6 @@ Côté Google, pas d'écho négatifs pour le moment, il faudra attendre pour voi
 <p>Pour la publicité, Google règne en maître incontesté sur le web, offrant tous ces services gratuitement pour mieux vous profiler et vendre plus cher votre temps de cerveau disponible à ses annonceurs. La publicité "à l'ancienne" marche de moins en moins bien, elle sera de plus en plus intrusive (cf. Youtube) et ciblée.</p>
 
 <p>Sur une plateforme mobile, géolocalisée, le ciblage sera encore plus précis ; imaginez une discussion à propos d'un jeu vidéo via Gmail ou GTalk, et lors d'un passage à proximité de la Fnac, votre téléphone vous signale une promotion exceptionnelle sur le jeu en question. C'est demain. Est ce que c'est grave ? Peut être pas, certains pourraient même considérer cela comme un service supplémentaire. Est ce qu'Apple ne veut pas faire la même chose ? Bien sûr que si. Ce qui me fait flipper c'est le poids financier de Google, et la main mise grandissante qu'ils ont sur notre vie numérique. Apple a peut être pris un peu d'avance sur le mobile, mais il ne faut se tromper, le nouveau Microsoft, c'est Google : le point d'entrée obligatoire pour votre vie numérique. Je crois que c'est pour ça que j'essaie de défendre l'Iphone, parce que je pense que c'est le moindre de deux maux, et que si Google remporte trop largement ce marché là, on sera vraiment en face d'un monopole dangereux. Après bien sûr, on pourrait tous être militants et s'équiper de Nokia N900 sous linux... Mais bon, faut pas déconner non plus.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MOUTON.REBELLE]]></title>
-    <link href="http://mouton-rebelle.github.com/blog/blog/2010/04/16/mouton-dot-rebelle/"/>
-    <updated>2010-04-16T00:30:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com/blog/blog/2010/04/16/mouton-dot-rebelle</id>
-    <content type="html"><![CDATA[<p>Après près de trois ans de déni, j'ai enfin décidé d'accepter la réalité, à
-savoir la mort de mon fils, ma bataille, <strong>mouton-rebelle.com</strong>. J'ai fermé
-les commentaires, plus rien ne sera publié, et le site a été déplacé sur
-<a href="http://archive.mouton-rebelle.com">http://archive.mouton-rebelle.com</a>. Mais
-comment tourner la page sans rendre un dernier hommage à ce projet, à cette
-époque, et surtout à tous les gens qui y ont pris part ?</p>
-
-<!-- more -->
-
-
-<p>Mouton a vu le jour en 2002 ; je travaillais à l'époque dans une SSII
-grenobloise en tant que développeur web, et cette passion pour le net me donne
-vite envie de me créer un espace d'expérimentation. Pour le nom, j'ai été
-inspiré, il me plait toujours 8 ans après, et je trouve encore que
-mouton/rebelle définit bien notre génération. Les couleurs : noir / gris pour
-le mouton, rose pour le rebelle, fond blanc. Le logo ? Un chouette mouton
-masqué dessiné par l'ami Nico. Le contenu ? Un peu de tout en fait, mouton a
-toujours été une sorte de webzine allimenté par un petit groupe d'amis,
-partageant des liens ou des humeurs, des films, des livres, de la musique, ...</p>
-
-<h2>Hall of fame</h2>
-
-<table>
-<thead>
-<tr>
-<th>Auteurs </th>
-<th> Articles</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_targos_.html">targos</a> </td>
-<td> 2</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_yoda_.html">yoda</a> </td>
-<td> 3</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_schuss_.html">schuss</a> </td>
-<td> 3</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_Mina_.html">mina</a> </td>
-<td> 4</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_Fred-Bird_.html">fredbird</a> </td>
-<td> 4</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">john popovitch</a> </td>
-<td> 5</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_bob_.html">bob</a> </td>
-<td> 5</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_gizmo_.html">gizmo</a> </td>
-<td> 6</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_axolotl_.html">axolotl</a> </td>
-<td> 7</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_jess_.html">jess</a> </td>
-<td> 9</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_orphee_.html">orphee</a> </td>
-<td> 11</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_SAMsara_.html">SAMsara</a> </td>
-<td> 14</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_Anna-Coluthe_.html">Anna Coluthe</a> </td>
-<td> 14</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_attila_.html">attila</a> </td>
-<td> 22</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_grima_.html">grima</a> </td>
-<td> 25</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_west_.html">west</a> </td>
-<td> 26</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_keraoc_.html">keraoc</a> </td>
-<td> 32</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_fab-bundy_.html">fab</a> </td>
-<td> 34</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_Pedrof,32_.html">pedrof</a> </td>
-<td> 37</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_didoune_.html">didoune</a> </td>
-<td> 46</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_xnx_.html">xnx</a> </td>
-<td> 59</td>
-</tr>
-<tr>
-<td><a href="http://archive.mouton-rebelle.com/_jojo_.html">jojo</a> </td>
-<td> 182</td>
-</tr>
-</tbody>
-</table>
-
-
-<p><strong>Techniquement</strong>, le site a beaucoup évolué ; d'un CMS maison bricolé à l'arrache je suis passé à Spip, un forum PHPBB s'est vite cablé sur tout ça, puis à finir par disparaitre au profit de SPIP également (erreur) ; beaucoup de flash au départ, j'étais jeune, sous IE6, et je rigolais quand Grima et Axolotl m'engueulaient.<br/>
-<strong>Graphiquement</strong> aussi, les versions ont changés égulièrement : je vous invite <a href="http://web.archive.org/web/*/www.mouton-rebelle.com">à remonter le temps</a>. Je garde un très bon souvenir de la pinup, et de l'avant dernière itération du graphisme réalisée au côté de l'ami Fab Bundy.</p>
-
-<p>Mouton a quelque part bénéficié de l'effet réseau social avant l'heure ; les
-quelques amis du départ (Did, Fab, Nico, xNx) ont fait boule de neige,
-ramenant leurs connaissances sur le site, pour avoir au final beaucoup de
-contributeurs, très différents dans leur style et goûts. Certains postaient
-beaucoup, d'autres étaient plus actifs sur le forum / les commentaires.
-Certains écrivaient bien, d'autres pas trop trop bien, si vous voyez de qui je
-veux parler. Certains étaient tolérants, d'autres moins. Certaines se vexaient
-rapidement... C'était un petit coin de web sympa, en tout cas, même si on nous
-a souvent reproché un côté "fermé / club privé".</p>
-
-<p>A titre personnel, mouton m'a permis de rencontrer des gens formidables,
-virtuellement ou dans la vraie vie du réel ; j'ai gardé le contact avec
-certains, perdu de vue d'autres, c'est la vie, mais si jamais vous passez ici
-et lisez ces quelques lignes, sachez que j'étais ravi d'avoir croisé votre
-chemin. Séquence émotion, muisque d'ambiance, larme à l'oeil. Coupez.
-Générique.</p>
-
-<p>Ou pas. Comment terminer cet hommage autrement que par un bestof ? Impossible.
-Innimaginable. Mais juste avant, peut être faudrait-il s'interroger sur les
-causes de cette échec, avant d'en assumer l'entière responsibilité et dde se
-retirer définitivement de la vie panurgienne. Et figure ami lecteur que j'ai
-plein de réponses sur les pourquoi du comment de la fin de mouton....</p>
-
-<ul>
-<li>En 2002, c'était encore un peu nouveau, le fait de pouvoir facilement poster / écrire sur le net ; je crois qu'on était tous excité par cette nouveauté.</li>
-<li>Les réseaux sociaux sont apparus, permettant à tout le monde d'ouvrir un blog en 2 clic, ou de partager ses photos avec énormément de monde. <a href="http://depulpeuse.mouton-rebelle.com/">Did a ouvert son blog</a>, je suis passé sur <a href="http://www.flickr.com/photos/mouton/">Flickr</a> puis j'ai créé <a href="http://ego.mouton-rebelle.com">Ego</a>, et tout le monde a été attiré par d'autres sites, d'autre moyen de partager et d'échanger. Petit à petit, les posts se sont fait moins réguliers, les visites moins nombreuses...</li>
-<li>Je n'ai jamais voulu / su assumer mon rôle de « rédacteur en chef » ; mouton acceptait tout le monde et publiait tous les posts, sans ligne éditoriale... un peu le bordel du coup, j'aurais du jouer la police / être plus exigeant mais j'aurais vexé des gens au passage...</li>
-<li>Ecrire un bon article prend du temps, le mettre en forme également ; on vieillit tous, et on semble avoir de moins en moins de temps. Ou on le prend de moins en moins, peut être...</li>
-<li>J'ai voulu changer le forum qui marchait très bien pour une solution bancale ; j'ai changé un peu trop souvent le graphisme au goût de certains ; j'ai eu l'erreur d'héberger le site chez 1&amp;1, qui nous a flingué l'encodage sur la base de donné en nous coupant le site à 2 reprises...</li>
-</ul>
-
-
-<p>Plein de bonnes raisons quoi... Et maintenant le best of ? Ok...</p>
-
-<ul>
-<li>27 000 visites en Août 2006, je crois que c'est le record, mais je n'ai plus les stats pour 2005...</li>
-<li>Le débat sur la <a href="http://archive.mouton-rebelle.com/+-constitution-europeene-+.html">constitution européenne</a>, avec les prises de bec de Fredbird et d'Attila, mémorables...</li>
-<li>Les textes de Didoune, avec la fameuse "polémique des <a href="http://archive.mouton-rebelle.com/19-La-galerie-de-petasses.html">pétasses</a>". Aléa de google et de ce monde de fou, le plus vu est celui qui <a href="http://archive.mouton-rebelle.com/Bon-anniversaire-Fab.html">souhaite un bon 25° anniversaire à Fab</a>.</li>
-<li>Nos participations photos pour les <a href="http://archive.mouton-rebelle.com/spip.php?page=recherche&amp;recherche=26+things">26 things</a></li>
-<li>les bandes dessinées de <a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">John Popovitch</a>, account manager. Aux dernières nouvelles il est toujours account manager, et a fini par oublié ces cas de consciences et les vaches de son pépé</li>
-<li>Le lynchage de Keraob a son arrivée, pour son orthographe et son penchant aux SMS. Puis le débat qui en a suivi sur le forum, avec une anecdote touchante de Mina qui démontrait que la qualité de l'échange ne dépendait pas forcément de la manière de s'exprimer. Tolérance \o/</li>
-<li>le lynchage de Pedrof ensuite, parce que c'était un gamin idéaliste borné horipillant convaincu que <a href="http://archive.mouton-rebelle.com/La-verite-existe-c-est-la-verite.html">la vérité existe, c'est la vérité</a></li>
-<li>Vis ma vie de geek romantique, avec <a href="http://archive.mouton-rebelle.com/Rencontre-24h-pas-comme-les-autres.html">la première érection d'Axolotl</a> et les <a href="http://archive.mouton-rebelle.com/_grima_.html">pulsions suicidaires de Grima</a></li>
-<li>un post co-écrit avec Grima, <a href="http://archive.mouton-rebelle.com/Firefox-le-navigateur-sexy.html">pour expliquer pourquoi Firefox c'est bien</a> se retrouve linké par le <a href="http://standblog.org">Standblog</a>, qui nous envoie donc plein de visiteurs.</li>
-<li>L'émulsion sympathique avec <a href="http://sh3vchenko.free.fr/chafouin/">les gars de Chafouin</a> et leurs critiques destroy qui m'<a href="http://archive.mouton-rebelle.com/Le-secret-des-poignards-volants.html">inspirèrent</a> <a href="http://archive.mouton-rebelle.com/Sympathy-for-mr-vengeance.html">parfois</a></li>
-<li>Le plaisir que j'ai pris à écrire <a href="http://archive.mouton-rebelle.com/+-joe-le-mouton-+.html">ces quelques éditos</a></li>
-<li><a href="http://archive.mouton-rebelle.com/Coma.html">Le post de xNx sur le coma</a>, qui est toujours en première page de google si on tape juste coma, qui compte moult commentaires et qui a valu à l'intéressé 2 invitations chez Delarue (et oué, passage à la TV grâce à mouton, la classe).</li>
-<li>Sûrement milles autres petits détails qui ne me reviennent pas en mémoire là tout de suite... je vais donc terminer <a href="http://cyberbobby.chez.com/klika.html">sur ça</a>, que la boucle soit bouclée.</li>
-</ul>
-
-
-<p>Voilà, je crois que c'est tout ce que j'avais à dire... rien de bien
-important, mouton était déjà mort dans les faits depuis longtemps. C'était
-chouette, merci pour tout. Je reste dans le coin, je ferais certainement
-quelque chose de cette adresse prochainement, et vous pouvez me suivre sur
-<a href="http://ego.mouton-rebelle.com/">ego</a>, sur ce <a href="http://blog.mouton-%0Arebelle.com/">blog</a> peu actif ou sur <a href="http://twitter.com/moutonrebelle">twitter</a> que
-je découvre.</p>
-
-<p>Don't stop<br/>
-The rock</p>
 ]]></content>
   </entry>
   

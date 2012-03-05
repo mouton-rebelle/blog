@@ -4,7 +4,7 @@
   <title><![CDATA[Category: zf | #fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/blog/categories/zf/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-03-06T00:38:24+01:00</updated>
+  <updated>2012-03-06T00:49:52+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[6 mois avec Symfony]]></title>
-    <link href="http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony/"/>
-    <updated>2011-09-26T18:28:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony</id>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/09/26/6-mois-avec-symfony/"/>
+    <updated>2010-09-26T18:28:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/09/26/6-mois-avec-symfony</id>
     <content type="html"><![CDATA[<p>Les frameworks PHP ne manquent pas ; Symfony est l'un d'entre eux, et
 probablement pas le moins populaire. Anciennement habitué de Zend Framework,
 j'ai récemment utilisé Symfony sur deux projets. Debriefing.</p>
