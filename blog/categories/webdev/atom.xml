@@ -4,7 +4,7 @@
   <title><![CDATA[Category: webdev | #fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/blog/categories/webdev/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-02-15T17:55:25+01:00</updated>
+  <updated>2012-03-06T00:38:24+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -12,6 +12,175 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[6 mois avec Symfony]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony/"/>
+    <updated>2011-09-26T18:28:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony</id>
+    <content type="html"><![CDATA[<p>Les frameworks PHP ne manquent pas ; Symfony est l'un d'entre eux, et
+probablement pas le moins populaire. Anciennement habitué de Zend Framework,
+j'ai récemment utilisé Symfony sur deux projets. Debriefing.</p>
+
+<!-- more -->
+
+
+<h3>De quoi qu'on parle</h3>
+
+<p>Bonne question, merci, c'est toujours mieux de préciser le cadre. Si on prend
+la définition de Wikipedia, qui pour le coup me plait bien, «En programmation
+informatique, un framework est un kit de composants logiciels structurels, qui
+définissent les fondations ainsi que les grandes lignes de l'organisation de
+tout ou partie d'un logiciel». C'est tout à fait ça, des briques, du ciments,
+et quelques pistes sur comment utiliser le tout.</p>
+
+<p>Pendant quelques années, j'ai préféré utiliser un framework "maison", en
+arguant de la parfaite adaptation à mes besoins, et d'une plus grande facilité
+à identifier les bugs. Je suis convaincu désormais que c'était une erreur, au
+moins pour deux raisons :</p>
+
+<ul>
+<li>Une communauté active sera toujours plus efficace et talentueuse pour résoudre des problèmes qu'un gars ou qu'une petite équipe dans leur coin. De plus la plupart des frameworks sont open source, et rien n'empêche de mettre les mains dans le cambouis pour faire avancer un projet dans une direction qui nous intéresse, pour combler une lacune qui nous semble cruciale, etc...</li>
+<li>Un projet développé sur un framework communautaire sera plus simple à maintenir ; si vous l'abandonnez pendant un temps, vous avez de bonnes chances pour que les briques du framework aient suivi les évolutions techno ; si un nouveau développeur doit intervenir dessus, il sera peut être déjà au courant des bases, de la logique, de l'architecture. Et dans tous les cas il pourra se former beaucoup plus facilement qu'avec un framework maison à la documentation aléatoire.</li>
+</ul>
+
+
+<p>Donc, un framework c'est un ensemble de briques et de principes et c'est
+essentiel pour tout développement d'une certaine envergure.</p>
+
+<h3>La philosophie Symfony</h3>
+
+<p>Là où certains framework (ZF par exemple) se contentent de vous offrir des
+briques, vous laissant libre de les utiliser ou non et la façon dont vous
+voulez les structurez, Symfony impose sa vision des choses et son arborescence
+de projet. Ouvertement inspiré de Rails, il repose largement sur des fichiers
+de configurations (au format YAML) et sur des générateurs de code.</p>
+
+<p>Concrètement, une fois le framework installé, vous disposez d'un outil CLI
+pour effectuer toutes les tâches répétitives classiques. Pour un nouveau
+projet, vous allez donc procéder ainsi :</p>
+
+<ol>
+<li>Paramétrage de la connexion base de données dans le fichier database.yml</li>
+<li>Création de la structure des données dans le fichier schema.yml (Symfony utilise l'ORM Doctrine, je reviendrais dessus plus tard)</li>
+<li>Génération de la base de données et des classes PHP en CLI. Vous avez désormais des classes vous permettant de manipuler vos données, du basique : $monObjet->save(), $monObjet->getNom(), etc... au nettement plus évolué avec les classes de Formulaire, permettant à Symfony de vous posez un formulaire avec validation des données en 2 lignes de code. Toutes ces classes générées sont bien sûr conçues pour être étendues.</li>
+<li>Vous allez ensuite probablement générer un contrôleur / une vue (pattern MVC), et commencer à bidouiller le fichier de configuration des routes...</li>
+</ol>
+
+
+<p>Pas besoin d'être un pro de Symfony pour voir l'intérêt d'un tel système ;
+déjà, vous écrivez beaucoup moins de code. Ensuite, si vous devez changer la
+structure des données (ce qui arrive toujours), vous avez juste à modifier le
+fichier de configuration qui décrit vos données, et Symfony ré-génère pour
+vous la base de données, les modèles et les formulaires.</p>
+
+<h3>Doctrine, l'abstraction des données</h3>
+
+<p>Je sais pas vous, mais moi on m'a toujours dit qu'il fallait bien séparer les
+données. D'abord, être indépendant d'un système de BDD, pour pouvoir passer de
+Mysql à Oracle en calquant des doigts (le truc qui n'arrive de toutes façons
+jamais...). Et ensuite pour séparer la partie "stockage" de la partie
+"logique" (data / buisness si je dis pas de conneries). L'étape suivante,
+c'est l'ORM, qui gère tout ça, avec les notions de relations entre les objets
+(un livre a un ou plusieurs auteur, un auteur a écrit un ou plusieurs livre).
+Au départ, Symfony utilisait Propel, mais depuis quelques années c'est
+Doctrine qui prend le pas.... Doctrine est une solution open source qu'on peut
+très bien utiliser indépendamment de Symfony. En revanche, l'inverse n'est pas
+vrai ; Syfmony a tellement de fonctionnalités qui reposent sur Doctrine que
+faire l'impasse dessus enleverait pratiquement tout son intérêt au framework.</p>
+
+<p>Doctrine donc, est l'ORM que Symfony utilise pour générer votre BDD et toutes
+vos classes à partir d'un bête fichier qui décrit votre schéma de données. Et
+pour cette partie, il fait un super travail. (Si je reprends mon exemple des
+livres et des auteurs, il vous rapatriera les livres sur l'objet auteur, et
+inversement ; le formulaire de saisie d'un livre vous proposera de choisir les
+auteurs, etc...).</p>
+
+<p>Où j'ai beaucoup plus de mal à apprécier Doctrine, c'est pour la partie
+interrogation des données. En effet, Doctrine impose sa vision des requêtes
+sql, avec des méthodes maison qu'on peut chainer à volonté :</p>
+
+<p><code>$q = Doctrine_Core::getTable('Element')-&gt;createQuery(); $q-&gt;addWhere('active
+= ? ',true) -&gt;orderBy('ordre DESC');</code></p>
+
+<p>Si ça convient très bien pour des requêtes simples comme l'exemple ci-dessus,
+c'est catastrophique dès qu'on a des jointures un peu complexe, ou que l'on
+veut faire des GROUP BY, obtenir un COUNT, etc... La syntaxe est lourde, ne
+permet pas de tout faire, et produit des requêtes aux performances souvent
+catastrophiques. Ma solution pour l'instant : me passer de Doctrine dans ces
+cas limites, et faire du PDO classique. Car heureusement Doctrine nous laisse
+récupérer la connexion :</p>
+
+<p><code>$conn = Doctrine_Manager::connection();</code></p>
+
+<h3>Admin Generator</h3>
+
+<p>Cette fonctionnalité est la plus montrée / vantée, car la plus simple à mettre
+en avant ; Symfony permet en quelques minutes de générer une interface
+d'administration complète, offrant toutes les fonctions CRUD. En quelques
+secondes, vous avez une interface complète avec la liste des enregistrements
+de la base, et des liens pour les supprimer, les modifier, et en créer de
+nouveau. Et même un outil pour filtrer / faire une recherche. Le tout, comme
+toujours dans Symfony, est modifiable via les fichiers de configurations Yaml,
+et sur-chargeable via un système de classe bien conçu.</p>
+
+<p>J'étais sceptique, mais cet outil répond bien à 75% des cas en l'état, et
+permet de gérer pratiquement tous les 25% restant via un peu de code bien
+placé.</p>
+
+<h3>Routing et autres fonctions clés de Symfony</h3>
+
+<p>Je termine sur les bons côtés de Symfony par un petit paragraphe en vrac ; le
+routing (mapper une url à une méthode d'un contrôleur) est très bien vu dans
+ce framework. Plus verbeux que dans ZF, il repose essentiellement sur le
+fichier de configuration routes.yml de l'application. Où c'est assez fun c'est
+qu'on peut réellement faire ce qu'on veut, pour chaque route, il n'y a pas
+besoin d'adopter un système unique pour l'application. Faire la même chose
+avec un autre outil serait certainement possible, mais beaucoup plus lourd.</p>
+
+<p>Les autres joyeusetés ? En vrac, un système de tests complet, avec génération
+automatique d'une base de test ; la facilité à insérer des fixtures dans une
+base de dev ou de test ; les commandes pour déployer / synchroniser un projet
+; des univers distincts et fonctionnels dès le départ (dev, test et prod); un
+système de vues, de partials et de componnents simple à assimiler et vraiment
+puissant ; des plugins qui s'installent en ligne de commandes... et j'oublie
+sûrement beaucoup de choses...</p>
+
+<h3>Défauts, comparaison à ZF et bilan</h3>
+
+<p>Le plus gros défaut de Symfony, c'est sa documentation... Le meilleur document
+de référence reste le tutorial Jobeet, qui couvre l'intégralité des fonctions
+du framework sur un cas concret. Très intéressant pour démarrer, cette
+solution devient catastrophique quand on cherche rapidement la description
+d'une fonctionnalité, les paramètres d'une méthodes, etc... Les recherches sur
+google sont frustrantes au possible, car on tombe le plus souvent sur des
+pages "périmées" qui traitent de Symfony 1.0 ou 1.2...</p>
+
+<p>Le Zend Framework Manual est un petit bijoux d'exhaustivité et de clarté en
+comparaison, et c'est probablement normal les deux communautés n'étant pas
+vraiment de taille comparable...</p>
+
+<p>L'autre point noir a été reconnu et est en passe d'être résolu, avec la
+version 2.0 qui devrait sortir mi-2011 ; « Too much magic », trop
+d'automatismes, et du code au final assez crade et lourd. Il est impossible de
+faire un var_dump sur un objet Symfony, l'objet est trop volumineux... Les
+variables passées aux vues sont des globales, et nom des params d'un objets
+vue. Dans le même registre, Symfony permet de générer de l'Ajax ; je vous
+encourage vivement à coder ce genre de choses à la main, c'est guère plus
+complexe, beaucoup plus propre / optimisé, et si vous vouliez faire du web
+sans avoir l'impression de faire du web vus auriez de toutes façons choisis
+des technos microsoft.</p>
+
+<p>Symfony et Zend Framework s'opposent diamétralement au niveau de la
+philosophie ; ZF vous donne une boite à outils, sans réel mode d'emploi,
+tandis que Symfony vous impose une manière de travailler, de structurer votre
+code. La courbe d'apprentissage est plus grande, et on a parfois l'impression
+de ne pas tout maitriser... Mais au final ces quelques mois m'ont laissé une
+bonne impression, et je reviendrais je pense régulièrement vers Symfony. Si
+seulement la version 2 pouvait également résoudre le souci de la
+documentation...</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[About Flash]]></title>
@@ -67,6 +236,148 @@ Avant tout, quelques précisions :</p>
 <p>Flash ne me sert plus vraiment aujourd’hui ; le dernier site qui m’a amusé / impressionné était pour <a href="http://www.nothingcomparestohavana.com/">Havana Club</a>, très réussi, il y a un an. Les petits jeux sont sur iOS maintenant, et je pense que c’est plus rentable pour les développeurs.</p>
 
 <p>Sur mon iPad je n’ai pas <strong>la vraie expérience web</strong>, parce que je n’ai pas Flash (c’est la campagne Motorola, bien joué les gars) mais je ne m’en suis rendu compte que hier en voulant regarder <em>Bref</em>. Canal + n’a pas encore fait le switch et impose toujours Flash. Pour le reste, pas de souci monsieur Flash, merci pour vos longues années de service, mais va falloir partir maintenant. Allez donc rejoindre votre pote Active X là bas au fond.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dire oui aux CSS compilées]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/11/04/dire-oui-aux-css-compilees/"/>
+    <updated>2010-11-04T17:46:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/11/04/dire-oui-aux-css-compilees</id>
+    <content type="html"><![CDATA[<p>J'ai longtemps hésité à franchir le pas, ne trouvant pas vraiment de solutions à mon goût ; certaines étaient trop lourdes pour mes besoins, d'autres demandaient beaucoup de configuration à chaque nouveau projet.... jusqu'au mois dernier, où j'ai découvert <a href="http://compass-style.org">Compass</a>.</p>
+
+<!-- more -->
+
+
+<p>Compass est un outil qui interprète le langage SASS, version évoluée des CSS utilisé avec Ruby notamment ; c'est une gem Ruby, donc pour
+l'installer sous OSX, il suffit de taper sudo gem install Compass, et hop,
+vous êtes prêt. Le site explique la configuration de base, en gros il suffit
+de faire un dossier scss, où vous créerez vos styles, et dans ce dossier un
+fichier config.rb qui va donner les chemins d'accès au vrai dossier css, où
+Compass ira créer des fichiers CSS normaux, en compilant le où les fichiers
+.scss. Une fois la configuration terminée, vous lancez la commande compass
+watch /chemin/vers/mon/dossier/scss/ et vous êtes bon pour redécouvrir les
+css.</p>
+
+<p>Toute bonne feuille de style commence par un reset. Comment ça Kevin, tu sais
+pas ce qu'est un reset ? Boulet... Il s'agit juste de
+remettre la mise en page à zéro, pour éviter d'avoir des différences dues aux
+styles par défauts des différents navigateurs. Auparavant, je reprenais le
+<a href="http://meyerweb.com/eric/thoughts/2007/05/01%0A/reset-reloaded/">Css Reset Reloaded d'Eric</a>. Maintenant, je commence juste mon fichier scss par @import
+'compass/reset';</p>
+
+<p>Le deuxième problème qu'on rencontre souvent en CSS, c'est l'absence de
+variables. Pour les couleurs, notamment, devoir récupérer à chaque fois le bon
+code couleur est une plaie. Plus maintenant, avec Compass :</p>
+
+<p><code>sass Les variables dans Sass  
+$couleur_titre: #C2FFDD;
+h1{
+  color:$couleur_titre;
+  border-bottom:2px solid darken($couleur_titre,20%);
+}
+</code></p>
+
+<p>On peut donc très facilement définir les couleurs utilisés, et les faire
+varier grace aux fonctions darken et lighten ; De la même
+manière, on peut définir une variable $marge, et s'en servir ensuite, avec des
+maths si l'on a envie (ex : width: 600-$marge*2 px;)</p>
+
+<p>Autre petite joyeuseté, le nesting (qui doit se traduire par imbrication), qui
+permet de taper beaucoup moins de code, et d'être plus
+lisible :</p>
+
+<p>``` sass Nesting dans Sass<br/>
+a{
+  text-decoration:none;
+  color:red;
+  font-size:1.1em;
+  span{</p>
+
+<pre><code>display:none;
+</code></pre>
+
+<p>  }
+  &amp;:hover,&amp;:visited:hover{</p>
+
+<pre><code>text-decoration:underline;
+</code></pre>
+
+<p>  }
+  &amp;:visited{</p>
+
+<pre><code>color:darken(red,30%);
+</code></pre>
+
+<p>  }
+}
+```</p>
+
+<p>Les éléments imbriqués sont par défaut les descendants (dans l'exemple ci-
+dessus, on masque les spans présents dans des balises a, ce qui reviendrait à
+écrire une autre règle span a), sauf quand on précède la règle d'un &amp;, auquel
+cas on précise juste la nature de l'élément (ici, on indique que les liens
+visités sont plus sombre, ce qui revient à une nouvelle règle a:visited).
+C'est très agréable de coder ainsi, en revanche il faut prendre garde à ne pas
+abuser de cette facilité, qui peut vite conduire à ne pas bien écrire ces
+feuilles de style, en ayant des doublons, des règles "trop précises" et donc
+non réutilisables.</p>
+
+<p>Compass est également livré avec un bundle CSS3, qui vous fera gagner beaucoup
+de temps si vous commencez à faire joujou avec les arrondis, ombres et
+dégradés... Il s'importe au début du fichier css avec un @import
+'compass/css3', et s'utilise de manière presque intuitive après quelques
+heures :</p>
+
+<p><code>sass mixins css3 dans Sass    
+.bloc{
+  @include border-radius(8px);
+  @include box-shadow();
+}
+</code></p>
+
+<p>En deux lignes de code, on a défini que notre bloc serait arrondi, avec une
+ombre. Lorsqu'il compile ces deux lignes, Compass les convertis en reprenant
+tous les attributs spécifiques à chaque navigateur (-moz-border-radius,
+-webkit-border-radius, etc...). Pas de coin arrondi pour IE, mais l'ombre est
+reprise avec le "filter" propriétaire. Si vous hésitez à utiliser les CSS3,
+regardez cette vidéo sur le <a href="http://www.youtube.com/watch?v=_nbWikK2nHY">progressive enhancement</a> :
+c'est assez inspirant.</p>
+
+<p>Pour aller encore plus loin avec Compass, il me faut évoquer la possibilité de
+créer des mixins, petites fonctions réutilisables pour habiller un élément. Le
+dernier site sur lequel j'ai travaillé avait une dizaine de bloc avec un fond
+dégradé, d'une couleur différente à chaque fois.</p>
+
+<p><code>sass mixins = fonctions
+@mixin degnews($basecolor){
+  color:#000;
+   background:$basecolor;
+  @include linear-gradient(color-stops(lighten($basecolor,20%), $basecolor 50%,darken($basecolor,10%) 51%, darken($basecolor,25%)));
+}
+</code></p>
+
+<p>Une fois la fonction définie, vous pouvez la réutiliser à
+l'envie :</p>
+
+<p><code>sass utiliser un mixin
+.bloc1{
+  @include degnews(#FF3300);
+}
+</code></p>
+
+<p>Pour conclure sur les possibilités de malade offertes par ce petit bijou, il
+existe un plugin, <a href="http://www.hagenburger.net/BLOG/Lemonade-CSS-Sprites-for-Sass-Compass.html">Lemonade</a>, qui permet de générer automatiquement des sprites ; vous découpez vos images sans vous poser trop de
+questions, en PNG transparent, et ensuite vous appelez simplement background:
+sprite-image("sprites/arrow.png"); Lemonade se charge de créer une seule image
+avec toutes les petites images qui utilisent cette fonction, et de les placer
+convenablement. En pratique c'est un peu plus complexe, mais à peine, et
+tellement plus simple que de le faire à la main...</p>
+
+<p>Je ne vois pas vraiment de raison de se priver de cet outil, c'est au final
+assez transparent, et le gain en productivité (et en plaisir) est plus que
+conséquent. Si vous n'êtes pas encore convaincus, regardez la vidéo sur le
+site de <a href="http://compass-style.org">Compass</a>.</p>
 ]]></content>
   </entry>
   

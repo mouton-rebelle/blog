@@ -4,7 +4,7 @@
   <title><![CDATA[Category: geek | #fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/blog/categories/geek/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-02-15T17:55:25+01:00</updated>
+  <updated>2012-03-06T00:38:24+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -12,6 +12,117 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[le coeur des pommes 2]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2/"/>
+    <updated>2011-11-23T00:26:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2</id>
+    <content type="html"><![CDATA[<p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d'exploitation des Macs. Aujourd'hui, je vais m'attaquer à une présentation de l'OS ; elle n'a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l'OS, et de vous indiquer les grosses différences avec Windows.</p>
+
+<!-- more -->
+
+
+<p>Tant que j'y suis, si jamais ce dossier motive l'un d'entre vous à tester OS X, je le préviens de suite : la transition est trash. Très. Quand j'ai fait le switch en 2007, je n'ai pas fait dans la demi-mesure, j'ai totalement abandonné Windows, que ce soit pour le travail ou le perso. Et même ainsi il m'a fallu deux mois pour être aussi à l'aise et productif. Nous sommes tous formatés par nos habitudes, et si comme moi tu as passé ta vie sous Windows, ré-apprendre une logique et une ergonomie différente ne va pas se faire en une semaine. Tu vas souffrir, rager, hurler à l'hérésie. Il faut être un peu maso pour se lancer là dedans, ou très curieux…</p>
+
+<p>Après tu peux très bien lire cet article juste pour comprendre un peu mieux un OS qui grignotte des parts de marché à Windows ces dernières années, ou pour pouvoir me troller dans les commentaires. Let's go !</p>
+
+<h2>La barre de menus / système</h2>
+
+<p>Sous Windows ou Linux, chaque fenêtre a sa barre de menus ; si tu as 3 fenêtres affichées à l'écran, tu auras au dessus de chaque fenêtre ses menus (Fichier, Edition, etc…) ; sous Mac, la barre de menus est fixe, en haut de l'écran ; elle reprend, dans l'ordre :</p>
+
+<ol>
+<li>le menu "Pomme" qui te donne un accès rapide au gestionnaire de tâche, aux préférences systèmes et te permet d'éteindre ou de redémarrer.</li>
+<li>les menus de l'application active (celle au premier plan)</li>
+<li>une zone pour les applications qui résident en mémoire (comme la zone de notification de windows, en bas à droite de la barre de tâches)</li>
+<li>la date et l'heure (si vous les affichez)</li>
+<li>l'accès à Spotlight pour les recherches de fichier.</li>
+</ol>
+
+
+<p>C'est perturbant au départ mais on s'habitue vite, et à l'usage ça me semble un bien meilleur choix ; on gagne un peu d'espace et les menus sont toujours au même endroit, quelque soit la taille ou la position de votre fenêtre.</p>
+
+<h2>Le dock</h2>
+
+<p>C'est probablement l'élément le plus connu des Macs, ce joli menu avec ces gros icones et son effet de zoom au survol. Bah ça refoule pas mal.</p>
+
+<p>Difficile de s'en passer pour les notifications (l'icone de l'application concernée rebondit, un compteur de messages non lus s'affiche) et parce que c'est une zone de drop pratique quand tu veux ouvrir une image avec toshop, créer un mail à partir des documents à joindre, envoyer un fichier avec Transmit, etc… Difficile aussi de nier avoir joué avec les effets et passé des heures à changer les icones de mes softs pour que mon Dock soit plus mieux beau. Mais quand même, c'est GROS. Tu peux le réduire of course, mais si tu veux que ça reste lisible et utilisable, tu restes contraint de perdre au moins 70px…</p>
+
+<p>La comparaison avec Windows est compliquée ; c'est un peu un mix entre la barre de lancement rapide et la barre des tâches, mais la philosophie reste différente à cause de cette histoire de drag &amp; drop et sa fonction de notification.</p>
+
+<h2>Le Finder &amp; Quicklook</h2>
+
+<p>Le Finder, c'est un peu l'Explorer du pauvre. Pas de couper/coller, un classement alphabétique qui mélange dossiers et fichiers : on prend cher. Pour ouvrir un fichier il faut faire cmd+o ; Entrée sert à le renommer. C'est d'ailleurs la seule fonction mieux pensée que sous Windows : par défaut, le nom du fichier sans l'extension est sélectionné, ce qui rend le calvaire de tout bon glandeur - renommer les sous-titres de ses séries - bien plus simple. Les copies de fichiers sont aussi mal gérées que sous Windows, on met tout en parallèle histoire que ça rame un max, on va quand même pas créer une queue de copie pour que ça se fasse séquentiellement…</p>
+
+<p>Sous windows j'avais déjà remplacé l'explorateur par <a href="http://zabkat.com/x2lite.htm">xPlorer2 Lite</a>, avec un affichage dual pane top moumoute. Sous OS X il y a une alternative payante, par l'excellent <a href="http://twitter.com/#!/binaryage">@BinaryAge</a>, <a href="http://totalfinder.binaryage.com/">TotalFinder</a>, qui vous offre les onglets, le couper-coller, et le dual-pane. Ouf.</p>
+
+<p>Quicklook, en revanche, c'est de la bombe celesto-cosmique : dans le Finder, mais aussi à tout endroit où tu peux accéder à des fichiers, tu peux appuyer sur Espace pour avoir un aperçu du fichier en cours. Image, pdf, vidéo, mp3, xls, ... tout est supporté, l'affichage est instantantané, c'est juste formidable. Magique. Incroyable. Amazing.</p>
+
+<h2>Gestion des fenêtres, Cmd Tab, Exposé / Mission control</h2>
+
+<p>Exposé, c'est comme le Dock : tout le monde l'a vu au moins une fois, le petit gadget qui affiche toute vos fenêtres avec une animation subtile, vous permettant d'avoir une vue d'ensemble de ce qui tourne sur votre Mac et de changer d'application. Windows offre des fonctions similaires, Linux aussi. Depuis Lion, ils ont amélioré la chose avec une gestion des bureaux virtuels, et un regroupement par application. C'est sympa, mais moins rapide pour moi que le Cmd Tab (le Alt Tab de Windows).</p>
+
+<p>Le Cmd Tab, parlons en un peu ; une fonctionnalité que j'adore, la possibilité de quitter des applications. Tu presses Cmd, Tab, Tab, Q pour quitter tel programme, Tab, Tab, Q pour quitter un autre programme, Tab, et tu relaches Cmd pour arriver sur le programme qui t'intéresses. C'est très pratique, et pour moi c'est la solution magique à la grosse surprise de mes premiers jours sous OS X : quand tu cliques sur la petite croix d'un fenêtre, tu fermes la fenêtre, mais tu ne quittes pas le programme. Il faut passer par la barre de menu ou faire Cmd Q pour ça.
+Le défaut, c'est que Cmd Tab ne liste que les programmes, pas les fenêtres. Quand une application a plusieurs fenêtres, tu es fais comme un rat. Seul Exposé peut te sauver, avec sa fonction "toutes les fenêtres de l'application". En raccourci sur un bouton 4 de la souris ça le fait bien.</p>
+
+<h2>Installer une application</h2>
+
+<p>Tu télécharges un .dmg ; tu cliques dessus, il s'ouvre et révèle l'icone de l'application. Tu la glisses dans votre dossier Application, et c'est fait. Pour la désinstaller, tu la supprime. C'est simple, on a pas à cliquer sur "Suivant" 10 fois, zapper des CGU qu'on ne lit jamais, vérifier qu'il n'y a pas un spyware à décocher, etc... Et il n'y a pas de base de registre à pourrir.</p>
+
+<h2>Echanger avec Windows</h2>
+
+<p>C'est moins compliqué qu'avant, mais ça reste reloud. OS X partitionne ses disques en HTFS+, que tu ne peux lire sous Windows qu'avec MacDrive, logiciel payant (wink). OS X peut lire le FAT et le NTFS, en revanche "out of the box" il ne sait écrire que sur du FAT. Ce qui avec la limite de 4Go par fichier peut poser des soucis. Il y a un driver NTFS, <a href="http://macntfs-3g.blogspot.com/">NTFS-3G</a> qui fonctionne, mais c'est lent. Si tu t'en sers de temps à autre pour passer tes vidéos de vacances à des amis, pas de soucis ; si tu as un besoin quotidien d'écrire 30 Go de données dessus tu vas pleurer des larmes de sang.</p>
+
+<p>La gestion du réseau te permet théoriquement de simplement partager / accéder à des Macs et des Windows. Je suis peut être totalement polio, mais pour moi le réseau c'est comme les ouvertures faciles, une grosse fumisterie. Je finis toujours par m'en sortir, mais je galère tout le temps, sous Mac comme sous Windows.</p>
+
+<h2>Mail, ICal &amp; le carnet d'adresses.</h2>
+
+<p>Difficile pour moi de comparer ici, car ça dépend beaucoup de vos usages et habitudes. Je me refuse encore à passer sous Gmail, même si un bobo fan d'Apple qui milite pour son indépendance n'est pas très crédible. Sous Windows, j'ai utilisé Outlook Express il y a 10 ans, et puis Thunderbird pendant de longues années. Quelques fonctions que j'apprécie, en vrac :</p>
+
+<ul>
+<li>La gestion des pièces jointes, notamment des images ; tu as une liste déroulante pour choisir le format d'envoi, qui redimmensionne donc à la volée.</li>
+<li>Les boites aux lettres intelligentes, ça devient commun, mais je m'en sers beaucoup ; pour ceux qui ne voient pas ce que c'est, ça revient à avoir une recherche enregistrée et instantanée, par exemple pour retrouver dans un même endroit tous les mails d'un client, sans pour autant les déplacer ou les copier dans un dossier.</li>
+<li>La reconnaissance des dates, adresses et numéros dans les mails, pour créer automatiquement un contact ou un rendez-vous.</li>
+<li>Depuis Lion et iCloud, la synchronisation d'iCal et de mes contacts, transparente, entre mes deux Macs, mon iPhone et mon iPad (mon patron est formidable). Notez que la synchro avec les calendriers Google est au poil aussi.</li>
+</ul>
+
+
+<h2>TimeMachine &amp; Keychain</h2>
+
+<p>TimeMachine c'est l'outil de backup d'Apple. Comme souvent, c'est simpliste, avec une interface à la Star Wars pour neuneux, mais ça marche au poil. Il t'engueule quand tu oublies de sauvegarder, conserve au maximum les versions différentes de tes fichiers, et te sauve la vie quand tu déconnes.</p>
+
+<p>Keychain est un gestionnaire de mot de passe totalement intégré à l'OS ; tous les mots de passes que tu rentres, du wifi aux comptes mails, sont stockés dedans, ce qui te permet de vite retrouver tes petits en cas de trou de mémoire.</p>
+
+<h2>Mac ça plante pas / y a pas de virus</h2>
+
+<p>Faux. A la place des écrans bleus, les kernels panics t'offrent un message qui s'affiche en overlay, dans toutes les langues, t'invitant à redémarrer ton ordinateur. C'est très rare, mon dernier remonte à 2008 quand il y avait un problème de driver vidéo sur mon macbook. Ce qui est plus fréquent, c'est les applications. Elle ne plantent pas sous OS X, elles "quittent innopinément". La formulation est mignonnette mais ça revient au même hein. Ils sont mignonets à Cupertino.</p>
+
+<p>Pour les virus, c'est plutôt vrai, même si les premiers débarquent depuis quelques années, avec la montée en popularité de l'OS. C'est pas vraiment plus "secure" que Windows, il est juste plus intéressant de s'attaquer à 95% du marché.</p>
+
+<h2>Le carnage Lion</h2>
+
+<p>Lion, la version 10.7 de l'OS, est sorti il y a quelques mois maintenant ; c'est la seule mise à jour depuis que je suis sous OS X qui m'a bien déçu. J'ai évoqué les bons côtés plus haut, à savoir Mission Control, qui améliore un peu Exposé, et l'intégration à iCloud. Je trouve aussi le système légèrement plus rapide, et je n'ai pas eu de programmes incompatibles ou plantogènes au lancement. Il parait aussi qu'il y a des nouveautés sous le capot qui vont aider les développeurs à nous faire des softs encore plus sympas, mais c'est trop complexe pour ma petite tête.</p>
+
+<p> En revanche, Apple prend ici un gros virage foireux pour séduire ses clients iOS, et à donc mis par défaut des fonctions totalement abérantes sur un desktop :</p>
+
+<ul>
+<li>Correction automatique des fautes d'orthographes, comme sous iOS</li>
+<li>Quand tu maintiens sur une touche qui pourrait avoir un accent enfoncée, le caractère ne se répète pas ; un petit menu s'ouvre pour te proposer les accents disponible, comme sous iOS</li>
+<li>Le scrolling est inversé, pour que les utilisateurs de trackpad puissent avoir une expérience comme sous iOS</li>
+<li>ICal et Carnet d'adresses ont été re-designés avec un look simili-cuir, ça fait un peu tâche avec le reste du système très épuré et classe, mais c'est comme sous iOS.</li>
+<li>Tu as un LaunchPad qui regroupe toutes tes applications en vrac, avec de gros icones, sur plusieurs écrans, comme.... sous iOS</li>
+</ul>
+
+
+<p>Tout ça se désactive très facilement, mais c'est très surprenant / inquiétant de voir Apple, qui avait justement révolutionné le tactile en n'essayant pas de reproduire les interfaces desktop, tomber dans le piège de l'uniformisation.</p>
+
+<h2>Il est tard</h2>
+
+<p>Et il temps de conclure. J'ai essayé de présenter l'OS dans ses grandes lignes et j'ai l'impression d'avoir dit plus de mal que de bien. Je n'ai pas parlé de design, d'ergonomie et de cohérence, alors que c'est probablement le point le plus important ; je n'ai pas non plus parlé du Terminal, et de la simplicité qu'il y a configurer LAMP ou faire tourner Ruby on rails ; j'ai fait l'impasse sur les fonctions que je n'utilise pas, comme les services ou les bureaux virtuels ; je n'ai pas non plus évoqué les nombreux petits (et grands) logiciels développés par des indépendants qui partagent le souci du détail d'Apple, et qui offrent souvent des perles.</p>
+
+<p>J'aime OS X. Je sais que d'un point de vue idéologique et technique Linux est supérieur, et que d'un point de vue pratique faire la transition depuis Windows est trop lourd pour beaucoup. Tant pis.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Le coeur des pommes]]></title>
@@ -165,6 +276,9 @@ le successeur ou le concurrent.</p>
     <id>http://mouton-rebelle.github.com/blog/blog/2010/06/15/entre-les-deux-mon-coeur-balance</id>
     <content type="html"><![CDATA[<p>La guerre entre Apple (Iphone) et Google (Androïd) fait rage, et en bon geek j'ai souvent l'occasion d'en débattre avec mes amis. On me repproche souvent d'être brouillon, et d'être un gros fan boy de l'ami Stevie, aussi je vais tenter de mettre mes idées au clair en les couchant par écrit.</p>
 
+<!-- more -->
+
+
 <h2>Le matériel</h2>
 
 <p>Apple ne produit qu'un seul Iphone (même si ils écoulent les stocks des versions précédentes), aussi le choix est plus que limité. Android en revanche est un projet Open Source financé par Google et pléthore de fabricants de mobiles, le choix est donc énorme. Les deux solutions ont leurs avantages et leurs inconvénients : avec Android, vous pouvez choisir le téléphone qui vous convient le mieux suivant vos usages, vos goûts et votre budget ; l'Iphone en tant que plateforme unique favorise le travail des développeurs, et évite de fragmenter l'expérience utilisateur (telle fonction en marche pas car pas le bon matériel, telle option ne sera accessible que quand le constructeur daignera sortir sa version à jour de l'OS, etc...). Connaissant Apple, je pense qu'ils l'emportent aussi niveau finition / qualité / autonomie, sans pour autant être plus cher que les HTC équivalents.</p>
@@ -215,41 +329,195 @@ Côté Google, pas d'écho négatifs pour le moment, il faudra attendre pour voi
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Je suis un social traite]]></title>
-    <link href="http://mouton-rebelle.github.com/blog/blog/2010/04/01/je-suis-un-social-traite/"/>
-    <updated>2010-04-01T16:49:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com/blog/blog/2010/04/01/je-suis-un-social-traite</id>
-    <content type="html"><![CDATA[<h2>Was : Open source sucks.</h2>
-
-<p><em>Note : il s'agit d'un vieux post que j'avais oublié de poster, vu que personne va le lire ce n'est pas bien grave, mais je signale tout de même.</em></p>
-
-<p>Je sais, je suis à Madagascar, je pourrais poster sur des sujets plus malgaches et moins geek... Mais là j'ai un peu mal à mon éthique, et pas moyen de trouver un public sensible à ce triste constat : l'humanité est foutue. Et j'ai vu que Jp lisait ce blog depuis septembre, alors je me lance. Petit récapitulatif ? Soit. Parce que tu insistes, cher lecteur.</p>
+    <title type="html"><![CDATA[MOUTON.REBELLE]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/04/16/mouton-dot-rebelle/"/>
+    <updated>2010-04-16T00:30:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/04/16/mouton-dot-rebelle</id>
+    <content type="html"><![CDATA[<p>Après près de trois ans de déni, j'ai enfin décidé d'accepter la réalité, à
+savoir la mort de mon fils, ma bataille, <strong>mouton-rebelle.com</strong>. J'ai fermé
+les commentaires, plus rien ne sera publié, et le site a été déplacé sur
+<a href="http://archive.mouton-rebelle.com">http://archive.mouton-rebelle.com</a>. Mais
+comment tourner la page sans rendre un dernier hommage à ce projet, à cette
+époque, et surtout à tous les gens qui y ont pris part ?</p>
 
 <!-- more -->
 
 
-<p>En 2007, j'ai eu mon premier Mac. Joie de la nouveauté, bonheur que de quitter Windows, etc... Petite déception tout de même : Thunderbird bien que présent était relativement mal intégré au système, et pour me lancer pleinement dans l'aventure Apple, j'ai décidé d'utiliser leur client mail, qui s'appelle Mail. Sont pas cons chez Apple, quand même...</p>
+<p>Mouton a vu le jour en 2002 ; je travaillais à l'époque dans une SSII
+grenobloise en tant que développeur web, et cette passion pour le net me donne
+vite envie de me créer un espace d'expérimentation. Pour le nom, j'ai été
+inspiré, il me plait toujours 8 ans après, et je trouve encore que
+mouton/rebelle définit bien notre génération. Les couleurs : noir / gris pour
+le mouton, rose pour le rebelle, fond blanc. Le logo ? Un chouette mouton
+masqué dessiné par l'ami Nico. Le contenu ? Un peu de tout en fait, mouton a
+toujours été une sorte de webzine allimenté par un petit groupe d'amis,
+partageant des liens ou des humeurs, des films, des livres, de la musique, ...</p>
 
-<p>Lorsqu'on passe de Thunderbird à Mail, le premier truc qui choque, c'est l'anti-spam. Thunderbird est juste parfait à ce niveau, et quand on a 3 adresses mails qui ont toutes plus de cinq ans, c'est essentiel. Mail.app a bien une fonction anti-spam, mais elle est clairement moins puissante... Mis à part ce gros point noir (qu'on compensera avec SpamSlieve ou Popfile), on s'habitue vite à Mail, son interface étant comme souvent avec Apple bien pensée. On ne s'en rend pas forcément compte de suite, donc je ne reviendrais sur ces petits détails que plus tard, quand ils m'ont manqués...</p>
+<h2>Hall of fame</h2>
 
-<p>L'an dernier, pliant devant une charge de travail considérable, j'ai décidé d'organiser mes emails. En effet il arrivait un peu trop souvent que j'oublie de répondre à un client, et le temps passer à rechercher / trier mes mails devenait trop long. Rien de très compliqué, juste deux mots clés, @répondre et @faire, des règles et des boites aux lettres "intelligentes" pour qu'à la réception d'un email, si il concerne un dossier que je suis, il soit automatiquement marqué comme "à répondre" ; j'ai également ajouté des règles pour que les différents projets sur lesquels je travail soit identifiés par un code couleur, et tout était parfait : lors de la réception d'un mail qui concerne un projet sur lequel je suis impliqué, et il passe directement dans le dossier virtuel "@ répondre", avec une couleur pour l'identifier.
-Quand je réponds au mail, il sort de ce dossier. J'ai aussi un raccourci clavier pour le sortir si c'est un mail qui ne nécessite pas de réponse (genre "merci, t'es trop fort, j'adore ton travail"). Et enfin, pour faire bonne mesure, j'ai ajouté un badge sur l'icone de mon logiciel de messagerie et dans ma barre système pour savoir combien de mails étaient en attente de réponse. En période de bourre, c'est gratifiant de suivre ce petit compteur, et de pouvoir terminer la journée moins de 10 mails en attente d'une réponse.</p>
+<table>
+<thead>
+<tr>
+<th>Auteurs </th>
+<th> Articles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_targos_.html">targos</a> </td>
+<td> 2</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_yoda_.html">yoda</a> </td>
+<td> 3</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_schuss_.html">schuss</a> </td>
+<td> 3</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Mina_.html">mina</a> </td>
+<td> 4</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Fred-Bird_.html">fredbird</a> </td>
+<td> 4</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">john popovitch</a> </td>
+<td> 5</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_bob_.html">bob</a> </td>
+<td> 5</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_gizmo_.html">gizmo</a> </td>
+<td> 6</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_axolotl_.html">axolotl</a> </td>
+<td> 7</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_jess_.html">jess</a> </td>
+<td> 9</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_orphee_.html">orphee</a> </td>
+<td> 11</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_SAMsara_.html">SAMsara</a> </td>
+<td> 14</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Anna-Coluthe_.html">Anna Coluthe</a> </td>
+<td> 14</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_attila_.html">attila</a> </td>
+<td> 22</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_grima_.html">grima</a> </td>
+<td> 25</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_west_.html">west</a> </td>
+<td> 26</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_keraoc_.html">keraoc</a> </td>
+<td> 32</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_fab-bundy_.html">fab</a> </td>
+<td> 34</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Pedrof,32_.html">pedrof</a> </td>
+<td> 37</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_didoune_.html">didoune</a> </td>
+<td> 46</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_xnx_.html">xnx</a> </td>
+<td> 59</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_jojo_.html">jojo</a> </td>
+<td> 182</td>
+</tr>
+</tbody>
+</table>
 
-<p>Là où le bas blesse, c'est que pour arriver à ce fonctionnement dans Mail, il faut 3 plugins, payants : MailTags, MailActOn, et DockStar... Un peu de lobbying auprès de mes collègues, et hop, on fait plier mon gentil patron qui passe à la caisse. Et tout va pour le mieux pendant un an.</p>
 
-<p>Septembre 2009 : je mets à jour mon Mac, et je passe à Snow Leopard. Très bien, tout content, sauf que mes petits plugins ne marchent plus... Plein de bonne volonté karmique, je me décide à passer à Thunderbird. La version 3 vient de sortir, toute neuve toute belle, mieux intégrer à OSX, avec une gestion intégrée des mots clés. Après quelques jours de réglages et de tatonnements, je réussis à recréer à peu près le fonctionnement décris ci dessus (j'ai tout de même 32 règles de messagerie). Et j'ai tenu bon presque 3 semaines. Mais 3 semaines ne suffisent pas à oublier 2 ans d'habitudes, de confort, et tous les petits détails qui rendent Mail tellement plus agréable à utiliser. En vrac ?</p>
+<p><strong>Techniquement</strong>, le site a beaucoup évolué ; d'un CMS maison bricolé à l'arrache je suis passé à Spip, un forum PHPBB s'est vite cablé sur tout ça, puis à finir par disparaitre au profit de SPIP également (erreur) ; beaucoup de flash au départ, j'étais jeune, sous IE6, et je rigolais quand Grima et Axolotl m'engueulaient.<br/>
+<strong>Graphiquement</strong> aussi, les versions ont changés égulièrement : je vous invite <a href="http://web.archive.org/web/*/www.mouton-rebelle.com">à remonter le temps</a>. Je garde un très bon souvenir de la pinup, et de l'avant dernière itération du graphisme réalisée au côté de l'ami Fab Bundy.</p>
+
+<p>Mouton a quelque part bénéficié de l'effet réseau social avant l'heure ; les
+quelques amis du départ (Did, Fab, Nico, xNx) ont fait boule de neige,
+ramenant leurs connaissances sur le site, pour avoir au final beaucoup de
+contributeurs, très différents dans leur style et goûts. Certains postaient
+beaucoup, d'autres étaient plus actifs sur le forum / les commentaires.
+Certains écrivaient bien, d'autres pas trop trop bien, si vous voyez de qui je
+veux parler. Certains étaient tolérants, d'autres moins. Certaines se vexaient
+rapidement... C'était un petit coin de web sympa, en tout cas, même si on nous
+a souvent reproché un côté "fermé / club privé".</p>
+
+<p>A titre personnel, mouton m'a permis de rencontrer des gens formidables,
+virtuellement ou dans la vraie vie du réel ; j'ai gardé le contact avec
+certains, perdu de vue d'autres, c'est la vie, mais si jamais vous passez ici
+et lisez ces quelques lignes, sachez que j'étais ravi d'avoir croisé votre
+chemin. Séquence émotion, muisque d'ambiance, larme à l'oeil. Coupez.
+Générique.</p>
+
+<p>Ou pas. Comment terminer cet hommage autrement que par un bestof ? Impossible.
+Innimaginable. Mais juste avant, peut être faudrait-il s'interroger sur les
+causes de cette échec, avant d'en assumer l'entière responsibilité et dde se
+retirer définitivement de la vie panurgienne. Et figure ami lecteur que j'ai
+plein de réponses sur les pourquoi du comment de la fin de mouton....</p>
 
 <ul>
-<li>l'ajout de fichiers joints par glisser déposer : tellement pratique, et tellement mieux gérée. Pareil, si vous avez une image dans le presse papier et que vous la coller, Mail créera un fichier temporaire pour l'inclure dans le message. Et elle sera incluse en "inline", c'est à dire à l'endroit du mail où vous êtes actuellement. La seule façon de faire ça avec Thunderbird et d'insérer les images une par une via le menu Image, Parcourir... Autre option assez géniale : un menu dans la barre d'état pour redimensionner automatiquement les images contenu dans l'email que vous êtes en train de taper.</li>
-<li>l'inverse est vrai aussi : quand vous recevez des mails avec des pièces jointes, Mail vous les affiche directement dans le corps du mail (pour les images et les PDF au moins), ce qui permet d'avoir rapidement une idée du contenu.</li>
-<li>le champ adresse des messages : je ne sais pas trop comment c'est géré, mais Mail auto-complète intelligemment ce champ, en fonction des adresses utilisées fréquemment. Au contraire, Thunderbird te présente toujours la même liste, et si quand tu commences à taper "La" tu veux le 3° résultat, il faudra toujours choisir le 3° résultat, il ne va jamais se dire que les autres tu t'en sers moins.... Et l'auto-completion se fait sur le nom et sur l'email.</li>
-<li>l'intégration avec le reste d'OSX reste bien meilleure : une date dans un mail ? Mail vous propose de créer un évènement. Vous avez ajouté des photos à vos contact dans le carnet d'adresse ? Une vignette avec la frimousse de la personne s'affiche sur l'entête du mail.</li>
-<li>Je ne sais pas si je suis poisseux, mais j'ai toujours de temps à autre des soucis de charset avec Thunderbird (les accents qui partent en vrile avec certains destinataires), alors que sur Mail, jamais.</li>
-<li>c'est plus beau, plus stable, plus léger...</li>
+<li>En 2002, c'était encore un peu nouveau, le fait de pouvoir facilement poster / écrire sur le net ; je crois qu'on était tous excité par cette nouveauté.</li>
+<li>Les réseaux sociaux sont apparus, permettant à tout le monde d'ouvrir un blog en 2 clic, ou de partager ses photos avec énormément de monde. <a href="http://depulpeuse.mouton-rebelle.com/">Did a ouvert son blog</a>, je suis passé sur <a href="http://www.flickr.com/photos/mouton/">Flickr</a> puis j'ai créé <a href="http://ego.mouton-rebelle.com">Ego</a>, et tout le monde a été attiré par d'autres sites, d'autre moyen de partager et d'échanger. Petit à petit, les posts se sont fait moins réguliers, les visites moins nombreuses...</li>
+<li>Je n'ai jamais voulu / su assumer mon rôle de « rédacteur en chef » ; mouton acceptait tout le monde et publiait tous les posts, sans ligne éditoriale... un peu le bordel du coup, j'aurais du jouer la police / être plus exigeant mais j'aurais vexé des gens au passage...</li>
+<li>Ecrire un bon article prend du temps, le mettre en forme également ; on vieillit tous, et on semble avoir de moins en moins de temps. Ou on le prend de moins en moins, peut être...</li>
+<li>J'ai voulu changer le forum qui marchait très bien pour une solution bancale ; j'ai changé un peu trop souvent le graphisme au goût de certains ; j'ai eu l'erreur d'héberger le site chez 1&amp;1, qui nous a flingué l'encodage sur la base de donné en nous coupant le site à 2 reprises...</li>
 </ul>
 
 
-<p>Bref, voilà, c'est la fin du monde. Si même un mec cool et geek comme moi n'est pas foutu de faire le sacrifice d'utiliser des logiciels Open Source, où va-t-on ?</p>
+<p>Plein de bonnes raisons quoi... Et maintenant le best of ? Ok...</p>
+
+<ul>
+<li>27 000 visites en Août 2006, je crois que c'est le record, mais je n'ai plus les stats pour 2005...</li>
+<li>Le débat sur la <a href="http://archive.mouton-rebelle.com/+-constitution-europeene-+.html">constitution européenne</a>, avec les prises de bec de Fredbird et d'Attila, mémorables...</li>
+<li>Les textes de Didoune, avec la fameuse "polémique des <a href="http://archive.mouton-rebelle.com/19-La-galerie-de-petasses.html">pétasses</a>". Aléa de google et de ce monde de fou, le plus vu est celui qui <a href="http://archive.mouton-rebelle.com/Bon-anniversaire-Fab.html">souhaite un bon 25° anniversaire à Fab</a>.</li>
+<li>Nos participations photos pour les <a href="http://archive.mouton-rebelle.com/spip.php?page=recherche&amp;recherche=26+things">26 things</a></li>
+<li>les bandes dessinées de <a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">John Popovitch</a>, account manager. Aux dernières nouvelles il est toujours account manager, et a fini par oublié ces cas de consciences et les vaches de son pépé</li>
+<li>Le lynchage de Keraob a son arrivée, pour son orthographe et son penchant aux SMS. Puis le débat qui en a suivi sur le forum, avec une anecdote touchante de Mina qui démontrait que la qualité de l'échange ne dépendait pas forcément de la manière de s'exprimer. Tolérance \o/</li>
+<li>le lynchage de Pedrof ensuite, parce que c'était un gamin idéaliste borné horipillant convaincu que <a href="http://archive.mouton-rebelle.com/La-verite-existe-c-est-la-verite.html">la vérité existe, c'est la vérité</a></li>
+<li>Vis ma vie de geek romantique, avec <a href="http://archive.mouton-rebelle.com/Rencontre-24h-pas-comme-les-autres.html">la première érection d'Axolotl</a> et les <a href="http://archive.mouton-rebelle.com/_grima_.html">pulsions suicidaires de Grima</a></li>
+<li>un post co-écrit avec Grima, <a href="http://archive.mouton-rebelle.com/Firefox-le-navigateur-sexy.html">pour expliquer pourquoi Firefox c'est bien</a> se retrouve linké par le <a href="http://standblog.org">Standblog</a>, qui nous envoie donc plein de visiteurs.</li>
+<li>L'émulsion sympathique avec <a href="http://sh3vchenko.free.fr/chafouin/">les gars de Chafouin</a> et leurs critiques destroy qui m'<a href="http://archive.mouton-rebelle.com/Le-secret-des-poignards-volants.html">inspirèrent</a> <a href="http://archive.mouton-rebelle.com/Sympathy-for-mr-vengeance.html">parfois</a></li>
+<li>Le plaisir que j'ai pris à écrire <a href="http://archive.mouton-rebelle.com/+-joe-le-mouton-+.html">ces quelques éditos</a></li>
+<li><a href="http://archive.mouton-rebelle.com/Coma.html">Le post de xNx sur le coma</a>, qui est toujours en première page de google si on tape juste coma, qui compte moult commentaires et qui a valu à l'intéressé 2 invitations chez Delarue (et oué, passage à la TV grâce à mouton, la classe).</li>
+<li>Sûrement milles autres petits détails qui ne me reviennent pas en mémoire là tout de suite... je vais donc terminer <a href="http://cyberbobby.chez.com/klika.html">sur ça</a>, que la boucle soit bouclée.</li>
+</ul>
+
+
+<p>Voilà, je crois que c'est tout ce que j'avais à dire... rien de bien
+important, mouton était déjà mort dans les faits depuis longtemps. C'était
+chouette, merci pour tout. Je reste dans le coin, je ferais certainement
+quelque chose de cette adresse prochainement, et vous pouvez me suivre sur
+<a href="http://ego.mouton-rebelle.com/">ego</a>, sur ce <a href="http://blog.mouton-%0Arebelle.com/">blog</a> peu actif ou sur <a href="http://twitter.com/moutonrebelle">twitter</a> que
+je découvre.</p>
+
+<p>Don't stop<br/>
+The rock</p>
 ]]></content>
   </entry>
   

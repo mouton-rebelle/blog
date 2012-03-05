@@ -4,7 +4,7 @@
   <title><![CDATA[#fixme]]></title>
   <link href="http://mouton-rebelle.github.com/blog/atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com/blog/"/>
-  <updated>2012-02-15T17:55:25+01:00</updated>
+  <updated>2012-03-06T00:38:24+01:00</updated>
   <id>http://mouton-rebelle.github.com/blog/</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -12,6 +12,117 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[le coeur des pommes 2]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2/"/>
+    <updated>2011-11-23T00:26:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/11/23/le-coeur-des-pommes-2</id>
+    <content type="html"><![CDATA[<p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d&#8217;exploitation des Macs. Aujourd&#8217;hui, je vais m&#8217;attaquer à une présentation de l&#8217;OS ; elle n&#8217;a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l&#8217;OS, et de vous indiquer les grosses différences avec Windows.</p>
+
+<!-- more -->
+
+
+<p>Tant que j&#8217;y suis, si jamais ce dossier motive l&#8217;un d&#8217;entre vous à tester OS X, je le préviens de suite : la transition est trash. Très. Quand j&#8217;ai fait le switch en 2007, je n&#8217;ai pas fait dans la demi-mesure, j&#8217;ai totalement abandonné Windows, que ce soit pour le travail ou le perso. Et même ainsi il m&#8217;a fallu deux mois pour être aussi à l&#8217;aise et productif. Nous sommes tous formatés par nos habitudes, et si comme moi tu as passé ta vie sous Windows, ré-apprendre une logique et une ergonomie différente ne va pas se faire en une semaine. Tu vas souffrir, rager, hurler à l&#8217;hérésie. Il faut être un peu maso pour se lancer là dedans, ou très curieux…</p>
+
+<p>Après tu peux très bien lire cet article juste pour comprendre un peu mieux un OS qui grignotte des parts de marché à Windows ces dernières années, ou pour pouvoir me troller dans les commentaires. Let&#8217;s go !</p>
+
+<h2>La barre de menus / système</h2>
+
+<p>Sous Windows ou Linux, chaque fenêtre a sa barre de menus ; si tu as 3 fenêtres affichées à l&#8217;écran, tu auras au dessus de chaque fenêtre ses menus (Fichier, Edition, etc…) ; sous Mac, la barre de menus est fixe, en haut de l&#8217;écran ; elle reprend, dans l&#8217;ordre :</p>
+
+<ol>
+<li>le menu &#8220;Pomme&#8221; qui te donne un accès rapide au gestionnaire de tâche, aux préférences systèmes et te permet d&#8217;éteindre ou de redémarrer.</li>
+<li>les menus de l&#8217;application active (celle au premier plan)</li>
+<li>une zone pour les applications qui résident en mémoire (comme la zone de notification de windows, en bas à droite de la barre de tâches)</li>
+<li>la date et l&#8217;heure (si vous les affichez)</li>
+<li>l&#8217;accès à Spotlight pour les recherches de fichier.</li>
+</ol>
+
+
+<p>C&#8217;est perturbant au départ mais on s&#8217;habitue vite, et à l&#8217;usage ça me semble un bien meilleur choix ; on gagne un peu d&#8217;espace et les menus sont toujours au même endroit, quelque soit la taille ou la position de votre fenêtre.</p>
+
+<h2>Le dock</h2>
+
+<p>C&#8217;est probablement l&#8217;élément le plus connu des Macs, ce joli menu avec ces gros icones et son effet de zoom au survol. Bah ça refoule pas mal.</p>
+
+<p>Difficile de s&#8217;en passer pour les notifications (l&#8217;icone de l&#8217;application concernée rebondit, un compteur de messages non lus s&#8217;affiche) et parce que c&#8217;est une zone de drop pratique quand tu veux ouvrir une image avec toshop, créer un mail à partir des documents à joindre, envoyer un fichier avec Transmit, etc… Difficile aussi de nier avoir joué avec les effets et passé des heures à changer les icones de mes softs pour que mon Dock soit plus mieux beau. Mais quand même, c&#8217;est GROS. Tu peux le réduire of course, mais si tu veux que ça reste lisible et utilisable, tu restes contraint de perdre au moins 70px…</p>
+
+<p>La comparaison avec Windows est compliquée ; c&#8217;est un peu un mix entre la barre de lancement rapide et la barre des tâches, mais la philosophie reste différente à cause de cette histoire de drag &amp; drop et sa fonction de notification.</p>
+
+<h2>Le Finder &amp; Quicklook</h2>
+
+<p>Le Finder, c&#8217;est un peu l&#8217;Explorer du pauvre. Pas de couper/coller, un classement alphabétique qui mélange dossiers et fichiers : on prend cher. Pour ouvrir un fichier il faut faire cmd+o ; Entrée sert à le renommer. C&#8217;est d&#8217;ailleurs la seule fonction mieux pensée que sous Windows : par défaut, le nom du fichier sans l&#8217;extension est sélectionné, ce qui rend le calvaire de tout bon glandeur - renommer les sous-titres de ses séries - bien plus simple. Les copies de fichiers sont aussi mal gérées que sous Windows, on met tout en parallèle histoire que ça rame un max, on va quand même pas créer une queue de copie pour que ça se fasse séquentiellement…</p>
+
+<p>Sous windows j&#8217;avais déjà remplacé l&#8217;explorateur par <a href="http://zabkat.com/x2lite.htm">xPlorer2 Lite</a>, avec un affichage dual pane top moumoute. Sous OS X il y a une alternative payante, par l&#8217;excellent <a href="http://twitter.com/#!/binaryage">@BinaryAge</a>, <a href="http://totalfinder.binaryage.com/">TotalFinder</a>, qui vous offre les onglets, le couper-coller, et le dual-pane. Ouf.</p>
+
+<p>Quicklook, en revanche, c&#8217;est de la bombe celesto-cosmique : dans le Finder, mais aussi à tout endroit où tu peux accéder à des fichiers, tu peux appuyer sur Espace pour avoir un aperçu du fichier en cours. Image, pdf, vidéo, mp3, xls, &#8230; tout est supporté, l&#8217;affichage est instantantané, c&#8217;est juste formidable. Magique. Incroyable. Amazing.</p>
+
+<h2>Gestion des fenêtres, Cmd Tab, Exposé / Mission control</h2>
+
+<p>Exposé, c&#8217;est comme le Dock : tout le monde l&#8217;a vu au moins une fois, le petit gadget qui affiche toute vos fenêtres avec une animation subtile, vous permettant d&#8217;avoir une vue d&#8217;ensemble de ce qui tourne sur votre Mac et de changer d&#8217;application. Windows offre des fonctions similaires, Linux aussi. Depuis Lion, ils ont amélioré la chose avec une gestion des bureaux virtuels, et un regroupement par application. C&#8217;est sympa, mais moins rapide pour moi que le Cmd Tab (le Alt Tab de Windows).</p>
+
+<p>Le Cmd Tab, parlons en un peu ; une fonctionnalité que j&#8217;adore, la possibilité de quitter des applications. Tu presses Cmd, Tab, Tab, Q pour quitter tel programme, Tab, Tab, Q pour quitter un autre programme, Tab, et tu relaches Cmd pour arriver sur le programme qui t&#8217;intéresses. C&#8217;est très pratique, et pour moi c&#8217;est la solution magique à la grosse surprise de mes premiers jours sous OS X : quand tu cliques sur la petite croix d&#8217;un fenêtre, tu fermes la fenêtre, mais tu ne quittes pas le programme. Il faut passer par la barre de menu ou faire Cmd Q pour ça.
+Le défaut, c&#8217;est que Cmd Tab ne liste que les programmes, pas les fenêtres. Quand une application a plusieurs fenêtres, tu es fais comme un rat. Seul Exposé peut te sauver, avec sa fonction &#8220;toutes les fenêtres de l&#8217;application&#8221;. En raccourci sur un bouton 4 de la souris ça le fait bien.</p>
+
+<h2>Installer une application</h2>
+
+<p>Tu télécharges un .dmg ; tu cliques dessus, il s&#8217;ouvre et révèle l&#8217;icone de l&#8217;application. Tu la glisses dans votre dossier Application, et c&#8217;est fait. Pour la désinstaller, tu la supprime. C&#8217;est simple, on a pas à cliquer sur &#8220;Suivant&#8221; 10 fois, zapper des CGU qu&#8217;on ne lit jamais, vérifier qu&#8217;il n&#8217;y a pas un spyware à décocher, etc&#8230; Et il n&#8217;y a pas de base de registre à pourrir.</p>
+
+<h2>Echanger avec Windows</h2>
+
+<p>C&#8217;est moins compliqué qu&#8217;avant, mais ça reste reloud. OS X partitionne ses disques en HTFS+, que tu ne peux lire sous Windows qu&#8217;avec MacDrive, logiciel payant (wink). OS X peut lire le FAT et le NTFS, en revanche &#8220;out of the box&#8221; il ne sait écrire que sur du FAT. Ce qui avec la limite de 4Go par fichier peut poser des soucis. Il y a un driver NTFS, <a href="http://macntfs-3g.blogspot.com/">NTFS-3G</a> qui fonctionne, mais c&#8217;est lent. Si tu t&#8217;en sers de temps à autre pour passer tes vidéos de vacances à des amis, pas de soucis ; si tu as un besoin quotidien d&#8217;écrire 30 Go de données dessus tu vas pleurer des larmes de sang.</p>
+
+<p>La gestion du réseau te permet théoriquement de simplement partager / accéder à des Macs et des Windows. Je suis peut être totalement polio, mais pour moi le réseau c&#8217;est comme les ouvertures faciles, une grosse fumisterie. Je finis toujours par m&#8217;en sortir, mais je galère tout le temps, sous Mac comme sous Windows.</p>
+
+<h2>Mail, ICal &amp; le carnet d&#8217;adresses.</h2>
+
+<p>Difficile pour moi de comparer ici, car ça dépend beaucoup de vos usages et habitudes. Je me refuse encore à passer sous Gmail, même si un bobo fan d&#8217;Apple qui milite pour son indépendance n&#8217;est pas très crédible. Sous Windows, j&#8217;ai utilisé Outlook Express il y a 10 ans, et puis Thunderbird pendant de longues années. Quelques fonctions que j&#8217;apprécie, en vrac :</p>
+
+<ul>
+<li>La gestion des pièces jointes, notamment des images ; tu as une liste déroulante pour choisir le format d&#8217;envoi, qui redimmensionne donc à la volée.</li>
+<li>Les boites aux lettres intelligentes, ça devient commun, mais je m&#8217;en sers beaucoup ; pour ceux qui ne voient pas ce que c&#8217;est, ça revient à avoir une recherche enregistrée et instantanée, par exemple pour retrouver dans un même endroit tous les mails d&#8217;un client, sans pour autant les déplacer ou les copier dans un dossier.</li>
+<li>La reconnaissance des dates, adresses et numéros dans les mails, pour créer automatiquement un contact ou un rendez-vous.</li>
+<li>Depuis Lion et iCloud, la synchronisation d&#8217;iCal et de mes contacts, transparente, entre mes deux Macs, mon iPhone et mon iPad (mon patron est formidable). Notez que la synchro avec les calendriers Google est au poil aussi.</li>
+</ul>
+
+
+<h2>TimeMachine &amp; Keychain</h2>
+
+<p>TimeMachine c&#8217;est l&#8217;outil de backup d&#8217;Apple. Comme souvent, c&#8217;est simpliste, avec une interface à la Star Wars pour neuneux, mais ça marche au poil. Il t&#8217;engueule quand tu oublies de sauvegarder, conserve au maximum les versions différentes de tes fichiers, et te sauve la vie quand tu déconnes.</p>
+
+<p>Keychain est un gestionnaire de mot de passe totalement intégré à l&#8217;OS ; tous les mots de passes que tu rentres, du wifi aux comptes mails, sont stockés dedans, ce qui te permet de vite retrouver tes petits en cas de trou de mémoire.</p>
+
+<h2>Mac ça plante pas / y a pas de virus</h2>
+
+<p>Faux. A la place des écrans bleus, les kernels panics t&#8217;offrent un message qui s&#8217;affiche en overlay, dans toutes les langues, t&#8217;invitant à redémarrer ton ordinateur. C&#8217;est très rare, mon dernier remonte à 2008 quand il y avait un problème de driver vidéo sur mon macbook. Ce qui est plus fréquent, c&#8217;est les applications. Elle ne plantent pas sous OS X, elles &#8220;quittent innopinément&#8221;. La formulation est mignonnette mais ça revient au même hein. Ils sont mignonets à Cupertino.</p>
+
+<p>Pour les virus, c&#8217;est plutôt vrai, même si les premiers débarquent depuis quelques années, avec la montée en popularité de l&#8217;OS. C&#8217;est pas vraiment plus &#8220;secure&#8221; que Windows, il est juste plus intéressant de s&#8217;attaquer à 95% du marché.</p>
+
+<h2>Le carnage Lion</h2>
+
+<p>Lion, la version 10.7 de l&#8217;OS, est sorti il y a quelques mois maintenant ; c&#8217;est la seule mise à jour depuis que je suis sous OS X qui m&#8217;a bien déçu. J&#8217;ai évoqué les bons côtés plus haut, à savoir Mission Control, qui améliore un peu Exposé, et l&#8217;intégration à iCloud. Je trouve aussi le système légèrement plus rapide, et je n&#8217;ai pas eu de programmes incompatibles ou plantogènes au lancement. Il parait aussi qu&#8217;il y a des nouveautés sous le capot qui vont aider les développeurs à nous faire des softs encore plus sympas, mais c&#8217;est trop complexe pour ma petite tête.</p>
+
+<p> En revanche, Apple prend ici un gros virage foireux pour séduire ses clients iOS, et à donc mis par défaut des fonctions totalement abérantes sur un desktop :</p>
+
+<ul>
+<li>Correction automatique des fautes d&#8217;orthographes, comme sous iOS</li>
+<li>Quand tu maintiens sur une touche qui pourrait avoir un accent enfoncée, le caractère ne se répète pas ; un petit menu s&#8217;ouvre pour te proposer les accents disponible, comme sous iOS</li>
+<li>Le scrolling est inversé, pour que les utilisateurs de trackpad puissent avoir une expérience comme sous iOS</li>
+<li>ICal et Carnet d&#8217;adresses ont été re-designés avec un look simili-cuir, ça fait un peu tâche avec le reste du système très épuré et classe, mais c&#8217;est comme sous iOS.</li>
+<li>Tu as un LaunchPad qui regroupe toutes tes applications en vrac, avec de gros icones, sur plusieurs écrans, comme&#8230;. sous iOS</li>
+</ul>
+
+
+<p>Tout ça se désactive très facilement, mais c&#8217;est très surprenant / inquiétant de voir Apple, qui avait justement révolutionné le tactile en n&#8217;essayant pas de reproduire les interfaces desktop, tomber dans le piège de l&#8217;uniformisation.</p>
+
+<h2>Il est tard</h2>
+
+<p>Et il temps de conclure. J&#8217;ai essayé de présenter l&#8217;OS dans ses grandes lignes et j&#8217;ai l&#8217;impression d&#8217;avoir dit plus de mal que de bien. Je n&#8217;ai pas parlé de design, d&#8217;ergonomie et de cohérence, alors que c&#8217;est probablement le point le plus important ; je n&#8217;ai pas non plus parlé du Terminal, et de la simplicité qu&#8217;il y a configurer LAMP ou faire tourner Ruby on rails ; j&#8217;ai fait l&#8217;impasse sur les fonctions que je n&#8217;utilise pas, comme les services ou les bureaux virtuels ; je n&#8217;ai pas non plus évoqué les nombreux petits (et grands) logiciels développés par des indépendants qui partagent le souci du détail d&#8217;Apple, et qui offrent souvent des perles.</p>
+
+<p>J&#8217;aime OS X. Je sais que d&#8217;un point de vue idéologique et technique Linux est supérieur, et que d&#8217;un point de vue pratique faire la transition depuis Windows est trop lourd pour beaucoup. Tant pis.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Le coeur des pommes]]></title>
@@ -50,6 +161,175 @@
 <p>Le clic droit a longtemps été absent sous Mac, c&#8217;est vrai, et c&#8217;était tellement naze que c&#8217;est normal qu&#8217;on s&#8217;en moque encore. Mais bon, c&#8217;est fini depuis 2005. Il y a un clic droit sur Mac, il est même indispensable, et les souris 5 boutons sont très bien supportées…</p>
 
 <p>Voilà, on approche des 6 minutes estimées de lecture pour cet article, je pense que c&#8217;est assez pour ta capacité limitée d&#8217;attention. Je te sens toujours dubitatif ; tu pourrais effectivement passer sous OSX sans vendre un rein et en continuant de baver sur la sortie prochaine de Diablo 3, mais bon, quel intérêt ? Peut être aucun pour toi, ça dépend de ta curiosité et de tes usages… On se retrouve la semaine prochaine pour en parler ? Bisous bisous !</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[6 mois avec Symfony]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony/"/>
+    <updated>2011-09-26T18:28:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2011/09/26/6-mois-avec-symfony</id>
+    <content type="html"><![CDATA[<p>Les frameworks PHP ne manquent pas ; Symfony est l&#8217;un d&#8217;entre eux, et
+probablement pas le moins populaire. Anciennement habitué de Zend Framework,
+j&#8217;ai récemment utilisé Symfony sur deux projets. Debriefing.</p>
+
+<!-- more -->
+
+
+<h3>De quoi qu&#8217;on parle</h3>
+
+<p>Bonne question, merci, c&#8217;est toujours mieux de préciser le cadre. Si on prend
+la définition de Wikipedia, qui pour le coup me plait bien, «En programmation
+informatique, un framework est un kit de composants logiciels structurels, qui
+définissent les fondations ainsi que les grandes lignes de l&#8217;organisation de
+tout ou partie d&#8217;un logiciel». C&#8217;est tout à fait ça, des briques, du ciments,
+et quelques pistes sur comment utiliser le tout.</p>
+
+<p>Pendant quelques années, j&#8217;ai préféré utiliser un framework &#8220;maison&#8221;, en
+arguant de la parfaite adaptation à mes besoins, et d&#8217;une plus grande facilité
+à identifier les bugs. Je suis convaincu désormais que c&#8217;était une erreur, au
+moins pour deux raisons :</p>
+
+<ul>
+<li>Une communauté active sera toujours plus efficace et talentueuse pour résoudre des problèmes qu&#8217;un gars ou qu&#8217;une petite équipe dans leur coin. De plus la plupart des frameworks sont open source, et rien n&#8217;empêche de mettre les mains dans le cambouis pour faire avancer un projet dans une direction qui nous intéresse, pour combler une lacune qui nous semble cruciale, etc&#8230;</li>
+<li>Un projet développé sur un framework communautaire sera plus simple à maintenir ; si vous l&#8217;abandonnez pendant un temps, vous avez de bonnes chances pour que les briques du framework aient suivi les évolutions techno ; si un nouveau développeur doit intervenir dessus, il sera peut être déjà au courant des bases, de la logique, de l&#8217;architecture. Et dans tous les cas il pourra se former beaucoup plus facilement qu&#8217;avec un framework maison à la documentation aléatoire.</li>
+</ul>
+
+
+<p>Donc, un framework c&#8217;est un ensemble de briques et de principes et c&#8217;est
+essentiel pour tout développement d&#8217;une certaine envergure.</p>
+
+<h3>La philosophie Symfony</h3>
+
+<p>Là où certains framework (ZF par exemple) se contentent de vous offrir des
+briques, vous laissant libre de les utiliser ou non et la façon dont vous
+voulez les structurez, Symfony impose sa vision des choses et son arborescence
+de projet. Ouvertement inspiré de Rails, il repose largement sur des fichiers
+de configurations (au format YAML) et sur des générateurs de code.</p>
+
+<p>Concrètement, une fois le framework installé, vous disposez d&#8217;un outil CLI
+pour effectuer toutes les tâches répétitives classiques. Pour un nouveau
+projet, vous allez donc procéder ainsi :</p>
+
+<ol>
+<li>Paramétrage de la connexion base de données dans le fichier database.yml</li>
+<li>Création de la structure des données dans le fichier schema.yml (Symfony utilise l&#8217;ORM Doctrine, je reviendrais dessus plus tard)</li>
+<li>Génération de la base de données et des classes PHP en CLI. Vous avez désormais des classes vous permettant de manipuler vos données, du basique : $monObjet->save(), $monObjet->getNom(), etc&#8230; au nettement plus évolué avec les classes de Formulaire, permettant à Symfony de vous posez un formulaire avec validation des données en 2 lignes de code. Toutes ces classes générées sont bien sûr conçues pour être étendues.</li>
+<li>Vous allez ensuite probablement générer un contrôleur / une vue (pattern MVC), et commencer à bidouiller le fichier de configuration des routes&#8230;</li>
+</ol>
+
+
+<p>Pas besoin d&#8217;être un pro de Symfony pour voir l&#8217;intérêt d&#8217;un tel système ;
+déjà, vous écrivez beaucoup moins de code. Ensuite, si vous devez changer la
+structure des données (ce qui arrive toujours), vous avez juste à modifier le
+fichier de configuration qui décrit vos données, et Symfony ré-génère pour
+vous la base de données, les modèles et les formulaires.</p>
+
+<h3>Doctrine, l&#8217;abstraction des données</h3>
+
+<p>Je sais pas vous, mais moi on m&#8217;a toujours dit qu&#8217;il fallait bien séparer les
+données. D&#8217;abord, être indépendant d&#8217;un système de BDD, pour pouvoir passer de
+Mysql à Oracle en calquant des doigts (le truc qui n&#8217;arrive de toutes façons
+jamais&#8230;). Et ensuite pour séparer la partie &#8220;stockage&#8221; de la partie
+&#8220;logique&#8221; (data / buisness si je dis pas de conneries). L&#8217;étape suivante,
+c&#8217;est l&#8217;ORM, qui gère tout ça, avec les notions de relations entre les objets
+(un livre a un ou plusieurs auteur, un auteur a écrit un ou plusieurs livre).
+Au départ, Symfony utilisait Propel, mais depuis quelques années c&#8217;est
+Doctrine qui prend le pas&#8230;. Doctrine est une solution open source qu&#8217;on peut
+très bien utiliser indépendamment de Symfony. En revanche, l&#8217;inverse n&#8217;est pas
+vrai ; Syfmony a tellement de fonctionnalités qui reposent sur Doctrine que
+faire l&#8217;impasse dessus enleverait pratiquement tout son intérêt au framework.</p>
+
+<p>Doctrine donc, est l&#8217;ORM que Symfony utilise pour générer votre BDD et toutes
+vos classes à partir d&#8217;un bête fichier qui décrit votre schéma de données. Et
+pour cette partie, il fait un super travail. (Si je reprends mon exemple des
+livres et des auteurs, il vous rapatriera les livres sur l&#8217;objet auteur, et
+inversement ; le formulaire de saisie d&#8217;un livre vous proposera de choisir les
+auteurs, etc&#8230;).</p>
+
+<p>Où j&#8217;ai beaucoup plus de mal à apprécier Doctrine, c&#8217;est pour la partie
+interrogation des données. En effet, Doctrine impose sa vision des requêtes
+sql, avec des méthodes maison qu&#8217;on peut chainer à volonté :</p>
+
+<p><code>$q = Doctrine_Core::getTable('Element')-&gt;createQuery(); $q-&gt;addWhere('active
+= ? ',true) -&gt;orderBy('ordre DESC');</code></p>
+
+<p>Si ça convient très bien pour des requêtes simples comme l&#8217;exemple ci-dessus,
+c&#8217;est catastrophique dès qu&#8217;on a des jointures un peu complexe, ou que l&#8217;on
+veut faire des GROUP BY, obtenir un COUNT, etc&#8230; La syntaxe est lourde, ne
+permet pas de tout faire, et produit des requêtes aux performances souvent
+catastrophiques. Ma solution pour l&#8217;instant : me passer de Doctrine dans ces
+cas limites, et faire du PDO classique. Car heureusement Doctrine nous laisse
+récupérer la connexion :</p>
+
+<p><code>$conn = Doctrine_Manager::connection();</code></p>
+
+<h3>Admin Generator</h3>
+
+<p>Cette fonctionnalité est la plus montrée / vantée, car la plus simple à mettre
+en avant ; Symfony permet en quelques minutes de générer une interface
+d&#8217;administration complète, offrant toutes les fonctions CRUD. En quelques
+secondes, vous avez une interface complète avec la liste des enregistrements
+de la base, et des liens pour les supprimer, les modifier, et en créer de
+nouveau. Et même un outil pour filtrer / faire une recherche. Le tout, comme
+toujours dans Symfony, est modifiable via les fichiers de configurations Yaml,
+et sur-chargeable via un système de classe bien conçu.</p>
+
+<p>J&#8217;étais sceptique, mais cet outil répond bien à 75% des cas en l&#8217;état, et
+permet de gérer pratiquement tous les 25% restant via un peu de code bien
+placé.</p>
+
+<h3>Routing et autres fonctions clés de Symfony</h3>
+
+<p>Je termine sur les bons côtés de Symfony par un petit paragraphe en vrac ; le
+routing (mapper une url à une méthode d&#8217;un contrôleur) est très bien vu dans
+ce framework. Plus verbeux que dans ZF, il repose essentiellement sur le
+fichier de configuration routes.yml de l&#8217;application. Où c&#8217;est assez fun c&#8217;est
+qu&#8217;on peut réellement faire ce qu&#8217;on veut, pour chaque route, il n&#8217;y a pas
+besoin d&#8217;adopter un système unique pour l&#8217;application. Faire la même chose
+avec un autre outil serait certainement possible, mais beaucoup plus lourd.</p>
+
+<p>Les autres joyeusetés ? En vrac, un système de tests complet, avec génération
+automatique d&#8217;une base de test ; la facilité à insérer des fixtures dans une
+base de dev ou de test ; les commandes pour déployer / synchroniser un projet
+; des univers distincts et fonctionnels dès le départ (dev, test et prod); un
+système de vues, de partials et de componnents simple à assimiler et vraiment
+puissant ; des plugins qui s&#8217;installent en ligne de commandes&#8230; et j&#8217;oublie
+sûrement beaucoup de choses&#8230;</p>
+
+<h3>Défauts, comparaison à ZF et bilan</h3>
+
+<p>Le plus gros défaut de Symfony, c&#8217;est sa documentation&#8230; Le meilleur document
+de référence reste le tutorial Jobeet, qui couvre l&#8217;intégralité des fonctions
+du framework sur un cas concret. Très intéressant pour démarrer, cette
+solution devient catastrophique quand on cherche rapidement la description
+d&#8217;une fonctionnalité, les paramètres d&#8217;une méthodes, etc&#8230; Les recherches sur
+google sont frustrantes au possible, car on tombe le plus souvent sur des
+pages &#8220;périmées&#8221; qui traitent de Symfony 1.0 ou 1.2&#8230;</p>
+
+<p>Le Zend Framework Manual est un petit bijoux d&#8217;exhaustivité et de clarté en
+comparaison, et c&#8217;est probablement normal les deux communautés n&#8217;étant pas
+vraiment de taille comparable&#8230;</p>
+
+<p>L&#8217;autre point noir a été reconnu et est en passe d&#8217;être résolu, avec la
+version 2.0 qui devrait sortir mi-2011 ; « Too much magic », trop
+d&#8217;automatismes, et du code au final assez crade et lourd. Il est impossible de
+faire un var_dump sur un objet Symfony, l&#8217;objet est trop volumineux&#8230; Les
+variables passées aux vues sont des globales, et nom des params d&#8217;un objets
+vue. Dans le même registre, Symfony permet de générer de l&#8217;Ajax ; je vous
+encourage vivement à coder ce genre de choses à la main, c&#8217;est guère plus
+complexe, beaucoup plus propre / optimisé, et si vous vouliez faire du web
+sans avoir l&#8217;impression de faire du web vus auriez de toutes façons choisis
+des technos microsoft.</p>
+
+<p>Symfony et Zend Framework s&#8217;opposent diamétralement au niveau de la
+philosophie ; ZF vous donne une boite à outils, sans réel mode d&#8217;emploi,
+tandis que Symfony vous impose une manière de travailler, de structurer votre
+code. La courbe d&#8217;apprentissage est plus grande, et on a parfois l&#8217;impression
+de ne pas tout maitriser&#8230; Mais au final ces quelques mois m&#8217;ont laissé une
+bonne impression, et je reviendrais je pense régulièrement vers Symfony. Si
+seulement la version 2 pouvait également résoudre le souci de la
+documentation&#8230;</p>
 ]]></content>
   </entry>
   
@@ -310,11 +590,186 @@ le successeur ou le concurrent.</p>
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Dire oui aux CSS compilées]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/11/04/dire-oui-aux-css-compilees/"/>
+    <updated>2010-11-04T17:46:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/11/04/dire-oui-aux-css-compilees</id>
+    <content type="html"><![CDATA[<p>J&#8217;ai longtemps hésité à franchir le pas, ne trouvant pas vraiment de solutions à mon goût ; certaines étaient trop lourdes pour mes besoins, d&#8217;autres demandaient beaucoup de configuration à chaque nouveau projet&#8230;. jusqu&#8217;au mois dernier, où j&#8217;ai découvert <a href="http://compass-style.org">Compass</a>.</p>
+
+<!-- more -->
+
+
+<p>Compass est un outil qui interprète le langage SASS, version évoluée des CSS utilisé avec Ruby notamment ; c&#8217;est une gem Ruby, donc pour
+l&#8217;installer sous OSX, il suffit de taper sudo gem install Compass, et hop,
+vous êtes prêt. Le site explique la configuration de base, en gros il suffit
+de faire un dossier scss, où vous créerez vos styles, et dans ce dossier un
+fichier config.rb qui va donner les chemins d&#8217;accès au vrai dossier css, où
+Compass ira créer des fichiers CSS normaux, en compilant le où les fichiers
+.scss. Une fois la configuration terminée, vous lancez la commande compass
+watch /chemin/vers/mon/dossier/scss/ et vous êtes bon pour redécouvrir les
+css.</p>
+
+<p>Toute bonne feuille de style commence par un reset. Comment ça Kevin, tu sais
+pas ce qu&#8217;est un reset ? Boulet&#8230; Il s&#8217;agit juste de
+remettre la mise en page à zéro, pour éviter d&#8217;avoir des différences dues aux
+styles par défauts des différents navigateurs. Auparavant, je reprenais le
+<a href="http://meyerweb.com/eric/thoughts/2007/05/01%0A/reset-reloaded/">Css Reset Reloaded d&#8217;Eric</a>. Maintenant, je commence juste mon fichier scss par @import
+&#8216;compass/reset&#8217;;</p>
+
+<p>Le deuxième problème qu&#8217;on rencontre souvent en CSS, c&#8217;est l&#8217;absence de
+variables. Pour les couleurs, notamment, devoir récupérer à chaque fois le bon
+code couleur est une plaie. Plus maintenant, avec Compass :</p>
+
+<figure class='code'><figcaption><span>Les variables dans Sass  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nv">$couleur_titre</span><span class="o">:</span> <span class="mh">#C2FFDD</span><span class="err">;</span>
+</span><span class='line'><span class="nt">h1</span><span class="err">{</span>
+</span><span class='line'>  <span class="na">color</span><span class="o">:</span><span class="nv">$couleur_titre</span><span class="err">;</span>
+</span><span class='line'>  <span class="na">border-bottom</span><span class="o">:</span><span class="mi">2</span><span class="kt">px</span> <span class="no">solid</span> <span class="nf">darken</span><span class="p">(</span><span class="nv">$couleur_titre</span><span class="o">,</span><span class="mi">20</span><span class="kt">%</span><span class="p">)</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>On peut donc très facilement définir les couleurs utilisés, et les faire
+varier grace aux fonctions darken et lighten ; De la même
+manière, on peut définir une variable $marge, et s&#8217;en servir ensuite, avec des
+maths si l&#8217;on a envie (ex : width: 600-$marge*2 px;)</p>
+
+<p>Autre petite joyeuseté, le nesting (qui doit se traduire par imbrication), qui
+permet de taper beaucoup moins de code, et d&#8217;être plus
+lisible :</p>
+
+<figure class='code'><figcaption><span>Nesting dans Sass  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nt">a</span><span class="err">{</span>
+</span><span class='line'>  <span class="nt">text-decoration</span><span class="nd">:none</span><span class="o">;</span>
+</span><span class='line'>  <span class="nt">color</span><span class="nd">:red</span><span class="o">;</span>
+</span><span class='line'>  <span class="na">font-size</span><span class="o">:</span><span class="mi">1</span><span class="mf">.1</span><span class="kt">em</span><span class="err">;</span>
+</span><span class='line'>  <span class="nt">span</span><span class="err">{</span>
+</span><span class='line'>    <span class="nt">display</span><span class="nd">:none</span><span class="o">;</span>
+</span><span class='line'>  <span class="err">}</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:hover</span><span class="o">,</span><span class="k">&amp;</span><span class="nd">:visited:hover</span><span class="err">{</span>
+</span><span class='line'>    <span class="nt">text-decoration</span><span class="nd">:underline</span><span class="o">;</span>
+</span><span class='line'>  <span class="err">}</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:visited</span><span class="err">{</span>
+</span><span class='line'>    <span class="nt">color</span><span class="nd">:darken</span><span class="o">(</span><span class="nt">red</span><span class="o">,</span><span class="nt">30</span><span class="err">%</span><span class="o">);</span>
+</span><span class='line'>  <span class="err">}</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Les éléments imbriqués sont par défaut les descendants (dans l&#8217;exemple ci-
+dessus, on masque les spans présents dans des balises a, ce qui reviendrait à
+écrire une autre règle span a), sauf quand on précède la règle d&#8217;un &amp;, auquel
+cas on précise juste la nature de l&#8217;élément (ici, on indique que les liens
+visités sont plus sombre, ce qui revient à une nouvelle règle a:visited).
+C&#8217;est très agréable de coder ainsi, en revanche il faut prendre garde à ne pas
+abuser de cette facilité, qui peut vite conduire à ne pas bien écrire ces
+feuilles de style, en ayant des doublons, des règles &#8220;trop précises&#8221; et donc
+non réutilisables.</p>
+
+<p>Compass est également livré avec un bundle CSS3, qui vous fera gagner beaucoup
+de temps si vous commencez à faire joujou avec les arrondis, ombres et
+dégradés&#8230; Il s&#8217;importe au début du fichier css avec un @import
+&#8216;compass/css3&#8217;, et s&#8217;utilise de manière presque intuitive après quelques
+heures :</p>
+
+<figure class='code'><figcaption><span>mixins css3 dans Sass    </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">.bloc</span><span class="err">{</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> border-radius</span><span class="p">(</span><span class="mi">8</span><span class="kt">px</span><span class="p">)</span><span class="err">;</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> box-shadow</span><span class="p">()</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>En deux lignes de code, on a défini que notre bloc serait arrondi, avec une
+ombre. Lorsqu&#8217;il compile ces deux lignes, Compass les convertis en reprenant
+tous les attributs spécifiques à chaque navigateur (-moz-border-radius,
+-webkit-border-radius, etc&#8230;). Pas de coin arrondi pour IE, mais l&#8217;ombre est
+reprise avec le &#8220;filter&#8221; propriétaire. Si vous hésitez à utiliser les CSS3,
+regardez cette vidéo sur le <a href="http://www.youtube.com/watch?v=_nbWikK2nHY">progressive enhancement</a> :
+c&#8217;est assez inspirant.</p>
+
+<p>Pour aller encore plus loin avec Compass, il me faut évoquer la possibilité de
+créer des mixins, petites fonctions réutilisables pour habiller un élément. Le
+dernier site sur lequel j&#8217;ai travaillé avait une dizaine de bloc avec un fond
+dégradé, d&#8217;une couleur différente à chaque fois.</p>
+
+<figure class='code'><figcaption><span>mixins = fonctions</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="k">@mixin</span><span class="nf"> degnews</span><span class="p">(</span><span class="nv">$basecolor</span><span class="p">)</span><span class="err">{</span>
+</span><span class='line'>  <span class="na">color</span><span class="o">:</span><span class="mh">#000</span><span class="err">;</span>
+</span><span class='line'>   <span class="na">background</span><span class="o">:</span><span class="nv">$basecolor</span><span class="err">;</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> linear-gradient</span><span class="p">(</span><span class="nf">color-stops</span><span class="p">(</span><span class="nf">lighten</span><span class="p">(</span><span class="nv">$basecolor</span><span class="o">,</span><span class="mi">20</span><span class="kt">%</span><span class="p">)</span><span class="o">,</span> <span class="nv">$basecolor</span> <span class="mi">50</span><span class="kt">%</span><span class="o">,</span><span class="nf">darken</span><span class="p">(</span><span class="nv">$basecolor</span><span class="o">,</span><span class="mi">10</span><span class="kt">%</span><span class="p">)</span> <span class="mi">51</span><span class="kt">%</span><span class="o">,</span> <span class="nf">darken</span><span class="p">(</span><span class="nv">$basecolor</span><span class="o">,</span><span class="mi">25</span><span class="kt">%</span><span class="p">)))</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Une fois la fonction définie, vous pouvez la réutiliser à
+l&#8217;envie :</p>
+
+<figure class='code'><figcaption><span>utiliser un mixin</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">.bloc1</span><span class="err">{</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> degnews</span><span class="p">(</span><span class="mh">#FF3300</span><span class="p">)</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pour conclure sur les possibilités de malade offertes par ce petit bijou, il
+existe un plugin, <a href="http://www.hagenburger.net/BLOG/Lemonade-CSS-Sprites-for-Sass-Compass.html">Lemonade</a>, qui permet de générer automatiquement des sprites ; vous découpez vos images sans vous poser trop de
+questions, en PNG transparent, et ensuite vous appelez simplement background:
+sprite-image(&#8220;sprites/arrow.png&#8221;); Lemonade se charge de créer une seule image
+avec toutes les petites images qui utilisent cette fonction, et de les placer
+convenablement. En pratique c&#8217;est un peu plus complexe, mais à peine, et
+tellement plus simple que de le faire à la main&#8230;</p>
+
+<p>Je ne vois pas vraiment de raison de se priver de cet outil, c&#8217;est au final
+assez transparent, et le gain en productivité (et en plaisir) est plus que
+conséquent. Si vous n&#8217;êtes pas encore convaincus, regardez la vidéo sur le
+site de <a href="http://compass-style.org">Compass</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Entre les deux mon coeur balance]]></title>
     <link href="http://mouton-rebelle.github.com/blog/blog/2010/06/15/entre-les-deux-mon-coeur-balance/"/>
     <updated>2010-06-15T17:50:00+02:00</updated>
     <id>http://mouton-rebelle.github.com/blog/blog/2010/06/15/entre-les-deux-mon-coeur-balance</id>
     <content type="html"><![CDATA[<p>La guerre entre Apple (Iphone) et Google (Androïd) fait rage, et en bon geek j&#8217;ai souvent l&#8217;occasion d&#8217;en débattre avec mes amis. On me repproche souvent d&#8217;être brouillon, et d&#8217;être un gros fan boy de l&#8217;ami Stevie, aussi je vais tenter de mettre mes idées au clair en les couchant par écrit.</p>
+
+<!-- more -->
+
 
 <h2>Le matériel</h2>
 
@@ -362,6 +817,383 @@ Côté Google, pas d&#8217;écho négatifs pour le moment, il faudra attendre po
 <p>Pour la publicité, Google règne en maître incontesté sur le web, offrant tous ces services gratuitement pour mieux vous profiler et vendre plus cher votre temps de cerveau disponible à ses annonceurs. La publicité &#8220;à l&#8217;ancienne&#8221; marche de moins en moins bien, elle sera de plus en plus intrusive (cf. Youtube) et ciblée.</p>
 
 <p>Sur une plateforme mobile, géolocalisée, le ciblage sera encore plus précis ; imaginez une discussion à propos d&#8217;un jeu vidéo via Gmail ou GTalk, et lors d&#8217;un passage à proximité de la Fnac, votre téléphone vous signale une promotion exceptionnelle sur le jeu en question. C&#8217;est demain. Est ce que c&#8217;est grave ? Peut être pas, certains pourraient même considérer cela comme un service supplémentaire. Est ce qu&#8217;Apple ne veut pas faire la même chose ? Bien sûr que si. Ce qui me fait flipper c&#8217;est le poids financier de Google, et la main mise grandissante qu&#8217;ils ont sur notre vie numérique. Apple a peut être pris un peu d&#8217;avance sur le mobile, mais il ne faut se tromper, le nouveau Microsoft, c&#8217;est Google : le point d&#8217;entrée obligatoire pour votre vie numérique. Je crois que c&#8217;est pour ça que j&#8217;essaie de défendre l&#8217;Iphone, parce que je pense que c&#8217;est le moindre de deux maux, et que si Google remporte trop largement ce marché là, on sera vraiment en face d&#8217;un monopole dangereux. Après bien sûr, on pourrait tous être militants et s&#8217;équiper de Nokia N900 sous linux&#8230; Mais bon, faut pas déconner non plus.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[So long]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/06/04/so-long/"/>
+    <updated>2010-06-04T18:31:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/06/04/so-long</id>
+    <content type="html"><![CDATA[<p>Jack Bauer. La première fois que je l&#8217;ai croisé, c&#8217;était sur Canal+, en 2002.
+La chaine organisait un week end intégral avec les saison 1 &amp; 2, et KTV
+marchait encore du tonnerre. J&#8217;avais attaqué sans trop y croire et j&#8217;avais
+fini à 4h du mat totalement explosé et ravi. Malgré des saisons de qualité
+inégale, des intrigues souvent redondantes et maladroites, je n&#8217;ai jamais
+décroché. Petit retour sur ces 8 ans de bonheur.</p>
+
+<!-- more -->
+
+
+<p>Ce n&#8217;est pas une nouvelle pour les trois pèlerins qui lisent ce blog, je suis
+un gros consommateur de série. Il est toujours délicat de vouloir catégoriser,
+mais je tente quand même l&#8217;expérience :</p>
+
+<ul>
+<li><strong> la série comique de 20 minutes avec rire enregistrée : </strong> formule longuement éprouvée, qui donne parfois des résultats fort sympathiques (Scrubs, How I met, Big Bang Theory,&#8230; )</li>
+<li><strong> la série de 40 minutes en épisode indépendants : </strong> il y a plusieurs niveau dans cette catégorie je pense, mais le postulat de départ c&#8217;est de suivre toujours les mêmes personnages, avec à chaque épisode une histoire qui se boucle. Suivant la série, on peut avoir une trame de fond importante (Farscape, Battlestar, Deadwood, Les Sopranos, &#8230; ) ou au contraire minimale (House, Boston Legal, Les Experts, NCIS, Bones, &#8230;). Dans ce dernier cas de figure l&#8217;ordre de visionnage n&#8217;a pas trop d&#8217;importance (ce que TF1 ou M6 adorent nous rappeler en diffusant n&#8217;importe comment).</li>
+<li><strong> la série de 40 minutes où l&#8217;histoire se poursuit d&#8217;épisode en épisode : </strong> c&#8217;est un peu ma formule préféré, là où le suspense est le plus intense et l&#8217;addiction la plus forte. Dans cette catégorie je citerais The Wire, Lost, et bien sûr 24.</li>
+</ul>
+
+
+<p>24 a pris ce principe du feuilleton et l&#8217;a poussé dans ses retranchements, en
+étant la première série (et la seule à ma connaissance) à se lancer dans le
+&#8220;temps réel&#8221; : un épisode = 1 heure, 1 saison = une journée dans la vie de
+Jack. Ce pari un peu fou associé à des méthodes de productions en flux tendu
+(la fin de l&#8217;histoire n&#8217;est pas écrite quand ils commencent à tourner, le
+feedback des spectateurs influe) a conduit a de nombreuses incohérences (les
+personnages ne sont jamais à plus de 20 minutes de voiture ou d&#8217;hélico de
+l&#8217;endroit où il se rendent ; certains personnages changent totalement en cours
+de saison ; la menace qui pèse sur les états unis en début de saison se
+retrouve toujours emballé dans un complot plus grand à la fin,; la vessie de
+Jack est très probablement artificielle ; etc&#8230;</p>
+
+<p>Mais malgré les risques de l&#8217;exercice, les scénaristes ont toujours (ou
+presque, je crois me souvenir d&#8217;une très mauvaise saison 4) réussi à sortir
+une histoire à peu prêt cohérente, et terriblement prenante. Le tout bien sûr
+en mélangeant les intrigues, en racontant des histoires dans l&#8217;histoire, avec
+bien sûr du superflu pour remplir (Kim, Cheryl, vos noms seront toujours
+détestés).</p>
+
+<p>Les éléments de base de toutes saison de 24 qui se respectent sont vraiment
+légers : une menace terroriste, nucléaire ou biologique, d&#8217;origine russe ou
+musulmane, des traitres, une cellule anti-terroriste (CTU), un agent
+expérimenté et n&#8217;ayant pas peur de contourner la loi pour la bonne cause (Jack
+Baueur), le président américain et son staff&#8230; Et c&#8217;est tout. Ecrire un
+générateur de scénario pour 24 ne devrait pas être trop compliqué&#8230;</p>
+
+<p>Pourtant avec ces quelques grosses ficelles, les scénaristes ont fait des
+miracles. Pour avoir une bonne série sur cette base, il ne manquait plus qu&#8217;un
+bon casting, et ça tombe bien, 24 nous a toujours gâté à ce niveau. Face à des
+situations aussi stressantes, il fallait des acteurs capables de faire passer
+la tension, l&#8217;émotion, le poids des décisions à prendre, et globalement tous
+les acteurs ont bien rempli leur mission (les méchants musulmans étaient peut
+être un peu trop caricaturaux&#8230;).</p>
+
+<p>Le plus gros reproche que j&#8217;ai entendu sur cette série concerne son
+patriotisme, son côté américain et caricatural. D&#8217;abord, il ne faut pas perdre
+de vue que c&#8217;est un divertissement, de l&#8217;entertainement dans ce qu&#8217;il y a de
+plus basique, de plus primitif. J&#8217;ai mis longtemps à assumer, mais ce n&#8217;est
+pas vraiment un défaut. 24h n&#8217;est qu&#8217;un gros moment de bonheur, ce n&#8217;est pas
+une série dont on retirera grand chose, ni une série qui invite à réfléchir
+(je pense bien sûr à The Wire et aux Soprano). Ensuite, je trouve que malgré
+tout la série est assez nuancée et critique, et que certains points sont très
+bien vu. Il y avait président noir dans 24 bien avant Obama ; une femme à la
+présidence pour les deux dernières saisons. Quand Bush était au pouvoir, 24
+nous a offert un président républicain lâche et stupide, qui trahit son pays.
+Les méthodes douteuses de Jack (la torture) sont souvent critiqués, et de
+nombreux épisodes s&#8217;attardent sur le fait que lui aussi a du mal à vivre avec
+(mais c&#8217;est pour la bonne cause, il faut bien quelqu&#8217;un pour faire le sale
+boulot). Le racisme, la liberté de la presse, les mercenaires, le gouvernement
+américain pris au piège par ses contrats militaires avec des entreprises
+privées, tous ces sujets sont abordés de manière plutôt intelligente, pour le
+spectateur de 24 au moins :-)</p>
+
+<p>Jack est un héros, un vrai, comme on en voit rarement. La saison 8 qui vient
+de s&#8217;achever clôture joliment ses aventures, et le compte
+à rebours final m&#8217;a presque fait verser
+une larme. Si vous n&#8217;avez pas encore succombé, il n&#8217;est pas trop tard, 24 est
+une série qui mérite d&#8217;être regardée. Pour ce qu&#8217;elle est, de l&#8217;adrénaline
+numérisée. Avec un peu de testostérone.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[cinq d'un coup]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/05/09/cinq-dun-coup/"/>
+    <updated>2010-05-09T00:15:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/05/09/cinq-dun-coup</id>
+    <content type="html"><![CDATA[<p>Tel le chasseur de mouche de la légende, je viens de réaliser une série fort
+impressionnante, et pour la postérité je me devais de le consigner par écrit.
+En effet, j&#8217;ai lu cinq bons livres d&#8217;affilée. Voir très bons livres. C&#8217;est
+extrêmement rare, en général il y au moins un navet dans la liste, ou un livre
+juste sympatoche&#8230; Mais là, parcours sans faute ! Pour éviter l&#8217;accident de
+parcours involontaire, j&#8217;ai enchainé avec une bouse innommable de Connely (un
+mauvais polar qui a du donné un mauvais téléfilm). Et comme je suis cool, je
+vous livre les coupables ci dessous.</p>
+
+<h3>Dalva, de Jim Harrisson</h3>
+
+<p>J&#8217;ai découvert Harisson l&#8217;an dernier, et je suis tombé sous le charme de ses
+peintures d&#8217;une autre Amérique : l&#8217;Amérique sauvage des grands lacs, des
+ranchs, des indiens. Dalva raconte l&#8217;histoire d&#8217;une femme libre de 50 ans,
+l&#8217;histoire de sa famille, et l&#8217;Histoire des Indiens et des atrocités sur
+lesquels ce grand pays s&#8217;est construit. Comme souvent avec Harrison, c&#8217;est
+très brouillon, les personnages racontant leurs histoires à leur rythme et
+dans l&#8217;ordre où leurs souvenirs leurs reviennent. Et comme toujours, c&#8217;est
+très touchant, ça parle d&#8217;amour avec beaucoup de simplicité et de justesse, et
+ça donne envie de visiter le Michigan et d&#8217;être plus un amoureux des grands
+espaces que du cyber-espace (mais bon on se refait pas).</p>
+
+<h3>Le lièvre de Vatanen, de Arto Paasilinna</h3>
+
+<p>J&#8217;avais beaucoup entendu parler de ce livre, sans vraiment savoir de quoi il
+parlait. Aussi quand je l&#8217;ai découvert dans notre bibliothèque j&#8217;ai sauté
+dessus. C&#8217;est un roman initiatique et écolo, qui raconte l&#8217;histoire peu banale
+d&#8217;un journaliste finlandais déprimé par son quotidien triste et sans surprise
+d&#8217;occidental ; lorsqu&#8217;il heurte un lièvre en voiture, il décide de suivre
+l&#8217;animal blessé dans la forêt, et ne fait jamais demi tour ; il soigne
+l&#8217;animal qui devient le symbole de sa nouvelle vie, et tous deux s&#8217;embarquent
+pour un tour de la Finlande où ils croiseront moult personnages haut en
+couleur, et où ils vivront des aventures fort pittoresques.</p>
+
+<p>C&#8217;est un tout petit livre, une fable moderne qui se lit en quelques heures, et
+que tout le monde devrait lire (un peu à la manière de &#8220;Comment je suis devenu
+stupide&#8221;) tellement c&#8217;est rafraichissant.</p>
+
+<h3>Les poissons me regardent, Jean-Paul Dubois</h3>
+
+<p>Les héros de Dubois sont toujours déprimés. Peut être que les héros sont
+toujours déprimés, d&#8217;ailleurs ? Dans ce roman, nous avons un reporter sportif
+d&#8217;une trentaine d&#8217;années, célibataire, qui s&#8217;ennuie dans son travail et qui
+n&#8217;a pas vraiment de loisirs&#8230; Le retour de son père, qui avait disparu il y a
+plus de 15 ans lors de la mort de sa femme, va totalement bouleverser sa vie ;
+ce dernier, alcoolique exubérant et lunatique,  est en effet
+revenu pour que son fils le tue. La folie du père percute de plein fouet le
+quotidien terne du fils, et débouche sur un joyeux bordel. Drôle, poignant,
+intelligent&#8230;</p>
+
+<h3>Des villes dans la plaine, de Cormac McCarthy</h3>
+
+<p>J&#8217;ai toujours eu du mal avec le concept de &#8220;Littérature&#8221; (avec un grand L),
+les livres que j&#8217;aime sont ceux qui se lisent bien, un bon auteur pour moi est
+un auteur qui raconte bien, et rien à faire du reste&#8230; Pourtant quand j&#8217;ai lu
+ce livre, je n&#8217;ai pu qu&#8217;être impressionné par la force qui se dégage du style,
+de l&#8217;écriture de McCarthy. C&#8217;est tout sauf facile d&#8217;accès, des phrases à
+rallonge, des actions décomposés dans les moindres gestes, des dialogues qui
+n&#8217;en sont pas&#8230; mais c&#8217;est beau, et ça colle parfaitement à l&#8217;ambiance
+western / déchéance des cowboys (on retrouve un peu l&#8217;ambiance western moderne
+du film Trois Enterrement de Tommy Lee Jones). Des villes dans la plaine
+raconte l&#8217;histoire de John Grady, jeune prodige des chevaux, qui tombe
+amoureux d&#8217;une jeune prostituée mexicaine. Au programme des réjouissance, un
+musicien aveugle conseiller matrimonial, un parrain de la mafia mexicaine pas
+très avenant, un vieux rancher qui n&#8217;arrive pas à oublier la mort de sa fille,
+Bill, le pote plein de bon sens mais qui pardonne tout, des ventes aux
+enchères de chevaux, une battue organisée contre des chiens sauvages
+totalement dantesque, &#8230;</p>
+
+<p>Il faut savoir que c&#8217;est le troisième roman de la trilogie des confins ; je
+n&#8217;ai lu que celui ci mais si vous avez le choix il est sûrement mieux de
+commencer par le premier.</p>
+
+<h3>Soie, d&#8217;Alessandro Baricco</h3>
+
+<p>Je parlais de littérature à l&#8217;instant ; en commençant ce livre, au bout de 5
+lignes, je me suis dit que j&#8217;avais déjà lu un roman de cet auteur. Et après
+vérifications, &#8220;Novenceto, pianiste&#8221;, m&#8217;avait effectivement été conseillé par
+des amis il y a quelques années. Là où McCarty a un style austère et lourd,
+Baricco est au contraire dans la légèreté ; dire beaucoup avec une économie de
+mot, une simplicité qui rend ses livres si touchants. Il nous conte ici
+l&#8217;histoire d&#8217;un homme ordinaire, Hervé Joncour, originaire du Vivarais, qui se
+retrouve transformé par ses visites aux Japon pour acheter des vers à soie.
+L&#8217;histoire d&#8217;un amour improbable et impossible, avec en toile de fond
+l&#8217;industrie de la soie à la fin du 19° siècle et les changements qui secouent
+le japon.</p>
+
+<p>That&#8217;s all folks.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MOUTON.REBELLE]]></title>
+    <link href="http://mouton-rebelle.github.com/blog/blog/2010/04/16/mouton-dot-rebelle/"/>
+    <updated>2010-04-16T00:30:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com/blog/blog/2010/04/16/mouton-dot-rebelle</id>
+    <content type="html"><![CDATA[<p>Après près de trois ans de déni, j&#8217;ai enfin décidé d&#8217;accepter la réalité, à
+savoir la mort de mon fils, ma bataille, <strong>mouton-rebelle.com</strong>. J&#8217;ai fermé
+les commentaires, plus rien ne sera publié, et le site a été déplacé sur
+<a href="http://archive.mouton-rebelle.com">http://archive.mouton-rebelle.com</a>. Mais
+comment tourner la page sans rendre un dernier hommage à ce projet, à cette
+époque, et surtout à tous les gens qui y ont pris part ?</p>
+
+<!-- more -->
+
+
+<p>Mouton a vu le jour en 2002 ; je travaillais à l&#8217;époque dans une SSII
+grenobloise en tant que développeur web, et cette passion pour le net me donne
+vite envie de me créer un espace d&#8217;expérimentation. Pour le nom, j&#8217;ai été
+inspiré, il me plait toujours 8 ans après, et je trouve encore que
+mouton/rebelle définit bien notre génération. Les couleurs : noir / gris pour
+le mouton, rose pour le rebelle, fond blanc. Le logo ? Un chouette mouton
+masqué dessiné par l&#8217;ami Nico. Le contenu ? Un peu de tout en fait, mouton a
+toujours été une sorte de webzine allimenté par un petit groupe d&#8217;amis,
+partageant des liens ou des humeurs, des films, des livres, de la musique, &#8230;</p>
+
+<h2>Hall of fame</h2>
+
+<table>
+<thead>
+<tr>
+<th>Auteurs </th>
+<th> Articles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_targos_.html">targos</a> </td>
+<td> 2</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_yoda_.html">yoda</a> </td>
+<td> 3</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_schuss_.html">schuss</a> </td>
+<td> 3</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Mina_.html">mina</a> </td>
+<td> 4</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Fred-Bird_.html">fredbird</a> </td>
+<td> 4</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">john popovitch</a> </td>
+<td> 5</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_bob_.html">bob</a> </td>
+<td> 5</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_gizmo_.html">gizmo</a> </td>
+<td> 6</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_axolotl_.html">axolotl</a> </td>
+<td> 7</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_jess_.html">jess</a> </td>
+<td> 9</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_orphee_.html">orphee</a> </td>
+<td> 11</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_SAMsara_.html">SAMsara</a> </td>
+<td> 14</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Anna-Coluthe_.html">Anna Coluthe</a> </td>
+<td> 14</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_attila_.html">attila</a> </td>
+<td> 22</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_grima_.html">grima</a> </td>
+<td> 25</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_west_.html">west</a> </td>
+<td> 26</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_keraoc_.html">keraoc</a> </td>
+<td> 32</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_fab-bundy_.html">fab</a> </td>
+<td> 34</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Pedrof,32_.html">pedrof</a> </td>
+<td> 37</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_didoune_.html">didoune</a> </td>
+<td> 46</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_xnx_.html">xnx</a> </td>
+<td> 59</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_jojo_.html">jojo</a> </td>
+<td> 182</td>
+</tr>
+</tbody>
+</table>
+
+
+<p><strong>Techniquement</strong>, le site a beaucoup évolué ; d&#8217;un CMS maison bricolé à l&#8217;arrache je suis passé à Spip, un forum PHPBB s&#8217;est vite cablé sur tout ça, puis à finir par disparaitre au profit de SPIP également (erreur) ; beaucoup de flash au départ, j&#8217;étais jeune, sous IE6, et je rigolais quand Grima et Axolotl m&#8217;engueulaient.<br/>
+<strong>Graphiquement</strong> aussi, les versions ont changés égulièrement : je vous invite <a href="http://web.archive.org/web/*/www.mouton-rebelle.com">à remonter le temps</a>. Je garde un très bon souvenir de la pinup, et de l&#8217;avant dernière itération du graphisme réalisée au côté de l&#8217;ami Fab Bundy.</p>
+
+<p>Mouton a quelque part bénéficié de l&#8217;effet réseau social avant l&#8217;heure ; les
+quelques amis du départ (Did, Fab, Nico, xNx) ont fait boule de neige,
+ramenant leurs connaissances sur le site, pour avoir au final beaucoup de
+contributeurs, très différents dans leur style et goûts. Certains postaient
+beaucoup, d&#8217;autres étaient plus actifs sur le forum / les commentaires.
+Certains écrivaient bien, d&#8217;autres pas trop trop bien, si vous voyez de qui je
+veux parler. Certains étaient tolérants, d&#8217;autres moins. Certaines se vexaient
+rapidement&#8230; C&#8217;était un petit coin de web sympa, en tout cas, même si on nous
+a souvent reproché un côté &#8220;fermé / club privé&#8221;.</p>
+
+<p>A titre personnel, mouton m&#8217;a permis de rencontrer des gens formidables,
+virtuellement ou dans la vraie vie du réel ; j&#8217;ai gardé le contact avec
+certains, perdu de vue d&#8217;autres, c&#8217;est la vie, mais si jamais vous passez ici
+et lisez ces quelques lignes, sachez que j&#8217;étais ravi d&#8217;avoir croisé votre
+chemin. Séquence émotion, muisque d&#8217;ambiance, larme à l&#8217;oeil. Coupez.
+Générique.</p>
+
+<p>Ou pas. Comment terminer cet hommage autrement que par un bestof ? Impossible.
+Innimaginable. Mais juste avant, peut être faudrait-il s&#8217;interroger sur les
+causes de cette échec, avant d&#8217;en assumer l&#8217;entière responsibilité et dde se
+retirer définitivement de la vie panurgienne. Et figure ami lecteur que j&#8217;ai
+plein de réponses sur les pourquoi du comment de la fin de mouton&#8230;.</p>
+
+<ul>
+<li>En 2002, c&#8217;était encore un peu nouveau, le fait de pouvoir facilement poster / écrire sur le net ; je crois qu&#8217;on était tous excité par cette nouveauté.</li>
+<li>Les réseaux sociaux sont apparus, permettant à tout le monde d&#8217;ouvrir un blog en 2 clic, ou de partager ses photos avec énormément de monde. <a href="http://depulpeuse.mouton-rebelle.com/">Did a ouvert son blog</a>, je suis passé sur <a href="http://www.flickr.com/photos/mouton/">Flickr</a> puis j&#8217;ai créé <a href="http://ego.mouton-rebelle.com">Ego</a>, et tout le monde a été attiré par d&#8217;autres sites, d&#8217;autre moyen de partager et d&#8217;échanger. Petit à petit, les posts se sont fait moins réguliers, les visites moins nombreuses&#8230;</li>
+<li>Je n&#8217;ai jamais voulu / su assumer mon rôle de « rédacteur en chef » ; mouton acceptait tout le monde et publiait tous les posts, sans ligne éditoriale&#8230; un peu le bordel du coup, j&#8217;aurais du jouer la police / être plus exigeant mais j&#8217;aurais vexé des gens au passage&#8230;</li>
+<li>Ecrire un bon article prend du temps, le mettre en forme également ; on vieillit tous, et on semble avoir de moins en moins de temps. Ou on le prend de moins en moins, peut être&#8230;</li>
+<li>J&#8217;ai voulu changer le forum qui marchait très bien pour une solution bancale ; j&#8217;ai changé un peu trop souvent le graphisme au goût de certains ; j&#8217;ai eu l&#8217;erreur d&#8217;héberger le site chez 1&amp;1, qui nous a flingué l&#8217;encodage sur la base de donné en nous coupant le site à 2 reprises&#8230;</li>
+</ul>
+
+
+<p>Plein de bonnes raisons quoi&#8230; Et maintenant le best of ? Ok&#8230;</p>
+
+<ul>
+<li>27 000 visites en Août 2006, je crois que c&#8217;est le record, mais je n&#8217;ai plus les stats pour 2005&#8230;</li>
+<li>Le débat sur la <a href="http://archive.mouton-rebelle.com/+-constitution-europeene-+.html">constitution européenne</a>, avec les prises de bec de Fredbird et d&#8217;Attila, mémorables&#8230;</li>
+<li>Les textes de Didoune, avec la fameuse &#8220;polémique des <a href="http://archive.mouton-rebelle.com/19-La-galerie-de-petasses.html">pétasses</a>&#8221;. Aléa de google et de ce monde de fou, le plus vu est celui qui <a href="http://archive.mouton-rebelle.com/Bon-anniversaire-Fab.html">souhaite un bon 25° anniversaire à Fab</a>.</li>
+<li>Nos participations photos pour les <a href="http://archive.mouton-rebelle.com/spip.php?page=recherche&amp;recherche=26+things">26 things</a></li>
+<li>les bandes dessinées de <a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">John Popovitch</a>, account manager. Aux dernières nouvelles il est toujours account manager, et a fini par oublié ces cas de consciences et les vaches de son pépé</li>
+<li>Le lynchage de Keraob a son arrivée, pour son orthographe et son penchant aux SMS. Puis le débat qui en a suivi sur le forum, avec une anecdote touchante de Mina qui démontrait que la qualité de l&#8217;échange ne dépendait pas forcément de la manière de s&#8217;exprimer. Tolérance \o/</li>
+<li>le lynchage de Pedrof ensuite, parce que c&#8217;était un gamin idéaliste borné horipillant convaincu que <a href="http://archive.mouton-rebelle.com/La-verite-existe-c-est-la-verite.html">la vérité existe, c&#8217;est la vérité</a></li>
+<li>Vis ma vie de geek romantique, avec <a href="http://archive.mouton-rebelle.com/Rencontre-24h-pas-comme-les-autres.html">la première érection d&#8217;Axolotl</a> et les <a href="http://archive.mouton-rebelle.com/_grima_.html">pulsions suicidaires de Grima</a></li>
+<li>un post co-écrit avec Grima, <a href="http://archive.mouton-rebelle.com/Firefox-le-navigateur-sexy.html">pour expliquer pourquoi Firefox c&#8217;est bien</a> se retrouve linké par le <a href="http://standblog.org">Standblog</a>, qui nous envoie donc plein de visiteurs.</li>
+<li>L&#8217;émulsion sympathique avec <a href="http://sh3vchenko.free.fr/chafouin/">les gars de Chafouin</a> et leurs critiques destroy qui m&#8217;<a href="http://archive.mouton-rebelle.com/Le-secret-des-poignards-volants.html">inspirèrent</a> <a href="http://archive.mouton-rebelle.com/Sympathy-for-mr-vengeance.html">parfois</a></li>
+<li>Le plaisir que j&#8217;ai pris à écrire <a href="http://archive.mouton-rebelle.com/+-joe-le-mouton-+.html">ces quelques éditos</a></li>
+<li><a href="http://archive.mouton-rebelle.com/Coma.html">Le post de xNx sur le coma</a>, qui est toujours en première page de google si on tape juste coma, qui compte moult commentaires et qui a valu à l&#8217;intéressé 2 invitations chez Delarue (et oué, passage à la TV grâce à mouton, la classe).</li>
+<li>Sûrement milles autres petits détails qui ne me reviennent pas en mémoire là tout de suite&#8230; je vais donc terminer <a href="http://cyberbobby.chez.com/klika.html">sur ça</a>, que la boucle soit bouclée.</li>
+</ul>
+
+
+<p>Voilà, je crois que c&#8217;est tout ce que j&#8217;avais à dire&#8230; rien de bien
+important, mouton était déjà mort dans les faits depuis longtemps. C&#8217;était
+chouette, merci pour tout. Je reste dans le coin, je ferais certainement
+quelque chose de cette adresse prochainement, et vous pouvez me suivre sur
+<a href="http://ego.mouton-rebelle.com/">ego</a>, sur ce <a href="http://blog.mouton-%0Arebelle.com/">blog</a> peu actif ou sur <a href="http://twitter.com/moutonrebelle">twitter</a> que
+je découvre.</p>
+
+<p>Don&#8217;t stop<br/>
+The rock</p>
 ]]></content>
   </entry>
   
