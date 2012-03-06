@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: css | #fixme]]></title>
+  <link href="http://mouton-rebelle.github.com///categories/css/atom.xml" rel="self"/>
+  <link href="http://mouton-rebelle.github.com//"/>
+  <updated>2012-03-06T14:17:46+01:00</updated>
+  <id>http://mouton-rebelle.github.com//</id>
+  <author>
+    <name><![CDATA[Cédric Fontaine]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dire oui aux CSS compilées]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/11/04/dire-oui-aux-css-compilees/"/>
+    <updated>2010-11-04T17:46:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/11/04/dire-oui-aux-css-compilees</id>
+    <content type="html"><![CDATA[<p>J'ai longtemps hésité à franchir le pas, ne trouvant pas vraiment de solutions à mon goût ; certaines étaient trop lourdes pour mes besoins, d'autres demandaient beaucoup de configuration à chaque nouveau projet.... jusqu'au mois dernier, où j'ai découvert <a href="http://compass-style.org">Compass</a>.</p>
+
+<!-- more -->
+
+
+<p>Compass est un outil qui interprète le langage SASS, version évoluée des CSS utilisé avec Ruby notamment ; c'est une gem Ruby, donc pour
+l'installer sous OSX, il suffit de taper sudo gem install Compass, et hop,
+vous êtes prêt. Le site explique la configuration de base, en gros il suffit
+de faire un dossier scss, où vous créerez vos styles, et dans ce dossier un
+fichier config.rb qui va donner les chemins d'accès au vrai dossier css, où
+Compass ira créer des fichiers CSS normaux, en compilant le où les fichiers
+.scss. Une fois la configuration terminée, vous lancez la commande compass
+watch /chemin/vers/mon/dossier/scss/ et vous êtes bon pour redécouvrir les
+css.</p>
+
+<p>Toute bonne feuille de style commence par un reset. Comment ça Kevin, tu sais
+pas ce qu'est un reset ? Boulet... Il s'agit juste de
+remettre la mise en page à zéro, pour éviter d'avoir des différences dues aux
+styles par défauts des différents navigateurs. Auparavant, je reprenais le
+<a href="http://meyerweb.com/eric/thoughts/2007/05/01%0A/reset-reloaded/">Css Reset Reloaded d'Eric</a>. Maintenant, je commence juste mon fichier scss par @import
+'compass/reset';</p>
+
+<p>Le deuxième problème qu'on rencontre souvent en CSS, c'est l'absence de
+variables. Pour les couleurs, notamment, devoir récupérer à chaque fois le bon
+code couleur est une plaie. Plus maintenant, avec Compass :</p>
+
+<p><code>sass Les variables dans Sass  
+$couleur_titre: #C2FFDD;
+h1{
+  color:$couleur_titre;
+  border-bottom:2px solid darken($couleur_titre,20%);
+}
+</code></p>
+
+<p>On peut donc très facilement définir les couleurs utilisés, et les faire
+varier grace aux fonctions darken et lighten ; De la même
+manière, on peut définir une variable $marge, et s'en servir ensuite, avec des
+maths si l'on a envie (ex : width: 600-$marge*2 px;)</p>
+
+<p>Autre petite joyeuseté, le nesting (qui doit se traduire par imbrication), qui
+permet de taper beaucoup moins de code, et d'être plus
+lisible :</p>
+
+<p>``` sass Nesting dans Sass<br/>
+a{
+  text-decoration:none;
+  color:red;
+  font-size:1.1em;
+  span{</p>
+
+<pre><code>display:none;
+</code></pre>
+
+<p>  }
+  &amp;:hover,&amp;:visited:hover{</p>
+
+<pre><code>text-decoration:underline;
+</code></pre>
+
+<p>  }
+  &amp;:visited{</p>
+
+<pre><code>color:darken(red,30%);
+</code></pre>
+
+<p>  }
+}
+```</p>
+
+<p>Les éléments imbriqués sont par défaut les descendants (dans l'exemple ci-
+dessus, on masque les spans présents dans des balises a, ce qui reviendrait à
+écrire une autre règle span a), sauf quand on précède la règle d'un &amp;, auquel
+cas on précise juste la nature de l'élément (ici, on indique que les liens
+visités sont plus sombre, ce qui revient à une nouvelle règle a:visited).
+C'est très agréable de coder ainsi, en revanche il faut prendre garde à ne pas
+abuser de cette facilité, qui peut vite conduire à ne pas bien écrire ces
+feuilles de style, en ayant des doublons, des règles "trop précises" et donc
+non réutilisables.</p>
+
+<p>Compass est également livré avec un bundle CSS3, qui vous fera gagner beaucoup
+de temps si vous commencez à faire joujou avec les arrondis, ombres et
+dégradés... Il s'importe au début du fichier css avec un @import
+'compass/css3', et s'utilise de manière presque intuitive après quelques
+heures :</p>
+
+<p><code>sass mixins css3 dans Sass    
+.bloc{
+  @include border-radius(8px);
+  @include box-shadow();
+}
+</code></p>
+
+<p>En deux lignes de code, on a défini que notre bloc serait arrondi, avec une
+ombre. Lorsqu'il compile ces deux lignes, Compass les convertis en reprenant
+tous les attributs spécifiques à chaque navigateur (-moz-border-radius,
+-webkit-border-radius, etc...). Pas de coin arrondi pour IE, mais l'ombre est
+reprise avec le "filter" propriétaire. Si vous hésitez à utiliser les CSS3,
+regardez cette vidéo sur le <a href="http://www.youtube.com/watch?v=_nbWikK2nHY">progressive enhancement</a> :
+c'est assez inspirant.</p>
+
+<p>Pour aller encore plus loin avec Compass, il me faut évoquer la possibilité de
+créer des mixins, petites fonctions réutilisables pour habiller un élément. Le
+dernier site sur lequel j'ai travaillé avait une dizaine de bloc avec un fond
+dégradé, d'une couleur différente à chaque fois.</p>
+
+<p><code>sass mixins = fonctions
+@mixin degnews($basecolor){
+  color:#000;
+   background:$basecolor;
+  @include linear-gradient(color-stops(lighten($basecolor,20%), $basecolor 50%,darken($basecolor,10%) 51%, darken($basecolor,25%)));
+}
+</code></p>
+
+<p>Une fois la fonction définie, vous pouvez la réutiliser à
+l'envie :</p>
+
+<p><code>sass utiliser un mixin
+.bloc1{
+  @include degnews(#FF3300);
+}
+</code></p>
+
+<p>Pour conclure sur les possibilités de malade offertes par ce petit bijou, il
+existe un plugin, <a href="http://www.hagenburger.net/BLOG/Lemonade-CSS-Sprites-for-Sass-Compass.html">Lemonade</a>, qui permet de générer automatiquement des sprites ; vous découpez vos images sans vous poser trop de
+questions, en PNG transparent, et ensuite vous appelez simplement background:
+sprite-image("sprites/arrow.png"); Lemonade se charge de créer une seule image
+avec toutes les petites images qui utilisent cette fonction, et de les placer
+convenablement. En pratique c'est un peu plus complexe, mais à peine, et
+tellement plus simple que de le faire à la main...</p>
+
+<p>Je ne vois pas vraiment de raison de se priver de cet outil, c'est au final
+assez transparent, et le gain en productivité (et en plaisir) est plus que
+conséquent. Si vous n'êtes pas encore convaincus, regardez la vidéo sur le
+site de <a href="http://compass-style.org">Compass</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

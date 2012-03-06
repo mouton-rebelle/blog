@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[#fixme]]></title>
+  <link href="http://mouton-rebelle.github.com//atom.xml" rel="self"/>
+  <link href="http://mouton-rebelle.github.com//"/>
+  <updated>2012-03-06T14:17:46+01:00</updated>
+  <id>http://mouton-rebelle.github.com//</id>
+  <author>
+    <name><![CDATA[Cédric Fontaine]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[le coeur des pommes 2]]></title>
+    <link href="http://mouton-rebelle.github.com//2011/11/23/le-coeur-des-pommes-2/"/>
+    <updated>2011-11-23T00:26:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com//2011/11/23/le-coeur-des-pommes-2</id>
+    <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/11/23/le-coeur-des-pommes-2/">le blog du captain web</a></p></blockquote>
+
+<p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d&#8217;exploitation des Macs. Aujourd&#8217;hui, je vais m&#8217;attaquer à une présentation de l&#8217;OS ; elle n&#8217;a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l&#8217;OS, et de vous indiquer les grosses différences avec Windows.</p>
+
+<!-- more -->
+
+
+<p>Tant que j&#8217;y suis, si jamais ce dossier motive l&#8217;un d&#8217;entre vous à tester OS X, je le préviens de suite : la transition est trash. Très. Quand j&#8217;ai fait le switch en 2007, je n&#8217;ai pas fait dans la demi-mesure, j&#8217;ai totalement abandonné Windows, que ce soit pour le travail ou le perso. Et même ainsi il m&#8217;a fallu deux mois pour être aussi à l&#8217;aise et productif. Nous sommes tous formatés par nos habitudes, et si comme moi tu as passé ta vie sous Windows, ré-apprendre une logique et une ergonomie différente ne va pas se faire en une semaine. Tu vas souffrir, rager, hurler à l&#8217;hérésie. Il faut être un peu maso pour se lancer là dedans, ou très curieux…</p>
+
+<p>Après tu peux très bien lire cet article juste pour comprendre un peu mieux un OS qui grignotte des parts de marché à Windows ces dernières années, ou pour pouvoir me troller dans les commentaires. Let&#8217;s go !</p>
+
+<h2>La barre de menus / système</h2>
+
+<p>Sous Windows ou Linux, chaque fenêtre a sa barre de menus ; si tu as 3 fenêtres affichées à l&#8217;écran, tu auras au dessus de chaque fenêtre ses menus (Fichier, Edition, etc…) ; sous Mac, la barre de menus est fixe, en haut de l&#8217;écran ; elle reprend, dans l&#8217;ordre :</p>
+
+<ol>
+<li>le menu &#8220;Pomme&#8221; qui te donne un accès rapide au gestionnaire de tâche, aux préférences systèmes et te permet d&#8217;éteindre ou de redémarrer.</li>
+<li>les menus de l&#8217;application active (celle au premier plan)</li>
+<li>une zone pour les applications qui résident en mémoire (comme la zone de notification de windows, en bas à droite de la barre de tâches)</li>
+<li>la date et l&#8217;heure (si vous les affichez)</li>
+<li>l&#8217;accès à Spotlight pour les recherches de fichier.</li>
+</ol>
+
+
+<p>C&#8217;est perturbant au départ mais on s&#8217;habitue vite, et à l&#8217;usage ça me semble un bien meilleur choix ; on gagne un peu d&#8217;espace et les menus sont toujours au même endroit, quelque soit la taille ou la position de votre fenêtre.</p>
+
+<h2>Le dock</h2>
+
+<p>C&#8217;est probablement l&#8217;élément le plus connu des Macs, ce joli menu avec ces gros icones et son effet de zoom au survol. Bah ça refoule pas mal.</p>
+
+<p>Difficile de s&#8217;en passer pour les notifications (l&#8217;icone de l&#8217;application concernée rebondit, un compteur de messages non lus s&#8217;affiche) et parce que c&#8217;est une zone de drop pratique quand tu veux ouvrir une image avec toshop, créer un mail à partir des documents à joindre, envoyer un fichier avec Transmit, etc… Difficile aussi de nier avoir joué avec les effets et passé des heures à changer les icones de mes softs pour que mon Dock soit plus mieux beau. Mais quand même, c&#8217;est GROS. Tu peux le réduire of course, mais si tu veux que ça reste lisible et utilisable, tu restes contraint de perdre au moins 70px…</p>
+
+<p>La comparaison avec Windows est compliquée ; c&#8217;est un peu un mix entre la barre de lancement rapide et la barre des tâches, mais la philosophie reste différente à cause de cette histoire de drag &amp; drop et sa fonction de notification.</p>
+
+<h2>Le Finder &amp; Quicklook</h2>
+
+<p>Le Finder, c&#8217;est un peu l&#8217;Explorer du pauvre. Pas de couper/coller, un classement alphabétique qui mélange dossiers et fichiers : on prend cher. Pour ouvrir un fichier il faut faire cmd+o ; Entrée sert à le renommer. C&#8217;est d&#8217;ailleurs la seule fonction mieux pensée que sous Windows : par défaut, le nom du fichier sans l&#8217;extension est sélectionné, ce qui rend le calvaire de tout bon glandeur - renommer les sous-titres de ses séries - bien plus simple. Les copies de fichiers sont aussi mal gérées que sous Windows, on met tout en parallèle histoire que ça rame un max, on va quand même pas créer une queue de copie pour que ça se fasse séquentiellement…</p>
+
+<p>Sous windows j&#8217;avais déjà remplacé l&#8217;explorateur par <a href="http://zabkat.com/x2lite.htm">xPlorer2 Lite</a>, avec un affichage dual pane top moumoute. Sous OS X il y a une alternative payante, par l&#8217;excellent <a href="http://twitter.com/#!/binaryage">@BinaryAge</a>, <a href="http://totalfinder.binaryage.com/">TotalFinder</a>, qui vous offre les onglets, le couper-coller, et le dual-pane. Ouf.</p>
+
+<p>Quicklook, en revanche, c&#8217;est de la bombe celesto-cosmique : dans le Finder, mais aussi à tout endroit où tu peux accéder à des fichiers, tu peux appuyer sur Espace pour avoir un aperçu du fichier en cours. Image, pdf, vidéo, mp3, xls, &#8230; tout est supporté, l&#8217;affichage est instantantané, c&#8217;est juste formidable. Magique. Incroyable. Amazing.</p>
+
+<h2>Gestion des fenêtres, Cmd Tab, Exposé / Mission control</h2>
+
+<p>Exposé, c&#8217;est comme le Dock : tout le monde l&#8217;a vu au moins une fois, le petit gadget qui affiche toute vos fenêtres avec une animation subtile, vous permettant d&#8217;avoir une vue d&#8217;ensemble de ce qui tourne sur votre Mac et de changer d&#8217;application. Windows offre des fonctions similaires, Linux aussi. Depuis Lion, ils ont amélioré la chose avec une gestion des bureaux virtuels, et un regroupement par application. C&#8217;est sympa, mais moins rapide pour moi que le Cmd Tab (le Alt Tab de Windows).</p>
+
+<p>Le Cmd Tab, parlons en un peu ; une fonctionnalité que j&#8217;adore, la possibilité de quitter des applications. Tu presses Cmd, Tab, Tab, Q pour quitter tel programme, Tab, Tab, Q pour quitter un autre programme, Tab, et tu relaches Cmd pour arriver sur le programme qui t&#8217;intéresses. C&#8217;est très pratique, et pour moi c&#8217;est la solution magique à la grosse surprise de mes premiers jours sous OS X : quand tu cliques sur la petite croix d&#8217;un fenêtre, tu fermes la fenêtre, mais tu ne quittes pas le programme. Il faut passer par la barre de menu ou faire Cmd Q pour ça.
+Le défaut, c&#8217;est que Cmd Tab ne liste que les programmes, pas les fenêtres. Quand une application a plusieurs fenêtres, tu es fais comme un rat. Seul Exposé peut te sauver, avec sa fonction &#8220;toutes les fenêtres de l&#8217;application&#8221;. En raccourci sur un bouton 4 de la souris ça le fait bien.</p>
+
+<h2>Installer une application</h2>
+
+<p>Tu télécharges un .dmg ; tu cliques dessus, il s&#8217;ouvre et révèle l&#8217;icone de l&#8217;application. Tu la glisses dans votre dossier Application, et c&#8217;est fait. Pour la désinstaller, tu la supprime. C&#8217;est simple, on a pas à cliquer sur &#8220;Suivant&#8221; 10 fois, zapper des CGU qu&#8217;on ne lit jamais, vérifier qu&#8217;il n&#8217;y a pas un spyware à décocher, etc&#8230; Et il n&#8217;y a pas de base de registre à pourrir.</p>
+
+<h2>Echanger avec Windows</h2>
+
+<p>C&#8217;est moins compliqué qu&#8217;avant, mais ça reste reloud. OS X partitionne ses disques en HTFS+, que tu ne peux lire sous Windows qu&#8217;avec MacDrive, logiciel payant (wink). OS X peut lire le FAT et le NTFS, en revanche &#8220;out of the box&#8221; il ne sait écrire que sur du FAT. Ce qui avec la limite de 4Go par fichier peut poser des soucis. Il y a un driver NTFS, <a href="http://macntfs-3g.blogspot.com/">NTFS-3G</a> qui fonctionne, mais c&#8217;est lent. Si tu t&#8217;en sers de temps à autre pour passer tes vidéos de vacances à des amis, pas de soucis ; si tu as un besoin quotidien d&#8217;écrire 30 Go de données dessus tu vas pleurer des larmes de sang.</p>
+
+<p>La gestion du réseau te permet théoriquement de simplement partager / accéder à des Macs et des Windows. Je suis peut être totalement polio, mais pour moi le réseau c&#8217;est comme les ouvertures faciles, une grosse fumisterie. Je finis toujours par m&#8217;en sortir, mais je galère tout le temps, sous Mac comme sous Windows.</p>
+
+<h2>Mail, ICal &amp; le carnet d&#8217;adresses.</h2>
+
+<p>Difficile pour moi de comparer ici, car ça dépend beaucoup de vos usages et habitudes. Je me refuse encore à passer sous Gmail, même si un bobo fan d&#8217;Apple qui milite pour son indépendance n&#8217;est pas très crédible. Sous Windows, j&#8217;ai utilisé Outlook Express il y a 10 ans, et puis Thunderbird pendant de longues années. Quelques fonctions que j&#8217;apprécie, en vrac :</p>
+
+<ul>
+<li>La gestion des pièces jointes, notamment des images ; tu as une liste déroulante pour choisir le format d&#8217;envoi, qui redimmensionne donc à la volée.</li>
+<li>Les boites aux lettres intelligentes, ça devient commun, mais je m&#8217;en sers beaucoup ; pour ceux qui ne voient pas ce que c&#8217;est, ça revient à avoir une recherche enregistrée et instantanée, par exemple pour retrouver dans un même endroit tous les mails d&#8217;un client, sans pour autant les déplacer ou les copier dans un dossier.</li>
+<li>La reconnaissance des dates, adresses et numéros dans les mails, pour créer automatiquement un contact ou un rendez-vous.</li>
+<li>Depuis Lion et iCloud, la synchronisation d&#8217;iCal et de mes contacts, transparente, entre mes deux Macs, mon iPhone et mon iPad (mon patron est formidable). Notez que la synchro avec les calendriers Google est au poil aussi.</li>
+</ul>
+
+
+<h2>TimeMachine &amp; Keychain</h2>
+
+<p>TimeMachine c&#8217;est l&#8217;outil de backup d&#8217;Apple. Comme souvent, c&#8217;est simpliste, avec une interface à la Star Wars pour neuneux, mais ça marche au poil. Il t&#8217;engueule quand tu oublies de sauvegarder, conserve au maximum les versions différentes de tes fichiers, et te sauve la vie quand tu déconnes.</p>
+
+<p>Keychain est un gestionnaire de mot de passe totalement intégré à l&#8217;OS ; tous les mots de passes que tu rentres, du wifi aux comptes mails, sont stockés dedans, ce qui te permet de vite retrouver tes petits en cas de trou de mémoire.</p>
+
+<h2>Mac ça plante pas / y a pas de virus</h2>
+
+<p>Faux. A la place des écrans bleus, les kernels panics t&#8217;offrent un message qui s&#8217;affiche en overlay, dans toutes les langues, t&#8217;invitant à redémarrer ton ordinateur. C&#8217;est très rare, mon dernier remonte à 2008 quand il y avait un problème de driver vidéo sur mon macbook. Ce qui est plus fréquent, c&#8217;est les applications. Elle ne plantent pas sous OS X, elles &#8220;quittent innopinément&#8221;. La formulation est mignonnette mais ça revient au même hein. Ils sont mignonets à Cupertino.</p>
+
+<p>Pour les virus, c&#8217;est plutôt vrai, même si les premiers débarquent depuis quelques années, avec la montée en popularité de l&#8217;OS. C&#8217;est pas vraiment plus &#8220;secure&#8221; que Windows, il est juste plus intéressant de s&#8217;attaquer à 95% du marché.</p>
+
+<h2>Le carnage Lion</h2>
+
+<p>Lion, la version 10.7 de l&#8217;OS, est sorti il y a quelques mois maintenant ; c&#8217;est la seule mise à jour depuis que je suis sous OS X qui m&#8217;a bien déçu. J&#8217;ai évoqué les bons côtés plus haut, à savoir Mission Control, qui améliore un peu Exposé, et l&#8217;intégration à iCloud. Je trouve aussi le système légèrement plus rapide, et je n&#8217;ai pas eu de programmes incompatibles ou plantogènes au lancement. Il parait aussi qu&#8217;il y a des nouveautés sous le capot qui vont aider les développeurs à nous faire des softs encore plus sympas, mais c&#8217;est trop complexe pour ma petite tête.</p>
+
+<p> En revanche, Apple prend ici un gros virage foireux pour séduire ses clients iOS, et à donc mis par défaut des fonctions totalement abérantes sur un desktop :</p>
+
+<ul>
+<li>Correction automatique des fautes d&#8217;orthographes, comme sous iOS</li>
+<li>Quand tu maintiens sur une touche qui pourrait avoir un accent enfoncée, le caractère ne se répète pas ; un petit menu s&#8217;ouvre pour te proposer les accents disponible, comme sous iOS</li>
+<li>Le scrolling est inversé, pour que les utilisateurs de trackpad puissent avoir une expérience comme sous iOS</li>
+<li>ICal et Carnet d&#8217;adresses ont été re-designés avec un look simili-cuir, ça fait un peu tâche avec le reste du système très épuré et classe, mais c&#8217;est comme sous iOS.</li>
+<li>Tu as un LaunchPad qui regroupe toutes tes applications en vrac, avec de gros icones, sur plusieurs écrans, comme&#8230;. sous iOS</li>
+</ul>
+
+
+<p>Tout ça se désactive très facilement, mais c&#8217;est très surprenant / inquiétant de voir Apple, qui avait justement révolutionné le tactile en n&#8217;essayant pas de reproduire les interfaces desktop, tomber dans le piège de l&#8217;uniformisation.</p>
+
+<h2>Il est tard</h2>
+
+<p>Et il temps de conclure. J&#8217;ai essayé de présenter l&#8217;OS dans ses grandes lignes et j&#8217;ai l&#8217;impression d&#8217;avoir dit plus de mal que de bien. Je n&#8217;ai pas parlé de design, d&#8217;ergonomie et de cohérence, alors que c&#8217;est probablement le point le plus important ; je n&#8217;ai pas non plus parlé du Terminal, et de la simplicité qu&#8217;il y a configurer LAMP ou faire tourner Ruby on rails ; j&#8217;ai fait l&#8217;impasse sur les fonctions que je n&#8217;utilise pas, comme les services ou les bureaux virtuels ; je n&#8217;ai pas non plus évoqué les nombreux petits (et grands) logiciels développés par des indépendants qui partagent le souci du détail d&#8217;Apple, et qui offrent souvent des perles.</p>
+
+<p>J&#8217;aime OS X. Je sais que d&#8217;un point de vue idéologique et technique Linux est supérieur, et que d&#8217;un point de vue pratique faire la transition depuis Windows est trop lourd pour beaucoup. Tant pis.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Le coeur des pommes]]></title>
+    <link href="http://mouton-rebelle.github.com//2011/11/14/le-coeur-des-pommes/"/>
+    <updated>2011-11-14T11:36:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com//2011/11/14/le-coeur-des-pommes</id>
+    <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/11/14/le-coeur-des-pommes">le blog du captain web</a></p></blockquote>
+
+<p>Salut les nouilles ! J&#8217;ai décidé de m&#8217;attaquer à un gros dossier, OSX (attention Lord, on dit OS Ten, c&#8217;est un peu comme U2 ou UB40, y a un piège). Pour les plus à la rue d&#8217;entre vous, c&#8217;est le système d&#8217;exploitation des Macs, la dernière version en date, Lion, est sortie à la fin de l&#8217;été. Le captain et ses ouailles n&#8217;étant pas toujours tendres avec la marque à la pomme, je m&#8217;en vais faire rétablir un semblant d&#8217;équilibre. Aujourd&#8217;hui, je m&#8217;attaque à trois contre-vérité sur OSX ; la semaine prochaine, j&#8217;essaierai de dresser un bilan exhaustif des avantages et des inconvénients de ce système ; et pour finir j&#8217;aimerai bien faire un article sur mon usage d&#8217;OSX en tant que développeur web. Mais je reste bien sûr ouvert à vos suggestions et questions…</p>
+
+<!-- more -->
+
+
+<h2>Mac c&#8217;est hors de prix</h2>
+
+<p>Le matériel est effectivement très cher. On peut apprécier la qualité de finition et la durabilité des machines produites par Apple, il n&#8217;en reste pas moins que le coût du hardware est deux à trois fois supérieur à la concurrence, et que 200 euros pour passer de 4 à 8 go de RAM sur un iMac c&#8217;est carrément du foutage de gueule.</p>
+
+<p>Pour un desktop, j&#8217;ai la solution : le hackintosh. En geeks avisés vous n&#8217;êtes pas sans savoir que depuis la première version d&#8217;OSX en 2006, Apple a abandonné les processeurs Power PC pour Intel et leur architecture X86. Ce qui rend les Macs virtuellement identiques aux PC. Des gens doués se sont empressés de voir si il n&#8217;était pas possible de feinter un peu tout ça, et depuis quelques années les solutions pour installer OSX sur un ordinateur acheté à Auchan fleurissent sur le net, de plus en plus accessibles et fiables. On pourrait débattre de leur légalité ; la plupart prônent l&#8217;installation à partir d&#8217;un disque officiel, dont vous payerez donc la licence ; c&#8217;est probablement illégal mais ça reste toléré et on immagine mal Apple poursuivre des particuliers en justice pour ça (en revanche une société, Psystar, a tenté de vendre des PCs avec OSX pré-installé et s&#8217;est vite retrouvée avec une armée de LTP en costard aux fesses). Le site a consulter si ça vous intéresse est http://www.tonymacx86.com ; il y a de nombreux tutoriels sur le sujet, notamment sur lifehacker, et les règles à respecter sont un peu les mêmes que pour Linux : assurez vous de la compatibilité du matériel avant de l&#8217;acheter, car tout n&#8217;est pas supporté, et qu&#8217;on peut rapidement se retrouver face à de gros problèmes si on s&#8217;éloigne trop des composants qui équipent habituellement des Macs. Au final vous pouvez vous monter un Mac mini pour moins de 300 euros. Et là où c&#8217;est rigolo, c&#8217;est que le prix du système d&#8217;exploitation est de 29 euros pour la version téléchargeable, ou de 59 euros pour la verison sur clé USB. C&#8217;est la même version. Il y en a une seule, d&#8217;ailleurs. Là où Windows vous propose 3 versions retails allant de 119 à 299 euros. J&#8217;ai même versé des larmes de sang en voyant une amie avec notebook sous Windows 7 Starter Edition, où tu n&#8217;as pas le droit de changer de fond d&#8217;écran…</p>
+
+<p>Une fois votre beau desktop configuré avec OSX, le seul prérequis est d&#8217;avoir un clavier Apple. C&#8217;est une des grosses galères lorsqu&#8217;on switche, les claviers n&#8217;ont pas la même disposition et la transition fait mal. Les claviers Apple filaires sont très agréables et bon marché (49 euros) ce qui vous consolera un peu quand vous chercherez comment faire un pipe | avec.</p>
+
+<p>Ensuite il faudra passer par la case logiciel, et là, suprise : Apple est plutôt moins cher. Microsoft office commence à 139 €, les 3 logiciels de la suite d&#8217;Apple, Pages, Numbers et Keynotes sont tous à 16 € ; Adobe Premiere est à 820 euros là ou Final Cut Pro X est à 199 € ; Lightroom est à 290 € là où Aperture est à 63 € ; etc… L&#8217;open-source et le piratage sont bien évidemment tout aussi possibles que sous Windows.</p>
+
+<p>Bref, Apple n&#8217;est pas toujours plus cher. Pour les portables, il est compliqué de monter un hackintosh (difficile d&#8217;en trouver un avec tous les composants compatibles, le clavier est un souci, et l&#8217;intérêt des portables Mac en terme d&#8217;autonomie et de finition justifierait presque leur prix), mais pour un ordinateur de bureau c&#8217;est une alternative tout à fait viable.</p>
+
+<h2>Oué mais on peut pas jouer sous Mac</h2>
+
+<p>Il y a 3 problèmes différents ; tout d&#8217;abord, le processeur et surtout la carte graphique qui équipe votre Mac. Apple n&#8217;a jamais fait beaucoup d&#8217;efforts à ce niveau, et il faut se souvenir du rapport de prix cité plus haut ; si vous achetez un Mac Mini à 999 €, il faut pas perdre de vue que vous aurez l&#8217;équivalent d&#8217;un PC à 300 € ; joli, discret, mais absoluement pas fait pour jouer. En revanche vous pouvez très bien vous monter un gros PC gamer (en prenant des composants supportés) comme vous le feriez sous Windows. Si vous optez pour un &#8220;vrai&#8221; mac, il faut choisir avec soin le modèle suivant le type de jeux qui vous intéressent. J&#8217;ai eu la chance d&#8217;avoir un Macbook pro grâce à mon formidable patron, et c&#8217;était un portable tout à fait correct pour jouer (même si un Asus deux fois moins cher fait aussi bien, on est d&#8217;accord).</p>
+
+<p>Ensuite, il y a les jeux disponibles sur OSX. Certains développeurs comme Blizzard ont toujours supportés Mac, et si tu ressors ton vieux CD de Diablo 2, tu pourras l&#8217;installer sans aucun souci. D&#8217;autres ont rejoint la plateforme plus récemment, comme Valve ou Ubi. Half Life 2, Team Fortress 2, Portal 2 marchent très bien. Steam a sa version Mac, et offre la fonction SteamPlay : quand tu achètes un jeu sur Steam, si il est disponible sur Mac, tu peux y jouer indifférement sur Mac et sur Windows. Tout n&#8217;est pas parfait, les portages d&#8217;Ubisoft par exemple sont un peu légers (aucun support de la manette), mais ça s&#8217;améliore ces dernières années et les jeux indés sortent souvent sur Mac (Minecraft, Limbo, Braid, The Binding of Isaac me viennent à l&#8217;esprit).</p>
+
+<p>Si les jeux qui t&#8217;intéressent ne sont pas disponible sur Mac, tu as la dernière solution, le multiboot. Apple fournit Bootcamp depuis bientôt 4 ans, qui te permet en 1h maximum d&#8217;avoir un dual-boot Windows / OSX fonctionnel. Si tu as un hackintosh, Chameleon te permet de faire ça très simplement également. Avec les machines actuelles redémarrer se fait en quelques minutes, c&#8217;est bien sûr moins confortable que de pouvoir lancer un jeu directement, mais personnellement ça m&#8217;évite aussi de trop glander. Quand je lance Windows, c&#8217;est que j&#8217;ai une heure devant moi pour jouer, pas parce que je viens de finir tel truc alors je peux bien faire une pause de &#8220;juste cinq minutes&#8221; sur Skyrim.</p>
+
+<h2>Mac c&#8217;est pour les cons y a pas de clic droit</h2>
+
+<p>Le clic droit a longtemps été absent sous Mac, c&#8217;est vrai, et c&#8217;était tellement naze que c&#8217;est normal qu&#8217;on s&#8217;en moque encore. Mais bon, c&#8217;est fini depuis 2005. Il y a un clic droit sur Mac, il est même indispensable, et les souris 5 boutons sont très bien supportées…</p>
+
+<p>Voilà, on approche des 6 minutes estimées de lecture pour cet article, je pense que c&#8217;est assez pour ta capacité limitée d&#8217;attention. Je te sens toujours dubitatif ; tu pourrais effectivement passer sous OSX sans vendre un rein et en continuant de baver sur la sortie prochaine de Diablo 3, mais bon, quel intérêt ? Peut être aucun pour toi, ça dépend de ta curiosité et de tes usages… On se retrouve la semaine prochaine pour en parler ? Bisous bisous !</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vous allez en bouffer, des pommes !]]></title>
+    <link href="http://mouton-rebelle.github.com//2011/10/04/vous-allez-en-bouffer/"/>
+    <updated>2011-10-04T00:45:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2011/10/04/vous-allez-en-bouffer</id>
+    <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/10/04/vous-allez-en-bouffer-des-pommes/">le blog du captain web</a></p></blockquote>
+
+<pre><code>C’est triste mais Apple a gagné.
+Now deal with it bitches !
+</code></pre>
+
+<p>C’est le Captain qui m’a dit de vous insulter, histoire de ne pas trop vous dépayser. Parce que oui, c’est un intrus qui vous parle, la bande de l’apéro ayant décidé d’exploiter des geeks désoeuvrés en quête de notoriété pour bosser à leur place et alimenter ce blog moribond.</p>
+
+<!-- more -->
+
+
+<p>Grâce à ce fourbe plan de feignasses cette brillante idée vous allez aujourd’hui avoir l’insigne honneur de lire un énorme pavé sur ma vision de l’informatique de demain, le tout enrobé d’un peu de fanboyisme, d’un peu de pessimisme et d’ Olivia Wilde nue pour le référencement. Oui, désolé, ce sera plus du LTP que du Kwakos. Respirez un grand coup, on est parti.</p>
+
+<h2>Un (très) bref historique</h2>
+
+<p>J’ai vaguement pensé vous copier-coller du Wikipédia ici, en hommage, mais on va faire bref : au départ, l’ordinateur était un truc cher et imbitable pour des gros nerds de scientifiques. Le gentil Steve a sorti l’Apple 2, avec une interface graphique et un prix plus raisonnable. Ensuite le méchant Billou a tout pompé en sortant Windows, qui s’est rapidement imposé, et qui a évolué au fil des versions, en essayant avec plus ou moins de succès de simplifier la life de l’utilisateur.</p>
+
+<p>Aujourd’hui, l’informatique c’est :</p>
+
+<ul>
+<li>1% de pauvres / activistes / nerds / Yeti sous Linux</li>
+<li>7% de bobos sous OSX (présence !)</li>
+<li>92% de moutons sous Windows (avec une grosse majorité d’XP, encore quelques fous sous Vista, et le très bon Seven qui vient de passer les 30%)</li>
+</ul>
+
+
+<p>Toi, lecteur éclairé et inconditionnel de l’apéro, je suis sûr que tu es satisfait de ton système d’exploitation ; tu le connais bien, tu y as tes habitudes, tu sais le bidouiller / le réparer quand il te fait des blagues, télécharger du contenu pour le remplir, y cacher tes honteuses vidéos de poneys, etc… Mais est-ce que tu penses à madame Michou ?</p>
+
+<p>Peut être que tu n’y penses pas, mais tu devrais. A la louche, je dirais que c’est 2 utilisateurs sur 3, mais peut être qu’un tenancier de cybercafé serait mieux placé pour nous éclairer. Des exemples ? Je suis peut être verni, hein, mais mon père pensait que les CD se retournaient comme les vinyles ou les cassettes, ma mère télécharge la mise à jour de Flash, mais ne l’installe pas, ma soeur ne sait pas ouvrir un fichier s’il n’est pas dans Mes documents, et ma tante ne retrouve plus ses photos une fois qu’elle les a importées. Réfléchissez deux secondes et pensez au nombre de fois où vous avez du dépanner une copine, ré-installer le pc d’un parent, ou expliquer à Robert comment se rendre à la baie des pirates ?</p>
+
+<p>Bref, aujourd’hui, l’informatique est encore trop compliqué pour beaucoup de monde.</p>
+
+<h2>L’iPad ou l’an 0 de l’informatique pour les moules</h2>
+
+<p>Même les plus anti-pomme d’entre-vous reconnaitront que l’iPhone a totalement révolutionné le mobile (si t’es pas d’accord, va demander à Nokia). Je dubitais (bite) beaucoup sur l’iPad avant d’en avoir un il y a quelques mois ; je pense désormais qu’on va assister à la même chose avec l’informatique grand public. Ma copine n’allume pratiquement plus son ordinateur, l’iPad lui permettant de faire 90% de ce qu’elle fait derrière un écran (mails, surf et jeux à la con). Beaucoup d’analystes ont expliqué au lancement que ce ne serait qu’un appareil de consultation ; iMovie et GarageBand mettent le montage vidéo et la création audio à la portée de madame Michou.</p>
+
+<p>Ce n’est pas parfait; mais ça fait le taf pour une grande majorité d’utilisateurs, c’est plus simple, ça ne plante pas, et ça ne fait pas peur. Et ça va s’améliorer ; nous ne sommes qu’à la 2° version de l’iPad, et la concurrence va finir par sortir des alternatives intéressantes (wink wink Amazon et la Fire).</p>
+
+<p>A titre personnel, et pour toi aussi probablement, l’iPad tient du gadget, permettant de glander dans son lit ou dans son canapé plutôt qu’assis à son bureau ; en revanche quand ma mère devra changer d’ordinateur, le choix de la tablette s’imposera.</p>
+
+<h2>Le dématérialisé ou le syndrome couch patatoe</h2>
+
+<p>Ne faisons pas nos LTP effarouchés, et disons le sans honte : nous avons tous piratés. Des jeux, de la musique, des films et séries… Mais au final, quand on nous propose une alternative légale SIMPLE et RAISONNABLE, on prend vite l’habitude de passer à la caisse. Je n’ai jamais autant acheté de jeux vidéos que depuis l’arrivée de Steam et ses promotions de folie ; avec Spotify, même un crevard comme le Captain verse son obole ; Netflix et Hulu font un carton aux USA ; l’AppStore a créé un nouveau marché en proposant des petits jeux pour le prix d’un demi-expresso.</p>
+
+<p>Apple a lancé l’an dernier l’AppStore sur OSX ; là encore, je doutais du bien fondé de la chose, mais au final il y a beaucoup d’avantages :</p>
+
+<pre><code>  un endroit centralisé pour trouver tes logiciels
+  installation et mise à jour transparentes et simples, même pour madame Michou
+  dans certains cas, des baisses de prix très agressives (l’équivalent Apple d’Office que tu peux acheter à la carte, 16 euros le logiciel, ou le dernier Final Cut qui ne coûte plus qu’un rein).
+</code></pre>
+
+<p>Idéologiquement, ça pue, on est d’accord : système fermé, censure, péage de 30% prélevé par le gestionnaire du store, visibilité parfois aléatoire pour les développeurs, etc… A l’usage, c’est plus simple. Si l’idéologie et le prix gagnaient face à la flemme, Linux ne serait pas à 1% de part de marché. Et vous téléchargeriez l’apéro avec Miro, et pas Itunes que vous détestez mais qui est tellement plus pratique pour les podcasts.</p>
+
+<h2>Windows 8, la confirmation du changement</h2>
+
+<p>Windows 8 et son interface Metro montrent que même chez Microsoft on a compris que le monde de l’informatique était en train de changer. Le clavier et la souris, les boites de dialogues et leurs questions à la con, les installations de logiciels imbitables, la notion de système de fichiers et de répertoires, les pilotes, les menus à rallonge : tout doit disparaitre. L’interface est originale, ce n’est pas une bête repompe d’iOS ou d’Android, et les bonnes idées sont légions. Seul bémol : elle est pensée essentiellement pour un usage en format paysage, alors que les tablettes sont plus souvent tenues verticalement.</p>
+
+<h2>Windows 8 Metro</h2>
+
+<p>Evil Steve et son équipe n’ont pas osé faire les choses à 100%, et proposeront donc les deux interfaces, Metro et Classic, sur les desktops (pour les tablettes, seul Metro devrait être accessible). C’est probablement un bon choix, surtout si Metro est activé par défaut pour les nouveaux utilisateurs (madame Michou restera sur du simplifié, et le Captain pourra retrouver son Classic).</p>
+
+<p>A mon sens l’information importante dans ce lancement, c’est, là encore, la présence d’un Store pour acheter tous nos logiciels. Ce n’est pas une surprise, mais ça confirme la tendance ; l’informatique de demain sera plus simple, plus accessible, et aussi plus fermée qu’aujourd’hui.
+Triste mais inévitable</p>
+
+<p>Derrière mon titre un peu provoc, je voulais juste dire qu’une fois de plus, Steve Jobs a été visionnaire et a réussi à imposer sa vision de l’informatique, simplifiée et verrouillée. J’aurais vraiment préféré qu’on réussisse à éduquer les masses, que la nouvelle génération apprenne à bidouiller, que l’open source attire plus de contributeurs et nous offre d’autres succès grand public que Firefox et Open Office. Nous nous serions tous tenus la main, et nous aurions couru nus dans les champs avec Olivia Wilde…</p>
+
+<p>Seulement en vrai on est des gros flemmards, et le monde se terminera comme dans Idiocracy. Aujourd’hui vous vous moquez des quelques vieux barbus qui ne jurent que par le terminal, parce que « la ligne de commande c’est quand même le plus efficace » ; dans 15 ans, les gens se moqueront des quelques uns d’entre nous qui feront toujours du alt tab sur des interfaces classiques…</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[About Flash]]></title>
+    <link href="http://mouton-rebelle.github.com//2011/09/15/about-flash/"/>
+    <updated>2011-09-15T17:35:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2011/09/15/about-flash</id>
+    <content type="html"><![CDATA[<p>Souvent, sur Twitter, j’ai envie de répondre à des trolls sur l’éternel débat <strong>“Flash / pas Flash, Apple est-il un grand méchant”</strong>. On pourrait même dire que j’ai envie de troller, seulement en 140 caractères c’est compliqué, en général celui qui commence a gagné et basta. J’ai envie ici de résumer en trois points ma haine pour cette technologie, une fois pour toute, comme ça j’aurais plus qu’à envoyer un petit lien aux boulets pour défendre point de vue.
+Avant tout, quelques précisions :</p>
+
+<!-- more -->
+
+
+<ul>
+<li>j’ai fait du Flash pendant des années, que ce soit des petites animations ou même des sites complets</li>
+<li>j’étais un grand fan de la créativité offerte par le support à la grande époque, quand chaque graphiste / designer essayait d’aller plus loin dans l’originalité / le concept, et que tu passais 5 minutes à comprendre comment interragir avec le site.</li>
+<li>j’ai suivi une formation Flex et j’accepte les arguments sur l’AS et les avantages d’un langage fortement typé et compilé.</li>
+<li>je reconnais volontiers que Flash a apporté beaucoup au web, quand l’innovation était morte niveau navigateur, et que sans cette technologie on aurait jamais pu voir toutes ces adorables vidéos de petits chatons en streaming.</li>
+<li>je pense que Flash a encore quelques années devant lui avant de mourir, pour :
+
+<ul>
+<li>la gestion des périphériques (micro / webcam)</li>
+<li>les sites événementiels / marketing / design qui claquent. Il est aujourd’hui possible de faire des choses similaires en HTML5, mais sans IDE / outils de productions adaptés c’est nettement plus long / coûteux</li>
+<li>les jeux, pour les mêmes raisons que ci-dessus.</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Ceci étant dit, j&#8217;attaque le gros du morceau.</p>
+
+<h2>1/ Flash est un plugin et perturbe l’expérience utilisateur</h2>
+
+<p>C’est un bidule qu’on rajoute dans le navigateur. Et ça pose un gros problème : soit le navigateur reçoit les instructions de l’utilisateur, soit c’est le plugin. Si tu appuies sur espace pour mettre en pause ta vidéo et qu’elle n’a pas le focus, peau de zob. Si tu espères fermer un onglet avec CTRL+W alors que ta vidéo a le focus, t’es dedans. C’est probablement un détail pour 95% des utilisateurs, mais ça m’horripile au plus haut point. Oui, je suis psychorigide.</p>
+
+<p>Dans le même registre, copier coller une image, du texte, sauvegarder une vidéo, etc… est souvent compliqué / impossible quand on est face à du Flash. Les composants de formulaires ne sont pas des composants systèmes et ont un look et un comportement différents, ce qui n’est pas le cas des composants (par défaut) en HTML (petit exemple sur le <a href="https://store2.adobe.com/cfusion/store/index.cfm?store=OLS-FR&amp;storeRegion=FR&amp;nr=0#loc=fr_fr&amp;view=ols_prod&amp;category=/Applications/FlashP&amp;store=OLS-FR">magasin d’Adobe</a> – essaie par exemple de sélectionner tout le texte).</p>
+
+<h2>2/ Flash est payant et opaque</h2>
+
+<p>Oui, je sais, ils ont ouvert le format, on peut compiler du flash avec d’autres outils, alleluia. N’empêche que si tu veux faire le seul truc intéressant à faire avec Flash, à savoir un site très riche graphiquement, je doute que tu t’amuses à le faire avec Eclipse et un compilateur AS. J’ai peut être tord, hein. Mais je doute. A mon humble avis, tu passes à la caisse (et je viens de vérifer c’est 700€ HT). Alors que je peux créer du web avec de bons outils tous gratuit.</p>
+
+<p>Ensuite, quand j’ai affaire à du web, je peux à tout moment regarder la source, comprendre comment c’est fait, voir ce qui est bien fait ou non, m’inspirer, , apprendre. Flash, non. C’est totalement contraire à l’esprit même d’Internet. Pire, on se retrouve parfois avec des sites impossibles à maintenir à cause de ça ; un site normal, juste avec les fichiers hébergés tu peux le dépanner. Un site en flash, il te faut les sources…</p>
+
+<h2>3/ Flash ne marche bien que sur Windows</h2>
+
+<p>Et j’ai commencé à souffrir quand j’ai testé autre chose. J’ai voulu me faire un dualboot Ubuntu / XP, et bien dès que j’étais sous Linux, impossible de lire une vidéo youtube de manière fluide. Et je parle même pas du plein écran.</p>
+
+<p>Depuis, j’ai eu 2 Macbook Pro. Sur les deux, la lecture d’une vidéo Flash demande tant de travail au processeur que les ventilateurs se mettent à plein régime. J’insiste, le dernier a deux ans, on ne l’entend généralement pas, sauf en jeu ou pour encoder une vidéo ; et bien laisse tourner un navigateur avec quelques onglets et des pubs en Flash, et tu auras un chauffage d’appoint pour l’hiver.</p>
+
+<p>C’est aussi pour ça qu’Adobe n’est pas foutu de livrer un lecteur Flash fonctionnel sur téléphone ou sur tablette ; promises depuis 5 ans, les premières versions n’ont vu le jour que fin 2010, et sont toujours catastrophiques au moment où j’écris ces lignes (ralentissement du navigateur, crash nécessitant reboot du matériel, impact sur les batteries, lecture aléatoire des vidéo, manque de précision du touch, etc… )</p>
+
+<h2>Au final</h2>
+
+<p>Flash ne me sert plus vraiment aujourd’hui ; le dernier site qui m’a amusé / impressionné était pour <a href="http://www.nothingcomparestohavana.com/">Havana Club</a>, très réussi, il y a un an. Les petits jeux sont sur iOS maintenant, et je pense que c’est plus rentable pour les développeurs.</p>
+
+<p>Sur mon iPad je n’ai pas <strong>la vraie expérience web</strong>, parce que je n’ai pas Flash (c’est la campagne Motorola, bien joué les gars) mais je ne m’en suis rendu compte que hier en voulant regarder <em>Bref</em>. Canal + n’a pas encore fait le switch et impose toujours Flash. Pour le reste, pas de souci monsieur Flash, merci pour vos longues années de service, mais va falloir partir maintenant. Allez donc rejoindre votre pote Active X là bas au fond.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Flattr, la licence globale à portée de clic...]]></title>
+    <link href="http://mouton-rebelle.github.com//2011/08/24/flattr/"/>
+    <updated>2011-08-24T17:24:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2011/08/24/flattr</id>
+    <content type="html"><![CDATA[<p><a href="http://flattr.com">Flattr</a>, c&#8217;est un <strong>service en ligne de micro-paiement</strong>, pas forcément évident à comprendre au premier abord, et pourtant terriblement excitant. Le projet date de 2007, et le lancement a finalement eu lieu l&#8217;an dernier, mais je n&#8217;en ai eu connaissance que cette semaine. Et c&#8217;est peut être le principal problème de ce service, il faut qu&#8217;il gagne en popularité pour être réellement intéressant. D&#8217;où cet article.</p>
+
+<p>Le principe ? Vous ouvrez un compte Flattr, vous y déposez de l&#8217;argent, et vous déterminez combien vous souhaitez donner par mois. Ensuite, quand en lisant un article intéressant, en regardant une vidéo créative ou en écoutant de la musique vous voyez un bouton Flattr, vous pouvez cliquer dessus pour signaler que ça vous plait et que vous soutenez le créateur. C&#8217;est aussi simple que le bouton &#8220;Like&#8221; de Facebook, ça remplit le même rôle de recommandation à vos amis, et éventuellement d&#8217;archivage pour vous, mais en plus, en fin de mois, Flattr <strong>répartit</strong> votre montant mensuel entre les divers &#8220;trucs&#8221; que vous avez flattré.</p>
+
+<p>Un exemple ?</p>
+
+<blockquote><p>Je me sens d&#8217;humeur généreuse, je mets 60 euros sur mon compte fraîchement créé, et je choisis de donner 10 euros / mois. Dans le mois, je flattre un article sur un blog, une vidéo, et un podcast. A la fin du mois, mes 10 euros mensuels sont répartis et les 3 créateurs reçoivent chacun 3.33 euros.</p></blockquote>
+
+<p>Si j&#8217;avais flattré 100 trucs, ils auraient tous eu 10 cents. Si un mois donné je ne &#8220;flattre&#8221; rien, tout ira à la charité.</p>
+
+<p>Pourquoi je trouve ça magique ? J&#8217;ai déjà fait des dons avec Paypal, mais au final c&#8217;est assez peu pratique, pour trois raisons :</p>
+
+<ul>
+<li>Le processus est long (se connecter à paypal, choisir le montant, confirmer le moyen de paiement, etc&#8230;)</li>
+<li>Les frais sont conséquents et rendent les petits dons impossibles</li>
+<li>Paypal c&#8217;est le mal, ce sont les anonymous qui le disent.</li>
+</ul>
+
+
+<p>Flattr répond à ces soucis de manière élégante. On dépose des fonds sur son compte Flattr, donc on fait un &#8220;gros&#8221; paiement de temps en temps ; pas de soucis de frais de transaction ensuite, on peut très bien donner 10 centimes à quelqu&#8217;un. Le bouton &#8220;Flattr&#8221; est on ne peut plus simple &amp; rapide, et vous pourrez toujours revoir avant la fin du mois ce sur quoi vous avez cliquez pour éviter les erreurs.</p>
+
+<p><strong>J&#8217;ai fait un rêve hier soir</strong>. J&#8217;ai rêvé que tout le monde avait un compte Flattr, et que toute notre vie numérique était gratuite ; musique, films, ebooks, séries, apps, jeux vidéos, logiciels, photos, tout était en libre téléchargement, avec un joli bouton &#8220;Flattr&#8221; à côté. Les gens avaient vite compris l&#8217;intérêt du système, et chacun alimentait son compte à la mesure de ses moyens, et Flattrait les choses qui lui plaisaient. Pascal Nègre s&#8217;était jeté du haut de la tour Montparnasse en hurlant &#8220;vous ne m&#8217;aurez jamais&#8221;, Hadopi était une légende que les vieux racontaient aux enfants pour leur faire peur, la presse en ligne se portait mieux, et Julian Assange prenait DSK en levrette surprise tout en chantant l&#8217;Internationnale. Je m&#8217;apprétais à Flattrer cette vidéo désopilante, et là je me suis réveillé. Toujours en 2011. Avec quelques FAI français qui débattent de la pertinence de brider les accès ADSL, et un patron de l&#8217;édition qui veut interdire la vente en ligne de livres. Pays de #pelleamerde.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3 mois avec un bébé]]></title>
+    <link href="http://mouton-rebelle.github.com//2011/08/03/3-mois-avec-un-bebe/"/>
+    <updated>2011-08-03T11:42:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2011/08/03/3-mois-avec-un-bebe</id>
+    <content type="html"><![CDATA[<p>Longtemps, j&#8217;ai dit : &#8220;un téléphone ? moi ? jamais !&#8221;. Aujourd&#8217;hui vous ne me verrez plus sortir de chez moi sans mon iPhone.</p>
+
+<p>J&#8217;ai passé des années à faire du lobbying au près de mes parents pour qu&#8217;ils arrêtent de fumer, et à traiter tous mes amis de &#8220;drogués&#8221; dès qu&#8217;ils s’éclipsaient pour allumer une clope. Et maintenant il m&#8217;arrive de re-rouler une &#8220;dernière&#8221; cigarette à partir de 5 mégots.</p>
+
+<p>Des années durant j&#8217;ai défendu le &#8220;réalisme&#8221; à la Windows contre la geekerie idéaliste d&#8217;un Linux et la simplicité pour les neuneus d&#8217;Apple. Aujourd&#8217;hui j&#8217;ai des frissons rien que d&#8217;imaginer devoir travailler sous autre chose qu&#8217;OSX.</p>
+
+<p>Tout ça pour dire que je suis loin d&#8217;être con, vu comment je change d&#8217;avis.</p>
+
+<!-- more -->
+
+
+<h2>La commande</h2>
+
+<p>Il y a un peu plus d&#8217;un an, j&#8217;ai décidé d&#8217;investir dans un bébé. J&#8217;avais les ressources pour, l&#8217;OS était stable, bref le temps était venu. Je connaissais très bien le site de vente en ligne, il est particulièrement bien foutu ; ça faisait déjà quelques années que je faisais des devis là-bas sans jamais oser commander, et à vrai dire j&#8217;ai continué ensuite. Enfin tout ça pour dire que la commande n&#8217;a pas été un souci. Le seul point déstabilisant serait l&#8217;absence d&#8217;option ou de choix ; tu commandes un bébé, c&#8217;est tout. Pas moyen de choisir le modèle ; ils ont piqué à Nintendo le principe des Pokemons en fait, probablement pour forcer un peu la main au client.</p>
+
+<p><strong>commande : +++++</strong></p>
+
+<h2>La livraison</h2>
+
+<p>En revanche, pour les délais de livraison, c&#8217;est une autre paire de manches : pas loin de 9 mois ! Et puis bonjour l&#8217;organisation : la date de livraison qui n&#8217;arrête pas de changer, on vous l&#8217;envoie en Colissimo, ah ben non désolé finalement ça sera Chronopost, une vraie galère ! Et le mec au téléphone &#8220;Oui vous comprenez monsieur, c&#8217;est la Nature, on peut pas tout prévoir&#8221;, et patatati et patatata&#8230; M&#8217;est avis qu&#8217;une fois qu&#8217;on aura privatisé tout ça y en aura deux trois qui vont arrêter de se tourner les pouces !</p>
+
+<p><strong>livraison : +</strong></p>
+
+<h2>Un-boxing</h2>
+
+<p>Au départ j&#8217;ai eu très peur d&#8217;être tombé sur une arnaque. D&#8217;accord, le packaging pollue, l&#8217;important c&#8217;est le produit, etc&#8230; Mais tout de même : bébé est livré sale, et sans rien. Nada. Que dalle. Déjà qu&#8217;on choisit pas le sexe, la comparaison avec les produits Apple commence à faire mal. Un petit bout de mode d&#8217;emploi mal traduit du chinois aurait été je pense le minimum syndical.</p>
+
+<p>Heureusement, je me suis vite rendu compte que le constructeur avait mis en place un système de marketing viral pour fidéliser le client ; quand tu achètes un bébé, il est effectivement livré nu, mais les gens t&#8217;offrent des tonnes de trucs pendant les premiers mois. Pour l&#8217;instant (bon je pense que c&#8217;est la fin), bébé a été livré avec 23 doudous, 47 tenues de princesse, et 17 livres d&#8217;éveil. Au final les voleurs c&#8217;est la marque à la pomme avec leur SmartCover à 29 euros !</p>
+
+<p>Après cette petite déception sur le packaging, je peux vous rassurer sur le bébé lui même ; une pure merveille, le design est parfait, bref dès les premières minutes je suis séduit.</p>
+
+<p><strong>unboxing +++</strong></p>
+
+<h2>Les premiers jours</h2>
+
+<p>Pour ne pas laisser les nouveaux acquéreurs seuls et démunis, les premiers jours avec bébé sont passés dans un centre, un peu comme un Apple Store avec des &#8220;génies&#8221; qui sont disponibles pour répondre aux questions des clients et vérifier que la configuration de bébé se passe bien. Je dubitais un peu au départ, mais rappelez-vous, il n&#8217;y a pas de mode d&#8217;emploi, et s&#8217;occuper de bébé c&#8217;est bien plus ardu que de recompiler le noyau d&#8217;une Debian. Cette petite formation n&#8217;est donc pas de trop, même si comme toujours les formateurs n&#8217;ont pas réponse à tout&#8230;</p>
+
+<p>Viens ensuite l&#8217;heure du retour à la maison ; installer bébé dans ce nouvel environement n&#8217;est pas une mince affaire. Vous avez probablement déjà des habitudes, un rythme, et vous pensiez ajouter bébé délicatement à ce subtil équilibre ? Oubliez de suite ! Bébé n&#8217;est pas compatible avec tout ça, il vous faudra donc tout désinstaller pour lui faire de la place. Comme moi, probablement que vous ne vous en rendrez pas compte au départ, le mix joie / panique / comment ça marche étant des plus déstabilisant.</p>
+
+<p>Pour vous aider, c&#8217;est comme d&#8217;habitude : soit vous connaissez quelqu&#8217;un de compétent à qui demander conseil, soit vous parcourez les forums du constructeur (doctissimo.fr) en espérant qu&#8217;un autre utilisateur à rencontrer le même problème (et figurez-vous que c&#8217;est TOUJOURS le cas : bébé est banal). Et accrochez vous, car la mauvaise surprise arrive.</p>
+
+<h2>Les bugs !</h2>
+
+<p>Lorsque j&#8217;ai passé commande il y a un an, euphorique, je ne m&#8217;attendais pas du tout à cela ; le produit a quelques centaines de millénaires, on aurait pu espérer que la majorité des bugs soient résolus depuis belle lurette. Que nenni ! Là encore, on nous vend plein tarif un produit en version bêta, et charge à toi de t&#8217;occuper du débogage.</p>
+
+<p>Quels bugs me direz-vous ? Il y en a pour tous les goûts, du cocace &#8220;Oh tiens si je chiais sur papa ?&#8221;, au bip continu, sans raison apparente, volume au maximum. Le dysfonctionnement le plus flagrant reste à mon sens l&#8217;impossibilité d&#8217;éteindre bébé, bug qui survient de manière aléatoire, au moins deux fois par jour, qui dénote clairement un défaut de conception. De plus, pour être parfaitement honnête, il me faut préciser qu&#8217;à la livraison bébé est extrêmement limité&#8230; le module com est sommaire, aucune mobilité, webcam à peine en vga, et j&#8217;en passe.</p>
+
+<p>Une note positive tout de même : le constructeur semble être conscient du problème, et livre des patchs régulièrement. On teste depuis un mois environ la mise à jour &#8220;gros sourire&#8221;, qui nous facilite grandement la vie. Il y a quinze jours on nous a installé le patch &#8220;Areuh&#8221;, mais je pense que le technicien a du faire un rollback, ça n&#8217;a fonctionné qu&#8217;une fois. Nous attendons toujours l&#8217;upgrade pour les nuits de bébé, qu&#8217;on nous a promis il y a deux semaines, mais toujours rien&#8230;</p>
+
+<p><strong>finition du produit + / qualité du support ++++</strong></p>
+
+<h2>Le verdict</h2>
+
+<p>Objectivement, il est encore trop tôt pour vous donner un avis définitif ; le produit n&#8217;est pas finalisé, des fonctionnalités cruciales sont manquantes, mais les mises à jour fréquentes laissent espérer un avenir plus serein.</p>
+
+<p>Subjectivement, je suis sous le charme. J&#8217;ai envie de citer Steve, et de vous dire &#8220;Amazing. Unebelievable. It&#8217;s pure magic.&#8221; Parce qu&#8217;avoir un bébé, c&#8217;est un peu comme avoir un iPhone : moins de liberté, des concessions, une autonomie réduite, un certain investissement, mais&#8230; ça change la vie.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2 semaines avec un iPad]]></title>
+    <link href="http://mouton-rebelle.github.com//2011/07/11/2-semaines-avec-un-ipad/"/>
+    <updated>2011-07-11T15:14:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2011/07/11/2-semaines-avec-un-ipad</id>
+    <content type="html"><![CDATA[<p>Enfin. Depuis 2 semaines, j&#8217;ai un iPad. Et je me disais que j&#8217;allais faire un petit retour d&#8217;expérience aux quelques personnes qui me lisent. En préambule, je tiens à signaler que j&#8217;envisage l&#8217;iPad comme un <strong>gadget d&#8217;intérieur</strong> ; je me vois pas l&#8217;emmener pour boire un café en terrasse ou sur la plage ; c&#8217;est donc une version basique que je me suis fait offrir :</p>
+
+<ul>
+<li>WIFI only, de toutes façons normalement d&#8217;ici un an Free devrait faire une offre mobile honnête, avec tethering inclus. Petite digression au passage pour les incultes : le tethering, c&#8217;est quand tu utilises ton iPhone comme un modem (une borne d&#8217;accès wifi pour être exact) ; tu peux ainsi accéder à internet sur ton laptop ou ton iPad via la 3G sur ton iPhone, avec son super forfait illimité. Sauf que chez Orange, c&#8217;est 8 euros pour 50 mo. Plus cher qu&#8217;à Madagascar.</li>
+<li>16Go, parce que justement destiné avant tout à un usage domestique donc pas trop de souci pour transférer des fichiers.</li>
+</ul>
+
+
+<!-- more -->
+
+
+<h2>THE GOOD</h2>
+
+<h3>Le matériel</h3>
+
+<p>C&#8217;est Apple, on sait que c&#8217;est beau et bien fini, mais quand même&#8230;</p>
+
+<p>Tout d&#8217;abord, la qualité de l&#8217;<strong>écran</strong> m&#8217;a surpris, je sais que ce n&#8217;est pas un &#8220;retina&#8221;, mais un écran de cette taille à 130DPI avec un bon contraste, c&#8217;est très appréciable.</p>
+
+<p>Ensuite, ma seule expérience iOS c&#8217;est sur un iPhone 3GS ; autant dire que le bond technologique est énooooorme, nettement plus de <strong>puissance</strong> et donc une expérience bien plus fluide. Les habitués de l&#8217;iPhone 4 n&#8217;auront sans doute pas le même ressenti. Le poids et la taille de l&#8217;appareil, que certains critiquaient, me conviennent tout à fait. Pas de stress en le portant à une main, agréable à manipuler, sentiment de solidité, bref du tout bon.</p>
+
+<p>Enfin, le fameux <strong>&#8220;smart cover&#8221;</strong>, couverture magnétique pouvant servir de support, est parfaitement adapté à l&#8217;outil. Bien sûr, ce n&#8217;est pas magique : non, si tu te trompes de sens ça va pas s&#8217;aimanter tout bien tout seul, et non si ton écran est plein de traces de doigts ça va pas le nettoyer. Mais c&#8217;est suffisant pour protéger l&#8217;écran en transport, et la fonction de support / stand est totalement indispensable, que ce soit pour regarder une vidéo en faisant la vaisselle ou pour utiliser le clavier virtuel pour écrire un long mail.
+Size matters</p>
+
+<p><strong>Lire</strong> sur un iPhone&#8230; je l&#8217;ai fait, mais c&#8217;est mal-pratique. Pour les bandes dessinées, tu te retrouves obligé de zoomer sur certaines bulles, ou de pivoter l&#8217;écran suivant les proportions. Pour un livre, c&#8217;est vraiment petit&#8230; L&#8217;iPad a une taille parfaite pour ces usages. Et c&#8217;est du bonheur.</p>
+
+<p>Même remarque pour le web, consulter un site sur un écran d&#8217;iPhone, tu le fais quand tu n&#8217;as pas le choix. Sur iPad c&#8217;est très agréable. La taille de l&#8217;objet permet également de construire des <strong>interfaces plus complexes</strong> ; fini la simple liste de tweets ou de mails, on a accès aux dossiers / listes dans une barre latérale. Le clavier virtuel, lui aussi nettement plus gros, devient confortable et les fautes de frappes se font plus rares.</p>
+
+<p>Les deux autres usages où la taille est avantageuse sont les jeux, où l&#8217;utilisation d&#8217;un <strong>stick virtuel</strong> devient possible (sur l&#8217;iPhone je trouve ça vraiment injouable), et les photos, que l&#8217;ont peut facilement montrer, en se passant l&#8217;iPad, c&#8217;est presque aussi convivial qu&#8217;un album papier.</p>
+
+<h3>Quelques apps brillantes</h3>
+
+<p>L&#8217;iPhone a séduit certaines personnes juste avec <strong>Instagram</strong> ; personnellement, j&#8217;utilise beaucoup de choses mais si je devais me limiter ce serait GoogleMaps, Google (avec la recherche vocale), Instagram, et Echofon. Quelques bonnes applis viennent presque justifier ce genre de gadget.</p>
+
+<p>Sur iPad la palme revient pour moi à <strong>Flipboard</strong>, sorte de magazine à la carte conçu à partir de vos flux sociaux et mis à jour en temps réel. Dans ce bijou (gratuit), vous pourrez suivre vos actualités Twitter, Facebook, Google Reader, Flickr et Instagram. La présentation est magnifique, les liens échangés depuis Twitter sont automatiquement récupérés avec un résumé, vous pouvez partager depuis Flipboard les contenus intéressants, bref du bonheur en barre.
+Flipboard
+J&#8217;ai aussi envie de citer iMovie, parce que c&#8217;est une belle prouesse que d&#8217;avoir fait un logiciel de montage vidéo utilisable en tactile. C&#8217;est grand public et limité, mais suffisant pour une utilisation familiale.</p>
+
+<h3>Bouton physique pour verrouiller l&#8217;orientation</h3>
+
+<p>Quelle joie&#8230; C&#8217;est tellement reloud de lire dans le lit, de changer de position et d&#8217;avoir l&#8217;écran qui bascule. Bien sûr, on peut toujours double-cliquer sur le bouton home, glisser à gauche et verrouiller, mais un bouton physique c&#8217;est quand même plus rapide.</p>
+
+<h2>THE BAD</h2>
+
+<h3>La caméra</h3>
+
+<p>Apple a fait des efforts pour l&#8217;iPhone 4. L&#8217;iPad embarque un capteur pour faire de la vidéo 720p, mais c&#8217;est toujours très moche&#8230; Après, est ce que l&#8217;iPad est l&#8217;outil pour filmer / prendre des photos&#8230;</p>
+
+<h3>La luminosité</h3>
+
+<p>C&#8217;est pas un Kindle. Et tant mieux pour la plupart des usages, sauf pour la lecture. Je me retrouve donc à baisser la luminosité au minimum tous les soirs, et à la remonter tous les jours. Et pas de boutons physiques pour ça, hélas. La fonction de réglage automatique de la luminosité me semble une fumisterie, à moins que j&#8217;aie les yeux particulièrement sensibles&#8230; Vivement les prochains écrans qui feront les deux (e-ink pour la lecture, et oled pour le reste).</p>
+
+<h3>iOS</h3>
+
+<p>C&#8217;est un bon système, simple, mais il reste limité. N&#8217;avoir que des icônes sur le grand écran d&#8217;accueil, quand Android propose de personnaliser tout ça avec des jolis widgets, c&#8217;est un peu triste. Les notifications ne seront plus un souci en septembre avec l&#8217;arrivée d&#8217;iOS5, mais l&#8217;écran d&#8217;accueil restera une mosaïque d’icônes.</p>
+
+<h2>THE UGLY</h2>
+
+<h3>Les tarifs des apps</h3>
+
+<p>Développer une application iPad ne coûte pas plus cher que développer une application iPhone. Certains développeurs se cachent derrière l’appellation HD, justifiant un tarif plus élevé par des graphismes plus fin : c&#8217;est un odieux mensonge, l&#8217;écran retina de l&#8217;iPhone 4 offre une meilleure résolution, et demande donc plus de travail aux graphistes. Une application iPhone only est inutilisable sur iPad (2x plus petite, avec le clavier virtuel de l&#8217;iPhone, c&#8217;est catastrophique), et si vous avec acheté une application iPhone et que vous la voulez sur l&#8217;iPad, sauf les rares cas d&#8217;app &#8220;universelle&#8221;, il faut repasser à la caisse. Je suis pas radin sur l&#8217;Appstore, au contraire, mais payer 2 fois, et payer 3 ou 4 fois plus cher pour le même programme, c&#8217;est vraiment <strong>du vol</strong>.</p>
+
+<h3>Les tarifs et les formats du contenu</h3>
+
+<p>L&#8217;iPad est intéressant comme outil de lecture. Or il n&#8217;y a pas de <strong>standard</strong> pour la presse, chaque magasine propose son application, avec ses tarifs, son ergonomie, etc&#8230; Même remarque pour la bande dessinée&#8230; On peut trouver 5 applis différentes pour acheter des comics, après il s&#8217;agit de parier sur le bon cheval : celui qui sera toujours vivant dans 3 ans, et qui te permettra de consulter ton contenu acheté sur iPad sur
+le successeur ou le concurrent.</p>
+
+<p>A ce problème des sources et formats multiples s&#8217;ajoute celui du tarif, souvent <strong>prohibitif</strong>. Les livres que vous achetez sur iPad, rêvez pas, ce sera pas des poches, rien à moins de 10 euros. Pour du dématérialisé qu&#8217;on ne peut pas prêter et dont on est pas certain de l&#8217;avenir, ça fait très mal. J&#8217;espère que l&#8217;industrie de l&#8217;édition comprendra plus vite que celle de la musique la nécessité de revoir ses prix dans un marché où la rareté n&#8217;a plus lieu d&#8217;être.</p>
+
+<h3>La connectivité</h3>
+
+<p>Il y a 6 ans j&#8217;avais un petit téléphone Sony qui faisait des photos super moches. Et bien une fois que je l&#8217;avais pairé en bluetooth avec mon PC, je pouvais envoyer une photo depuis mon téléphone sur mon ordinateur, ou parcourir le contenu de mon téléphone via mon ordinateur. Sans fil. En 2 secondes.</p>
+
+<p>Et bien chez Apple, faut oublier. Tous les échanges de documents se font via USB et <strong>iTunes</strong>, le maudit. Je suis un geek, je me débrouille avec un bon paramétrage du logiciel et Dropbox, mais c&#8217;est loin d&#8217;être parfait ou accessible par tout le monde.</p>
+
+<p><strong>iOS 5</strong> va apporter une solution à ce problème, avec <strong>iCloud</strong>. Toutes vos données seront automatiquement stockées en ligne, et synchronisées avec vos différents matériels. Seul souci, c&#8217;est une solution à la Apple, comme le store : c&#8217;est simple, mais :</p>
+
+<ul>
+<li>potentiellement dangereux : on a pas forcément envie que toutes nos données soient stockées dans un endroit mystérieux par une méga-corporation, malgré toutes les garanties sur la vie privée qu&#8217;elle va nous donner ;</li>
+<li>probablement cher : l&#8217;offre gratuite est à priori limitée à 5go, on est un peu dans le flou sur ce qui se passera au-delà</li>
+<li>limité par votre connexion internet : si vous faites un film en HD, soyez pas pressé pour le récupérer sur votre pc.</li>
+</ul>
+
+
+<h2>L&#8217;heure du bilan</h2>
+
+<p>C&#8217;est bien mais pas top. Et pas pour tout le monde. Je recommanderais ce gadget si :</p>
+
+<ul>
+<li>vous êtes boulimique d&#8217;information, et que vous passez chaque jour une petite heure à lire vos sites favoris et à vous tenir informer sur la twittosphère</li>
+<li>vous êtes un peu neuneu de l&#8217;informatique et votre usage d&#8217;un ordinateur se résume à de la consultation et au partage avec la famille</li>
+<li>vous êtes fortuné et prêt à dépenser votre argent sur du dématérialisé pour la littérature ou la bande dessinée</li>
+<li>vous voulez une tablette. Dans ce cas pas de souci, il n&#8217;y a pas de concurrence.</li>
+</ul>
+
+
+<p>Je suis ravi d&#8217;avoir un iPad, c&#8217;est un beau gadget, mais ça reste un gadget. Je suis dépendant de mon iPhone, hélas, et je sais que si par malheur il n&#8217;était plus financé par mon job je craquerai rapidement. En revanche, l&#8217;iPad ne m&#8217;est pas indispensable. Fait ton choix camarade !</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dire oui aux CSS compilées]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/11/04/dire-oui-aux-css-compilees/"/>
+    <updated>2010-11-04T17:46:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/11/04/dire-oui-aux-css-compilees</id>
+    <content type="html"><![CDATA[<p>J&#8217;ai longtemps hésité à franchir le pas, ne trouvant pas vraiment de solutions à mon goût ; certaines étaient trop lourdes pour mes besoins, d&#8217;autres demandaient beaucoup de configuration à chaque nouveau projet&#8230;. jusqu&#8217;au mois dernier, où j&#8217;ai découvert <a href="http://compass-style.org">Compass</a>.</p>
+
+<!-- more -->
+
+
+<p>Compass est un outil qui interprète le langage SASS, version évoluée des CSS utilisé avec Ruby notamment ; c&#8217;est une gem Ruby, donc pour
+l&#8217;installer sous OSX, il suffit de taper sudo gem install Compass, et hop,
+vous êtes prêt. Le site explique la configuration de base, en gros il suffit
+de faire un dossier scss, où vous créerez vos styles, et dans ce dossier un
+fichier config.rb qui va donner les chemins d&#8217;accès au vrai dossier css, où
+Compass ira créer des fichiers CSS normaux, en compilant le où les fichiers
+.scss. Une fois la configuration terminée, vous lancez la commande compass
+watch /chemin/vers/mon/dossier/scss/ et vous êtes bon pour redécouvrir les
+css.</p>
+
+<p>Toute bonne feuille de style commence par un reset. Comment ça Kevin, tu sais
+pas ce qu&#8217;est un reset ? Boulet&#8230; Il s&#8217;agit juste de
+remettre la mise en page à zéro, pour éviter d&#8217;avoir des différences dues aux
+styles par défauts des différents navigateurs. Auparavant, je reprenais le
+<a href="http://meyerweb.com/eric/thoughts/2007/05/01%0A/reset-reloaded/">Css Reset Reloaded d&#8217;Eric</a>. Maintenant, je commence juste mon fichier scss par @import
+&#8216;compass/reset&#8217;;</p>
+
+<p>Le deuxième problème qu&#8217;on rencontre souvent en CSS, c&#8217;est l&#8217;absence de
+variables. Pour les couleurs, notamment, devoir récupérer à chaque fois le bon
+code couleur est une plaie. Plus maintenant, avec Compass :</p>
+
+<figure class='code'><figcaption><span>Les variables dans Sass  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nv">$couleur_titre</span><span class="o">:</span> <span class="mh">#C2FFDD</span><span class="err">;</span>
+</span><span class='line'><span class="nt">h1</span><span class="err">{</span>
+</span><span class='line'>  <span class="na">color</span><span class="o">:</span><span class="nv">$couleur_titre</span><span class="err">;</span>
+</span><span class='line'>  <span class="na">border-bottom</span><span class="o">:</span><span class="mi">2</span><span class="kt">px</span> <span class="no">solid</span> <span class="nf">darken</span><span class="p">(</span><span class="nv">$couleur_titre</span><span class="o">,</span><span class="mi">20</span><span class="kt">%</span><span class="p">)</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>On peut donc très facilement définir les couleurs utilisés, et les faire
+varier grace aux fonctions darken et lighten ; De la même
+manière, on peut définir une variable $marge, et s&#8217;en servir ensuite, avec des
+maths si l&#8217;on a envie (ex : width: 600-$marge*2 px;)</p>
+
+<p>Autre petite joyeuseté, le nesting (qui doit se traduire par imbrication), qui
+permet de taper beaucoup moins de code, et d&#8217;être plus
+lisible :</p>
+
+<figure class='code'><figcaption><span>Nesting dans Sass  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nt">a</span><span class="err">{</span>
+</span><span class='line'>  <span class="nt">text-decoration</span><span class="nd">:none</span><span class="o">;</span>
+</span><span class='line'>  <span class="nt">color</span><span class="nd">:red</span><span class="o">;</span>
+</span><span class='line'>  <span class="na">font-size</span><span class="o">:</span><span class="mi">1</span><span class="mf">.1</span><span class="kt">em</span><span class="err">;</span>
+</span><span class='line'>  <span class="nt">span</span><span class="err">{</span>
+</span><span class='line'>    <span class="nt">display</span><span class="nd">:none</span><span class="o">;</span>
+</span><span class='line'>  <span class="err">}</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:hover</span><span class="o">,</span><span class="k">&amp;</span><span class="nd">:visited:hover</span><span class="err">{</span>
+</span><span class='line'>    <span class="nt">text-decoration</span><span class="nd">:underline</span><span class="o">;</span>
+</span><span class='line'>  <span class="err">}</span>
+</span><span class='line'>  <span class="k">&amp;</span><span class="nd">:visited</span><span class="err">{</span>
+</span><span class='line'>    <span class="nt">color</span><span class="nd">:darken</span><span class="o">(</span><span class="nt">red</span><span class="o">,</span><span class="nt">30</span><span class="err">%</span><span class="o">);</span>
+</span><span class='line'>  <span class="err">}</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Les éléments imbriqués sont par défaut les descendants (dans l&#8217;exemple ci-
+dessus, on masque les spans présents dans des balises a, ce qui reviendrait à
+écrire une autre règle span a), sauf quand on précède la règle d&#8217;un &amp;, auquel
+cas on précise juste la nature de l&#8217;élément (ici, on indique que les liens
+visités sont plus sombre, ce qui revient à une nouvelle règle a:visited).
+C&#8217;est très agréable de coder ainsi, en revanche il faut prendre garde à ne pas
+abuser de cette facilité, qui peut vite conduire à ne pas bien écrire ces
+feuilles de style, en ayant des doublons, des règles &#8220;trop précises&#8221; et donc
+non réutilisables.</p>
+
+<p>Compass est également livré avec un bundle CSS3, qui vous fera gagner beaucoup
+de temps si vous commencez à faire joujou avec les arrondis, ombres et
+dégradés&#8230; Il s&#8217;importe au début du fichier css avec un @import
+&#8216;compass/css3&#8217;, et s&#8217;utilise de manière presque intuitive après quelques
+heures :</p>
+
+<figure class='code'><figcaption><span>mixins css3 dans Sass    </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">.bloc</span><span class="err">{</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> border-radius</span><span class="p">(</span><span class="mi">8</span><span class="kt">px</span><span class="p">)</span><span class="err">;</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> box-shadow</span><span class="p">()</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>En deux lignes de code, on a défini que notre bloc serait arrondi, avec une
+ombre. Lorsqu&#8217;il compile ces deux lignes, Compass les convertis en reprenant
+tous les attributs spécifiques à chaque navigateur (-moz-border-radius,
+-webkit-border-radius, etc&#8230;). Pas de coin arrondi pour IE, mais l&#8217;ombre est
+reprise avec le &#8220;filter&#8221; propriétaire. Si vous hésitez à utiliser les CSS3,
+regardez cette vidéo sur le <a href="http://www.youtube.com/watch?v=_nbWikK2nHY">progressive enhancement</a> :
+c&#8217;est assez inspirant.</p>
+
+<p>Pour aller encore plus loin avec Compass, il me faut évoquer la possibilité de
+créer des mixins, petites fonctions réutilisables pour habiller un élément. Le
+dernier site sur lequel j&#8217;ai travaillé avait une dizaine de bloc avec un fond
+dégradé, d&#8217;une couleur différente à chaque fois.</p>
+
+<figure class='code'><figcaption><span>mixins = fonctions</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="k">@mixin</span><span class="nf"> degnews</span><span class="p">(</span><span class="nv">$basecolor</span><span class="p">)</span><span class="err">{</span>
+</span><span class='line'>  <span class="na">color</span><span class="o">:</span><span class="mh">#000</span><span class="err">;</span>
+</span><span class='line'>   <span class="na">background</span><span class="o">:</span><span class="nv">$basecolor</span><span class="err">;</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> linear-gradient</span><span class="p">(</span><span class="nf">color-stops</span><span class="p">(</span><span class="nf">lighten</span><span class="p">(</span><span class="nv">$basecolor</span><span class="o">,</span><span class="mi">20</span><span class="kt">%</span><span class="p">)</span><span class="o">,</span> <span class="nv">$basecolor</span> <span class="mi">50</span><span class="kt">%</span><span class="o">,</span><span class="nf">darken</span><span class="p">(</span><span class="nv">$basecolor</span><span class="o">,</span><span class="mi">10</span><span class="kt">%</span><span class="p">)</span> <span class="mi">51</span><span class="kt">%</span><span class="o">,</span> <span class="nf">darken</span><span class="p">(</span><span class="nv">$basecolor</span><span class="o">,</span><span class="mi">25</span><span class="kt">%</span><span class="p">)))</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Une fois la fonction définie, vous pouvez la réutiliser à
+l&#8217;envie :</p>
+
+<figure class='code'><figcaption><span>utiliser un mixin</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sass'><span class='line'><span class="nc">.bloc1</span><span class="err">{</span>
+</span><span class='line'>  <span class="k">@include</span><span class="nd"> degnews</span><span class="p">(</span><span class="mh">#FF3300</span><span class="p">)</span><span class="err">;</span>
+</span><span class='line'><span class="err">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pour conclure sur les possibilités de malade offertes par ce petit bijou, il
+existe un plugin, <a href="http://www.hagenburger.net/BLOG/Lemonade-CSS-Sprites-for-Sass-Compass.html">Lemonade</a>, qui permet de générer automatiquement des sprites ; vous découpez vos images sans vous poser trop de
+questions, en PNG transparent, et ensuite vous appelez simplement background:
+sprite-image(&#8220;sprites/arrow.png&#8221;); Lemonade se charge de créer une seule image
+avec toutes les petites images qui utilisent cette fonction, et de les placer
+convenablement. En pratique c&#8217;est un peu plus complexe, mais à peine, et
+tellement plus simple que de le faire à la main&#8230;</p>
+
+<p>Je ne vois pas vraiment de raison de se priver de cet outil, c&#8217;est au final
+assez transparent, et le gain en productivité (et en plaisir) est plus que
+conséquent. Si vous n&#8217;êtes pas encore convaincus, regardez la vidéo sur le
+site de <a href="http://compass-style.org">Compass</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[6 mois avec Symfony]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/09/26/6-mois-avec-symfony/"/>
+    <updated>2010-09-26T18:28:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/09/26/6-mois-avec-symfony</id>
+    <content type="html"><![CDATA[<p>Les frameworks PHP ne manquent pas ; Symfony est l&#8217;un d&#8217;entre eux, et
+probablement pas le moins populaire. Anciennement habitué de Zend Framework,
+j&#8217;ai récemment utilisé Symfony sur deux projets. Debriefing.</p>
+
+<!-- more -->
+
+
+<h3>De quoi qu&#8217;on parle</h3>
+
+<p>Bonne question, merci, c&#8217;est toujours mieux de préciser le cadre. Si on prend
+la définition de Wikipedia, qui pour le coup me plait bien, «En programmation
+informatique, un framework est un kit de composants logiciels structurels, qui
+définissent les fondations ainsi que les grandes lignes de l&#8217;organisation de
+tout ou partie d&#8217;un logiciel». C&#8217;est tout à fait ça, des briques, du ciments,
+et quelques pistes sur comment utiliser le tout.</p>
+
+<p>Pendant quelques années, j&#8217;ai préféré utiliser un framework &#8220;maison&#8221;, en
+arguant de la parfaite adaptation à mes besoins, et d&#8217;une plus grande facilité
+à identifier les bugs. Je suis convaincu désormais que c&#8217;était une erreur, au
+moins pour deux raisons :</p>
+
+<ul>
+<li>Une communauté active sera toujours plus efficace et talentueuse pour résoudre des problèmes qu&#8217;un gars ou qu&#8217;une petite équipe dans leur coin. De plus la plupart des frameworks sont open source, et rien n&#8217;empêche de mettre les mains dans le cambouis pour faire avancer un projet dans une direction qui nous intéresse, pour combler une lacune qui nous semble cruciale, etc&#8230;</li>
+<li>Un projet développé sur un framework communautaire sera plus simple à maintenir ; si vous l&#8217;abandonnez pendant un temps, vous avez de bonnes chances pour que les briques du framework aient suivi les évolutions techno ; si un nouveau développeur doit intervenir dessus, il sera peut être déjà au courant des bases, de la logique, de l&#8217;architecture. Et dans tous les cas il pourra se former beaucoup plus facilement qu&#8217;avec un framework maison à la documentation aléatoire.</li>
+</ul>
+
+
+<p>Donc, un framework c&#8217;est un ensemble de briques et de principes et c&#8217;est
+essentiel pour tout développement d&#8217;une certaine envergure.</p>
+
+<h3>La philosophie Symfony</h3>
+
+<p>Là où certains framework (ZF par exemple) se contentent de vous offrir des
+briques, vous laissant libre de les utiliser ou non et la façon dont vous
+voulez les structurez, Symfony impose sa vision des choses et son arborescence
+de projet. Ouvertement inspiré de Rails, il repose largement sur des fichiers
+de configurations (au format YAML) et sur des générateurs de code.</p>
+
+<p>Concrètement, une fois le framework installé, vous disposez d&#8217;un outil CLI
+pour effectuer toutes les tâches répétitives classiques. Pour un nouveau
+projet, vous allez donc procéder ainsi :</p>
+
+<ol>
+<li>Paramétrage de la connexion base de données dans le fichier database.yml</li>
+<li>Création de la structure des données dans le fichier schema.yml (Symfony utilise l&#8217;ORM Doctrine, je reviendrais dessus plus tard)</li>
+<li>Génération de la base de données et des classes PHP en CLI. Vous avez désormais des classes vous permettant de manipuler vos données, du basique : $monObjet->save(), $monObjet->getNom(), etc&#8230; au nettement plus évolué avec les classes de Formulaire, permettant à Symfony de vous posez un formulaire avec validation des données en 2 lignes de code. Toutes ces classes générées sont bien sûr conçues pour être étendues.</li>
+<li>Vous allez ensuite probablement générer un contrôleur / une vue (pattern MVC), et commencer à bidouiller le fichier de configuration des routes&#8230;</li>
+</ol>
+
+
+<p>Pas besoin d&#8217;être un pro de Symfony pour voir l&#8217;intérêt d&#8217;un tel système ;
+déjà, vous écrivez beaucoup moins de code. Ensuite, si vous devez changer la
+structure des données (ce qui arrive toujours), vous avez juste à modifier le
+fichier de configuration qui décrit vos données, et Symfony ré-génère pour
+vous la base de données, les modèles et les formulaires.</p>
+
+<h3>Doctrine, l&#8217;abstraction des données</h3>
+
+<p>Je sais pas vous, mais moi on m&#8217;a toujours dit qu&#8217;il fallait bien séparer les
+données. D&#8217;abord, être indépendant d&#8217;un système de BDD, pour pouvoir passer de
+Mysql à Oracle en calquant des doigts (le truc qui n&#8217;arrive de toutes façons
+jamais&#8230;). Et ensuite pour séparer la partie &#8220;stockage&#8221; de la partie
+&#8220;logique&#8221; (data / buisness si je dis pas de conneries). L&#8217;étape suivante,
+c&#8217;est l&#8217;ORM, qui gère tout ça, avec les notions de relations entre les objets
+(un livre a un ou plusieurs auteur, un auteur a écrit un ou plusieurs livre).
+Au départ, Symfony utilisait Propel, mais depuis quelques années c&#8217;est
+Doctrine qui prend le pas&#8230;. Doctrine est une solution open source qu&#8217;on peut
+très bien utiliser indépendamment de Symfony. En revanche, l&#8217;inverse n&#8217;est pas
+vrai ; Syfmony a tellement de fonctionnalités qui reposent sur Doctrine que
+faire l&#8217;impasse dessus enleverait pratiquement tout son intérêt au framework.</p>
+
+<p>Doctrine donc, est l&#8217;ORM que Symfony utilise pour générer votre BDD et toutes
+vos classes à partir d&#8217;un bête fichier qui décrit votre schéma de données. Et
+pour cette partie, il fait un super travail. (Si je reprends mon exemple des
+livres et des auteurs, il vous rapatriera les livres sur l&#8217;objet auteur, et
+inversement ; le formulaire de saisie d&#8217;un livre vous proposera de choisir les
+auteurs, etc&#8230;).</p>
+
+<p>Où j&#8217;ai beaucoup plus de mal à apprécier Doctrine, c&#8217;est pour la partie
+interrogation des données. En effet, Doctrine impose sa vision des requêtes
+sql, avec des méthodes maison qu&#8217;on peut chainer à volonté :</p>
+
+<p><code>$q = Doctrine_Core::getTable('Element')-&gt;createQuery(); $q-&gt;addWhere('active
+= ? ',true) -&gt;orderBy('ordre DESC');</code></p>
+
+<p>Si ça convient très bien pour des requêtes simples comme l&#8217;exemple ci-dessus,
+c&#8217;est catastrophique dès qu&#8217;on a des jointures un peu complexe, ou que l&#8217;on
+veut faire des GROUP BY, obtenir un COUNT, etc&#8230; La syntaxe est lourde, ne
+permet pas de tout faire, et produit des requêtes aux performances souvent
+catastrophiques. Ma solution pour l&#8217;instant : me passer de Doctrine dans ces
+cas limites, et faire du PDO classique. Car heureusement Doctrine nous laisse
+récupérer la connexion :</p>
+
+<p><code>$conn = Doctrine_Manager::connection();</code></p>
+
+<h3>Admin Generator</h3>
+
+<p>Cette fonctionnalité est la plus montrée / vantée, car la plus simple à mettre
+en avant ; Symfony permet en quelques minutes de générer une interface
+d&#8217;administration complète, offrant toutes les fonctions CRUD. En quelques
+secondes, vous avez une interface complète avec la liste des enregistrements
+de la base, et des liens pour les supprimer, les modifier, et en créer de
+nouveau. Et même un outil pour filtrer / faire une recherche. Le tout, comme
+toujours dans Symfony, est modifiable via les fichiers de configurations Yaml,
+et sur-chargeable via un système de classe bien conçu.</p>
+
+<p>J&#8217;étais sceptique, mais cet outil répond bien à 75% des cas en l&#8217;état, et
+permet de gérer pratiquement tous les 25% restant via un peu de code bien
+placé.</p>
+
+<h3>Routing et autres fonctions clés de Symfony</h3>
+
+<p>Je termine sur les bons côtés de Symfony par un petit paragraphe en vrac ; le
+routing (mapper une url à une méthode d&#8217;un contrôleur) est très bien vu dans
+ce framework. Plus verbeux que dans ZF, il repose essentiellement sur le
+fichier de configuration routes.yml de l&#8217;application. Où c&#8217;est assez fun c&#8217;est
+qu&#8217;on peut réellement faire ce qu&#8217;on veut, pour chaque route, il n&#8217;y a pas
+besoin d&#8217;adopter un système unique pour l&#8217;application. Faire la même chose
+avec un autre outil serait certainement possible, mais beaucoup plus lourd.</p>
+
+<p>Les autres joyeusetés ? En vrac, un système de tests complet, avec génération
+automatique d&#8217;une base de test ; la facilité à insérer des fixtures dans une
+base de dev ou de test ; les commandes pour déployer / synchroniser un projet
+; des univers distincts et fonctionnels dès le départ (dev, test et prod); un
+système de vues, de partials et de componnents simple à assimiler et vraiment
+puissant ; des plugins qui s&#8217;installent en ligne de commandes&#8230; et j&#8217;oublie
+sûrement beaucoup de choses&#8230;</p>
+
+<h3>Défauts, comparaison à ZF et bilan</h3>
+
+<p>Le plus gros défaut de Symfony, c&#8217;est sa documentation&#8230; Le meilleur document
+de référence reste le tutorial Jobeet, qui couvre l&#8217;intégralité des fonctions
+du framework sur un cas concret. Très intéressant pour démarrer, cette
+solution devient catastrophique quand on cherche rapidement la description
+d&#8217;une fonctionnalité, les paramètres d&#8217;une méthodes, etc&#8230; Les recherches sur
+google sont frustrantes au possible, car on tombe le plus souvent sur des
+pages &#8220;périmées&#8221; qui traitent de Symfony 1.0 ou 1.2&#8230;</p>
+
+<p>Le Zend Framework Manual est un petit bijoux d&#8217;exhaustivité et de clarté en
+comparaison, et c&#8217;est probablement normal les deux communautés n&#8217;étant pas
+vraiment de taille comparable&#8230;</p>
+
+<p>L&#8217;autre point noir a été reconnu et est en passe d&#8217;être résolu, avec la
+version 2.0 qui devrait sortir mi-2011 ; « Too much magic », trop
+d&#8217;automatismes, et du code au final assez crade et lourd. Il est impossible de
+faire un var_dump sur un objet Symfony, l&#8217;objet est trop volumineux&#8230; Les
+variables passées aux vues sont des globales, et nom des params d&#8217;un objets
+vue. Dans le même registre, Symfony permet de générer de l&#8217;Ajax ; je vous
+encourage vivement à coder ce genre de choses à la main, c&#8217;est guère plus
+complexe, beaucoup plus propre / optimisé, et si vous vouliez faire du web
+sans avoir l&#8217;impression de faire du web vus auriez de toutes façons choisis
+des technos microsoft.</p>
+
+<p>Symfony et Zend Framework s&#8217;opposent diamétralement au niveau de la
+philosophie ; ZF vous donne une boite à outils, sans réel mode d&#8217;emploi,
+tandis que Symfony vous impose une manière de travailler, de structurer votre
+code. La courbe d&#8217;apprentissage est plus grande, et on a parfois l&#8217;impression
+de ne pas tout maitriser&#8230; Mais au final ces quelques mois m&#8217;ont laissé une
+bonne impression, et je reviendrais je pense régulièrement vers Symfony. Si
+seulement la version 2 pouvait également résoudre le souci de la
+documentation&#8230;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Entre les deux mon coeur balance]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/06/15/entre-les-deux-mon-coeur-balance/"/>
+    <updated>2010-06-15T17:50:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/06/15/entre-les-deux-mon-coeur-balance</id>
+    <content type="html"><![CDATA[<p>La guerre entre Apple (Iphone) et Google (Androïd) fait rage, et en bon geek j&#8217;ai souvent l&#8217;occasion d&#8217;en débattre avec mes amis. On me repproche souvent d&#8217;être brouillon, et d&#8217;être un gros fan boy de l&#8217;ami Stevie, aussi je vais tenter de mettre mes idées au clair en les couchant par écrit.</p>
+
+<!-- more -->
+
+
+<h2>Le matériel</h2>
+
+<p>Apple ne produit qu&#8217;un seul Iphone (même si ils écoulent les stocks des versions précédentes), aussi le choix est plus que limité. Android en revanche est un projet Open Source financé par Google et pléthore de fabricants de mobiles, le choix est donc énorme. Les deux solutions ont leurs avantages et leurs inconvénients : avec Android, vous pouvez choisir le téléphone qui vous convient le mieux suivant vos usages, vos goûts et votre budget ; l&#8217;Iphone en tant que plateforme unique favorise le travail des développeurs, et évite de fragmenter l&#8217;expérience utilisateur (telle fonction en marche pas car pas le bon matériel, telle option ne sera accessible que quand le constructeur daignera sortir sa version à jour de l&#8217;OS, etc&#8230;). Connaissant Apple, je pense qu&#8217;ils l&#8217;emportent aussi niveau finition / qualité / autonomie, sans pour autant être plus cher que les HTC équivalents.</p>
+
+<p>Pour être complet sur le sujet, on me souffle dans l&#8217;oreillette qu&#8217;Apple sont des gros bâtards en ce qui concerne les accessoires, ce que je me dois de confirmer. Au delà de la garantie de 1 an, un changement de la batterie vous coûtera dans les 90 euros avec un retour en atelier, là où on trouve des batteries noname pour HTC à 30 euros.</p>
+
+<p>Enfin, au niveau du retard de l&#8217;Iphone (en terme de photo essentiellement) le 4G semble corriger le tir ; je me permets une digression sur la caméra en façade présente sur ce nouvel Iphone, parce que ça représente parfaitement ce que fait Apple : des tonnes de téléphones sortis ces dernières années ont déjà cette deuxième caméra, pour la visiophonie ; tous les opérateurs 3G faisaient de la pub là dessus il y a 5 ans, alors que ça n&#8217;a jamais été au point (coût de la 3G, qualité de la connexion, compatibilité entre téléphones et opérateurs, etc&#8230;). Lorsqu&#8217;Apple sort cette fonction, c&#8217;est avec le logiciel qui va avec, et uniquement en Wifi entre Iphone. Et je parie que ça va faire un carton.
+Bien sûr, vous avez le droit comme moi de penser que la visio c&#8217;est pourri et de préférer un HTC sans caméra superflue ; juste j&#8217;aime beaucoup cette synergie matériel / logiciel, qui est au coeur de l&#8217;offre d&#8217;Apple et qui sera toujours a son avantage.
+L&#8217;OS</p>
+
+<p>J&#8217;ai envie de faire un parallèle entre Mac et Windows, car finalement ça se rejoint un peu ; Mac est arrivé en premier, avec beaucoup d&#8217;idées novatrices en terme d&#8217;ergonomie, d&#8217;expérience utilisateur, mais sur une plateforme fermée. Microsoft a suivi le mouvement en pompant l&#8217;essentiel, sur une plateforme &#8220;ouverte&#8221; (tous les fabricants de PC peuvent &#8211; et doivent &#8211; installer Windows sur les machines qu&#8217;ils vendent). C&#8217;est pas nécessairement une critique, je pense pas qu&#8217;il y ait 50 méthodes possibles pour interragir avec un ordinateur, et c&#8217;est la même chose pour un mobile avec un écran tactile. L&#8217;histoire diverge sur la suite heureusement, Google / Android étant nettement plus performant que Microsoft, et Apple disposant cette fois d&#8217;une belle part de marché. Pour l&#8217;instant, Apple a un peu d&#8217;avance, mais ça ne durera probablement pas.
+Je doute qu&#8217;il y ait de grosses différences au niveau des fonctionnalités ; iOS doit être plus simple mais offrir nettement moins d&#8217;options, de personnalisation, donc à ce niveau balle au centre. Et qui dit Iphone dit Itunes, logiciel à tout faire qui compte beaucoup de détracteurs. Là encore je pense que c&#8217;est un avantage pour le grand public (simplicité) et une contrainte pour les geeks (qui contournent le problème en jailbreakant).</p>
+
+<p>Un dernier point sur ce sujet : le multi-tâche. Là aussi je trouve qu&#8217;Apple a fait des choix intelligents, en retardant l&#8217;arrivée de cette fonction réclamée (à raison) par tout geek qui se respecte. D&#8217;abord, en n&#8217;ayant qu&#8217;une application qui tourne, on simplifie grandement l&#8217;utilisation, et c&#8217;est une des raisons de la popularité de l&#8217;Iphone auprès du grand public ; ensuite, les processeurs et les batteries embarquées sont désormais plus aptes à faire tourner tout ça ; enfin, ils ont eu le temps de voir quelles types d&#8217;applications étaient conçues, comment elles fonctionnaient, et donc de proposer un système intelligent (grosse priorité à l&#8217;application active, les autres se contentant de tâches de fond peu consommatrices). Même remarque sur la politique de Jobs de fermer la porte à Flash. Pour tous ces choix techniques, ces limitations, l&#8217;autonomie de l&#8217;Iphone reste meilleure, et les ralentissements moins nombreux que sous Android (mais je suis convaincu que ça ne durera pas, la puissance de frappe en face étant phénoménal, et Apple commençant à énerver beaucoup trop de monde).</p>
+
+<h2>Le Store</h2>
+
+<p>Ici, ça se gâte pour la pomme. Le store Iphone est mieux intégré, et beaucoup plus fourni car arrivé avec 3 ans d&#8217;avance. Ce qui pose problème c&#8217;est la politique d&#8217;Apple.
+Tout d&#8217;abord, Jobs se pose comme garant de la morale et des bonnes moeurs, décidant de censurer le p0rn, certains comiques politisés / traitant de religion, etc&#8230; C&#8217;est totalement hypocrite, l&#8217;Iphone permettant d&#8217;accéder à Internet et Internet étant composé à 50% de p0rn, et totalement idiot car le contrôle parental existe sur cette plateforme. Mais bon, en étant très puritain on pourrait peut être apprécier cette image de Steve qui tel un chevalier blanc en jean pourfend verges et vulves pour la santé mentale de nos petites têtes blondes.</p>
+
+<p>Où le bât blesse c&#8217;est que la censure ne s&#8217;arrête pas là ; toutes les applications pouvant concurrencer ce que fait déjà Apple se voient aussi refuser l&#8217;accès au store ; pareil pour celles qui concurrencent les opérateurs téléphoniques (VOIP,SMS). C&#8217;est tout sauf un climat sain et propice à l&#8217;innovation, c&#8217;est mal.</p>
+
+<p>Le dernier motif pouvant vous refuser l&#8217;accès au store a fait beaucoup parler de lui ; il s&#8217;agit de la section 3.3.1 de la licence d&#8217;utilisation du SDK, qui interdit de développer autrement qu&#8217;en natif. C&#8217;est évidemment un gros tacle à Adobe, qui proposait dans Flash CS5 une solution pour compiler directement pour l&#8217;Iphone, et aussi une façon de conserver une longueur d&#8217;avance sur Google, en obligeant les développeurs soit à choisir une plateforme (Apple étant alors le choix logique vu les parts de marché), soit à développer deux versions. Le côté politique m&#8217;amuse plus qu&#8217;autre chose, et d&#8217;un point de vue technique la position est défendable, une application générée par un outil tiers étant forcément moins optimisée.</p>
+
+<p>Pour couronner le tout, le classement des applications est sujet à caution à cause du spam, il n&#8217;y a pas de réel contrôle qualité et beaucoup d&#8217;applications plantent ou ne font pas ce qu&#8217;elles sont censées faire, etc&#8230; Délicat à éviter vu le volume d&#8217;applications soumises chaque jour, mais ça risque de lasser le consommateur.
+Côté Google, pas d&#8217;écho négatifs pour le moment, il faudra attendre pour voir si ils se démarquent réellement, et si les applis de qualités sont au rendez vous. A noter, vous avez la possibilité de demander le remboursement de votre application pendant 24h après l&#8217;achat, ce qui est super pour le consommateur.</p>
+
+<h2>Pour les développeurs</h2>
+
+<p>Niveau pognon, c&#8217;est pareil : le développeur touche 60%, la plateforme 40%. C&#8217;est plutôt un bon deal quand on sait qu&#8217;une chanson vendue 0.99$ sur itunes rapporte 0.09$ à l&#8217;artiste. Vive les maisons de disque.</p>
+
+<p>Niveau langage, Android a un gros avantage, c&#8217;est du Java, avec une communauté énorme, tandis que l&#8217;Iphone défend l&#8217;Objective-C, nettement moins répendu et populaire. Où c&#8217;est moins évident, c&#8217;est au niveau du fractionnement du marché ; il y a beaucoup de versions d&#8217;Android dans la nature, qui ne donnent pas accès aux mêmes fonctions ; idem sur les téléphones qui ne font pas tous la même chose niveau tactile, résolution d&#8217;écran, puissance processeur, etc&#8230; Ces restrictions risquent de donner un gros avantage à l&#8217;Iphone pour les jeux, pour le reste ça complique un peu le travail du développeur mais ça s&#8217;arrête là.</p>
+
+<p>Dernier point en faveur de Google : développer sur Android est gratuit, sur Iphone il vous en coûtera une licence développeur à 99$/an, plus un Mac.</p>
+
+<p>Dans tous les cas, on a aussi le droit de faire du HTML5 (du web quoi), et les librairies n&#8217;arrêtent pas de monter en qualité à ce niveau.</p>
+
+<h2>Who is evil ?</h2>
+
+<p>Les deux probablement. Le marché de l&#8217;informatique est en train de migrer vers les plateformes mobiles. Je ne sais pas si l&#8217;ordinateur du futur ressemblera à un smartphone ou à une tablette, mais ce ne sera certainement pas les portables que l&#8217;on connait actuellement ; ils resteront bien sûr pour la création de contenu, mais toute la consommation se fera sur ces bidules. Tout le monde bouge ses pions pour occuper la place (cf. le rachat de Palm par HP). Sur ce nouveau marché, deux sources de revenus : la distribution, et la publicité.</p>
+
+<p>Pour la distribution, Apple a une énorme longueur d&#8217;avance avec Itunes, mais Google à d&#8217;ores et déjà annoncé l&#8217;arrivée de sa plateforme musicale. Les tendances indiquent qu&#8217;Android est en train de remonter sérieusement l&#8217;Iphone, ça semble normal vu le nombre de marques derrières, il faudra voir comment le succès de l&#8217;Ipad et le nouvel Iphone vont bousculer les choses. Je vois bien Apple terminer avec 30 ou 40% du marché, en continuant ce qu&#8217;ils ont fait sur Mac : un OS lié à du matériel de qualité pour des gens fortunés, ce qui au final leur rapporte plus que si ils ouvraient leur OS à tout ordinateur (Mac ou PC).</p>
+
+<p>Pour la publicité, Google règne en maître incontesté sur le web, offrant tous ces services gratuitement pour mieux vous profiler et vendre plus cher votre temps de cerveau disponible à ses annonceurs. La publicité &#8220;à l&#8217;ancienne&#8221; marche de moins en moins bien, elle sera de plus en plus intrusive (cf. Youtube) et ciblée.</p>
+
+<p>Sur une plateforme mobile, géolocalisée, le ciblage sera encore plus précis ; imaginez une discussion à propos d&#8217;un jeu vidéo via Gmail ou GTalk, et lors d&#8217;un passage à proximité de la Fnac, votre téléphone vous signale une promotion exceptionnelle sur le jeu en question. C&#8217;est demain. Est ce que c&#8217;est grave ? Peut être pas, certains pourraient même considérer cela comme un service supplémentaire. Est ce qu&#8217;Apple ne veut pas faire la même chose ? Bien sûr que si. Ce qui me fait flipper c&#8217;est le poids financier de Google, et la main mise grandissante qu&#8217;ils ont sur notre vie numérique. Apple a peut être pris un peu d&#8217;avance sur le mobile, mais il ne faut se tromper, le nouveau Microsoft, c&#8217;est Google : le point d&#8217;entrée obligatoire pour votre vie numérique. Je crois que c&#8217;est pour ça que j&#8217;essaie de défendre l&#8217;Iphone, parce que je pense que c&#8217;est le moindre de deux maux, et que si Google remporte trop largement ce marché là, on sera vraiment en face d&#8217;un monopole dangereux. Après bien sûr, on pourrait tous être militants et s&#8217;équiper de Nokia N900 sous linux&#8230; Mais bon, faut pas déconner non plus.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[So long]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/06/04/so-long/"/>
+    <updated>2010-06-04T18:31:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/06/04/so-long</id>
+    <content type="html"><![CDATA[<p>Jack Bauer. La première fois que je l&#8217;ai croisé, c&#8217;était sur Canal+, en 2002.
+La chaine organisait un week end intégral avec les saison 1 &amp; 2, et KTV
+marchait encore du tonnerre. J&#8217;avais attaqué sans trop y croire et j&#8217;avais
+fini à 4h du mat totalement explosé et ravi. Malgré des saisons de qualité
+inégale, des intrigues souvent redondantes et maladroites, je n&#8217;ai jamais
+décroché. Petit retour sur ces 8 ans de bonheur.</p>
+
+<!-- more -->
+
+
+<p>Ce n&#8217;est pas une nouvelle pour les trois pèlerins qui lisent ce blog, je suis
+un gros consommateur de série. Il est toujours délicat de vouloir catégoriser,
+mais je tente quand même l&#8217;expérience :</p>
+
+<ul>
+<li><strong> la série comique de 20 minutes avec rire enregistrée : </strong> formule longuement éprouvée, qui donne parfois des résultats fort sympathiques (Scrubs, How I met, Big Bang Theory,&#8230; )</li>
+<li><strong> la série de 40 minutes en épisode indépendants : </strong> il y a plusieurs niveau dans cette catégorie je pense, mais le postulat de départ c&#8217;est de suivre toujours les mêmes personnages, avec à chaque épisode une histoire qui se boucle. Suivant la série, on peut avoir une trame de fond importante (Farscape, Battlestar, Deadwood, Les Sopranos, &#8230; ) ou au contraire minimale (House, Boston Legal, Les Experts, NCIS, Bones, &#8230;). Dans ce dernier cas de figure l&#8217;ordre de visionnage n&#8217;a pas trop d&#8217;importance (ce que TF1 ou M6 adorent nous rappeler en diffusant n&#8217;importe comment).</li>
+<li><strong> la série de 40 minutes où l&#8217;histoire se poursuit d&#8217;épisode en épisode : </strong> c&#8217;est un peu ma formule préféré, là où le suspense est le plus intense et l&#8217;addiction la plus forte. Dans cette catégorie je citerais The Wire, Lost, et bien sûr 24.</li>
+</ul>
+
+
+<p>24 a pris ce principe du feuilleton et l&#8217;a poussé dans ses retranchements, en
+étant la première série (et la seule à ma connaissance) à se lancer dans le
+&#8220;temps réel&#8221; : un épisode = 1 heure, 1 saison = une journée dans la vie de
+Jack. Ce pari un peu fou associé à des méthodes de productions en flux tendu
+(la fin de l&#8217;histoire n&#8217;est pas écrite quand ils commencent à tourner, le
+feedback des spectateurs influe) a conduit a de nombreuses incohérences (les
+personnages ne sont jamais à plus de 20 minutes de voiture ou d&#8217;hélico de
+l&#8217;endroit où il se rendent ; certains personnages changent totalement en cours
+de saison ; la menace qui pèse sur les états unis en début de saison se
+retrouve toujours emballé dans un complot plus grand à la fin,; la vessie de
+Jack est très probablement artificielle ; etc&#8230;</p>
+
+<p>Mais malgré les risques de l&#8217;exercice, les scénaristes ont toujours (ou
+presque, je crois me souvenir d&#8217;une très mauvaise saison 4) réussi à sortir
+une histoire à peu prêt cohérente, et terriblement prenante. Le tout bien sûr
+en mélangeant les intrigues, en racontant des histoires dans l&#8217;histoire, avec
+bien sûr du superflu pour remplir (Kim, Cheryl, vos noms seront toujours
+détestés).</p>
+
+<p>Les éléments de base de toutes saison de 24 qui se respectent sont vraiment
+légers : une menace terroriste, nucléaire ou biologique, d&#8217;origine russe ou
+musulmane, des traitres, une cellule anti-terroriste (CTU), un agent
+expérimenté et n&#8217;ayant pas peur de contourner la loi pour la bonne cause (Jack
+Baueur), le président américain et son staff&#8230; Et c&#8217;est tout. Ecrire un
+générateur de scénario pour 24 ne devrait pas être trop compliqué&#8230;</p>
+
+<p>Pourtant avec ces quelques grosses ficelles, les scénaristes ont fait des
+miracles. Pour avoir une bonne série sur cette base, il ne manquait plus qu&#8217;un
+bon casting, et ça tombe bien, 24 nous a toujours gâté à ce niveau. Face à des
+situations aussi stressantes, il fallait des acteurs capables de faire passer
+la tension, l&#8217;émotion, le poids des décisions à prendre, et globalement tous
+les acteurs ont bien rempli leur mission (les méchants musulmans étaient peut
+être un peu trop caricaturaux&#8230;).</p>
+
+<p>Le plus gros reproche que j&#8217;ai entendu sur cette série concerne son
+patriotisme, son côté américain et caricatural. D&#8217;abord, il ne faut pas perdre
+de vue que c&#8217;est un divertissement, de l&#8217;entertainement dans ce qu&#8217;il y a de
+plus basique, de plus primitif. J&#8217;ai mis longtemps à assumer, mais ce n&#8217;est
+pas vraiment un défaut. 24h n&#8217;est qu&#8217;un gros moment de bonheur, ce n&#8217;est pas
+une série dont on retirera grand chose, ni une série qui invite à réfléchir
+(je pense bien sûr à The Wire et aux Soprano). Ensuite, je trouve que malgré
+tout la série est assez nuancée et critique, et que certains points sont très
+bien vu. Il y avait président noir dans 24 bien avant Obama ; une femme à la
+présidence pour les deux dernières saisons. Quand Bush était au pouvoir, 24
+nous a offert un président républicain lâche et stupide, qui trahit son pays.
+Les méthodes douteuses de Jack (la torture) sont souvent critiqués, et de
+nombreux épisodes s&#8217;attardent sur le fait que lui aussi a du mal à vivre avec
+(mais c&#8217;est pour la bonne cause, il faut bien quelqu&#8217;un pour faire le sale
+boulot). Le racisme, la liberté de la presse, les mercenaires, le gouvernement
+américain pris au piège par ses contrats militaires avec des entreprises
+privées, tous ces sujets sont abordés de manière plutôt intelligente, pour le
+spectateur de 24 au moins :-)</p>
+
+<p>Jack est un héros, un vrai, comme on en voit rarement. La saison 8 qui vient
+de s&#8217;achever clôture joliment ses aventures, et le compte
+à rebours final m&#8217;a presque fait verser
+une larme. Si vous n&#8217;avez pas encore succombé, il n&#8217;est pas trop tard, 24 est
+une série qui mérite d&#8217;être regardée. Pour ce qu&#8217;elle est, de l&#8217;adrénaline
+numérisée. Avec un peu de testostérone.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[cinq d'un coup]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/05/09/cinq-dun-coup/"/>
+    <updated>2010-05-09T00:15:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/05/09/cinq-dun-coup</id>
+    <content type="html"><![CDATA[<p>Tel le chasseur de mouche de la légende, je viens de réaliser une série fort
+impressionnante, et pour la postérité je me devais de le consigner par écrit.
+En effet, j&#8217;ai lu cinq bons livres d&#8217;affilée. Voir très bons livres. C&#8217;est
+extrêmement rare, en général il y au moins un navet dans la liste, ou un livre
+juste sympatoche&#8230; Mais là, parcours sans faute ! Pour éviter l&#8217;accident de
+parcours involontaire, j&#8217;ai enchainé avec une bouse innommable de Connely (un
+mauvais polar qui a du donné un mauvais téléfilm). Et comme je suis cool, je
+vous livre les coupables ci dessous.</p>
+
+<h3>Dalva, de Jim Harrisson</h3>
+
+<p>J&#8217;ai découvert Harisson l&#8217;an dernier, et je suis tombé sous le charme de ses
+peintures d&#8217;une autre Amérique : l&#8217;Amérique sauvage des grands lacs, des
+ranchs, des indiens. Dalva raconte l&#8217;histoire d&#8217;une femme libre de 50 ans,
+l&#8217;histoire de sa famille, et l&#8217;Histoire des Indiens et des atrocités sur
+lesquels ce grand pays s&#8217;est construit. Comme souvent avec Harrison, c&#8217;est
+très brouillon, les personnages racontant leurs histoires à leur rythme et
+dans l&#8217;ordre où leurs souvenirs leurs reviennent. Et comme toujours, c&#8217;est
+très touchant, ça parle d&#8217;amour avec beaucoup de simplicité et de justesse, et
+ça donne envie de visiter le Michigan et d&#8217;être plus un amoureux des grands
+espaces que du cyber-espace (mais bon on se refait pas).</p>
+
+<h3>Le lièvre de Vatanen, de Arto Paasilinna</h3>
+
+<p>J&#8217;avais beaucoup entendu parler de ce livre, sans vraiment savoir de quoi il
+parlait. Aussi quand je l&#8217;ai découvert dans notre bibliothèque j&#8217;ai sauté
+dessus. C&#8217;est un roman initiatique et écolo, qui raconte l&#8217;histoire peu banale
+d&#8217;un journaliste finlandais déprimé par son quotidien triste et sans surprise
+d&#8217;occidental ; lorsqu&#8217;il heurte un lièvre en voiture, il décide de suivre
+l&#8217;animal blessé dans la forêt, et ne fait jamais demi tour ; il soigne
+l&#8217;animal qui devient le symbole de sa nouvelle vie, et tous deux s&#8217;embarquent
+pour un tour de la Finlande où ils croiseront moult personnages haut en
+couleur, et où ils vivront des aventures fort pittoresques.</p>
+
+<p>C&#8217;est un tout petit livre, une fable moderne qui se lit en quelques heures, et
+que tout le monde devrait lire (un peu à la manière de &#8220;Comment je suis devenu
+stupide&#8221;) tellement c&#8217;est rafraichissant.</p>
+
+<h3>Les poissons me regardent, Jean-Paul Dubois</h3>
+
+<p>Les héros de Dubois sont toujours déprimés. Peut être que les héros sont
+toujours déprimés, d&#8217;ailleurs ? Dans ce roman, nous avons un reporter sportif
+d&#8217;une trentaine d&#8217;années, célibataire, qui s&#8217;ennuie dans son travail et qui
+n&#8217;a pas vraiment de loisirs&#8230; Le retour de son père, qui avait disparu il y a
+plus de 15 ans lors de la mort de sa femme, va totalement bouleverser sa vie ;
+ce dernier, alcoolique exubérant et lunatique,  est en effet
+revenu pour que son fils le tue. La folie du père percute de plein fouet le
+quotidien terne du fils, et débouche sur un joyeux bordel. Drôle, poignant,
+intelligent&#8230;</p>
+
+<h3>Des villes dans la plaine, de Cormac McCarthy</h3>
+
+<p>J&#8217;ai toujours eu du mal avec le concept de &#8220;Littérature&#8221; (avec un grand L),
+les livres que j&#8217;aime sont ceux qui se lisent bien, un bon auteur pour moi est
+un auteur qui raconte bien, et rien à faire du reste&#8230; Pourtant quand j&#8217;ai lu
+ce livre, je n&#8217;ai pu qu&#8217;être impressionné par la force qui se dégage du style,
+de l&#8217;écriture de McCarthy. C&#8217;est tout sauf facile d&#8217;accès, des phrases à
+rallonge, des actions décomposés dans les moindres gestes, des dialogues qui
+n&#8217;en sont pas&#8230; mais c&#8217;est beau, et ça colle parfaitement à l&#8217;ambiance
+western / déchéance des cowboys (on retrouve un peu l&#8217;ambiance western moderne
+du film Trois Enterrement de Tommy Lee Jones). Des villes dans la plaine
+raconte l&#8217;histoire de John Grady, jeune prodige des chevaux, qui tombe
+amoureux d&#8217;une jeune prostituée mexicaine. Au programme des réjouissance, un
+musicien aveugle conseiller matrimonial, un parrain de la mafia mexicaine pas
+très avenant, un vieux rancher qui n&#8217;arrive pas à oublier la mort de sa fille,
+Bill, le pote plein de bon sens mais qui pardonne tout, des ventes aux
+enchères de chevaux, une battue organisée contre des chiens sauvages
+totalement dantesque, &#8230;</p>
+
+<p>Il faut savoir que c&#8217;est le troisième roman de la trilogie des confins ; je
+n&#8217;ai lu que celui ci mais si vous avez le choix il est sûrement mieux de
+commencer par le premier.</p>
+
+<h3>Soie, d&#8217;Alessandro Baricco</h3>
+
+<p>Je parlais de littérature à l&#8217;instant ; en commençant ce livre, au bout de 5
+lignes, je me suis dit que j&#8217;avais déjà lu un roman de cet auteur. Et après
+vérifications, &#8220;Novenceto, pianiste&#8221;, m&#8217;avait effectivement été conseillé par
+des amis il y a quelques années. Là où McCarty a un style austère et lourd,
+Baricco est au contraire dans la légèreté ; dire beaucoup avec une économie de
+mot, une simplicité qui rend ses livres si touchants. Il nous conte ici
+l&#8217;histoire d&#8217;un homme ordinaire, Hervé Joncour, originaire du Vivarais, qui se
+retrouve transformé par ses visites aux Japon pour acheter des vers à soie.
+L&#8217;histoire d&#8217;un amour improbable et impossible, avec en toile de fond
+l&#8217;industrie de la soie à la fin du 19° siècle et les changements qui secouent
+le japon.</p>
+
+<p>That&#8217;s all folks.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MOUTON.REBELLE]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/04/16/mouton-dot-rebelle/"/>
+    <updated>2010-04-16T00:30:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/04/16/mouton-dot-rebelle</id>
+    <content type="html"><![CDATA[<p>Après près de trois ans de déni, j&#8217;ai enfin décidé d&#8217;accepter la réalité, à
+savoir la mort de mon fils, ma bataille, <strong>mouton-rebelle.com</strong>. J&#8217;ai fermé
+les commentaires, plus rien ne sera publié, et le site a été déplacé sur
+<a href="http://archive.mouton-rebelle.com">http://archive.mouton-rebelle.com</a>. Mais
+comment tourner la page sans rendre un dernier hommage à ce projet, à cette
+époque, et surtout à tous les gens qui y ont pris part ?</p>
+
+<!-- more -->
+
+
+<p>Mouton a vu le jour en 2002 ; je travaillais à l&#8217;époque dans une SSII
+grenobloise en tant que développeur web, et cette passion pour le net me donne
+vite envie de me créer un espace d&#8217;expérimentation. Pour le nom, j&#8217;ai été
+inspiré, il me plait toujours 8 ans après, et je trouve encore que
+mouton/rebelle définit bien notre génération. Les couleurs : noir / gris pour
+le mouton, rose pour le rebelle, fond blanc. Le logo ? Un chouette mouton
+masqué dessiné par l&#8217;ami Nico. Le contenu ? Un peu de tout en fait, mouton a
+toujours été une sorte de webzine allimenté par un petit groupe d&#8217;amis,
+partageant des liens ou des humeurs, des films, des livres, de la musique, &#8230;</p>
+
+<h2>Hall of fame</h2>
+
+<table>
+<thead>
+<tr>
+<th>Auteurs </th>
+<th> Articles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_targos_.html">targos</a> </td>
+<td> 2</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_yoda_.html">yoda</a> </td>
+<td> 3</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_schuss_.html">schuss</a> </td>
+<td> 3</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Mina_.html">mina</a> </td>
+<td> 4</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Fred-Bird_.html">fredbird</a> </td>
+<td> 4</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">john popovitch</a> </td>
+<td> 5</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_bob_.html">bob</a> </td>
+<td> 5</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_gizmo_.html">gizmo</a> </td>
+<td> 6</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_axolotl_.html">axolotl</a> </td>
+<td> 7</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_jess_.html">jess</a> </td>
+<td> 9</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_orphee_.html">orphee</a> </td>
+<td> 11</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_SAMsara_.html">SAMsara</a> </td>
+<td> 14</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Anna-Coluthe_.html">Anna Coluthe</a> </td>
+<td> 14</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_attila_.html">attila</a> </td>
+<td> 22</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_grima_.html">grima</a> </td>
+<td> 25</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_west_.html">west</a> </td>
+<td> 26</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_keraoc_.html">keraoc</a> </td>
+<td> 32</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_fab-bundy_.html">fab</a> </td>
+<td> 34</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_Pedrof,32_.html">pedrof</a> </td>
+<td> 37</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_didoune_.html">didoune</a> </td>
+<td> 46</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_xnx_.html">xnx</a> </td>
+<td> 59</td>
+</tr>
+<tr>
+<td><a href="http://archive.mouton-rebelle.com/_jojo_.html">jojo</a> </td>
+<td> 182</td>
+</tr>
+</tbody>
+</table>
+
+
+<p><strong>Techniquement</strong>, le site a beaucoup évolué ; d&#8217;un CMS maison bricolé à l&#8217;arrache je suis passé à Spip, un forum PHPBB s&#8217;est vite cablé sur tout ça, puis à finir par disparaitre au profit de SPIP également (erreur) ; beaucoup de flash au départ, j&#8217;étais jeune, sous IE6, et je rigolais quand Grima et Axolotl m&#8217;engueulaient.<br/>
+<strong>Graphiquement</strong> aussi, les versions ont changés égulièrement : je vous invite <a href="http://web.archive.org/web/*/www.mouton-rebelle.com">à remonter le temps</a>. Je garde un très bon souvenir de la pinup, et de l&#8217;avant dernière itération du graphisme réalisée au côté de l&#8217;ami Fab Bundy.</p>
+
+<p>Mouton a quelque part bénéficié de l&#8217;effet réseau social avant l&#8217;heure ; les
+quelques amis du départ (Did, Fab, Nico, xNx) ont fait boule de neige,
+ramenant leurs connaissances sur le site, pour avoir au final beaucoup de
+contributeurs, très différents dans leur style et goûts. Certains postaient
+beaucoup, d&#8217;autres étaient plus actifs sur le forum / les commentaires.
+Certains écrivaient bien, d&#8217;autres pas trop trop bien, si vous voyez de qui je
+veux parler. Certains étaient tolérants, d&#8217;autres moins. Certaines se vexaient
+rapidement&#8230; C&#8217;était un petit coin de web sympa, en tout cas, même si on nous
+a souvent reproché un côté &#8220;fermé / club privé&#8221;.</p>
+
+<p>A titre personnel, mouton m&#8217;a permis de rencontrer des gens formidables,
+virtuellement ou dans la vraie vie du réel ; j&#8217;ai gardé le contact avec
+certains, perdu de vue d&#8217;autres, c&#8217;est la vie, mais si jamais vous passez ici
+et lisez ces quelques lignes, sachez que j&#8217;étais ravi d&#8217;avoir croisé votre
+chemin. Séquence émotion, muisque d&#8217;ambiance, larme à l&#8217;oeil. Coupez.
+Générique.</p>
+
+<p>Ou pas. Comment terminer cet hommage autrement que par un bestof ? Impossible.
+Innimaginable. Mais juste avant, peut être faudrait-il s&#8217;interroger sur les
+causes de cette échec, avant d&#8217;en assumer l&#8217;entière responsibilité et dde se
+retirer définitivement de la vie panurgienne. Et figure ami lecteur que j&#8217;ai
+plein de réponses sur les pourquoi du comment de la fin de mouton&#8230;.</p>
+
+<ul>
+<li>En 2002, c&#8217;était encore un peu nouveau, le fait de pouvoir facilement poster / écrire sur le net ; je crois qu&#8217;on était tous excité par cette nouveauté.</li>
+<li>Les réseaux sociaux sont apparus, permettant à tout le monde d&#8217;ouvrir un blog en 2 clic, ou de partager ses photos avec énormément de monde. <a href="http://depulpeuse.mouton-rebelle.com/">Did a ouvert son blog</a>, je suis passé sur <a href="http://www.flickr.com/photos/mouton/">Flickr</a> puis j&#8217;ai créé <a href="http://ego.mouton-rebelle.com">Ego</a>, et tout le monde a été attiré par d&#8217;autres sites, d&#8217;autre moyen de partager et d&#8217;échanger. Petit à petit, les posts se sont fait moins réguliers, les visites moins nombreuses&#8230;</li>
+<li>Je n&#8217;ai jamais voulu / su assumer mon rôle de « rédacteur en chef » ; mouton acceptait tout le monde et publiait tous les posts, sans ligne éditoriale&#8230; un peu le bordel du coup, j&#8217;aurais du jouer la police / être plus exigeant mais j&#8217;aurais vexé des gens au passage&#8230;</li>
+<li>Ecrire un bon article prend du temps, le mettre en forme également ; on vieillit tous, et on semble avoir de moins en moins de temps. Ou on le prend de moins en moins, peut être&#8230;</li>
+<li>J&#8217;ai voulu changer le forum qui marchait très bien pour une solution bancale ; j&#8217;ai changé un peu trop souvent le graphisme au goût de certains ; j&#8217;ai eu l&#8217;erreur d&#8217;héberger le site chez 1&amp;1, qui nous a flingué l&#8217;encodage sur la base de donné en nous coupant le site à 2 reprises&#8230;</li>
+</ul>
+
+
+<p>Plein de bonnes raisons quoi&#8230; Et maintenant le best of ? Ok&#8230;</p>
+
+<ul>
+<li>27 000 visites en Août 2006, je crois que c&#8217;est le record, mais je n&#8217;ai plus les stats pour 2005&#8230;</li>
+<li>Le débat sur la <a href="http://archive.mouton-rebelle.com/+-constitution-europeene-+.html">constitution européenne</a>, avec les prises de bec de Fredbird et d&#8217;Attila, mémorables&#8230;</li>
+<li>Les textes de Didoune, avec la fameuse &#8220;polémique des <a href="http://archive.mouton-rebelle.com/19-La-galerie-de-petasses.html">pétasses</a>&#8221;. Aléa de google et de ce monde de fou, le plus vu est celui qui <a href="http://archive.mouton-rebelle.com/Bon-anniversaire-Fab.html">souhaite un bon 25° anniversaire à Fab</a>.</li>
+<li>Nos participations photos pour les <a href="http://archive.mouton-rebelle.com/spip.php?page=recherche&amp;recherche=26+things">26 things</a></li>
+<li>les bandes dessinées de <a href="http://archive.mouton-rebelle.com/_John-Popovitch_.html">John Popovitch</a>, account manager. Aux dernières nouvelles il est toujours account manager, et a fini par oublié ces cas de consciences et les vaches de son pépé</li>
+<li>Le lynchage de Keraob a son arrivée, pour son orthographe et son penchant aux SMS. Puis le débat qui en a suivi sur le forum, avec une anecdote touchante de Mina qui démontrait que la qualité de l&#8217;échange ne dépendait pas forcément de la manière de s&#8217;exprimer. Tolérance \o/</li>
+<li>le lynchage de Pedrof ensuite, parce que c&#8217;était un gamin idéaliste borné horipillant convaincu que <a href="http://archive.mouton-rebelle.com/La-verite-existe-c-est-la-verite.html">la vérité existe, c&#8217;est la vérité</a></li>
+<li>Vis ma vie de geek romantique, avec <a href="http://archive.mouton-rebelle.com/Rencontre-24h-pas-comme-les-autres.html">la première érection d&#8217;Axolotl</a> et les <a href="http://archive.mouton-rebelle.com/_grima_.html">pulsions suicidaires de Grima</a></li>
+<li>un post co-écrit avec Grima, <a href="http://archive.mouton-rebelle.com/Firefox-le-navigateur-sexy.html">pour expliquer pourquoi Firefox c&#8217;est bien</a> se retrouve linké par le <a href="http://standblog.org">Standblog</a>, qui nous envoie donc plein de visiteurs.</li>
+<li>L&#8217;émulsion sympathique avec <a href="http://sh3vchenko.free.fr/chafouin/">les gars de Chafouin</a> et leurs critiques destroy qui m&#8217;<a href="http://archive.mouton-rebelle.com/Le-secret-des-poignards-volants.html">inspirèrent</a> <a href="http://archive.mouton-rebelle.com/Sympathy-for-mr-vengeance.html">parfois</a></li>
+<li>Le plaisir que j&#8217;ai pris à écrire <a href="http://archive.mouton-rebelle.com/+-joe-le-mouton-+.html">ces quelques éditos</a></li>
+<li><a href="http://archive.mouton-rebelle.com/Coma.html">Le post de xNx sur le coma</a>, qui est toujours en première page de google si on tape juste coma, qui compte moult commentaires et qui a valu à l&#8217;intéressé 2 invitations chez Delarue (et oué, passage à la TV grâce à mouton, la classe).</li>
+<li>Sûrement milles autres petits détails qui ne me reviennent pas en mémoire là tout de suite&#8230; je vais donc terminer <a href="http://cyberbobby.chez.com/klika.html">sur ça</a>, que la boucle soit bouclée.</li>
+</ul>
+
+
+<p>Voilà, je crois que c&#8217;est tout ce que j&#8217;avais à dire&#8230; rien de bien
+important, mouton était déjà mort dans les faits depuis longtemps. C&#8217;était
+chouette, merci pour tout. Je reste dans le coin, je ferais certainement
+quelque chose de cette adresse prochainement, et vous pouvez me suivre sur
+<a href="http://ego.mouton-rebelle.com/">ego</a>, sur ce <a href="http://blog.mouton-%0Arebelle.com/">blog</a> peu actif ou sur <a href="http://twitter.com/moutonrebelle">twitter</a> que
+je découvre.</p>
+
+<p>Don&#8217;t stop<br/>
+The rock</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Je suis un social traite]]></title>
+    <link href="http://mouton-rebelle.github.com//2010/04/01/je-suis-un-social-traite/"/>
+    <updated>2010-04-01T16:49:00+02:00</updated>
+    <id>http://mouton-rebelle.github.com//2010/04/01/je-suis-un-social-traite</id>
+    <content type="html"><![CDATA[<h2>Was : Open source sucks.</h2>
+
+<p><em>Note : il s&#8217;agit d&#8217;un vieux post que j&#8217;avais oublié de poster, vu que personne va le lire ce n&#8217;est pas bien grave, mais je signale tout de même.</em></p>
+
+<p>Je sais, je suis à Madagascar, je pourrais poster sur des sujets plus malgaches et moins geek&#8230; Mais là j&#8217;ai un peu mal à mon éthique, et pas moyen de trouver un public sensible à ce triste constat : l&#8217;humanité est foutue. Et j&#8217;ai vu que Jp lisait ce blog depuis septembre, alors je me lance. Petit récapitulatif ? Soit. Parce que tu insistes, cher lecteur.</p>
+
+<!-- more -->
+
+
+<p>En 2007, j&#8217;ai eu mon premier Mac. Joie de la nouveauté, bonheur que de quitter Windows, etc&#8230; Petite déception tout de même : Thunderbird bien que présent était relativement mal intégré au système, et pour me lancer pleinement dans l&#8217;aventure Apple, j&#8217;ai décidé d&#8217;utiliser leur client mail, qui s&#8217;appelle Mail. Sont pas cons chez Apple, quand même&#8230;</p>
+
+<p>Lorsqu&#8217;on passe de Thunderbird à Mail, le premier truc qui choque, c&#8217;est l&#8217;anti-spam. Thunderbird est juste parfait à ce niveau, et quand on a 3 adresses mails qui ont toutes plus de cinq ans, c&#8217;est essentiel. Mail.app a bien une fonction anti-spam, mais elle est clairement moins puissante&#8230; Mis à part ce gros point noir (qu&#8217;on compensera avec SpamSlieve ou Popfile), on s&#8217;habitue vite à Mail, son interface étant comme souvent avec Apple bien pensée. On ne s&#8217;en rend pas forcément compte de suite, donc je ne reviendrais sur ces petits détails que plus tard, quand ils m&#8217;ont manqués&#8230;</p>
+
+<p>L&#8217;an dernier, pliant devant une charge de travail considérable, j&#8217;ai décidé d&#8217;organiser mes emails. En effet il arrivait un peu trop souvent que j&#8217;oublie de répondre à un client, et le temps passer à rechercher / trier mes mails devenait trop long. Rien de très compliqué, juste deux mots clés, @répondre et @faire, des règles et des boites aux lettres &#8220;intelligentes&#8221; pour qu&#8217;à la réception d&#8217;un email, si il concerne un dossier que je suis, il soit automatiquement marqué comme &#8220;à répondre&#8221; ; j&#8217;ai également ajouté des règles pour que les différents projets sur lesquels je travail soit identifiés par un code couleur, et tout était parfait : lors de la réception d&#8217;un mail qui concerne un projet sur lequel je suis impliqué, et il passe directement dans le dossier virtuel &#8220;@ répondre&#8221;, avec une couleur pour l&#8217;identifier.
+Quand je réponds au mail, il sort de ce dossier. J&#8217;ai aussi un raccourci clavier pour le sortir si c&#8217;est un mail qui ne nécessite pas de réponse (genre &#8220;merci, t&#8217;es trop fort, j&#8217;adore ton travail&#8221;). Et enfin, pour faire bonne mesure, j&#8217;ai ajouté un badge sur l&#8217;icone de mon logiciel de messagerie et dans ma barre système pour savoir combien de mails étaient en attente de réponse. En période de bourre, c&#8217;est gratifiant de suivre ce petit compteur, et de pouvoir terminer la journée moins de 10 mails en attente d&#8217;une réponse.</p>
+
+<p>Là où le bas blesse, c&#8217;est que pour arriver à ce fonctionnement dans Mail, il faut 3 plugins, payants : MailTags, MailActOn, et DockStar&#8230; Un peu de lobbying auprès de mes collègues, et hop, on fait plier mon gentil patron qui passe à la caisse. Et tout va pour le mieux pendant un an.</p>
+
+<p>Septembre 2009 : je mets à jour mon Mac, et je passe à Snow Leopard. Très bien, tout content, sauf que mes petits plugins ne marchent plus&#8230; Plein de bonne volonté karmique, je me décide à passer à Thunderbird. La version 3 vient de sortir, toute neuve toute belle, mieux intégrer à OSX, avec une gestion intégrée des mots clés. Après quelques jours de réglages et de tatonnements, je réussis à recréer à peu près le fonctionnement décris ci dessus (j&#8217;ai tout de même 32 règles de messagerie). Et j&#8217;ai tenu bon presque 3 semaines. Mais 3 semaines ne suffisent pas à oublier 2 ans d&#8217;habitudes, de confort, et tous les petits détails qui rendent Mail tellement plus agréable à utiliser. En vrac ?</p>
+
+<ul>
+<li>l&#8217;ajout de fichiers joints par glisser déposer : tellement pratique, et tellement mieux gérée. Pareil, si vous avez une image dans le presse papier et que vous la coller, Mail créera un fichier temporaire pour l&#8217;inclure dans le message. Et elle sera incluse en &#8220;inline&#8221;, c&#8217;est à dire à l&#8217;endroit du mail où vous êtes actuellement. La seule façon de faire ça avec Thunderbird et d&#8217;insérer les images une par une via le menu Image, Parcourir&#8230; Autre option assez géniale : un menu dans la barre d&#8217;état pour redimensionner automatiquement les images contenu dans l&#8217;email que vous êtes en train de taper.</li>
+<li>l&#8217;inverse est vrai aussi : quand vous recevez des mails avec des pièces jointes, Mail vous les affiche directement dans le corps du mail (pour les images et les PDF au moins), ce qui permet d&#8217;avoir rapidement une idée du contenu.</li>
+<li>le champ adresse des messages : je ne sais pas trop comment c&#8217;est géré, mais Mail auto-complète intelligemment ce champ, en fonction des adresses utilisées fréquemment. Au contraire, Thunderbird te présente toujours la même liste, et si quand tu commences à taper &#8220;La&#8221; tu veux le 3° résultat, il faudra toujours choisir le 3° résultat, il ne va jamais se dire que les autres tu t&#8217;en sers moins&#8230;. Et l&#8217;auto-completion se fait sur le nom et sur l&#8217;email.</li>
+<li>l&#8217;intégration avec le reste d&#8217;OSX reste bien meilleure : une date dans un mail ? Mail vous propose de créer un évènement. Vous avez ajouté des photos à vos contact dans le carnet d&#8217;adresse ? Une vignette avec la frimousse de la personne s&#8217;affiche sur l&#8217;entête du mail.</li>
+<li>Je ne sais pas si je suis poisseux, mais j&#8217;ai toujours de temps à autre des soucis de charset avec Thunderbird (les accents qui partent en vrile avec certains destinataires), alors que sur Mail, jamais.</li>
+<li>c&#8217;est plus beau, plus stable, plus léger&#8230;</li>
+</ul>
+
+
+<p>Bref, voilà, c&#8217;est la fin du monde. Si même un mec cool et geek comme moi n&#8217;est pas foutu de faire le sacrifice d&#8217;utiliser des logiciels Open Source, où va-t-on ?</p>
+]]></content>
+  </entry>
+  
+</feed>
