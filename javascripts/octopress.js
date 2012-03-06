@@ -12,7 +12,13 @@ function getNav() {
     if (event.target.value) { window.location.href = event.target.value; }
   });
 }
-
+function upgradeImg(){
+  $('img.full').each(function(){
+    var url = $(this).attr('src');
+    url = url.substring(0,url.length-4) + '_b.jpg';
+    $(this).attr('src',url);
+  });
+}
 function addSidebarToggler() {
   if(!$('body').hasClass('sidebar-footer')) {
     $('#content').append('<span class="toggle-sidebar"></span>');
@@ -122,6 +128,7 @@ $.domReady(function() {
   flashVideoFallback();
   addCodeLineNumbers();
   getNav();
+  if (window.innerWidth>900) upgradeImg();
   addSidebarToggler();
 });
 
