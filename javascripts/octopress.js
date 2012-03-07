@@ -19,13 +19,20 @@ function upgradeImg(){
     $(this).attr('src',url);
   });
 }
+
 function getInstragram(){
   $.ajax({
-    url:'https://api.instagram.com/v1/users/self/feed?access_token=348856.3c28690.d5ee5ff674d14bb39e586764a6bf7ca4',
-    method: 'get',
-    type: 'json',
+    url:'https://api.instagram.com/v1/users/348856/media/recent?count=6&access_token=348856.3c28690.d5ee5ff674d14bb39e586764a6bf7ca4&callback=?',
+    type: 'jsonp',
     success:function(resp){
+      var html = '';
       console.log(resp);
+      for (i in resp.data)
+      {
+        var item = resp.data[i];
+        html += '<a href="'+item.link+'" title="' + item.caption.text + '"><img src="' + item.images.thumbnail.url +'" alt="' + item.caption.text + '"/></a>';
+      }
+      $('#instagram').html(html);
     }
   });
 }
@@ -138,6 +145,7 @@ $.domReady(function() {
   flashVideoFallback();
   addCodeLineNumbers();
   getNav();
+  getInstragram();
   if (window.innerWidth>900) upgradeImg();
   addSidebarToggler();
 });
