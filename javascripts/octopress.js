@@ -26,7 +26,6 @@ function getInstragram(){
     type: 'jsonp',
     success:function(resp){
       var html = '';
-      console.log(resp);
       for (i in resp.data)
       {
         var item = resp.data[i];
