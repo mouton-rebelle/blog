@@ -19,6 +19,16 @@ function upgradeImg(){
     $(this).attr('src',url);
   });
 }
+function getInstragram(){
+  $.ajax({
+    url:'https://api.instagram.com/v1/users/self/feed?access_token=348856.3c28690.d5ee5ff674d14bb39e586764a6bf7ca4',
+    method: 'get',
+    type: 'json',
+    success:function(resp){
+      console.log(resp);
+    }
+  });
+}
 function addSidebarToggler() {
   if(!$('body').hasClass('sidebar-footer')) {
     $('#content').append('<span class="toggle-sidebar"></span>');
