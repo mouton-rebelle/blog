@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: apple | mouton.rebelle]]></title>
-  <link href="http://mouton-rebelle.github.com//categories/apple/atom.xml" rel="self"/>
-  <link href="http://mouton-rebelle.github.com//"/>
-  <updated>2012-03-07T16:31:25+01:00</updated>
-  <id>http://mouton-rebelle.github.com//</id>
+  <link href="http://blog.eg0.me//categories/apple/atom.xml" rel="self"/>
+  <link href="http://blog.eg0.me//"/>
+  <updated>2012-03-07T16:34:18+01:00</updated>
+  <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Le coeur des pommes 2]]></title>
-    <link href="http://mouton-rebelle.github.com//2011/11/23/le-coeur-des-pommes-2/"/>
+    <link href="http://blog.eg0.me//2011/11/23/le-coeur-des-pommes-2/"/>
     <updated>2011-11-23T00:26:00+01:00</updated>
-    <id>http://mouton-rebelle.github.com//2011/11/23/le-coeur-des-pommes-2</id>
+    <id>http://blog.eg0.me//2011/11/23/le-coeur-des-pommes-2</id>
     <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/11/23/le-coeur-des-pommes-2/">le blog du captain web</a></p></blockquote>
 
 <p>Bonjour les gens ! Je poursuis mon dossier débuté la semaine dernière sur OS X, le système d'exploitation des Macs. Aujourd'hui, je vais m'attaquer à une présentation de l'OS ; elle n'a pas vocation à être exhaustive, je vais juste essayer de lister ce qui me plait et ce qui me lourde, comment je contourne certains défauts de l'OS, et de vous indiquer les grosses différences avec Windows.</p>
@@ -130,9 +130,9 @@ Le défaut, c'est que Cmd Tab ne liste que les programmes, pas les fenêtres. Qu
   
   <entry>
     <title type="html"><![CDATA[Le coeur des pommes]]></title>
-    <link href="http://mouton-rebelle.github.com//2011/11/14/le-coeur-des-pommes/"/>
+    <link href="http://blog.eg0.me//2011/11/14/le-coeur-des-pommes/"/>
     <updated>2011-11-14T11:36:00+01:00</updated>
-    <id>http://mouton-rebelle.github.com//2011/11/14/le-coeur-des-pommes</id>
+    <id>http://blog.eg0.me//2011/11/14/le-coeur-des-pommes</id>
     <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/11/14/le-coeur-des-pommes">le blog du captain web</a></p></blockquote>
 
 <p>Salut les nouilles ! J'ai décidé de m'attaquer à un gros dossier, OSX (attention Lord, on dit OS Ten, c'est un peu comme U2 ou UB40, y a un piège). Pour les plus à la rue d'entre vous, c'est le système d'exploitation des Macs, la dernière version en date, Lion, est sortie à la fin de l'été. Le captain et ses ouailles n'étant pas toujours tendres avec la marque à la pomme, je m'en vais faire rétablir un semblant d'équilibre. Aujourd'hui, je m'attaque à trois contre-vérité sur OSX ; la semaine prochaine, j'essaierai de dresser un bilan exhaustif des avantages et des inconvénients de ce système ; et pour finir j'aimerai bien faire un article sur mon usage d'OSX en tant que développeur web. Mais je reste bien sûr ouvert à vos suggestions et questions…</p>
@@ -170,9 +170,9 @@ Le défaut, c'est que Cmd Tab ne liste que les programmes, pas les fenêtres. Qu
   
   <entry>
     <title type="html"><![CDATA[Vous allez en bouffer, des pommes !]]></title>
-    <link href="http://mouton-rebelle.github.com//2011/10/04/vous-allez-en-bouffer/"/>
+    <link href="http://blog.eg0.me//2011/10/04/vous-allez-en-bouffer/"/>
     <updated>2011-10-04T00:45:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com//2011/10/04/vous-allez-en-bouffer</id>
+    <id>http://blog.eg0.me//2011/10/04/vous-allez-en-bouffer</id>
     <content type="html"><![CDATA[<blockquote><p>Note :  article publié pour la première fois sur <a href="http://www.captainweb.net/2011/10/04/vous-allez-en-bouffer-des-pommes/">le blog du captain web</a></p></blockquote>
 
 <pre><code>C’est triste mais Apple a gagné.
@@ -245,9 +245,9 @@ Triste mais inévitable</p>
   
   <entry>
     <title type="html"><![CDATA[About Flash]]></title>
-    <link href="http://mouton-rebelle.github.com//2011/09/15/about-flash/"/>
+    <link href="http://blog.eg0.me//2011/09/15/about-flash/"/>
     <updated>2011-09-15T17:35:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com//2011/09/15/about-flash</id>
+    <id>http://blog.eg0.me//2011/09/15/about-flash</id>
     <content type="html"><![CDATA[<p>Souvent, sur Twitter, j’ai envie de répondre à des trolls sur l’éternel débat <strong>“Flash / pas Flash, Apple est-il un grand méchant”</strong>. On pourrait même dire que j’ai envie de troller, seulement en 140 caractères c’est compliqué, en général celui qui commence a gagné et basta. J’ai envie ici de résumer en trois points ma haine pour cette technologie, une fois pour toute, comme ça j’aurais plus qu’à envoyer un petit lien aux boulets pour défendre point de vue.
 Avant tout, quelques précisions :</p>
 
@@ -302,9 +302,9 @@ Avant tout, quelques précisions :</p>
   
   <entry>
     <title type="html"><![CDATA[2 semaines avec un iPad]]></title>
-    <link href="http://mouton-rebelle.github.com//2011/07/11/2-semaines-avec-un-ipad/"/>
+    <link href="http://blog.eg0.me//2011/07/11/2-semaines-avec-un-ipad/"/>
     <updated>2011-07-11T15:14:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com//2011/07/11/2-semaines-avec-un-ipad</id>
+    <id>http://blog.eg0.me//2011/07/11/2-semaines-avec-un-ipad</id>
     <content type="html"><![CDATA[<p>Enfin. Depuis 2 semaines, j'ai un iPad. Et je me disais que j'allais faire un petit retour d'expérience aux quelques personnes qui me lisent. En préambule, je tiens à signaler que j'envisage l'iPad comme un <strong>gadget d'intérieur</strong> ; je me vois pas l'emmener pour boire un café en terrasse ou sur la plage ; c'est donc une version basique que je me suis fait offrir :</p>
 
 <ul>

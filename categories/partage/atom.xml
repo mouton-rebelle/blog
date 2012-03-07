@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: partage | mouton.rebelle]]></title>
-  <link href="http://mouton-rebelle.github.com//categories/partage/atom.xml" rel="self"/>
-  <link href="http://mouton-rebelle.github.com//"/>
-  <updated>2012-03-07T16:31:25+01:00</updated>
-  <id>http://mouton-rebelle.github.com//</id>
+  <link href="http://blog.eg0.me//categories/partage/atom.xml" rel="self"/>
+  <link href="http://blog.eg0.me//"/>
+  <updated>2012-03-07T16:34:18+01:00</updated>
+  <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flattr, la licence globale à portée de clic...]]></title>
-    <link href="http://mouton-rebelle.github.com//2011/08/24/flattr/"/>
+    <link href="http://blog.eg0.me//2011/08/24/flattr/"/>
     <updated>2011-08-24T17:24:00+02:00</updated>
-    <id>http://mouton-rebelle.github.com//2011/08/24/flattr</id>
+    <id>http://blog.eg0.me//2011/08/24/flattr</id>
     <content type="html"><![CDATA[<p><a href="http://flattr.com">Flattr</a>, c'est un <strong>service en ligne de micro-paiement</strong>, pas forcément évident à comprendre au premier abord, et pourtant terriblement excitant. Le projet date de 2007, et le lancement a finalement eu lieu l'an dernier, mais je n'en ai eu connaissance que cette semaine. Et c'est peut être le principal problème de ce service, il faut qu'il gagne en popularité pour être réellement intéressant. D'où cet article.</p>
 
 <p>Le principe ? Vous ouvrez un compte Flattr, vous y déposez de l'argent, et vous déterminez combien vous souhaitez donner par mois. Ensuite, quand en lisant un article intéressant, en regardant une vidéo créative ou en écoutant de la musique vous voyez un bouton Flattr, vous pouvez cliquer dessus pour signaler que ça vous plait et que vous soutenez le créateur. C'est aussi simple que le bouton "Like" de Facebook, ça remplit le même rôle de recommandation à vos amis, et éventuellement d'archivage pour vous, mais en plus, en fin de mois, Flattr <strong>répartit</strong> votre montant mensuel entre les divers "trucs" que vous avez flattré.</p>

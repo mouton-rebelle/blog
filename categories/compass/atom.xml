@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: compass | mouton.rebelle]]></title>
-  <link href="http://mouton-rebelle.github.com//categories/compass/atom.xml" rel="self"/>
-  <link href="http://mouton-rebelle.github.com//"/>
-  <updated>2012-03-07T16:31:25+01:00</updated>
-  <id>http://mouton-rebelle.github.com//</id>
+  <link href="http://blog.eg0.me//categories/compass/atom.xml" rel="self"/>
+  <link href="http://blog.eg0.me//"/>
+  <updated>2012-03-07T16:34:18+01:00</updated>
+  <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dire oui aux CSS compilées]]></title>
-    <link href="http://mouton-rebelle.github.com//2010/11/04/dire-oui-aux-css-compilees/"/>
+    <link href="http://blog.eg0.me//2010/11/04/dire-oui-aux-css-compilees/"/>
     <updated>2010-11-04T17:46:00+01:00</updated>
-    <id>http://mouton-rebelle.github.com//2010/11/04/dire-oui-aux-css-compilees</id>
+    <id>http://blog.eg0.me//2010/11/04/dire-oui-aux-css-compilees</id>
     <content type="html"><![CDATA[<p>J'ai longtemps hésité à franchir le pas, ne trouvant pas vraiment de solutions à mon goût ; certaines étaient trop lourdes pour mes besoins, d'autres demandaient beaucoup de configuration à chaque nouveau projet.... jusqu'au mois dernier, où j'ai découvert <a href="http://compass-style.org">Compass</a>.</p>
 
 <!-- more -->
