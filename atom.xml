@@ -4,7 +4,7 @@
   <title><![CDATA[mouton.rebelle]]></title>
   <link href="http://mouton-rebelle.github.com//atom.xml" rel="self"/>
   <link href="http://mouton-rebelle.github.com//"/>
-  <updated>2012-03-07T12:14:08+01:00</updated>
+  <updated>2012-03-07T15:48:09+01:00</updated>
   <id>http://mouton-rebelle.github.com//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -12,6 +12,105 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Reboot : Octopress]]></title>
+    <link href="http://mouton-rebelle.github.com//2012/03/07/reboot-octopress/"/>
+    <updated>2012-03-07T14:52:00+01:00</updated>
+    <id>http://mouton-rebelle.github.com//2012/03/07/reboot-octopress</id>
+    <content type="html"><![CDATA[<p>J&#8217;espère que je ne vous ai pas trop manqué ? Je sors ce blog de sa torpeur, pour une petite refonte, ce qui me donne l&#8217;occasion d&#8217;un message de service. Ecrire me manque, j&#8217;ai un peu de temps en ce moment, et mes sujets ne collent pas toujours avec le <a href="http://www.captainweb.net">blog du Captain Web</a>, je vais donc essayer d&#8217;être plus régulier ici. Tout de suite, des informations techniques qui ne vous intéresseront pas trop.</p>
+
+<!-- more -->
+
+
+<p><img class="full" src="http://farm8.staticflickr.com/7068/6815644080_73914591cf.jpg"></p>
+
+<h2>Octopress, l&#8217;antithèse de Wordpress</h2>
+
+<p>Quand tu fais un blog, il faut choisir un outil ; il y a eu le français Dotclear, qui semble mort aujourd&#8217;hui ; il y a Wordpress, hégémonique ; il y a Tumblr, sympathique mais ne te laissant pas la maitrise de ton contenu ; et il y a des tonnes d&#8217;autres petits projets. J&#8217;aime pas Wordpress, que je trouve lourdingue, et qui a tendance à vite générer du code crade.</p>
+
+<p>Lors de mes recherches dans le monde merveilleux de Rails, je suis tombé sur <a href="http://octopress.org">Octopress</a>.   Octopress est un framework qui étend le générateur de blog Jekyll ; le principe est simple, tu as un dossier <em>sources</em> avec tes templates, tes css, tes scripts, et tes posts, tu lances un générateur et le site est généré en statique. Plus de base de données, donc de meilleures performances, et toujours une séparation claire du contenu et du contenant pour la prochaine fois que tu as envie de tout changer. C&#8217;est le principe utilisé depuis des années par Karl pour <a href="http://www.lagrange.net">La Grange</a>, avec une solution maison en Python dans son cas.</p>
+
+<p>Evidement, ce n&#8217;est pas pour tout le monde ; l&#8217;outil est clairement destiné aux développeurs, et ne pourrait pas fonctionner simplement pour un blog collaboratif. Mais c&#8217;est parfait pour moi, ou presque. Je rentre dans les détails ci-dessous.</p>
+
+<h3>Mardown mon amour</h3>
+
+<p>Langage de mise en page inventé par <a href="http://daringfireball.net/projects/markdown/syntax">John Gruber</a>, Markdown permet de formater du texte en conservant sa lisibilité :</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># Titre de niveau 1
+</span><span class='line'>## Titre de niveau 2
+</span><span class='line'>Le principe est donc de mettre en page son texte en tapant,
+</span><span class='line'>sans passer par une usine à gaz comme Word qui va vous distraire
+</span><span class='line'>et générer du code moche ensuite. On peut mettre **en gras** ou 
+</span><span class='line'>en *italique*, faire des [liens](http://octopress.org), et pleins
+</span><span class='line'>d'autres choses encore.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>OS X est fourni en logiciels optimisés pour ce langage, et j&#8217;alterne encore entre <a href="http://www.iawriter.com/mac">iA Writter</a>, <a href="http://bywordapp.com/">ByWord</a> et <a href="http://mouapp.com">Mou</a>. Les trois rendent l&#8217;expérience d&#8217;écriture très agréable &#8211; ça peut sembler anodin voir superflu d&#8217;utiliser un logiciel spécifique pour écrire, mais testez, et vous comprendrez.</p>
+
+<h3>Bien vu le poulpe !</h3>
+
+<p>L&#8217;architecture d&#8217;Octopress est un modèle de clarté : les layouts sont structurés clairement et facilement modifiables ; et les css sont générés avec le duo de choc Sass + Compass, organisées de façon optimale.
+Mon seul regret concerne la partie javascript ; je suis ravi d&#8217;avoir modernizer d&#8217;inclus de base, et j&#8217;ai découvert <a href="http://dustindiaz.com/ender">Ender.js</a> comme alternative souple et légère à jQuery. Mais j&#8217;aurais aimé un fichier dédié aux customisations qu&#8217;on ajoute, et une task rake pour compresser tout ça. Je m&#8217;en occuperai peut être plus tard.</p>
+
+<h3>Rake à la rescousse</h3>
+
+<p>Des task rake sont présentes pour toutes les opérations ; générer le blog, surveiller les dossiers pour re-générer automatiquement quand on travaille sur un contenu ou sur la mise en page, et déployer le site vers un serveur distant, via ssh ou git. Ce blog est d&#8217;ailleurs désormais hébergé gracieusement par Github.</p>
+
+<h2>Et pour vous qu&#8217;est ce que ça change ?</h2>
+
+<ul>
+<li>le thème fourni avec Octopress (et facilement modifiable) est fluide, et permet donc une consultation optimale sur tous les écrans.</li>
+<li>j&#8217;ai rajouté mes dernières photos Instagram, je suis content</li>
+<li>l&#8217;affichage du code est plus mieux bien</li>
+</ul>
+
+
+<figure class='code'><figcaption><span>récupérer les dernières photos d&#8217;un compte Instagram avec Ender.js</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">function</span> <span class="nx">getInstragram</span><span class="p">(){</span>
+</span><span class='line'>  <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
+</span><span class='line'>    <span class="nx">url</span><span class="o">:</span><span class="s1">&#39;https://api.instagram.com/v1/users/[user_id]/media/recent?count=6&amp;access_token=[oauth_token]&amp;callback=?&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;jsonp&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">success</span><span class="o">:</span><span class="kd">function</span><span class="p">(</span><span class="nx">resp</span><span class="p">){</span>
+</span><span class='line'>      <span class="kd">var</span> <span class="nx">html</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">for</span> <span class="p">(</span><span class="nx">i</span> <span class="k">in</span> <span class="nx">resp</span><span class="p">.</span><span class="nx">data</span><span class="p">)</span>
+</span><span class='line'>      <span class="p">{</span>
+</span><span class='line'>        <span class="kd">var</span> <span class="nx">item</span> <span class="o">=</span> <span class="nx">resp</span><span class="p">.</span><span class="nx">data</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+</span><span class='line'>        <span class="nx">html</span> <span class="o">+=</span> <span class="s1">&#39;&lt;a href=&quot;&#39;</span><span class="o">+</span><span class="nx">item</span><span class="p">.</span><span class="nx">link</span><span class="o">+</span><span class="s1">&#39;&quot; title=&quot;&#39;</span> <span class="o">+</span> <span class="nx">item</span><span class="p">.</span><span class="nx">caption</span><span class="p">.</span><span class="nx">text</span> <span class="o">+</span> <span class="s1">&#39;&quot;&gt;&lt;img src=&quot;&#39;</span> <span class="o">+</span> <span class="nx">item</span><span class="p">.</span><span class="nx">images</span><span class="p">.</span><span class="nx">thumbnail</span><span class="p">.</span><span class="nx">url</span> <span class="o">+</span><span class="s1">&#39;&quot; alt=&quot;&#39;</span> <span class="o">+</span> <span class="nx">item</span><span class="p">.</span><span class="nx">caption</span><span class="p">.</span><span class="nx">text</span> <span class="o">+</span> <span class="s1">&#39;&quot;/&gt;&lt;/a&gt;&#39;</span><span class="p">;</span>
+</span><span class='line'>      <span class="p">}</span>
+</span><span class='line'>      <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#instagram&#39;</span><span class="p">).</span><span class="nx">html</span><span class="p">(</span><span class="nx">html</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>  <span class="p">});</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<hr />
+
+<p>Voilà, c&#8217;est tout pour aujourd&#8217;hui !</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Le coeur des pommes 2]]></title>
