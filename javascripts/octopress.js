@@ -29,7 +29,9 @@ function getInstragram(){
       for (i in resp.data)
       {
         var item = resp.data[i];
-        html += '<a href="'+item.link+'" title="' + item.caption.text + '"><img src="' + item.images.thumbnail.url +'" alt="' + item.caption.text + '"/></a>';
+        var capt = '';
+        if (item.caption) capt = item.caption.text;
+        html += '<a href="'+item.link+'" title="' + capt + '"><img src="' + item.images.thumbnail.url +'" alt="' + capt + '"/></a>';
       }
       $('#instagram').html(html);
     }
