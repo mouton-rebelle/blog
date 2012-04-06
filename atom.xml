@@ -4,7 +4,7 @@
   <title><![CDATA[mouton.rebelle]]></title>
   <link href="http://blog.eg0.me//atom.xml" rel="self"/>
   <link href="http://blog.eg0.me//"/>
-  <updated>2012-03-12T10:24:29+01:00</updated>
+  <updated>2012-04-06T17:09:54+02:00</updated>
   <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -12,6 +12,75 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[web is changing]]></title>
+    <link href="http://blog.eg0.me//2012/03/25/web-is-changing/"/>
+    <updated>2012-03-25T14:00:00+02:00</updated>
+    <id>http://blog.eg0.me//2012/03/25/web-is-changing</id>
+    <content type="html"><![CDATA[<p>J&#8217;adore mon métier. Le web est un univers captivant car en <strong>constante évolution</strong>, et nous oblige donc à toujours apprendre, se remettre en question, évoluer, tester de nouvelles techniques. Mais il y a des moments où je me sens un peu perdu devant les choix à faire, les solutions à adopter. C&#8217;est le cas cette semaine, en partie mais pas que à cause d&#8217;un excellent article de &#8221;<a href="http://www.alistapart.com/articles/the-best-browser-is-the-one-you-have-with-you">A List Apart</a>&#8221;, aussi je prends mon clavier pour coucher tout ça par écrit et faire le tri dans ma tête. Merci à toi qui me lit, tu me diras combien je te dois à la fin de la séance.</p>
+
+<!-- more -->
+
+
+<h2>Les &#8220;nouvelles&#8221; contraintes</h2>
+
+<p>Il y a 5 ans, quand je construisais un site web, les contraintes concernaient essentiellement la taille de l&#8217;écran de l&#8217;utilisateur, le poids des pages, et la compatibilité avec Internet Explorer. Aujourd&#8217;hui, IE9 est un bon navigateur et Microsoft se moque de son passé trouble dans une campagne de pub, tout le monde a du haut débit, les écrans de PCs sont suffisament grands pour qu&#8217;on arrête de se limiter à 1024px de large systématiquement, et le fait de devoir faire défiler la page pour avoir une information n&#8217;est plus considéré comme un pêché mortel.</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/4DbgiOCTQts" frameborder="0" allowfullscreen></iframe>
+
+
+<p>En revanche, 30% des accès au net se font désormais via autre chose qu&#8217;un ordinateur ; mobile, tablette, tv connectée, console de jeu&#8230; Les prévisions tablent sur 2014 comme année charnière où les courbes vont se croiser et où les PCs deviendront minoritaires.</p>
+
+<p>Un site internet doit donc être consultable sur des écrans de tailles bien plus variées qu&#8217;avant, et le poids des pages qui avait un peu disparu de nos radars (ex : <a href="http://owni.fr">Owni.fr</a> : 2.5 Mo) redevient un point essentiel, avec notre couverture 3G aléatoire et nos plans Data souvent restreints.</p>
+
+<p>Un autre problème concerne l&#8217;ergonomie ; le touch rend inopérentes certaines solutions que l&#8217;on considérait comme acquises, tel les menus déroulants au survol, ou les tooltips.</p>
+
+<p>Dernier point, bien plus annecdotique, les écrans Retina d&#8217;Apple, d&#8217;abord sur iPhone et maintenant sur iPad, requièrent dans l&#8217;idéal des images deux fois plus grosses pour un rendu optimal. Si la concurrence suit le mouvement et si les écrans à haute densité deviennent monnaie courante, il faudra également prendre en compte ce facteur.</p>
+
+<h2>Les mauvaises habitudes</h2>
+
+<p>Je lisais la semaine dernière un article intitulé &#8220;Stop paying your jQuery tax&#8221;. jQuery est en effet la librairie javascript la plus utilisée, car elle est simple et propose de nombreux plugins de qualité. Seulement dans le meilleur des cas, c&#8217;est déjà 30ko de perdus. Quand on rajoute un ou deux plugins, on peut vite faire exploser les temps de chargement/rendu sur mobile, pour un ou deux gadgets souvent dispensables, ou une fonction qui aurait pu être codée en quelques lignes de code.</p>
+
+<p>Google Analytics rentre également dans cette case ; avec une requête en bonus sur chaque page du site et 13ko de script, on peut se demander si un retour à l&#8217;analyse des logs Apache n&#8217;est pas souhaitable&#8230;</p>
+
+<p>Les webfonts, la solution que tout designer attendait et qui permet d&#8217;afficher autre chose que de l&#8217;Arial ou du Times sur le web sans devoir passer par une image, sont enfin supportés par tous les navigateurs. Même si le rendu n&#8217;est pas toujours idéal (wink wink Windows XP), cette fonctionnalité devient très populaire. Et pose là encore un problème de poids et de requêtes. Sur ce blog qui utilise 2 typos, c&#8217;est 5 requêtes qui partent, sur 2 domaines, pour un poids de près de 80ko&#8230;</p>
+
+<p>Enfin, la plupart des gros sites se doivent de proposer  des boutons de partage au minimun via Facebook et Twitter, car c&#8217;est de plus en plus des réseaux sociaux qui génèrent du traffic. On rajoute encore deux scripts, et deux noms de domaine à résoudre.</p>
+
+<h2>Les solutions</h2>
+
+<h3>Un site mobile ? Un site fluide ?</h3>
+
+<p>Il y a deux approches au problème du mobile ; soit faire un site à part dédié au mobile, comme <a href="http://mobile.lemonde.fr/">le monde</a>, soit faire un site qui va s&#8217;adapter à l&#8217;appareil qui le consulte.</p>
+
+<p>Dans le premier cas, on peut prendre une approche très différente sur la structuration de l&#8217;information et sur l&#8217;ergonomie, et optimiser le poids des pages est plus simple. En revanche, on se retrouve avec d&#8217;autres soucis :
+- deux sites à maintenir
+- des informations parfois différentes sur les deux sites, pouvant frustrer l&#8217;internaute
+- les liens partagés risquent de renvoyer l&#8217;internaute sur une version mal adaptée ; exemple, il m&#8217;arrive souvent de tomber sur des liens vers la version mobile du Monde dans ma timeline Twitter, sur un 26&#8221; ça pique un peu les yeux.</p>
+
+<p>Dans le second cas, il faut faire appel aux medias queries pour que le site s&#8217;adapte à la taille de l&#8217;écran. C&#8217;est notamment le cas de ce blog ; si vous consultez depuis un mobile ou si vous redimensionnez votre navigateur, la partie latérale va se retrouver en pied de page. C&#8217;est à mon sens bien plus élégant, et polyvalent (notebook, personnes n&#8217;aimant pas avoir leur navigateur en plein écran, etc&#8230;) mais c&#8217;est aussi bien plus compliqué.
+Internet Explorer ne supporte cette fonctionnalité que depuis la version 9, il faut donc faire appel à <a href="http://filamentgroup.com/lab/respondjs_fast_css3_media_queries_for_internet_explorer_6_8_and_more/">respond.js</a> pour les boulets.</p>
+
+<p>Ecrire une CSS propre en utilisant les medias queries peut vite être un casse-tête, en tout cas lorsqu&#8217;on débute. La philosophie &#8220;mobile first&#8221;, qui consiste à faire un site au poil pour mobile, et d&#8217;enrichir ensuite progressivement pour les écrans plus larges est probablement la bonne voie, mais c&#8217;est une habitude à prendre, et ça n&#8217;a rien d&#8217;évident lorsqu&#8217;on a passé des années à designer pour du 1024. Et si on échoue à faire une CSS bien structurée, on se retrouvera avec un bidule tout aussi difficile à maintenir que les deux sites précédement cités.</p>
+
+<h3>Les images</h3>
+
+<p>Charger une image en 1024px sur un smartphone n&#8217;a pas vraiment de sens ; en revanche, sur un desktop c&#8217;est de plus en plus courant. <br/>
+A ce niveau, la solution est plus simple. Le W3C est en train de plancher sur le sujet, et envisagerait un nouveau markup pour spécifier plusieurs versions d&#8217;un visuel.<br/>
+En attendant, la solution consiste à charger par défaut la version basse resolution, et une fois la page web chargée, si jamais la taille de l&#8217;écran est supérieure à x pixels, on la remplace par la version haute résolution. L&#8217;inconvénient est une requête inutile sur les desktops, mais ça tombe bien, à cet endroit la bande passante ne manque pas trop.</p>
+
+<h3>Le javascript</h3>
+
+<p>C&#8217;est plus délicat ici, car je me pose beaucoup de questions d&#8217;ergonomie à ce sujet. Les carrousels, qu&#8217;on voit partout, sont-il vraiment pertinents ? Quelle alternative aux lightboxs et aux tooltips sur iPad ?</p>
+
+<p>Dans tous les cas, je vais arrêter d&#8217;utiliser systématiquement jQuery ; pour une partie des sites que je développe, <a href="http://ender.no.de/">Ender.js</a> est largement suffisant. La syntaxe est pratiquement identique, et le système de packages intelligents permet de facilement ajouter ou retirer un module, et donc de ne mettre que l&#8217;indispensable.</p>
+
+<h2>Puisqu&#8217;il faut conclure</h2>
+
+<p>J&#8217;ai survolé plein de thèmes différents dans cet article brouillon, mais je commence à y voir plus clair malgré tout ; aujourd&#8217;hui plus que jamais, il faut se concentrer sur le contenu, l&#8217;information, et il faut optimiser au maximum le poids des pages et le nombre de requêtes. Je pense qu&#8217;avec ces deux idées toujours en tête lorsqu&#8217;on designe un site, on devrait s&#8217;en sortir sans trop de casse. Non ?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Reboot : Octopress]]></title>
