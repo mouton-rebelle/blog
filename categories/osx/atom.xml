@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: osx | mouton.rebelle]]></title>
   <link href="http://blog.eg0.me//categories/osx/atom.xml" rel="self"/>
   <link href="http://blog.eg0.me//"/>
-  <updated>2012-07-29T16:46:03+02:00</updated>
+  <updated>2012-07-29T16:51:30+02:00</updated>
   <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -18,7 +18,7 @@
     <link href="http://blog.eg0.me//2012/07/25/le-libre-a-tout-prix/"/>
     <updated>2012-07-25T23:27:00+02:00</updated>
     <id>http://blog.eg0.me//2012/07/25/le-libre-a-tout-prix</id>
-    <content type="html"><![CDATA[<p>Je me suis gentiment fritté la semaine dernière avec @xnx, sur l'éternel troll Android versus iOS ; vous pouvez lire 2 petits billets que l'ami a <a href="http://freegum.fr/dokuwiki/doku.php?id=bidouilles#mauvaise_politique">publié sur le sujet ici</a>. Pour résumer son point de vue, le fait qu'un logiciel soit libre ou non devrait être l'argument principal motivant son utilisation, pour tout le monde, et encore plus pour des développeurs. Android étant en grande partie libre, c'est donc une plateforme préférable à iOS. Je ne partage pas ce point de vue ; en revanche j'ai bien un point de vue, et je vais le partager ci dessous.</p>
+    <content type="html"><![CDATA[<p>Je me suis gentiment fritté la semaine dernière avec @xnx, sur l'éternel troll Android versus iOS ; vous pouvez lire 2 petits billets que l'ami a <a href="http://freegum.fr/dokuwiki/doku.php?id=bidouilles#mauvaise_politique">publié sur le sujet ici</a>. Pour résumer son point de vue, le fait qu'un logiciel soit libre ou non devrait être l'argument principal motivant son utilisation, pour tout le monde, et encore plus pour des développeurs. Android étant en grande partie libre, c'est donc une plateforme préférable à iOS. Je ne partage pas ce point de vue ; en revanche j'ai bien un avis, et je vais le partager ci dessous.</p>
 
 <!-- more -->
 
@@ -72,10 +72,10 @@ Quand à la dépendance au niveau des données, c'est un problème qui ne concer
 <p>Apple avec iOS est en train d'établir un monopole terrifiant (ils font autant de bénéfices en 1 journée qu'Amazon en 1 trimestre), tout en réussissant l'exploit de ré-inventer l'informatique pour les masses. On peut regretter cette volonté de simplifier et les dérives paternalistes, mais pas nier qu'ils répondent à un vrai besoin : l'ordinateur tel qu'on l'a connu / qu'on le connait reste trop compliqué pour 70% de la population.
 Les concurrents l'ont compris et suivent le mouvement, que ce soit du côté de Google ou de Microsoft. Avec un peu de retard.</p>
 
-<p>Du côté d'OSX, la volonté de simplifier toujours plus est aussi présente ; je ne résiste pas à vous (linker cet article sur le cloud version Mountain Lion)[http://informationarchitects.net/blog/mountain-lions-new-file-system/], où un développeur défend la position d'Apple de limiter l'arborescence à un seul niveau pour iCloud. Je trouve ça passionnant. Dérangeant, bousculant ma vision de l'informatique, mais courageux et au final pas idiot du tout.</p>
+<p>Du côté d'OSX, la volonté de simplifier toujours plus est aussi présente ; je ne résiste pas à vous <a href="http://informationarchitects.net/blog/mountain-lions-new-file-system/">linker cet article sur le cloud version Mountain Lion</a>, où un développeur défend la position d'Apple de limiter l'arborescence à un seul niveau pour iCloud. Je trouve ça passionnant. Dérangeant, bousculant ma vision de l'informatique, mais courageux et au final pas idiot du tout.</p>
 
 <p>Je suis fan d'Apple, et pour l'instant je trouve que beaucoup des critiques qui leur sont adressées ne sont pas justifiées.
-Sur les conditions de travail dans les usines chinoises, ce sont eux les plus transparents ; le bilan n'est pas rose, mais ils ne s'en cachent pas et travaillent pour arranger ça. Je n'ai pas apprécié leur (valse avec l'EPAT)[http://www.01net.com/editorial/570121/epeat-apple-reconnait-une-erreur-et-repasse-dans-le-vert/], même si tout se termine bien au final ; et si on ne cède pas aux sirènes du marketing et qu'on ne renouvelle pas son matériel tous les ans, je pense qu'ils sont parmi les meilleurs en terme de fiabilité. Le nouveau Macbook Pro Retina est moins défendable ; pour gagner quelques millimètres et quelques grammes, il n'est plus possible de l'ouvrir pour changer quoique ce soit. On revient au "consommer intelligent" ; au marché de leur donner tord.</p>
+Sur les conditions de travail dans les usines chinoises, ce sont eux les plus transparents ; le bilan n'est pas rose, mais ils ne s'en cachent pas et travaillent pour arranger ça. Je n'ai pas apprécié leur <a href="http://www.01net.com/editorial/570121/epeat-apple-reconnait-une-erreur-et-repasse-dans-le-vert/">valse avec l'EPAT</a>, même si tout se termine bien au final ; et si on ne cède pas aux sirènes du marketing et qu'on ne renouvelle pas son matériel tous les ans, je pense qu'ils sont parmi les meilleurs en terme de fiabilité. Le nouveau Macbook Pro Retina est moins défendable ; pour gagner quelques millimètres et quelques grammes, il n'est plus possible de l'ouvrir pour changer quoique ce soit. On revient au "consommer intelligent" ; au marché de leur donner tord.</p>
 
 <p>Je m'éloigne totalement du sujet et cette conclusion traine en longueur, je vais donc arrêter là. On peut choisir Android pour le prix, parce qu'on a envie de personnaliser son téléphone, parce qu'on déteste iTunes ; ces 3 arguments me semblent totalement recevables. Choisir parce que c'est plus libre, ou parce qu'on croit que Google est plus gentil qu'Apple… pas d'accord.</p>
 
