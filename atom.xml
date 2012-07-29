@@ -4,7 +4,7 @@
   <title><![CDATA[mouton.rebelle]]></title>
   <link href="http://blog.eg0.me//atom.xml" rel="self"/>
   <link href="http://blog.eg0.me//"/>
-  <updated>2012-07-29T16:43:28+02:00</updated>
+  <updated>2012-07-29T16:46:03+02:00</updated>
   <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -18,29 +18,40 @@
     <link href="http://blog.eg0.me//2012/07/25/le-libre-a-tout-prix/"/>
     <updated>2012-07-25T23:27:00+02:00</updated>
     <id>http://blog.eg0.me//2012/07/25/le-libre-a-tout-prix</id>
-    <content type="html"><![CDATA[<p>Je me suis gentiment fritté la semaine dernière avec @xnx, sur l&#8217;éternel troll Android versus iOS ; vous pouvez lire 2 petits billets que l&#8217;ami a <a href="http://freegum.fr/dokuwiki/doku.php?id=bidouilles#mauvaise_politique">publié sur le sujet ici</a>. Pour résumer son point de vue, le fait qu&#8217;un logiciel soit libre ou non devrait être l&#8217;argument principal motivant son utilisation, pour tout le monde, et encore plus pour des développeurs. Android étant en grande partie libre, c&#8217;est donc une plateforme préférable à iOS.</p>
+    <content type="html"><![CDATA[<p>Je me suis gentiment fritté la semaine dernière avec @xnx, sur l&#8217;éternel troll Android versus iOS ; vous pouvez lire 2 petits billets que l&#8217;ami a <a href="http://freegum.fr/dokuwiki/doku.php?id=bidouilles#mauvaise_politique">publié sur le sujet ici</a>. Pour résumer son point de vue, le fait qu&#8217;un logiciel soit libre ou non devrait être l&#8217;argument principal motivant son utilisation, pour tout le monde, et encore plus pour des développeurs. Android étant en grande partie libre, c&#8217;est donc une plateforme préférable à iOS. Je ne partage pas ce point de vue ; en revanche j&#8217;ai bien un point de vue, et je vais le partager ci dessous.</p>
 
-<h1>Le libre n&#8217;est pas simple</h1>
+<!-- more -->
 
-<p>Régulièrement, un aficionados de Linux va me dire que ça y est, c&#8217;est bon, Linux c&#8217;est super grand publique maintenant, sa mère s&#8217;en sort trop bien avec et le monde est merveilleux. Et c&#8217;est régulièrement faux. Je bosse depuis 3 mois sur Ubuntu (puis Kubuntu), et j&#8217;en suis globalement satisfait. Mais les problèmes que j&#8217;avais il y a cinq ans sur Ubuntu sont toujours là :
-- pas de drivers pour mon chipset graphique intel intégré ; dès que tu as un matos un peu exotique, tu sors.
-- interfaces mal branlées et buguées
-- gestionnaires de paquets pour installer des applications qui feront peur à toute ménagère qui se respecte.</p>
+
+<h2>Le libre n&#8217;est pas simple</h2>
+
+<p>Régulièrement, un aficionados de Linux va me dire que ça y est, c&#8217;est bon, Linux c&#8217;est super grand publique maintenant, sa mère s&#8217;en sort trop bien avec et le monde est merveilleux. Et c&#8217;est régulièrement faux. Je bosse depuis 3 mois sur Ubuntu (puis Kubuntu), et j&#8217;en suis globalement satisfait. Mais les problèmes que j&#8217;avais il y a cinq ans sur Ubuntu sont toujours là :</p>
+
+<ul>
+<li>pas de drivers pour mon chipset graphique intel intégré ; dès que tu as un matos un peu exotique, tu sors.</li>
+<li>interfaces mal branlées et buguées</li>
+<li>gestionnaires de paquets pour installer des applications qui feront peur à toute ménagère qui se respecte.</li>
+</ul>
+
 
 <p>Si l&#8217;on se recentre sur le mobile, Android est une plateforme libre (même si ils tardent souvent à relâcher les sources) et bien foutue dans ses dernières versions, mais pénalisée par des constructeurs et des opérateurs qui rajoutent leurs sur-couches et rechignent à fournir des mises à jour par la suite (quand on sort 120 modèles de téléphone par an pour embrouiller le consommateur c&#8217;est compliqué). La solution magique consiste à installer <em>Cyanogen</em>, une version alternative développée par une communauté très active. Et si j&#8217;étais sous Android je le ferais certainement et ça m&#8217;éclaterai même de le faire. Mais c&#8217;est tout sauf une solution grand publique, ça concerne une minorité de geeks capables de bidouiller, n&#8217;ayant pas peur de briquer leur téléphone et de perdre leur garantie.</p>
 
-<h1>Propriétaire n&#8217;est pas <em>forcément</em> diabolique</h1>
+<h2>Propriétaire n&#8217;est pas <em>forcément</em> diabolique</h2>
 
-<p>A mon sens, utiliser une solution propriétaire peut poser problème dans deux cas de figure :
-- quand il contribue à créer / maintenir une <strong>situation de monopole</strong> ; un éditeur en situation de monopole peut se permettre de faire n&#8217;importe quoi, comme Microsoft qui n&#8217;a pas fait évoluer Internet Explorer pendant près de 10 ans, ou qui facture 40 000 $ le déploiement d&#8217;un patch sur le XBOX Live Arcade.
-- quand il vous rend <strong>dépendant</strong> pour l&#8217;utilisation de vos données : on peut citer la suite Office ou Photoshop par exemple.</p>
+<p>A mon sens, utiliser une solution propriétaire peut poser problème dans deux cas de figure :</p>
+
+<ul>
+<li>quand il contribue à créer / maintenir une <strong>situation de monopole</strong> ; un éditeur en situation de monopole peut se permettre de faire n&#8217;importe quoi, comme Microsoft qui n&#8217;a pas fait évoluer Internet Explorer pendant près de 10 ans, ou qui facture 40 000 $ le déploiement d&#8217;un patch sur le XBOX Live Arcade.</li>
+<li>quand il vous rend <strong>dépendant</strong> pour l&#8217;utilisation de vos données : on peut citer la suite Office ou Photoshop par exemple.</li>
+</ul>
+
 
 <p>Ces deux points sont à relativiser malgré tout ; l&#8217;histoire est en train de montrer que <strong>les monopoles ne durent pas</strong>. Windows est en train de mourir tout doucement, et Microsoft se raccroche aux branches en changeant totalement sa politique tarifaire, avec un Windows 8 à 30$ si vous avez déjà une licence d&#8217;un version d&#8217;XP ou supérieur.
 Quand à la dépendance au niveau des données, c&#8217;est un problème qui ne concerne pas tous les utilisateurs ; le débutant pourra rencontrer les mêmes problèmes avec des solutions libres (comment ça je peux pas ouvrir mon CV fait sous Libre Office au boulot ?), et les utilisateurs expérimentés peuvent limiter la casse (mes photos Aperture sont stockées sur mon disque dur, pas dans la librairie au format propriétaire et inexploitable d&#8217;Apple).</p>
 
 <p>Le &#8220;propriétaire&#8221;, c&#8217;est aussi plein de petits développeurs qui ont envie de vivre de leur passion. Je suis ravi d&#8217;acheter des jeux indépendants et originaux, et de taper ce texte dans un logiciel original et optimisé pour le <em>markdown</em> (IAWritter). Mes sous ne vont pas dans la poche d&#8217;une méga-corporation et je contribue à faire vivre l&#8217;innovation. (Non qu&#8217;on ne puisse vivre en développant du logiciel libre, mais c&#8217;est un modèle qui ne s&#8217;applique pas à tous les secteurs). S&#8217;il faut militer, je conseillerai plutôt de &#8220;consommer intelligent&#8221;, plutôt que de fermer la porte à tout ce qui n&#8217;est pas libre et ouvert.</p>
 
-<h1>Les alternatives n&#8217;existent pas toujours</h1>
+<h2>Les alternatives n&#8217;existent pas toujours</h2>
 
 <p>Le libre a beaucoup à offrir, et n&#8217;a pas à rougir pour certains logiciels ; Firefox ou Webkit pour le web, Thunderbird pour les mails, Libre Office pour la bureautique, et tous les outils de développement qui tournent autour de Lamp sont des exemples de succès incontestables.</p>
 
@@ -50,11 +61,11 @@ Quand à la dépendance au niveau des données, c&#8217;est un problème qui ne 
 
 <p>Même pour le développement web, si on ne veut pas d&#8217;un IDE lourd à la Eclipse, Sublime Text 2 reste largement plus puissant que Geany. Et tant pis si il faut donner 50$ à un australien trop talentueux au passage.</p>
 
-<h1>Le vrai débat n&#8217;est plus là</h1>
+<h2>Le vrai débat n&#8217;est plus là</h2>
 
 <p>Défendre Android parce qu&#8217;il est ouvert, quand l&#8217;objectif de la plateforme est de forcer l&#8217;utilisateur à utiliser le plus de service Google possible pour mieux le tracker et pouvoir vendre de la publicité plus cher me semble débile. L&#8217;enjeu aujourd&#8217;hui c&#8217;est la vie privée et le cloud. C&#8217;est ici qu&#8217;il faut éduquer et se battre. Ne pas mettre tout ses oeufs dans le même panier. Ne pas devenir dépendant d&#8217;un service en ligne. Gérer ce qu&#8217;on publie, comment on le publie, et qui peut le voir. Comprendre que si c&#8217;est gratuit, c&#8217;est que tu es le produit.</p>
 
-<h1>Quelques mots pour conclure</h1>
+<h2>Quelques mots pour conclure</h2>
 
 <p>Je suis pour le libre, évidemment. J&#8217;espère même qu&#8217;à terme c&#8217;est ce modèle de société qui nous sauvera tous. Si pour mon usage un logiciel libre fonctionne aussi bien qu&#8217;un logiciel propriétaire, le choix est vite fait. En revanche je ne supporte pas le côté moralisateur et jusqu&#8217;au boutiste de certains sur ce sujet. Tout le monde n&#8217;a pas les compétences, le temps ou l&#8217;envie de &#8221;<em>hacker</em>&#8221; sa machine pour qu&#8217;elle fonctionne correctement. Et le libre échoue depuis toujours à attirer des designers et des ergonomes de talent, ce qui reste une condition indispensable avant un succès auprès du grand public.</p>
 
