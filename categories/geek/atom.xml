@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: geek | mouton.rebelle]]></title>
   <link href="http://blog.eg0.me//categories/geek/atom.xml" rel="self"/>
   <link href="http://blog.eg0.me//"/>
-  <updated>2012-04-06T17:09:54+02:00</updated>
+  <updated>2012-07-29T16:43:28+02:00</updated>
   <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Le libre à tout prix]]></title>
+    <link href="http://blog.eg0.me//2012/07/25/le-libre-a-tout-prix/"/>
+    <updated>2012-07-25T23:27:00+02:00</updated>
+    <id>http://blog.eg0.me//2012/07/25/le-libre-a-tout-prix</id>
+    <content type="html"><![CDATA[<p>Je me suis gentiment fritté la semaine dernière avec @xnx, sur l'éternel troll Android versus iOS ; vous pouvez lire 2 petits billets que l'ami a <a href="http://freegum.fr/dokuwiki/doku.php?id=bidouilles#mauvaise_politique">publié sur le sujet ici</a>. Pour résumer son point de vue, le fait qu'un logiciel soit libre ou non devrait être l'argument principal motivant son utilisation, pour tout le monde, et encore plus pour des développeurs. Android étant en grande partie libre, c'est donc une plateforme préférable à iOS.</p>
+
+<h1>Le libre n'est pas simple</h1>
+
+<p>Régulièrement, un aficionados de Linux va me dire que ça y est, c'est bon, Linux c'est super grand publique maintenant, sa mère s'en sort trop bien avec et le monde est merveilleux. Et c'est régulièrement faux. Je bosse depuis 3 mois sur Ubuntu (puis Kubuntu), et j'en suis globalement satisfait. Mais les problèmes que j'avais il y a cinq ans sur Ubuntu sont toujours là :
+- pas de drivers pour mon chipset graphique intel intégré ; dès que tu as un matos un peu exotique, tu sors.
+- interfaces mal branlées et buguées
+- gestionnaires de paquets pour installer des applications qui feront peur à toute ménagère qui se respecte.</p>
+
+<p>Si l'on se recentre sur le mobile, Android est une plateforme libre (même si ils tardent souvent à relâcher les sources) et bien foutue dans ses dernières versions, mais pénalisée par des constructeurs et des opérateurs qui rajoutent leurs sur-couches et rechignent à fournir des mises à jour par la suite (quand on sort 120 modèles de téléphone par an pour embrouiller le consommateur c'est compliqué). La solution magique consiste à installer <em>Cyanogen</em>, une version alternative développée par une communauté très active. Et si j'étais sous Android je le ferais certainement et ça m'éclaterai même de le faire. Mais c'est tout sauf une solution grand publique, ça concerne une minorité de geeks capables de bidouiller, n'ayant pas peur de briquer leur téléphone et de perdre leur garantie.</p>
+
+<h1>Propriétaire n'est pas <em>forcément</em> diabolique</h1>
+
+<p>A mon sens, utiliser une solution propriétaire peut poser problème dans deux cas de figure :
+- quand il contribue à créer / maintenir une <strong>situation de monopole</strong> ; un éditeur en situation de monopole peut se permettre de faire n'importe quoi, comme Microsoft qui n'a pas fait évoluer Internet Explorer pendant près de 10 ans, ou qui facture 40 000 $ le déploiement d'un patch sur le XBOX Live Arcade.
+- quand il vous rend <strong>dépendant</strong> pour l'utilisation de vos données : on peut citer la suite Office ou Photoshop par exemple.</p>
+
+<p>Ces deux points sont à relativiser malgré tout ; l'histoire est en train de montrer que <strong>les monopoles ne durent pas</strong>. Windows est en train de mourir tout doucement, et Microsoft se raccroche aux branches en changeant totalement sa politique tarifaire, avec un Windows 8 à 30$ si vous avez déjà une licence d'un version d'XP ou supérieur.
+Quand à la dépendance au niveau des données, c'est un problème qui ne concerne pas tous les utilisateurs ; le débutant pourra rencontrer les mêmes problèmes avec des solutions libres (comment ça je peux pas ouvrir mon CV fait sous Libre Office au boulot ?), et les utilisateurs expérimentés peuvent limiter la casse (mes photos Aperture sont stockées sur mon disque dur, pas dans la librairie au format propriétaire et inexploitable d'Apple).</p>
+
+<p>Le "propriétaire", c'est aussi plein de petits développeurs qui ont envie de vivre de leur passion. Je suis ravi d'acheter des jeux indépendants et originaux, et de taper ce texte dans un logiciel original et optimisé pour le <em>markdown</em> (IAWritter). Mes sous ne vont pas dans la poche d'une méga-corporation et je contribue à faire vivre l'innovation. (Non qu'on ne puisse vivre en développant du logiciel libre, mais c'est un modèle qui ne s'applique pas à tous les secteurs). S'il faut militer, je conseillerai plutôt de "consommer intelligent", plutôt que de fermer la porte à tout ce qui n'est pas libre et ouvert.</p>
+
+<h1>Les alternatives n'existent pas toujours</h1>
+
+<p>Le libre a beaucoup à offrir, et n'a pas à rougir pour certains logiciels ; Firefox ou Webkit pour le web, Thunderbird pour les mails, Libre Office pour la bureautique, et tous les outils de développement qui tournent autour de Lamp sont des exemples de succès incontestables.</p>
+
+<p>Pour autant, tous les logiciels propriétaires n'ont pas d'équivalent. Il est impossible de se passer de Photoshop en milieu professionnel (le premier qui me cite Gimp, je lui paie un stage à la Fistinnière). Un photographe qui cherche un outil puissant pour trier et traiter ses photos se tournera vers Lightroom ou Aperture, pas F-Spot (qui n'est d'ailleurs plus mis à jour depuis 2 ans, un autre risque du libre).</p>
+
+<p>Le traitement vidéo et les jeux restent aussi des points où Linux n'a rien de convaincant à proposer à la concurrence, et où une machine virtuelle ou Wine sont les seuls possibilités. Valve est en train de porter Steam sous Linux, et peut être que le changement arrive, mais c'est encore lointain.</p>
+
+<p>Même pour le développement web, si on ne veut pas d'un IDE lourd à la Eclipse, Sublime Text 2 reste largement plus puissant que Geany. Et tant pis si il faut donner 50$ à un australien trop talentueux au passage.</p>
+
+<h1>Le vrai débat n'est plus là</h1>
+
+<p>Défendre Android parce qu'il est ouvert, quand l'objectif de la plateforme est de forcer l'utilisateur à utiliser le plus de service Google possible pour mieux le tracker et pouvoir vendre de la publicité plus cher me semble débile. L'enjeu aujourd'hui c'est la vie privée et le cloud. C'est ici qu'il faut éduquer et se battre. Ne pas mettre tout ses oeufs dans le même panier. Ne pas devenir dépendant d'un service en ligne. Gérer ce qu'on publie, comment on le publie, et qui peut le voir. Comprendre que si c'est gratuit, c'est que tu es le produit.</p>
+
+<h1>Quelques mots pour conclure</h1>
+
+<p>Je suis pour le libre, évidemment. J'espère même qu'à terme c'est ce modèle de société qui nous sauvera tous. Si pour mon usage un logiciel libre fonctionne aussi bien qu'un logiciel propriétaire, le choix est vite fait. En revanche je ne supporte pas le côté moralisateur et jusqu'au boutiste de certains sur ce sujet. Tout le monde n'a pas les compétences, le temps ou l'envie de "<em>hacker</em>" sa machine pour qu'elle fonctionne correctement. Et le libre échoue depuis toujours à attirer des designers et des ergonomes de talent, ce qui reste une condition indispensable avant un succès auprès du grand public.</p>
+
+<p>Apple avec iOS est en train d'établir un monopole terrifiant (ils font autant de bénéfices en 1 journée qu'Amazon en 1 trimestre), tout en réussissant l'exploit de ré-inventer l'informatique pour les masses. On peut regretter cette volonté de simplifier et les dérives paternalistes, mais pas nier qu'ils répondent à un vrai besoin : l'ordinateur tel qu'on l'a connu / qu'on le connait reste trop compliqué pour 70% de la population.
+Les concurrents l'ont compris et suivent le mouvement, que ce soit du côté de Google ou de Microsoft. Avec un peu de retard.</p>
+
+<p>Du côté d'OSX, la volonté de simplifier toujours plus est aussi présente ; je ne résiste pas à vous (linker cet article sur le cloud version Mountain Lion)[http://informationarchitects.net/blog/mountain-lions-new-file-system/], où un développeur défend la position d'Apple de limiter l'arborescence à un seul niveau pour iCloud. Je trouve ça passionnant. Dérangeant, bousculant ma vision de l'informatique, mais courageux et au final pas idiot du tout.</p>
+
+<p>Je suis fan d'Apple, et pour l'instant je trouve que beaucoup des critiques qui leur sont adressées ne sont pas justifiées.
+Sur les conditions de travail dans les usines chinoises, ce sont eux les plus transparents ; le bilan n'est pas rose, mais ils ne s'en cachent pas et travaillent pour arranger ça. Je n'ai pas apprécié leur (valse avec l'EPAT)[http://www.01net.com/editorial/570121/epeat-apple-reconnait-une-erreur-et-repasse-dans-le-vert/], même si tout se termine bien au final ; et si on ne cède pas aux sirènes du marketing et qu'on ne renouvelle pas son matériel tous les ans, je pense qu'ils sont parmi les meilleurs en terme de fiabilité. Le nouveau Macbook Pro Retina est moins défendable ; pour gagner quelques millimètres et quelques grammes, il n'est plus possible de l'ouvrir pour changer quoique ce soit. On revient au "consommer intelligent" ; au marché de leur donner tord.</p>
+
+<p>Je m'éloigne totalement du sujet et cette conclusion traine en longueur, je vais donc arrêter là. On peut choisir Android pour le prix, parce qu'on a envie de personnaliser son téléphone, parce qu'on déteste iTunes ; ces 3 arguments me semblent totalement recevables. Choisir parce que c'est plus libre, ou parce qu'on croit que Google est plus gentil qu'Apple… pas d'accord.</p>
+
+<p>Je m'en fous, j'ai envie de me prendre un Nokia Lumia sous Windows.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Reboot : Octopress]]></title>
@@ -323,111 +382,6 @@ Triste mais inévitable</p>
 <p>Derrière mon titre un peu provoc, je voulais juste dire qu’une fois de plus, Steve Jobs a été visionnaire et a réussi à imposer sa vision de l’informatique, simplifiée et verrouillée. J’aurais vraiment préféré qu’on réussisse à éduquer les masses, que la nouvelle génération apprenne à bidouiller, que l’open source attire plus de contributeurs et nous offre d’autres succès grand public que Firefox et Open Office. Nous nous serions tous tenus la main, et nous aurions couru nus dans les champs avec Olivia Wilde…</p>
 
 <p>Seulement en vrai on est des gros flemmards, et le monde se terminera comme dans Idiocracy. Aujourd’hui vous vous moquez des quelques vieux barbus qui ne jurent que par le terminal, parce que « la ligne de commande c’est quand même le plus efficace » ; dans 15 ans, les gens se moqueront des quelques uns d’entre nous qui feront toujours du alt tab sur des interfaces classiques…</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2 semaines avec un iPad]]></title>
-    <link href="http://blog.eg0.me//2011/07/11/2-semaines-avec-un-ipad/"/>
-    <updated>2011-07-11T15:14:00+02:00</updated>
-    <id>http://blog.eg0.me//2011/07/11/2-semaines-avec-un-ipad</id>
-    <content type="html"><![CDATA[<p>Enfin. Depuis 2 semaines, j'ai un iPad. Et je me disais que j'allais faire un petit retour d'expérience aux quelques personnes qui me lisent. En préambule, je tiens à signaler que j'envisage l'iPad comme un <strong>gadget d'intérieur</strong> ; je me vois pas l'emmener pour boire un café en terrasse ou sur la plage ; c'est donc une version basique que je me suis fait offrir :</p>
-
-<ul>
-<li>WIFI only, de toutes façons normalement d'ici un an Free devrait faire une offre mobile honnête, avec tethering inclus. Petite digression au passage pour les incultes : le tethering, c'est quand tu utilises ton iPhone comme un modem (une borne d'accès wifi pour être exact) ; tu peux ainsi accéder à internet sur ton laptop ou ton iPad via la 3G sur ton iPhone, avec son super forfait illimité. Sauf que chez Orange, c'est 8 euros pour 50 mo. Plus cher qu'à Madagascar.</li>
-<li>16Go, parce que justement destiné avant tout à un usage domestique donc pas trop de souci pour transférer des fichiers.</li>
-</ul>
-
-
-<!-- more -->
-
-
-<h2>THE GOOD</h2>
-
-<h3>Le matériel</h3>
-
-<p>C'est Apple, on sait que c'est beau et bien fini, mais quand même...</p>
-
-<p>Tout d'abord, la qualité de l'<strong>écran</strong> m'a surpris, je sais que ce n'est pas un "retina", mais un écran de cette taille à 130DPI avec un bon contraste, c'est très appréciable.</p>
-
-<p>Ensuite, ma seule expérience iOS c'est sur un iPhone 3GS ; autant dire que le bond technologique est énooooorme, nettement plus de <strong>puissance</strong> et donc une expérience bien plus fluide. Les habitués de l'iPhone 4 n'auront sans doute pas le même ressenti. Le poids et la taille de l'appareil, que certains critiquaient, me conviennent tout à fait. Pas de stress en le portant à une main, agréable à manipuler, sentiment de solidité, bref du tout bon.</p>
-
-<p>Enfin, le fameux <strong>"smart cover"</strong>, couverture magnétique pouvant servir de support, est parfaitement adapté à l'outil. Bien sûr, ce n'est pas magique : non, si tu te trompes de sens ça va pas s'aimanter tout bien tout seul, et non si ton écran est plein de traces de doigts ça va pas le nettoyer. Mais c'est suffisant pour protéger l'écran en transport, et la fonction de support / stand est totalement indispensable, que ce soit pour regarder une vidéo en faisant la vaisselle ou pour utiliser le clavier virtuel pour écrire un long mail.
-Size matters</p>
-
-<p><strong>Lire</strong> sur un iPhone... je l'ai fait, mais c'est mal-pratique. Pour les bandes dessinées, tu te retrouves obligé de zoomer sur certaines bulles, ou de pivoter l'écran suivant les proportions. Pour un livre, c'est vraiment petit... L'iPad a une taille parfaite pour ces usages. Et c'est du bonheur.</p>
-
-<p>Même remarque pour le web, consulter un site sur un écran d'iPhone, tu le fais quand tu n'as pas le choix. Sur iPad c'est très agréable. La taille de l'objet permet également de construire des <strong>interfaces plus complexes</strong> ; fini la simple liste de tweets ou de mails, on a accès aux dossiers / listes dans une barre latérale. Le clavier virtuel, lui aussi nettement plus gros, devient confortable et les fautes de frappes se font plus rares.</p>
-
-<p>Les deux autres usages où la taille est avantageuse sont les jeux, où l'utilisation d'un <strong>stick virtuel</strong> devient possible (sur l'iPhone je trouve ça vraiment injouable), et les photos, que l'ont peut facilement montrer, en se passant l'iPad, c'est presque aussi convivial qu'un album papier.</p>
-
-<h3>Quelques apps brillantes</h3>
-
-<p>L'iPhone a séduit certaines personnes juste avec <strong>Instagram</strong> ; personnellement, j'utilise beaucoup de choses mais si je devais me limiter ce serait GoogleMaps, Google (avec la recherche vocale), Instagram, et Echofon. Quelques bonnes applis viennent presque justifier ce genre de gadget.</p>
-
-<p>Sur iPad la palme revient pour moi à <strong>Flipboard</strong>, sorte de magazine à la carte conçu à partir de vos flux sociaux et mis à jour en temps réel. Dans ce bijou (gratuit), vous pourrez suivre vos actualités Twitter, Facebook, Google Reader, Flickr et Instagram. La présentation est magnifique, les liens échangés depuis Twitter sont automatiquement récupérés avec un résumé, vous pouvez partager depuis Flipboard les contenus intéressants, bref du bonheur en barre.
-Flipboard
-J'ai aussi envie de citer iMovie, parce que c'est une belle prouesse que d'avoir fait un logiciel de montage vidéo utilisable en tactile. C'est grand public et limité, mais suffisant pour une utilisation familiale.</p>
-
-<h3>Bouton physique pour verrouiller l'orientation</h3>
-
-<p>Quelle joie... C'est tellement reloud de lire dans le lit, de changer de position et d'avoir l'écran qui bascule. Bien sûr, on peut toujours double-cliquer sur le bouton home, glisser à gauche et verrouiller, mais un bouton physique c'est quand même plus rapide.</p>
-
-<h2>THE BAD</h2>
-
-<h3>La caméra</h3>
-
-<p>Apple a fait des efforts pour l'iPhone 4. L'iPad embarque un capteur pour faire de la vidéo 720p, mais c'est toujours très moche... Après, est ce que l'iPad est l'outil pour filmer / prendre des photos...</p>
-
-<h3>La luminosité</h3>
-
-<p>C'est pas un Kindle. Et tant mieux pour la plupart des usages, sauf pour la lecture. Je me retrouve donc à baisser la luminosité au minimum tous les soirs, et à la remonter tous les jours. Et pas de boutons physiques pour ça, hélas. La fonction de réglage automatique de la luminosité me semble une fumisterie, à moins que j'aie les yeux particulièrement sensibles... Vivement les prochains écrans qui feront les deux (e-ink pour la lecture, et oled pour le reste).</p>
-
-<h3>iOS</h3>
-
-<p>C'est un bon système, simple, mais il reste limité. N'avoir que des icônes sur le grand écran d'accueil, quand Android propose de personnaliser tout ça avec des jolis widgets, c'est un peu triste. Les notifications ne seront plus un souci en septembre avec l'arrivée d'iOS5, mais l'écran d'accueil restera une mosaïque d’icônes.</p>
-
-<h2>THE UGLY</h2>
-
-<h3>Les tarifs des apps</h3>
-
-<p>Développer une application iPad ne coûte pas plus cher que développer une application iPhone. Certains développeurs se cachent derrière l’appellation HD, justifiant un tarif plus élevé par des graphismes plus fin : c'est un odieux mensonge, l'écran retina de l'iPhone 4 offre une meilleure résolution, et demande donc plus de travail aux graphistes. Une application iPhone only est inutilisable sur iPad (2x plus petite, avec le clavier virtuel de l'iPhone, c'est catastrophique), et si vous avec acheté une application iPhone et que vous la voulez sur l'iPad, sauf les rares cas d'app "universelle", il faut repasser à la caisse. Je suis pas radin sur l'Appstore, au contraire, mais payer 2 fois, et payer 3 ou 4 fois plus cher pour le même programme, c'est vraiment <strong>du vol</strong>.</p>
-
-<h3>Les tarifs et les formats du contenu</h3>
-
-<p>L'iPad est intéressant comme outil de lecture. Or il n'y a pas de <strong>standard</strong> pour la presse, chaque magasine propose son application, avec ses tarifs, son ergonomie, etc... Même remarque pour la bande dessinée... On peut trouver 5 applis différentes pour acheter des comics, après il s'agit de parier sur le bon cheval : celui qui sera toujours vivant dans 3 ans, et qui te permettra de consulter ton contenu acheté sur iPad sur
-le successeur ou le concurrent.</p>
-
-<p>A ce problème des sources et formats multiples s'ajoute celui du tarif, souvent <strong>prohibitif</strong>. Les livres que vous achetez sur iPad, rêvez pas, ce sera pas des poches, rien à moins de 10 euros. Pour du dématérialisé qu'on ne peut pas prêter et dont on est pas certain de l'avenir, ça fait très mal. J'espère que l'industrie de l'édition comprendra plus vite que celle de la musique la nécessité de revoir ses prix dans un marché où la rareté n'a plus lieu d'être.</p>
-
-<h3>La connectivité</h3>
-
-<p>Il y a 6 ans j'avais un petit téléphone Sony qui faisait des photos super moches. Et bien une fois que je l'avais pairé en bluetooth avec mon PC, je pouvais envoyer une photo depuis mon téléphone sur mon ordinateur, ou parcourir le contenu de mon téléphone via mon ordinateur. Sans fil. En 2 secondes.</p>
-
-<p>Et bien chez Apple, faut oublier. Tous les échanges de documents se font via USB et <strong>iTunes</strong>, le maudit. Je suis un geek, je me débrouille avec un bon paramétrage du logiciel et Dropbox, mais c'est loin d'être parfait ou accessible par tout le monde.</p>
-
-<p><strong>iOS 5</strong> va apporter une solution à ce problème, avec <strong>iCloud</strong>. Toutes vos données seront automatiquement stockées en ligne, et synchronisées avec vos différents matériels. Seul souci, c'est une solution à la Apple, comme le store : c'est simple, mais :</p>
-
-<ul>
-<li>potentiellement dangereux : on a pas forcément envie que toutes nos données soient stockées dans un endroit mystérieux par une méga-corporation, malgré toutes les garanties sur la vie privée qu'elle va nous donner ;</li>
-<li>probablement cher : l'offre gratuite est à priori limitée à 5go, on est un peu dans le flou sur ce qui se passera au-delà</li>
-<li>limité par votre connexion internet : si vous faites un film en HD, soyez pas pressé pour le récupérer sur votre pc.</li>
-</ul>
-
-
-<h2>L'heure du bilan</h2>
-
-<p>C'est bien mais pas top. Et pas pour tout le monde. Je recommanderais ce gadget si :</p>
-
-<ul>
-<li>vous êtes boulimique d'information, et que vous passez chaque jour une petite heure à lire vos sites favoris et à vous tenir informer sur la twittosphère</li>
-<li>vous êtes un peu neuneu de l'informatique et votre usage d'un ordinateur se résume à de la consultation et au partage avec la famille</li>
-<li>vous êtes fortuné et prêt à dépenser votre argent sur du dématérialisé pour la littérature ou la bande dessinée</li>
-<li>vous voulez une tablette. Dans ce cas pas de souci, il n'y a pas de concurrence.</li>
-</ul>
-
-
-<p>Je suis ravi d'avoir un iPad, c'est un beau gadget, mais ça reste un gadget. Je suis dépendant de mon iPhone, hélas, et je sais que si par malheur il n'était plus financé par mon job je craquerai rapidement. En revanche, l'iPad ne m'est pas indispensable. Fait ton choix camarade !</p>
 ]]></content>
   </entry>
   
