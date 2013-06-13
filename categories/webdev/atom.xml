@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: webdev | mouton.rebelle]]></title>
   <link href="http://blog.eg0.me//categories/webdev/atom.xml" rel="self"/>
   <link href="http://blog.eg0.me//"/>
-  <updated>2012-07-29T16:51:30+02:00</updated>
+  <updated>2013-06-14T00:42:52+02:00</updated>
   <id>http://blog.eg0.me//</id>
   <author>
     <name><![CDATA[Cédric Fontaine]]></name>
@@ -412,10 +412,10 @@ pour effectuer toutes les tâches répétitives classiques. Pour un nouveau
 projet, vous allez donc procéder ainsi :</p>
 
 <ol>
-<li>Paramétrage de la connexion base de données dans le fichier database.yml</li>
-<li>Création de la structure des données dans le fichier schema.yml (Symfony utilise l'ORM Doctrine, je reviendrais dessus plus tard)</li>
-<li>Génération de la base de données et des classes PHP en CLI. Vous avez désormais des classes vous permettant de manipuler vos données, du basique : $monObjet->save(), $monObjet->getNom(), etc... au nettement plus évolué avec les classes de Formulaire, permettant à Symfony de vous posez un formulaire avec validation des données en 2 lignes de code. Toutes ces classes générées sont bien sûr conçues pour être étendues.</li>
-<li>Vous allez ensuite probablement générer un contrôleur / une vue (pattern MVC), et commencer à bidouiller le fichier de configuration des routes...</li>
+<li> Paramétrage de la connexion base de données dans le fichier database.yml</li>
+<li> Création de la structure des données dans le fichier schema.yml (Symfony utilise l'ORM Doctrine, je reviendrais dessus plus tard)</li>
+<li> Génération de la base de données et des classes PHP en CLI. Vous avez désormais des classes vous permettant de manipuler vos données, du basique : $monObjet->save(), $monObjet->getNom(), etc... au nettement plus évolué avec les classes de Formulaire, permettant à Symfony de vous posez un formulaire avec validation des données en 2 lignes de code. Toutes ces classes générées sont bien sûr conçues pour être étendues.</li>
+<li> Vous allez ensuite probablement générer un contrôleur / une vue (pattern MVC), et commencer à bidouiller le fichier de configuration des routes...</li>
 </ol>
 
 
